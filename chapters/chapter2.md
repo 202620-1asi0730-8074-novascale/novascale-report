@@ -9,7 +9,7 @@
 
 <div align="justify">
 
-> **¿Por qué llevar a cabo el desarrollo de un software de gestión de accesos habiendo modelos internacionales que gestionan la seguridad a nivel empresarial?**
+> ****
 > 
 > **Objetivo:** 
 
