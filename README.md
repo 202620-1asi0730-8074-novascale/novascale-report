@@ -30,7 +30,7 @@ Proyecto
 | Johan Karl Bottger Salazar       | u202210735 |
 | Sergio Ruben Caldas Garcia      | u202411274 |
 | Lui Mathias Gamero Miranda      | u |
-| Renzo Paul Retuerto Zapata      | u |
+| Renzo Paul Retuerto Zapata      | u202320328 |
 | Dario Alberto Romero Vilela      | u|
 
 
