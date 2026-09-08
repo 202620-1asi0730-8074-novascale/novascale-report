@@ -31,7 +31,7 @@ Proyecto
 | Sergio Ruben Caldas Garcia      | u202411274 |
 | Lui Mathias Gamero Miranda      | u |
 | Renzo Paul Retuerto Zapata      | u202320328 |
-| Dario Alberto Romero Vilela      | u|
+| Dario Alberto Romero Vilela      | u202419286|
 
 
 </div>
