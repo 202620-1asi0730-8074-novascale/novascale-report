@@ -28,7 +28,7 @@ Proyecto
 | Nombre y Apellidos                | Código     |
 | :-------------------------------- | :--------- |
 | Johan Karl Bottger Salazar       | u202210735 |
-| Sergio Ruben Caldas Garcia      | u |
+| Sergio Ruben Caldas Garcia      | u202411274 |
 | Lui Mathias Gamero Miranda      | u |
 | Renzo Paul Retuerto Zapata      | u |
 | Dario Alberto Romero Vilela      | u|
