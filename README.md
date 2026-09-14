@@ -71,19 +71,47 @@ La Arquitectura de Información define la estructura y organización de los cont
 
 ### 4.2.1. Organization Systems.
 
+#### Organizacción Jerárquica de Contenido
+La organización jerárquica se utiliza para establecer diferentes niveles de importancia entre los contenidos. En NovaLeads se aplica principalmente en el Dashboard y en la Landing Page. En el Dashboard, los indicadores principales se presentan antes que la información secundaria, permitiendo que el usuario identifique rápidamente los datos más relevantes. En la Landing Page, la propuesta de valor, los beneficios principales y los Call to Action reciben mayor jerarquía visual que la información complementaria.
+
+#### Organización Secuencial
+ 
+La organización secuencial corresponde a las acciones que toma un usuario en serie dentro de un orden predeterminado. En el sistema se aplica principalmente en procesos como el inicio y registro de sesión, y el registro de información nueva como nuevos contactos.
+
+#### Organización Cronológica
+
+El esquema cronológico se utiliza en el historial de conversaciones con contactos, está directamente ligado a el sistema de prioridad. 
+
 
 ---
+
 ### 4.2.2. Labeling Systems.
+
+Las principales etiquetas consistentes a través del sistema son las siguientes:
+
+- Dashboard : Indicadores y métricas
+- Leads : Contactos registrados como clientes potenciales
+- Contacto : Personas registradas con la empresa
+- Cliente : Contacto con relación comercial (previamente lead)
+- Conversaciones : Comunicación con contacto
+- Etiquetas : Marcadores de contactos
+- Perfil : Información de Usuario
+- Ventas : Resultado comercial
+- Mensaje : Mensaje de texto en conversación
+- Estado : Activo, Hot, Perdido, Sin respuesta
+
 
 
 ---
 
 ### 4.2.3. SEO Tags and Meta Tags.
 
+El objetivo es que NovaLeads resalta en motores de búsqueda sobre otros sistemas CRM.
+
 ### **Landing Page**
 * **Título:** `<title>NovaLeads | Gestor de relación con clientes</title>`
-* **Descripción:** `<meta name="description" content=""/>`
-* **Keywords:** `<meta name="keywords" content=""/>`
+* **Descripción:** `<meta name="description" content="CRM organiza tu negocio en un solo lugar. Ventas, servicio al cliente, comunicación directa."/>`
+* **Keywords:** `<meta name="keywords" content="Ventas, CRM, Leads, Clientes, Servicio al cliente."/>`
 * **Autor:** `<meta name="author" content="NovaScale" />`
 
 ### **Web Application**
@@ -96,14 +124,15 @@ La Arquitectura de Información define la estructura y organización de los cont
 No queremos que el usuario "busque", queremos que "encuentre" rápido:
 
 * **Búsqueda Predictiva:** A medida que el administrador escribe (ej. un DNI o nombre), el sistema sugiere usuarios registrados para ahorrar tiempo.
-* **Filtros:** 
+* **Filtros:** La bandeja de conversaciones permite sleccionar únicamente aquellas que cumplan criterios de prioridad, antiguedad, estado.
 
 
 ---
 ### 4.2.5. Navigation Systems.
 
 
-* **Menú Lateral:** Prioriza el espacio de trabajo central para ver los mapas de calor y tablas de acceso, manteniendo los módulos principales a un solo clic.
+* **Menú Lateral:** Prioriza el espacio de trabajo central a las secciones de la aplicación, manteniendo los módulos principales a un solo clic.
+* **Acciones Contextuales** El sistema ofrece información y acciones a medida que sean relevantes, disminuyendo el ruido visual.
 
 
 
