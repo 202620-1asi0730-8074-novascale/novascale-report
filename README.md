@@ -16,12 +16,12 @@ El logotipo simboliza el orden y priorización de elementos que ofrece el sistem
 
 ![Logo](/Resources/Chapter4/style/logo.png)
 
-#### Tipography
+#### Typography
 Se ha elegido una tipografía **Montserrat** variable, moderna y legible en dispositivos móviles y web. Además ofrece el beneficio de fuentes bold, light y medium.
 - **Títulos y encabezados**: peso **bold**, transmitiendo fuerza y claridad.  
 - **Cuerpo de texto**: peso **regular**, con interlineado amplio que favorece la lectura.
 
-![Logo](/Resources/Chapter4/style/tipography.png)
+![Typography](/Resources/Chapter4/style/typography.png)
 
 El estilo general busca mantener una comunicación **clara, directa y confiable** para los dos públicos objetivos.
 
@@ -30,7 +30,7 @@ El estilo general busca mantener una comunicación **clara, directa y confiable*
 
 La paleta escogida utiliza 4 colores en forma de semáforo para representar niveles de priorización en nuestro sistema. Junto a ellos se utilizan 2 colores neutros para textos y sombras, y un color cercano al blanco para fondos.
 
-![Logo](/Resources/Chapter4/style/colors.png)
+![Colors](/Resources/Chapter4/style/colors.png)
 
 #### Spacing
 
