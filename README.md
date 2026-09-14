@@ -14,7 +14,7 @@ Un Style Guideline es un conjunto de reglas y normas que definen cómo se debe r
 Para la creación de la identidad visual de **NovaLeads** se optó por un diseño moderno y profesional que transmita eficiencia, transparencia, limpieza visual y organización.
 El logotipo simboliza el orden y priorización de elementos que ofrece el sistema.
 
-![Logo](/Resources/Chapter4/style/logo.png)
+![Logo](/Resources/Chapter4/style/logo.jpg)
 
 #### Typography
 Se ha elegido una tipografía **Montserrat** variable, moderna y legible en dispositivos móviles y web. Además ofrece el beneficio de fuentes bold, light y medium.
