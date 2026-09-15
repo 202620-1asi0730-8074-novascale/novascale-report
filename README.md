@@ -447,29 +447,30 @@ El Container Diagram descompone la arquitectura interna de NovaLeads en los sigu
 
 ### 4.6.4. Software Architecture Components Diagrams.
 
-In this section, the team presents the **Component Diagram** for the Core Backend API container. This diagram zooms into the Java Spring Boot application to illustrate its internal structure based on Domain-Driven Design (DDD) and Layered Architecture. It shows how the system is divided into Controllers (Presentation), Services (Business Logic/Domain), and Repositories (Data Access), and how these components interact to execute the access control logic.
+En esta sección se presenta el **Component Diagram** del contenedor REST API de **NovaLeads**. Este diagrama detalla la estructura interna de la API, mostrando cómo se organizan los controladores, servicios de aplicación y repositorios para gestionar usuarios, leads, contactos, conversaciones, notificaciones y métricas de ventas.
 
-![Software Architecture Component Diagram](/Resources/Chapter4/umlfiles/componentDiagram.png)
+![Software Architecture Component Diagram](Resources/componentDiagram.png)
 
-#### Diagram Explanation
+#### Explicación del diagrama
 
-The Component Diagram breaks down the **Core Backend API** into the following functional layers:
+El Component Diagram descompone la REST API de NovaLeads en los siguientes componentes:
 
-* **Controllers (Presentation Layer):**
-  * **Auth & Security Controller:** Exposes REST endpoints to handle user login, 2FA verification, and JSON Web Token (JWT) issuance.
-  * **Access Validation Controller:** Receives API calls from the Scanner Mobile App to validate dynamic QR payloads in real-time.
-  * **Space Manager Controller:** Provides endpoints for administrators (via the Web App) to perform CRUD operations on physical spaces and configure access schedules.
+* **Controllers - Capa de presentación:**
+  * **Authentication Controller:** Expone los endpoints para el inicio de sesión y la autenticación de usuarios.
+  * **WhatsApp Webhook Controller:** Recibe los eventos y mensajes entrantes enviados por WhatsApp Business API.
 
-* **Services (Domain / Business Logic Layer):**
-  * **Access Credential Service (Core Domain):** The heart of the system. It evaluates complex access policies, generates dynamic QR codes using cryptographic signatures, and determines whether an access attempt is granted or denied.
-  * **Authentication Service:** Implements Role-Based Access Control (RBAC) and manages the lifecycle of credentials and tokens.
-  * **Notification Publisher:** Uses the Spring ApplicationEventPublisher to asynchronously delegate alerts to prevent blocking the main execution thread during access validations.
+* **Services - Capa de lógica de negocio:**
+  * **User Management Service:** Gestiona usuarios, roles y permisos de dueños y vendedores.
+  * **Lead Management Service:** Registra, actualiza, filtra y clasifica leads, incluyendo la gestión de etiquetas.
+  * **Contact Management Service:** Gestiona la información de contactos, leads y clientes.
+  * **Conversation Service:** Administra conversaciones, mensajes, temporizadores y prioridades de atención.
+  * **Dashboard Service:** Calcula indicadores relacionados con leads, oportunidades, ventas y rendimiento de vendedores.
+  * **Notification Service:** Genera notificaciones cuando existen nuevos mensajes o conversaciones pendientes de respuesta.
 
-* **Repositories (Infrastructure Layer):**
-  * **Audit & Log Repository:** Uses Spring Data JPA to securely write immutable logs of every access attempt and security event into the database.
-  * **Domain Data Repository:** Manage the persistence of user profiles, organizational data, doors, and policies.
+* **Repositories - Capa de acceso a datos:**
+  * **Repositories:** Utilizan Entity Framework Core para almacenar y consultar la información de usuarios, roles, contactos, leads, etiquetas, conversaciones, mensajes, oportunidades y ventas en la base de datos MySQL.
 
-* **Communication Flow:** The web and mobile applications send HTTP requests to the **Controllers**. These controllers delegate the business logic to the **Services**. The services evaluate the rules and use the **Repositories** to interact with the MySQL database via JDBC, or use the **Notification Publisher** to dispatch asynchronous emails and SMS via AWS SES and Twilio.
+* **Flujo de comunicación:** La Web Application consume los endpoints expuestos por los Controllers mediante HTTPS y JSON. Los Controllers delegan las operaciones a los Services, que aplican la lógica de negocio. Finalmente, los Services utilizan los Repositories para persistir o consultar información en MySQL. El WhatsApp Webhook Controller entrega los mensajes recibidos al Conversation Service, que registra las conversaciones y puede generar notificaciones.
 
 ## 4.7. Software Object-Oriented Design.
 
