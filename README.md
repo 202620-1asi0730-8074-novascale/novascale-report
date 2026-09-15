@@ -423,21 +423,27 @@ En esta sección se presenta el Software Architecture Context Diagram de **NovaL
 
 * **WhatsApp Business API:** Es el sistema externo que permite a NovaLeads recibir mensajes de los contactos y enviar respuestas mediante la integración con WhatsApp.
 
-### 4.6.3. Software Architecture Container Diagrams.
+### 4.6.3. Software Architecture Container Diagram.
 
-In this section, the team presents the **Container Diagram** for SmartLock. This diagram expands the system's context to reveal the software containers that compose it (web applications, mobile applications, APIs, and databases). It illustrates the high-level distribution of responsibilities, exposes key technology decisions—such as Angular for the frontend, Java Spring Boot for the backend, and MySQL for persistence—and details how these containers communicate through the AWS cloud infrastructure.
+En esta sección se presenta el **Container Diagram** de **NovaLeads**. Este diagrama amplía la visión del contexto del sistema y muestra los contenedores de software que componen la plataforma CRM, así como la distribución de responsabilidades, las principales decisiones tecnológicas y la comunicación entre los componentes.
 
-![Software Architecture Container Diagram](/Resources/Chapter4/umlfiles/containerDiagram.png)
+![Software Architecture Container Diagram](Resources/containerDiagram.png)
 
-#### Diagram Explanation
+#### Explicación del diagrama
 
-The Container Diagram breaks down the internal architecture of SmartLock into the following key components:
+El Container Diagram descompone la arquitectura interna de NovaLeads en los siguientes componentes principales:
 
-* **Landing Page & Web Application (Frontend):** Developed using **Angular, TypeScript, and TailwindCSS**. The web application acts as a Single Page Application (SPA) that consumes the backend API. Both containers are hosted on **AWS S3** and distributed globally via **Amazon CloudFront** to ensure low latency and security via HTTPS.
-* **Scanner Mobile App:** A specialized application for security staff, optimized for scanning QR codes and communicating with the server with minimal latency.
-* **Core Backend API:** The system's main engine, developed in **Java using the Spring Boot framework**. It centralizes all domain-driven business logic (DDD), validates access attempts, and generates encrypted dynamic QR codes. It is deployed on **AWS Elastic Beanstalk** for automated load balancing and scaling.
-* **Relational Database:** A **MySQL** database hosted on **Amazon RDS**, serving as the single source of truth. it ensures the immutability of access logs (audit trails) and the integrity of user profiles and access rules.
-* **Communication:** The frontend and mobile app communicate asynchronously with the Backend API via **JSON over HTTPS**. The backend interacts with the database through **JDBC** and with third-party services (AWS SES and Twilio) via REST APIs.
+* **Landing Page:** Desarrollada con **HTML, CSS y JavaScript**. Presenta la propuesta de valor de NovaLeads, sus funcionalidades, beneficios y Call to Action dirigidos a dueños de pymes, startups y equipos de venta.
+
+* **Web Application:** Desarrollada con **Vue.js**. Permite a dueños y vendedores iniciar sesión, gestionar leads, contactos, conversaciones, oportunidades, etiquetas y métricas de ventas mediante una interfaz web responsive.
+
+* **REST API:** Desarrollada con **ASP.NET Core y C#**. Centraliza la lógica de negocio, autenticación, autorización, gestión de usuarios, leads, contactos, conversaciones, notificaciones y métricas. Expone endpoints RESTful documentados mediante OpenAPI y Swagger.
+
+* **Base de datos relacional:** Implementada con **MySQL**. Almacena la información de usuarios, roles, permisos, contactos, leads, etiquetas, conversaciones, mensajes, oportunidades y ventas.
+
+* **WhatsApp Business API:** Sistema externo que permite recibir mensajes de contactos mediante webhooks y enviar respuestas desde NovaLeads.
+
+* **Comunicación:** La Landing Page redirige a los usuarios hacia la Web Application mediante HTTPS. La Web Application consume la REST API mediante solicitudes HTTP y datos en formato JSON. La REST API accede a la base de datos mediante Entity Framework Core e intercambia mensajes con WhatsApp Business API.
 
 ### 4.6.4. Software Architecture Components Diagrams.
 
