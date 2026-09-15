@@ -474,7 +474,13 @@ El Component Diagram descompone la REST API de NovaLeads en los siguientes compo
 
 ## 4.7. Software Object-Oriented Design.
 
-En esta sección, el equipo presenta el diseño orientado a objetos del software, detallando la implementación interna y la estructura de componentes para cada *Bounded Context* de **SmartLock**. Los diagramas a continuación ilustran cómo se ha aplicado el enfoque de *Domain-Driven Design* (DDD) a nivel de código, definiendo claramente las responsabilidades, los límites de los agregados y los patrones de diseño utilizados tanto en la capa de presentación (Frontend) como en la lógica de negocio (Backend). Esta estructura garantiza un código modular, mantenible y altamente escalable.
+En esta sección se presenta el diseño orientado a objetos de **NovaLeads**. Este diseño permite representar las entidades, responsabilidades y relaciones necesarias para gestionar usuarios, permisos, contactos, leads, conversaciones, oportunidades y resultados de ventas.
+
+La propuesta se organiza en clases que reflejan los principales procesos del dominio comercial. Cada clase encapsula información y comportamientos específicos, lo que permite mantener una estructura clara, escalable y coherente con los requisitos funcionales de la plataforma.
+
+El diseño considera la gestión de usuarios con diferentes roles, la clasificación de contactos como leads o clientes, el seguimiento de oportunidades comerciales, el registro de conversaciones y mensajes, la administración de etiquetas y la generación de métricas para el dashboard.
+
+A partir de esta estructura se elabora el Class Diagram, el cual detalla los atributos, métodos, relaciones, multiplicidades y responsabilidades de las clases principales que conforman NovaLeads.
 
 ### 4.7.1. Class Diagrams.
 
