@@ -149,7 +149,7 @@ El wireframe de baja fidelidad define la estructura visual y la jerarquía de la
 ### 4.3.2. Landing Page Mock-up.
 El mock-up de alta fidelidad integra la identidad visual de la marca, incluyendo la paleta de colores, tipografía y elementos gráficos finales. Este diseño representa la apariencia exacta que tendrá la aplicación web una vez implementada.
 
-![Landing Page Mock-up](/Resources/Chapter4/LandingPage/Mockup%20Landing%20Page.png)
+![Landing Page Mock-up](/Resources/Chapter4/style/Wireframe Landing Page.png)
 
 
 ## 4.4. Web Applications UX/UI Design.
