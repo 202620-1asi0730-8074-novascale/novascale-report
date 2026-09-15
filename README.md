@@ -409,7 +409,7 @@ Este modelado permite al equipo de desarrollo tener una guía clara para la impl
 
 En esta sección se presenta el Software Architecture Context Diagram de **NovaLeads**. Este diagrama ofrece una visión de alto nivel de la plataforma CRM, mostrando a los usuarios principales y los sistemas externos con los que interactúa para centralizar la gestión de leads, clientes, conversaciones y resultados de ventas.
 
-![Software Architecture Context Diagram](../Resources/Chapter4/umlfiles/contextDiagram.png)
+![Software Architecture Context Diagram](Resources/contextDiagram.png)
 
 **Explicación del diagrama:**
 
