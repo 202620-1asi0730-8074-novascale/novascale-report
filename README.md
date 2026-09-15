@@ -1,227 +1,145 @@
-<div align="center">
+# Capítulo I: Introducción
+## 1.1. Startup Profile
+### 1.1.1. Descripción de la Startup
+**Área:** Software como servicio (SaaS), gestión de relaciones con clientes (CRM) y tecnología para ventas.
 
-<img src="Resources/UPC-Logo.png" alt="Logo-UPC" width="180">
+**NovaScale** es una startup formada por estudiantes de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas (UPC). Surge con el propósito de diseñar soluciones digitales que ayuden a los negocios a ordenar sus procesos, aprovechar mejor su información y tomar decisiones con mayor claridad.
 
-## Universidad Peruana de Ciencias Aplicadas
+Su primer producto, **NovaLeads**, es una plataforma CRM orientada a startups, pequeñas y medianas empresas (pymes) y equipos de ventas. NovaLeads centraliza la gestión de leads, clientes, conversaciones, oportunidades y ganancias en un solo espacio, con una experiencia pensada para equipos que requieren visibilidad de su proceso comercial sin enfrentar una configuración compleja.
 
-**Ingeniería de Software**
+La propuesta de NovaScale combina una perspectiva tecnológica con la comprensión de problemas cotidianos de los negocios en crecimiento. El equipo busca construir productos funcionales, accesibles y centrados en las necesidades de sus usuarios, validando cada decisión mediante investigación, prototipos y pruebas continuas.
 
-**Ciclo:** 2026-20
+* **Misión:** Desarrollar soluciones digitales simples y confiables que permitan a startups y pymes organizar sus procesos comerciales, fortalecer la relación con sus clientes y tomar decisiones basadas en información centralizada.
 
-**Curso:** Aplicaciones Web
+* **Visión:** Ser una startup reconocida por crear productos tecnológicos accesibles y centrados en el usuario que impulsen el crecimiento sostenible de los pequeños y medianos negocios de la región.
 
-**Sección:** 8074
+* **Valores:**
+  * **Orientación al usuario:** Comprendemos las necesidades reales de los usuarios y diseñamos soluciones que generen valor en su trabajo diario.
+  * **Simplicidad:** Priorizamos experiencias claras, útiles y fáciles de adoptar, evitando complejidad innecesaria.
+  * **Colaboración:** Trabajamos de manera coordinada, respetuosa y transparente para alcanzar objetivos comunes.
+  * **Aprendizaje continuo:** Validamos nuestras ideas, aceptamos la retroalimentación y mejoramos a partir de la evidencia.
+  * **Responsabilidad:** Asumimos compromiso con la calidad, la seguridad de la información y los resultados de nuestro trabajo.
+   
+### 1.1.2. Perfiles de integrantes del equipo
 
-**Profesor:** Alex Humberto Sánchez Ponce
+|**Integrante**|**Perfil**|**Imagen**|
+|:-------------|----------|:--------:|
+| **Johan Karl Bottger Salazar**|Mi nombre es Johan Karl Bottger Salazar, tengo 21 años y estoy estudiando la carrera de ingeniería de software. Tengo experiencia con distintos frameworks de desarrollo de aplicaciones web. Destaco con liderazgo y autonomía. Me comprometo con el logro exitoso del proyecto junto a los integrantes del equipo.|<img src="/Resources/Chapter1/Johan-Bottger.jpg" width="2000"/>|
+
+## 1.2. Solution Profile
+### 1.2.1. Antecedentes y problemática
+
+**5W's y 2H's**
+
+Para definir el problema central de NovaLeads, se ha aplicado la técnica 5W's y 2H's. Este análisis permite delimitar la situación que enfrentan los equipos comerciales y orientar la propuesta de solución.
+
+* **What?**
+  
+  Las startups y pymes enfrentan dificultades para registrar, organizar y dar seguimiento a sus leads, clientes, oportunidades y conversaciones. La información comercial suele encontrarse dispersa en hojas de cálculo, correos electrónicos, aplicaciones de mensajería y notas personales, lo que limita la trazabilidad del proceso de ventas.
+
+* **Why?**
+
+  La dispersión de información puede ocasionar seguimientos tardíos u olvidados, registros duplicados, pérdida del contexto de conversaciones y poca visibilidad sobre el estado real de las oportunidades. Como resultado, los responsables comerciales invierten tiempo consolidando datos y toman decisiones con información incompleta.
+
+* **Who?**
+
+  El problema afecta principalmente a fundadores, gerentes y responsables comerciales de startups y pymes, así como a ejecutivos, asesores y colaboradores de ventas que gestionan contactos y oportunidades de forma diaria.
+
+* **When?**
+
+  Se presenta durante todo el ciclo comercial: al captar un lead, clasificarlo, realizar un contacto, programar una acción de seguimiento, registrar una conversación, convertirlo en cliente o analizar el resultado de una oportunidad. Se vuelve más visible cuando aumenta el número de contactos o miembros del equipo.
+
+* **Where?**
+
+  Ocurre en los espacios donde el equipo realiza su trabajo comercial, tanto de forma remota como presencial. La información se distribuye entre herramientas digitales independientes y dispositivos personales, sin una fuente única y actualizada.
+
+* **How?**
+
+  Los equipos suelen resolver el problema mediante procesos manuales: registran datos en hojas de cálculo, usan agendas o recordatorios, revisan conversaciones en distintas aplicaciones y consolidan indicadores al final de un periodo. Estos mecanismos dependen del orden individual y dificultan la colaboración cuando participan varias personas.
+
+* **How much?**
+
+  El impacto se refleja en horas destinadas a buscar y consolidar información, oportunidades que no reciben seguimiento oportuno y decisiones comerciales tomadas sin datos consistentes. La magnitud exacta deberá validarse con entrevistas y pruebas con los segmentos objetivo, dado que varía según el tamaño, proceso y volumen comercial de cada negocio.
 
 
-----
-## Informe de Trabajo Final
-Equipo
-### NovaScale
+### 1.2.2. Lean UX Process
 
-Proyecto
-### NovaLeads
-#### Relación de integrantes
-<br>
+El proceso Lean UX de **NovaLeads** parte de la comprensión del problema comercial y transforma los supuestos iniciales del equipo en hipótesis medibles. Estas hipótesis deberán validarse mediante entrevistas, pruebas de usabilidad y experimentos con un producto mínimo viable (MVP). Por lo tanto, los enunciados de esta sección representan puntos de partida para el aprendizaje y no conclusiones definitivas sobre los usuarios.
 
-| Nombre y Apellidos                | Código     |
-| :-------------------------------- | :--------- |
-| Johan Karl Bottger Salazar       | u202210735 |
-| Sergio Ruben Caldas Garcia      | u202411274 |
-| Lui Mathias Gamero Miranda      | u202419335 |
-| Renzo Paul Retuerto Zapata      | u202320328 |
-| Dario Alberto Romero Vilela      | u202419286|
+#### 1.2.2.1. Lean UX Problem Statements
 
+Las startups y pymes necesitan captar clientes y dar seguimiento a sus oportunidades comerciales con recursos y tiempo limitados. Sin embargo, sus responsables y equipos de ventas suelen distribuir la información de leads, clientes y conversaciones entre hojas de cálculo, aplicaciones de mensajería, correos electrónicos y notas personales. Esta fragmentación puede dificultar la priorización de oportunidades, la continuidad del seguimiento y la obtención de indicadores confiables sobre el desempeño comercial.
 
-</div>
+Los usuarios principales son los **responsables comerciales** —fundadores, gerentes o jefes de ventas— y los **ejecutivos o colaboradores de ventas** de startups y pymes. Los primeros necesitan visibilidad del embudo y de los resultados del equipo; los segundos necesitan registrar interacciones, recordar próximas acciones y consultar el contexto de cada oportunidad con rapidez.
 
-<br><div align="center"><h3> Agosto 2026</h3></div><br>
-<div style="page-break-after: always;"></div>
-<div style="text-align: justify;"></div>
+Las soluciones actuales pueden resultar insuficientes cuando requieren mantener información duplicada en varias herramientas, demandan una configuración compleja o no presentan de manera clara la relación entre leads, conversaciones, clientes y ganancias. Esta situación genera el riesgo de perder seguimientos, trabajar con datos desactualizados y tomar decisiones basadas en información incompleta.
 
-<br>
+Por ello, se plantea la siguiente pregunta orientadora:
 
----
-### Registro de Versiones
+> **¿Cómo podríamos ayudar a los responsables y equipos de ventas de startups y pymes a centralizar sus relaciones comerciales, priorizar oportunidades y comprender sus resultados sin añadir complejidad innecesaria a su trabajo diario?**
 
-<div align="center">
+#### 1.2.2.2. Lean UX Assumptions
 
-| **Versión** | **Fecha** | **Autor** | **Descripción de modificación** |
-| :---: | :---: | :--- | :--- |
-| **1.0** | 07/04/2026 | Johan Karl Bottger Salazar | Se agregó la estructura inicial del Capítulo I, la carátula, el Startup Profile, antecedentes y problemáticas. |
-| **1.1** | 08/04/2026 | - | Se desarrolló los capitulos iniciales del documento. |
-</div>
-<br>
+**Business Assumptions (Suposiciones del Negocio):**
 
-# Project Report Collaboration Insights
-**URL de la Organización de GitHub:**
-* [NovaScale - Organización](https://github.com/202620-1asi0730-8074-novascale)
+* Creemos que las startups y pymes tienen dificultades para mantener una visión actualizada de sus leads cuando emplean herramientas separadas.
+* Creemos que los responsables comerciales valorarán una solución que reúna leads, clientes, conversaciones, oportunidades y ganancias en un solo espacio.
+* Creemos que una adopción frecuente dependerá de que registrar y actualizar información requiera pocos pasos y ofrezca valor inmediato.
+* Creemos que los clientes estarán dispuestos a pagar por NovaLeads si la plataforma reduce seguimientos olvidados y facilita la lectura del desempeño comercial.
+* Creemos que los principales resultados de negocio serán la activación de nuevas cuentas, el uso recurrente del producto, la retención de equipos y la conversión a un plan pagado.
+* Creemos que la diferenciación de NovaLeads estará en una experiencia simple y adaptada a equipos pequeños, con menor esfuerzo de configuración que un CRM empresarial.
+* El mayor riesgo de negocio es que los equipos consideren suficiente su combinación actual de hojas de cálculo y mensajería, y no perciban valor suficiente para migrar.
 
----
+**User Assumptions (Suposiciones del Usuario):**
 
-**URLs de los Repositorios del Proyecto:**
+* Los usuarios principales son responsables comerciales y ejecutivos de ventas de startups y pymes que gestionan varias oportunidades simultáneamente.
+* Estos usuarios buscan saber a quién contactar, qué acción realizar y cuáles oportunidades requieren atención inmediata.
+* Actualmente registran información en hojas de cálculo, agendas, correo electrónico, mensajería y notas personales.
+* Sus principales dificultades son la información dispersa, la duplicación de registros, la pérdida del contexto de conversaciones y el olvido de seguimientos.
+* Los ejecutivos de ventas necesitan registrar un lead y actualizar su estado con rapidez durante o después de una interacción.
+* Los responsables comerciales necesitan revisar el avance del embudo, las oportunidades ganadas o perdidas y las ganancias generadas sin consolidar datos manualmente.
+* Los usuarios valorarán recordatorios, estados claros, historial cronológico y paneles comprensibles, siempre que no aumenten su carga administrativa.
+* El mayor riesgo de usuario es que el registro de datos se perciba como trabajo adicional y provoque información incompleta o abandono de la plataforma.
 
-* **Project Report:**
-    [https://github.com/202620-1asi0730-8074-novascale/novascale-report](https://github.com/202620-1asi0730-8074-novascale/novascale-report)
-* **Software Platform (Backend):**
-    [https://github.com/202620-1asi0730-8074-novascale/novascale-platform](https://github.com/202620-1asi0730-8074-novascale/novascale-platform)
-* **Web Application (Frontend):**
-    [https://github.com/202620-1asi0730-8074-novascale/novascale-webapp](https://github.com/202620-1asi0730-8074-novascale/novascale-webapp)
-* **Landing Page Website:**
-    [https://github.com/202620-1asi0730-8074-novascale/novascale-website](https://github.com/202620-1asi0730-8074-novascale/novascale-website)
+Para priorizar el aprendizaje, los supuestos se ordenan según su impacto y el nivel de evidencia disponible:
 
----
+| **Supuesto crítico** | **Impacto si es falso** | **Evidencia inicial** | **Prioridad de validación** |
+| :--- | :---: | :---: | :---: |
+| Los equipos pierden continuidad por tener información comercial dispersa. | Alto | Baja | 1 |
+| Centralizar la información mejora la priorización y el seguimiento. | Alto | Baja | 2 |
+| Los usuarios registrarán datos si el flujo es rápido y sencillo. | Alto | Baja | 3 |
+| Los responsables pagarán por visibilidad y control del proceso comercial. | Alto | Baja | 4 |
 
-# Contenido
+#### 1.2.2.3. Lean UX Hypothesis Statements
 
-- [Contenido](#contenido)
-- [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#capítulo-i-introducción)
-  - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2. Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-  - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-  - [2.3. Needfinding](#23-needfinding)
-    - [2.3.1. User Personas](#231-user-personas)
-    - [2.3.2. User Task Matrix](#232-user-task-matrix)
-    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-  - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
-  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-  - [3.1. User Stories](#31-user-stories)
-  - [3.2. Impact Mapping](#32-impact-mapping)
-  - [3.3. Product Backlog](#33-product-backlog)
-- [Capítulo IV: Product Design](#capítulo-iv-product-design)
-  - [4.1. Style Guidelines](#41-style-guidelines)
-    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-  - [4.2. Information Architecture](#42-information-architecture)
-    - [4.2.1. Organization Systems](#421-organization-systems)
-    - [4.2.2. Labeling Systems](#422-labeling-systems)
-    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-    - [4.2.4. Searching Systems](#424-searching-systems)
-    - [4.2.5. Navigation Systems](#425-navigation-systems)
-  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
-    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
-    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
-  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-    - [4.6.1. Design-Level Event Storming](#461-design-level-event-storming)
-    - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
-    - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
-    - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
-  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-    - [4.7.1. Class Diagrams](#471-class-diagrams)
-  - [4.8. Database Design](#48-database-design)
-    - [4.8.1. Database Diagrams](#481-database-diagrams)
-- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-  - [5.1. Software Configuration Management](#51-software-configuration-management)
-    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-    - [5.1.2. Source Code Management](#512-source-code-management)
-    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-    - [5.2.1. Sprint 1](#521-sprint-1)
-      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-      - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-    - [5.2.2. Sprint 2](#521-sprint-1)
-      - [5.2.2.1. Sprint Planning 2](#5211-sprint-planning-1)
-      - [5.2.2.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-      - [5.2.2.3. Sprint Backlog 2](#5213-sprint-backlog-1)
-      - [5.2.2.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-      - [5.2.2.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-      - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.2.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-    - [5.2.3. Sprint 3](#521-sprint-1)
-      - [5.2.3.1. Sprint Planning 3](#5211-sprint-planning-1)
-      - [5.2.3.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-      - [5.2.3.3. Sprint Backlog 3](#5213-sprint-backlog-1)
-      - [5.2.3.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-      - [5.2.3.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.3.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-  - [5.3. Validation Interviews](#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
-    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-  - [5.4. Video About-the-Product](#54-video-about-the-product)
-- [Conclusiones](#conclusiones)
-  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-  - [Video About-the-Team](#video-about-the-team)
-- [Bibliografía](#bibliografía)
-- [Anexos](#anexos)
+* **Hipótesis 1 — Centralización del seguimiento:** Creemos que ofrecer a los ejecutivos de ventas un espacio único para registrar leads, etapas, próximas acciones y conversaciones reducirá la pérdida de contexto y facilitará el seguimiento. Sabremos que es cierto si, durante una prueba con el MVP, al menos el **80 %** de los participantes registra y actualiza una oportunidad sin apoyo y califica la claridad del flujo con **4 o más sobre 5**.
 
+* **Hipótesis 2 — Priorización de oportunidades:** Creemos que mostrar un embudo con estados y próximas actividades permitirá a los equipos decidir con mayor rapidez qué oportunidades atender. Sabremos que es cierto si los participantes identifican correctamente sus tres acciones prioritarias en **menos de dos minutos** y reducen en al menos **30 %** el tiempo empleado frente a su método actual.
+
+* **Hipótesis 3 — Historial de conversaciones:** Creemos que asociar las conversaciones y notas a cada lead permitirá retomar una relación comercial sin buscar información en distintas herramientas. Sabremos que es cierto si al menos el **80 %** de los participantes encuentra el último contacto y explica el contexto de la oportunidad en **menos de un minuto**.
+
+* **Hipótesis 4 — Visibilidad de resultados:** Creemos que un panel con oportunidades ganadas, perdidas, tasa de conversión y ganancias ayudará a los responsables comerciales a comprender el desempeño del equipo. Sabremos que es cierto si al menos el **70 %** de los responsables interpreta correctamente estos indicadores y responde preguntas básicas del negocio en **menos de dos minutos**.
+
+* **Hipótesis 5 — Intención de adopción:** Creemos que una experiencia simple, con mínima configuración inicial, motivará a startups y pymes a reemplazar sus herramientas dispersas. Sabremos que es cierto si al menos el **60 %** de los participantes completa el flujo principal del MVP, manifiesta intención de utilizar NovaLeads semanalmente y acepta importar o registrar datos reales para una prueba piloto.
+
+#### 1.2.2.4. Lean UX Canvas
+
+| 1. Business Problem | 2. Business Outcomes |
+| :------------------ | :------------------- |
+| Los equipos comerciales de startups y pymes gestionan información en herramientas separadas, lo que dificulta el seguimiento de oportunidades y la lectura del desempeño. NovaLeads necesita demostrar que centralizar esta información genera suficiente valor para impulsar adopción y pago. | - Aumentar la activación de cuentas mediante la creación del primer lead y la primera oportunidad.<br>- Lograr uso recurrente semanal en los equipos piloto.<br>- Mejorar la retención de cuentas activas.<br>- Convertir equipos piloto en clientes de pago. |
+| **3. Users / Customers** | **4. User Benefits** |
+| - Fundadores, gerentes y jefes responsables del proceso comercial en startups y pymes.<br>- Ejecutivos, asesores y colaboradores encargados de captar, contactar y convertir leads. | - Consultar toda la información comercial desde un único espacio.<br>- Saber qué oportunidades y acciones requieren atención.<br>- Retomar conversaciones con el contexto completo.<br>- Conocer el avance del embudo y los resultados de ventas.<br>- Reducir el tiempo dedicado a consolidar y buscar información. |
+| **5. Solutions / Ideas** | **6. Hypotheses** |
+| - Registro y clasificación de leads y clientes.<br>- Embudo visual de oportunidades por etapas.<br>- Próximas acciones y recordatorios de seguimiento.<br>- Historial cronológico de conversaciones y notas.<br>- Panel de oportunidades, conversiones y ganancias.<br>- Importación inicial desde una hoja de cálculo. | - Si centralizamos leads, estados y conversaciones, los ejecutivos completarán el seguimiento con menos pérdida de contexto.<br>- Si mostramos prioridades y próximas acciones, los usuarios decidirán más rápido qué atender.<br>- Si resumimos el embudo y las ganancias, los responsables comprenderán mejor el desempeño.<br>- Si el registro es simple, los equipos mantendrán la información actualizada y usarán la plataforma semanalmente. |
+| **7. What's the most important thing to learn first?** | **8. What's the least amount of work we need to do to learn this? (MVP)** |
+| Debemos aprender primero si la dispersión de información es un problema frecuente y suficientemente importante, y si una vista centralizada ayuda realmente a los equipos a priorizar y dar seguimiento a sus oportunidades. | Crear un prototipo navegable que permita registrar o importar leads, mover una oportunidad entre etapas, añadir una conversación, definir una próxima acción y consultar un panel básico. Probarlo con representantes de ambos segmentos mediante tareas observables, entrevistas posteriores y una prueba piloto corta con datos reales. |
+
+## 1.3. Segmentos objetivo
 ---
 
-# Student Outcome
+Para el desarrollo de **NovaLeads**, se han definido dos segmentos objetivo que participan directamente en la gestión de relaciones comerciales. Esta segmentación orientará el reclutamiento para entrevistas, la creación de personas y la validación de las hipótesis planteadas.
 
-El curso contribuye al cumplimiento del Student Outcome ABET:<br><br>
-**ABET – EAC - Student Outcome 3**
-Criterio: Capacidad de comunicarse efectivamente con un rango de audiencias.<br><br>
-En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.<br><br>
-
-<table>
-<thead>
-<tr>
-<th colspan="3"><b>Criterio específico</b></th>
-<th colspan="3"><b>Acciones realizadas</b></th>
-<th colspan="3"><b>Conclusiones</b></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td colspan="3">Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
-<td colspan="3" align="justify">
-<h4>Bottger Salazar, Johan Karl</h4>
- <b>AV1:</b><p>Explicó las secciones introductorias y la justificación de la solución propuesta en el pitch inicial del proyecto.</p>
-</td>
-<td colspan="3" align="justify">
-<h4>Bottger Salazar, Johan Karl</h4>
-<b>AV1:</b> Comunicó eficazmente el problema inicial y cómo la solución se alinea con los objetivos del cliente.<br><br>
-</td>
-</tr>
-<tr>
-<td colspan="3">Comunica por escrito con efectividad a diferentes rangos de audiencia.</td>
-<td colspan="3" align="justify">
-<h4>Bottger Salazar, Johan Karl</h4>
- <b>AV1:</b><p>Estructuró y redactó la problemática, los antecedentes y los requerimientos funcionales del sistema.</p>
-</td>
-<td colspan="3" align="justify">
-<h4>Bottger Salazar, Johan Karl</h4>
-<b>AV1:</b> Consolidó los antecedentes y requisitos en un texto claro, formal y académicamente riguroso.<br><br>
-</td>
-</tr>
-</tbody>
-</table>
-
----
+| **Segmento** | **Descripción del Perfil** | **Necesidades Principales** | **Características Psicográficas y Comportamentales** |
+| :--- | :--- | :--- | :--- |
+| **Responsables comerciales de startups y pymes** | Fundadores, gerentes, jefes de ventas o personas que dirigen la estrategia comercial y supervisan a un equipo pequeño o mediano. Son responsables de las metas, el embudo de ventas y los ingresos generados. | Contar con una visión global y actualizada del proceso comercial; conocer la carga y avance del equipo; identificar oportunidades estancadas; consultar conversiones y ganancias; tomar decisiones con información confiable. | Orientados a resultados y al crecimiento; valoran la rapidez y el control; disponen de poco tiempo para configurar herramientas; revisan indicadores periódicamente; buscan soluciones accesibles, fáciles de adoptar y capaces de acompañar el crecimiento del negocio. |
+| **Ejecutivos y colaboradores de ventas** | Asesores, representantes o integrantes del equipo que prospectan, califican leads, mantienen conversaciones y hacen seguimiento hasta cerrar o descartar una oportunidad. | Registrar contactos e interacciones con rapidez; consultar el contexto de cada lead; organizar próximas acciones; priorizar oportunidades; evitar seguimientos olvidados; actualizar estados desde un flujo sencillo. | Trabajan con varias oportunidades a la vez y alternan entre mensajería, correo, llamadas y reuniones; prefieren herramientas ágiles y claras; pueden resistirse al registro manual excesivo; adoptan una solución cuando esta reduce búsquedas, recordatorios mentales y tareas repetitivas. |
