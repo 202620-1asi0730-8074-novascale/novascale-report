@@ -407,15 +407,21 @@ Este modelado permite al equipo de desarrollo tener una guía clara para la impl
 
 ### 4.6.2. Software Architecture Context Diagram.
 
-In this section, the team introduces the Software Architecture Context Diagram. This high-level overview illustrates the **SmartLock** software system as a central entity, surrounded by the key user personas and the external systems it interacts with to deliver its "Asset-Light" access control value proposition.
+En esta sección se presenta el Software Architecture Context Diagram de **NovaLeads**. Este diagrama ofrece una visión de alto nivel de la plataforma CRM, mostrando a los usuarios principales y los sistemas externos con los que interactúa para centralizar la gestión de leads, clientes, conversaciones y resultados de ventas.
 
-![Software Architecture Context Diagram](/Resources/Chapter4/umlfiles/contextDiagram.png)
+![Software Architecture Context Diagram](/Resources/Chapter4/context-diagram.png)
 
 **Explicación del diagrama:**
 
-* **SmartLock System:** Es el núcleo de la plataforma que centraliza la lógica de generación de códigos QR dinámicos y la validación de reglas de acceso.
-* **Usuarios:** El diagrama identifica al **Administrator** (configuración), **Security Staff** (validación móvil) y **Attendee** (usuario final) como los actores principales.
-* **Sistemas Externos:** Se detalla la integración con **AWS SES** para la gestión de correos electrónicos y **Twilio API** para el envío de alertas críticas de seguridad vía SMS.
+* **NovaLeads:** Es el sistema central de la solución. Permite gestionar usuarios, leads, contactos, conversaciones, oportunidades y métricas de ventas desde una única plataforma.
+
+* **Dueño de pyme o startup:** Administra el negocio dentro de NovaLeads, gestiona usuarios y permisos, consulta indicadores de ventas y supervisa el estado general de los leads y oportunidades.
+
+* **Vendedor:** Registra y actualiza leads, consulta contactos, administra conversaciones y realiza el seguimiento de las oportunidades comerciales asignadas.
+
+* **Visitante:** Accede a la Landing Page para conocer la propuesta de valor de NovaLeads e iniciar el flujo de registro o inicio de sesión.
+
+* **WhatsApp Business API:** Es el sistema externo que permite a NovaLeads recibir mensajes de los contactos y enviar respuestas mediante la integración con WhatsApp.
 
 ### 4.6.3. Software Architecture Container Diagrams.
 
