@@ -21,7 +21,7 @@ Se ha elegido una tipografía **Montserrat** variable, moderna y legible en disp
 - **Títulos y encabezados**: peso **bold**, transmitiendo fuerza y claridad.  
 - **Cuerpo de texto**: peso **regular**, con interlineado amplio que favorece la lectura.
 
-![Typography](/Resources/Chapter4/style/typography.png)
+![Typography](/Resources/Chapter4/Resources/typography.png)
 
 El estilo general busca mantener una comunicación **clara, directa y confiable** para los dos públicos objetivos.
 
