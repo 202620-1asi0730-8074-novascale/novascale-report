@@ -25,7 +25,7 @@ La propuesta de NovaScale combina una perspectiva tecnológica con la comprensi�
 |**Integrante**|**Perfil**|**Imagen**|
 |:-------------|----------|:--------:|
 | **Johan Karl Bottger Salazar**|Mi nombre es Johan Karl Bottger Salazar, tengo 21 años y estoy estudiando la carrera de ingeniería de software. Tengo experiencia con distintos frameworks de desarrollo de aplicaciones web. Destaco con liderazgo y autonomía. Me comprometo con el logro exitoso del proyecto junto a los integrantes del equipo.|<img src="/Resources/Chapter1/Johan-Bottger.jpg" width="2000"/>|
-| **Sergio Ruben Caldas Garcia** | Mi nombre es Sergio Ruben Caldas Garcia y soy estudiante de Ingeniería de Software. Me interesa el desarrollo de soluciones digitales centradas en las necesidades de los usuarios. Destaco por mi compromiso, capacidad de aprendizaje y trabajo en equipo. Me comprometo a contribuir al desarrollo exitoso del proyecto junto con los integrantes de NovaScale. | <img src="/Resources/Chapter1/SergioCaldas.jpg" width="2000"/> |
+| **Sergio Ruben Caldas Garcia** | Mi nombre es Sergio Ruben Caldas Garcia y soy estudiante de Ingeniería de Software. Me interesa el desarrollo de soluciones digitales centradas en las necesidades de los usuarios. Destaco por mi compromiso, capacidad de aprendizaje y trabajo en equipo. Me comprometo a contribuir al desarrollo exitoso del proyecto junto con los integrantes de NovaScale. | ![Class Diagram Backend](Resources/SergioCaldas.jpg) |
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
