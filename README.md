@@ -484,20 +484,27 @@ A partir de esta estructura se elabora el Class Diagram, el cual detalla los atr
 
 ### 4.7.1. Class Diagrams.
 
-#### Diagrama de clases (Frontend)
+#### Diagrama de clases del Frontend
 
-<img src="/Resources/Chapter4/Diagram-Class/Frontend/Diagrama-de-clases-Frontend-SmartLock.png" alt="Class Diagram Frontend">
+![Class Diagram Frontend](Resources/classDiagramFrontend.png)
 
-La arquitectura se organiza bajo los principios de **Domain-Driven Design (DDD)**, estructurando el frontend en contextos delimitados que separan lógicamente las responsabilidades de negocio. El núcleo reside en `spaceManagement`, que gestiona la jerarquía física desde la `Organization` hasta los `Device`, utilizando un `spaceManagementStore` en la capa de aplicación para centralizar el estado y desacoplar la vista de la infraestructura. Este se complementa con `authentication` y `access`, encargados de la identidad y los permisos mediante `Account` y `Subject`, mientras que `report` se especializa en la observabilidad a través de entidades de auditoría y alertas. Finalmente, `billing` opera de forma independiente para controlar el ciclo de vida de las suscripciones en el dominio de pagos.
-<br><br>
-La interacción entre estos contextos y las clases de frontend se facilita mediante un **Kernel Compartido** (`shared`), donde la capa de infraestructura provee una `BaseApiEndpoint` de la cual heredan los servicios específicos para estandarizar el consumo de APIs. En la capa de presentación, los componentes se dividen en `views` (contenedores de alto nivel) y `components` (piezas reutilizables como `OrganizationCard`), los cuales interactúan con los **Stores** para obtener datos de manera reactiva en lugar de consultar directamente a los servicios. Todo el sistema es orquestado por el `AppComponent`, que integra el `Layout` compartido para mantener una interfaz consistente en toda la plataforma.
-#### Diagrama de clases (Backend)
+El diagrama de clases del Frontend representa la organización de la Web Application de NovaLeads desarrollada con Vue.js. La aplicación se estructura mediante un componente principal, un layout compartido y un sistema de rutas que dirige al usuario hacia las vistas de inicio de sesión, dashboard, leads y conversaciones.
 
-<img src="/Resources/Chapter4/Diagram-Class/Backend/Class-Diagram-Backend-image.png" alt="Class Diagram Backend">
+Las vistas utilizan componentes reutilizables, como formularios de leads, tablas, paneles de conversación y tarjetas de métricas. La gestión del estado se centraliza mediante Stores especializados en autenticación, leads, conversaciones y dashboard.
 
-El backend de SmartLock ha sido estructurado estrictamente bajo los principios de *Domain-Driven Design* (DDD) utilizando el framework Spring Boot. La arquitectura se divide en 5 *Bounded Contexts* y 8 agregados principales, derivados del *Event Storming*, garantizando un alto nivel de cohesión y un bajo acoplamiento. Se emplean *Aggregate Roots* (como Security y Organization) para orquestar entidades secundarias (Door y Office), asegurando el cumplimiento de las reglas de negocio en la capa de dominio antes de ejecutar cualquier cambio de estado. 
+Los servicios del frontend consumen la REST API mediante un ApiClient, lo que permite desacoplar la interfaz de usuario de la comunicación con el backend.
 
-Adicionalmente, se implementaron patrones de diseño estratégico como *Assembler* para la conversión de datos y aislamiento de la capa de presentación, el uso de *Records* de Java para garantizar la inmutabilidad de los DTOs, e interfaces dedicadas para los servicios y repositorios. Esta abstracción asegura un sistema altamente mantenible y preparado para escalar sin generar deuda técnica.
+#### Diagrama de clases del Backend
+
+![Class Diagram Backend](Resources/classDiagramBackend.png)
+
+El diagrama de clases del Backend representa las entidades principales del dominio de NovaLeads y sus relaciones. La clase User representa a los usuarios autenticados, quienes poseen un Role y permisos asociados para acceder a las funcionalidades autorizadas.
+
+Contact centraliza la información de las personas registradas en la plataforma. Un contacto puede clasificarse como Lead o Client. Los leads pueden tener etiquetas y generar oportunidades comerciales asignadas a un vendedor.
+
+Las conversaciones se relacionan con los contactos y agrupan los mensajes intercambiados mediante WhatsApp. Además, pueden generar notificaciones cuando existen mensajes pendientes de respuesta o requieren atención prioritaria.
+
+Finalmente, las oportunidades pueden derivar en una venta, permitiendo registrar el monto obtenido y alimentar los indicadores del dashboard.
 
 ## 4.8. Database Design.
 
