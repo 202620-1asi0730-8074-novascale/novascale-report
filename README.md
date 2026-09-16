@@ -1,4 +1,3 @@
-
 # Capítulo IV: Product Design
 
 Este capítulo guiará el proceso de diseño a través de lineamientos claros de estilo, arquitectura de información, navegación y diseño de interfaces.
@@ -14,14 +13,17 @@ Un Style Guideline es un conjunto de reglas y normas que definen cómo se debe r
 Para la creación de la identidad visual de **NovaLeads** se optó por un diseño moderno y profesional que transmita eficiencia, transparencia, limpieza visual y organización.
 El logotipo simboliza el orden y priorización de elementos que ofrece el sistema.
 
-![Logo](/Resources/Chapter4/style/logo.jpg)
+![](Resources/Chapter4/style/logo-NovaLeads.jpg)
+![Logo Secundario](Resources/Chapter4/style/logo.jpg)
 
 #### Typography
-Se ha elegido una tipografía **Montserrat** variable, moderna y legible en dispositivos móviles y web. Además ofrece el beneficio de fuentes bold, light y medium.
-- **Títulos y encabezados**: peso **bold**, transmitiendo fuerza y claridad.  
-- **Cuerpo de texto**: peso **regular**, con interlineado amplio que favorece la lectura.
+Para el sistema de NovaLeads se ha seleccionado **Inter** como la familia tipográfica principal. Diseñada específicamente para pantallas e interfaces de usuario, Inter es una tipografía sans-serif que ofrece una legibilidad excepcional en una amplia variedad de dispositivos y resoluciones. Su diseño neutro pero moderno permite que los datos y el contenido destaquen sin distracciones visuales, un factor crítico en un entorno CRM donde la claridad y velocidad de lectura son primordiales.
 
-![Typography](/Resources/Chapter4/Resources/typography.png)
+- **Títulos y encabezados (Headings)**: Utilizan el peso **Semi-Bold** y **Bold** para establecer una jerarquía visual clara, transmitiendo solidez y guiando al usuario a través de los dashboards.
+- **Cuerpo de texto (Body Text)**: Emplea el peso **Regular** con un interlineado ajustado, garantizando comodidad y reduciendo la fatiga visual durante el uso prolongado de la plataforma.
+- **Botones y Etiquetas (Labels)**: Se aplica el peso **Medium**, ofreciendo el contraste perfecto para elementos interactivos, estados y menús de navegación.
+
+![Typography](Resources/Chapter4/style/typography.png)
 
 El estilo general busca mantener una comunicación **clara, directa y confiable** para los dos públicos objetivos.
 
@@ -30,7 +32,8 @@ El estilo general busca mantener una comunicación **clara, directa y confiable*
 
 La paleta escogida utiliza 4 colores en forma de semáforo para representar niveles de priorización en nuestro sistema. Junto a ellos se utilizan 2 colores neutros para textos y sombras, y un color cercano al blanco para fondos.
 
-![Colors](/Resources/Chapter4/style/colors.png)
+![](Resources/Chapter4/style/paleta.png)
+![](Resources/Chapter4/style/colors.png)
 
 #### Spacing
 
@@ -142,14 +145,32 @@ No queremos que el usuario "busque", queremos que "encuentre" rápido:
 ### 4.3.1. Landing Page Wireframe.
 El wireframe de baja fidelidad define la estructura visual y la jerarquía de la información. Se ha priorizado una navegación intuitiva, destacando las funcionalidades principales.
 
-![Landing Page Wireframe](/Resources/Chapter4/LandingPage/Wireframe%20Landing%20Page.png)
+#### Desktop Web Browser
+<p align="center">
+  <img src="Resources/Chapter4/wireframes/landing%20page%20-wireframe.png" width="800" alt="Landing Page Wireframe Desktop">
+</p>
+
+#### Mobile Web Browser
+<p align="center">
+  <img src="Resources/Chapter4/wireframes-mobile/Landing page mobile.png" width="400" alt="Landing Page Wireframe Mobile">
+</p>
 
 * **Elementos clave:** 
 
 ### 4.3.2. Landing Page Mock-up.
 El mock-up de alta fidelidad integra la identidad visual de la marca, incluyendo la paleta de colores, tipografía y elementos gráficos finales. Este diseño representa la apariencia exacta que tendrá la aplicación web una vez implementada.
 
-![Landing Page Mock-up](/Resources/Chapter4/Resources/landingpage-mock.png)
+#### Desktop Web Browser
+<p align="center">
+  <img src="Resources/Chapter4/mockups/novaleads-landing-page.png" width="800" alt="Landing Page Mockup Desktop">
+</p>
+
+#### Mobile Web Browser
+<p align="center">
+  <!-- PENDIENTE: Agrega aquí la ruta de tu mockup móvil cuando lo tengas -->
+  <img src="Resources/Chapter4/mockups-mobile/novaleads-landing-mobile.png" width="400" alt="Landing Page Mockup Mobile"> 
+  
+</p>
 
 
 ## 4.4. Web Applications UX/UI Design.
@@ -157,191 +178,160 @@ El mock-up de alta fidelidad integra la identidad visual de la marca, incluyendo
 
 ### 4.4.1. Web Applications Wireframes.
 
-
-
-
-
-
-### 4.4.2. Web Applications Wireflow Diagrams.
-
-
-User goals
-
-### 4.4.3. Web Applications Mock-ups.
-Esta sección presenta los mock-ups de alta fidelidad de la plataforma web de SmartLock. Estos diseños representan la apariencia visual final del sistema, incluyendo identidad visual, paleta de colores, tipografía, distribución de componentes y experiencia de usuario orientada a la implementación real del producto.
+Los wireframes de la aplicación web definen la estructura principal de la interfaz de NovaLeads.
 
 ### 1. Inicio de Sesión (Login)
+#### Desktop Version
+<p align="center"><img src="Resources/Chapter4/wireframes/novaleads-login-wireframe.png" width="800" alt="Login Wireframe Desktop"></p>
 
+#### Mobile Version
 <p align="center">
-  <img src="/Resources/Chapter4/Web-Application/mockups/InicioSesión-Mockup.png" width="800" alt="Login Mockup">
+  <img src="Resources/Chapter4/wireframes-mobile/NovaLeads mobile login.png" width="400" alt="Login Wireframe Mobile">
 </p>
 
-**Descripción:** Pantalla de acceso seguro al sistema principal.
-
-### 2. Registro de Usuario (Sign Up)
-
+### 2. Crear Cuenta (Sign Up)
 <p align="center">
-  <img src="/Resources/Chapter4/Web-Application/mockups/RegistroSesión-Mockup.png" width="800" alt="Registro Mockup">
+  <img src="Resources/Chapter4/wireframes/novaleads-signup-wireframe.png" width="800" alt="Sign Up Wireframe">
 </p>
 
-**Descripción:** Formulario rápido para crear una cuenta nueva.
-
-### 3. Autenticación de Dos Factores (2FA)
-
+### 3. Recuperar Contraseña (Forgot Password)
 <p align="center">
-  <img src="/Resources/Chapter4/Web-Application/mockups/Autenticacion2FA-mockup.png" width="800" alt="2FA Mockup">
+  <img src="Resources/Chapter4/wireframes/NovaLeads forgot password wireframe.png" width="800" alt="Forgot Password Wireframe">
 </p>
 
-**Descripción:** Capa extra de seguridad con código móvil.
-
-### 4. Creación de Organización
-
+### 4. Planes de Suscripción (Pricing)
 <p align="center">
-  <img src="/Resources/Chapter4/Web-Application/mockups/crear-organizacion-mockup.png" width="800" alt="Creación de Organización Mockup">
+  <img src="Resources/Chapter4/wireframes/NovaLeads pricing wireframe.png" width="800" alt="Pricing Wireframe">
 </p>
 
-**Descripción:** Paso inicial para registrar tu nueva organización.
+### 5. Dashboard Principal
+#### Desktop Version
+<p align="center"><img src="Resources/Chapter4/wireframes/novaleads-dashboard-wireframe.png" width="800" alt="Dashboard Wireframe Desktop"></p>
 
-### 5. Selección Plan de Suscripción
-
+#### Mobile Version
 <p align="center">
-  <img src="/Resources/Chapter4/Web-Application/mockups/seleccionar-plan-mockup.png" width="800" alt="Plan de Suscripción Mockup">
+  <img src="Resources/Chapter4/wireframes-mobile/novaleads-dashboard-wireframe-mobile.png" width="400" alt="Dashboard Wireframe Mobile">
 </p>
 
-**Descripción:** Pantalla de selección de plan de suscripción.
+### 6. CRM Dashboard
+<p align="center"><img src="Resources/Chapter4/wireframes/novaleads-crm-wireframe.png" width="800" alt="CRM Dashboard Wireframe"></p>
 
-### 6. Configuración Organización
+### 7. Directorio de Clientes
+<p align="center"><img src="Resources/Chapter4/wireframes/crm-customer-directory-wireframe.png" width="800" alt="Customer Directory Wireframe"></p>
 
+### 8. Conversaciones de Contacto
+<p align="center"><img src="Resources/Chapter4/wireframes/crm-contact-chat-wireframe.png" width="800" alt="Contact Chat Wireframe"></p>
+
+### 9. Modal Añadir Lead
+<p align="center"><img src="Resources/Chapter4/wireframes/add-new-lead-modal.png" width="800" alt="Add Lead Modal Wireframe"></p>
+
+### 10. Configuración del Sistema
+<p align="center"><img src="Resources/Chapter4/wireframes/novaleads-settings-wireframe.png" width="800" alt="Settings Wireframe"></p>### 4.4.2. Web Applications Wireflow Diagrams.
+Esta sección presenta los wireflows que conectan visualmente las pantallas de baja fidelidad para demostrar el flujo de interacción de los objetivos principales del usuario.
+
+#### User Goal 1: Autenticación y acceso al sistema
+El usuario debe poder iniciar sesión ingresando sus credenciales para acceder al Dashboard Principal.
 <p align="center">
-  <img src="/Resources/Chapter4/Web-Application/mockups/form-organizacion-mockup.png" width="800" alt="Configuración Organización Mockup">
+  <!-- PENDIENTE: Agrega aquí la captura de tu Wireflow de Figma (las pantallas unidas con flechas) -->
+  <!-- <img src="Resources/Chapter4/wireframes/wireflow-login.png" width="800" alt="Wireflow Login"> -->
+  [Espacio reservado para el Wireflow Diagram de Login]
 </p>
 
-**Descripción:** Ajustes detallados de la organización activa.
-
-### 7. Confirmación de creación de organización
-
+#### User Goal 2: Registro de un nuevo prospecto (Lead)
+El vendedor, desde el Directorio de Clientes o el Dashboard CRM, puede registrar los datos de un nuevo contacto comercial y agregarlo al pipeline.
 <p align="center">
-  <img src="/Resources/Chapter4/Web-Application/mockups/confirm-plan-mockup.png" width="800" alt="Confirmación Organización Mockup">
+  <!-- PENDIENTE: Agrega aquí la captura de tu Wireflow de Figma -->
+  <!-- <img src="Resources/Chapter4/wireframes/wireflow-add-lead.png" width="800" alt="Wireflow Add Lead"> -->
+  [Espacio reservado para el Wireflow Diagram de Add Lead]
 </p>
 
-**Descripción:** Mensaje de éxito al registrar la organización.
+### 4.4.3. Web Applications Mock-ups.
+Esta sección presenta los mock-ups de alta fidelidad de la plataforma web de NovaLeads. Estos diseños representan la apariencia visual final del sistema, incluyendo identidad visual, paleta de colores, tipografía, distribución de componentes y experiencia de usuario orientada a la implementación real del producto.
 
-### 8. Crear Sedes
-
+### 1. Inicio de Sesión (Login)
+#### Desktop Version
 <p align="center">
-  <img src="/Resources/Chapter4/Web-Application/mockups/crear-sede-Mockup.png" width="800" alt="Configuración de Sedes Mockup">
+  <img src="Resources/Chapter4/mockups/novaleads-login.png" width="800" alt="Login Mockup Desktop">
 </p>
 
-**Descripción:** Interfaz para añadir una nueva ubicación física.
-
-### 9. Configuración de Sedes
-
+#### Mobile Version
 <p align="center">
-  <img src="/Resources/Chapter4/Web-Application/mockups/crear-sede-info-Mockup.png" width="800" alt="Configuración de Sedes Mockup">
+  <img src="Resources/Chapter4/mockups-mobile/novaleads-mobile-login.png" width="400" alt="Login Mockup Mobile">
+</p>
+**Descripción:** Pantalla de acceso seguro al sistema principal. Adaptada responsivamente para uso en dispositivos móviles de agentes en campo.
+
+### 2. Crear Cuenta (Sign Up)
+<p align="center">
+  <img src="Resources/Chapter4/mockups/novaleads-signup.png" width="800" alt="Sign Up Mockup">
+</p>
+**Descripción:** Formulario de registro B2B inicial que captura los datos del usuario y de su compañía para crear un entorno aislado.
+
+### 3. Recuperar Contraseña (Forgot Password)
+<p align="center">
+  <img src="Resources/Chapter4/mockups/novaleads-forgot-password.png" width="800" alt="Forgot Password Mockup">
+</p>
+**Descripción:** Interfaz simple y segura para enviar el enlace de recuperación de contraseña mediante el correo electrónico de trabajo.
+
+### 4. Planes de Suscripción (Pricing)
+<p align="center">
+  <img src="Resources/Chapter4/mockups/novaleads-pricing.png" width="800" alt="Pricing Mockup">
+</p>
+**Descripción:** Presentación transparente de los tiers de suscripción (Starter, Professional, Enterprise) diseñados para escalar con el cliente.
+
+### 5. Dashboard Principal
+#### Desktop Version
+<p align="center">
+  <img src="Resources/Chapter4/mockups/novaleads-dashboard.png" width="800" alt="Dashboard Mockup Desktop">
 </p>
 
-**Descripción:** Ajuste de parámetros para cada sede creada.
-
-### 10. Panel de Control
-
+#### Mobile Version
 <p align="center">
-  <img src="/Resources/Chapter4/Web-Application/mockups/panel-control-Mockup.png" width="800" alt="Panel de Control Mockup">
+  <img src="Resources/Chapter4/mockups-mobile/novaleads-dashboard-mobile.png" width="400" alt="Dashboard Mockup Mobile">
 </p>
+**Descripción:** Vista general de indicadores y métricas del sistema. La versión móvil prioriza los KPIs más importantes para una lectura rápida.
 
-**Descripción:** Vista general del estado de las sedes.
-
-### 11. Bitácora de accesos
-
+### 6. CRM Dashboard
 <p align="center">
-  <img src="Resources/Chapter4/Web-Application/mockups/Dashboard-bitacora-Mockup.png" width="800" alt="Bitácora Mockup">
+  <img src="Resources/Chapter4/mockups/novaleads-crm-dashboard.png" width="800" alt="CRM Dashboard Mockup">
 </p>
+**Descripción:** Panel de control especializado para la gestión de relaciones con clientes.
 
-**Descripción:** Registro detallado del historial de los accesos.
-
-### 12. Control de Entidades (Accesos)
-
+### 7. Directorio de Clientes
 <p align="center">
-  <img src="/Resources/Chapter4/Web-Application/mockups/ControlEntidades-accesos-mockup.png" width="800" alt="Accesos Mockup">
+  <img src="Resources/Chapter4/mockups/novaleads-customers-directory.png" width="800" alt="Customer Directory Mockup">
 </p>
+**Descripción:** Lista completa y detallada de clientes y prospectos.
 
-**Descripción:** Directorio completo de usuarios con acceso permitido.
-
-### 13. Control de Entidades (Personas)
-
+### 8. Conversaciones de Contacto
 <p align="center">
-  <img src="/Resources/Chapter4/Web-Application/mockups/ControlEntidades-personas-mockup.png" width="800" alt="Personas Mockup">
+  <img src="Resources/Chapter4/mockups/novaleads-contact-conversations.png" width="800" alt="Contact Chat Mockup">
 </p>
+**Descripción:** Interfaz de comunicación directa e historial de mensajes con contactos.
 
-**Descripción:** Asignación de roles y permisos por usuario.
-
-### 14. Control de Entidades (Grupos)
-
+### 9. Modal Añadir Lead
 <p align="center">
-  <img src="/Resources/Chapter4/Web-Application/mockups/ControlEntidades-grupos-mockup.png" width="800" alt="Grupos Mockup">
+  <img src="Resources/Chapter4/mockups/novaleads-crm-add lead.png" width="800" alt="Add Lead Mockup">
 </p>
+**Descripción:** Formulario para registrar un nuevo prospecto o cliente potencial en el CRM.
 
-**Descripción:** Interfaz para la gestión de grupos operativos.
-
-### 15. Control de Entidades (Administradores)
-
+### 10. Configuración del Sistema
 <p align="center">
-  <img src="/Resources/Chapter4/Web-Application/mockups/ControlEntidades-admins-mockup.png" width="800" alt="Administradores Mockup">
+  <img src="Resources/Chapter4/mockups/novaleads-system-settings.png" width="800" alt="System Settings Mockup">
 </p>
-
-**Descripción:** Asignación de permisos a administradores del sistema.
-
-### 16. Control de Entidades (Añadir Accesos)
-
-<p align="center">
-  <img src="/Resources/Chapter4/Web-Application/mockups/ControlEntidades-añadir-accesos-mockup.png" width="800" alt="Añadir Accesos Mockup">
-</p>
-
-**Descripción:** Formulario para registrar nuevos permisos de entrada.
-
-### 17. Control de Entidades (Añadir Personas)
-
-<p align="center">
-  <img src="/Resources/Chapter4/Web-Application/mockups/ControlEntidades-añadir-personas-mockup.png" width="800" alt="Añadir Personas Mockup">
-</p>
-
-**Descripción:** Registro de nuevos integrantes a la plataforma.
-
-### 18. Control de Entidades (Añadir Grupos)
-
-<p align="center">
-  <img src="/Resources/Chapter4/Web-Application/mockups/ControlEntidades-añadir-grupo-mockup.png" width="800" alt="Añadir Grupos Mockup">
-</p>
-
-**Descripción:** Creación de nuevos grupos de trabajo específicos.
-
-### 19. Control de Entidades (Añadir Administradores)
-
-<p align="center">
-  <img src="/Resources/Chapter4/Web-Application/mockups/ControlEntidades-admins-añadir-mockup.png" width="800" alt="Añadir Administradores Mockup">
-</p>
-
-**Descripción:** Alta de nuevos perfiles con privilegios administrativos.
-
-### 20. Confirmación de Cierre de Sesión
-
-<p align="center">
-  <img src="/Resources/Chapter4/Web-Application/mockups/CerrarSesion-mockup.png" width="800" alt="Logout Mockup">
-</p>
-
-**Descripción:** Ventana segura para salir de la plataforma.
+**Descripción:** Interfaz para administrar preferencias y configuración general de la cuenta.
 
 ### 4.4.4. Web Applications User Flow Diagrams.
-En la siguiente sección se puede observar de manera detallada el  diagrama Userflow.
+En la siguiente sección se detalla el diagrama de flujo de usuario (User Flow) que mapea la navegación lógica a través de la plataforma NovaLeads.
 
 <p align="center">
-  <img src="/Resources/Chapter4/Web-Application/userflow/userflow.png" width="800" alt="userflow">
+  <img src="Resources/Chapter4/style/UserFlow.png" width="1000" alt="User Flow Diagram NovaLeads">
 </p>
 
 ## 4.5. Web Applications Prototyping.
 
 
 <p align="center">
-  <img src="../Resources/Chapter4/Web-Application/figma prototype.jpg" width="900">
+  <img src="Resources/Chapter4/Web-Application/figma prototype.jpg" width="900">
 </p>
 
 <br>
@@ -357,52 +347,56 @@ En la siguiente sección se puede observar de manera detallada el  diagrama User
 <br>
 
 <p align="center">
-  <img src="../Resources/Chapter4/Web-Application/Captura Prototype evidencia.jpg" width="900">
+  <img src="Resources/Chapter4/Web-Application/Captura Prototype evidencia.jpg" width="900">
 </p>
 
-## 4.6. Domain-Driven Software Architecture.
-En esta sección se detalla el diseño táctico del sistema, profundizando en la arquitectura y los componentes técnicos necesarios para implementar la solución. A diferencia del Big Picture, el DesignLevel Event Storming se enfoca en definir los límites de los agregados, los comandos que disparan cambios de estado y las políticas que gobiernan las reglas de negocio.
+## 4.6. Domain-Driven Software Architecture
+
+En esta sección se define la arquitectura central de **NovaLeads** basándose en los principios de Domain-Driven Design (DDD). El objetivo principal es alinear la complejidad técnica del código con la realidad del modelo de negocio. Para lograrlo, la arquitectura se basará en un **RESTful API** desarrollado con **C# (ASP.NET Core)** para la lógica del lado del servidor, y **Vue.js** para las aplicaciones web del lado del cliente.
+
+El sistema se ha dividido en los siguientes *Bounded Contexts* estratégicos:
+
+### 4.6.1. Design-Level EventStorming
+
+A diferencia del Big Picture, el *Design-Level EventStorming* se enfoca en definir los límites de los agregados, los comandos que disparan cambios de estado y las políticas que gobiernan las reglas de negocio de NovaLeads.
+
+#### 1. Lead Management (Core Domain)
+Contexto central encargado de la operativa comercial CRM. Su responsabilidad principal es modelar el ciclo de vida comercial, gestionando entidades como **Lead**, **Contact** y **Deal** (oportunidades). Administra la transición de un prospecto desde que ingresa al sistema hasta que se convierte en un cliente activo.
 
 <p align="center">
-  <img src="Resources/Evidencias/total-ddd.png" width="800" alt="Design Level Event Storming">
+  <img src="Resources/Chapter4/Evidencias/lead-management.png" alt="Lead Management EventStorming">
 </p>
 
-### 1. Space Management (Gestión de Espacios)
-Es el contexto central encargado de la infraestructura física y lógica de la plataforma. Su responsabilidad principal es modelar la jerarquía operativa, gestionando entidades como **Organizations**, **Sites** (sedes) y **Zones**. Este contexto administra la relación entre los activos físicos y su ubicación, permitiendo que la plataforma identifique la posición de los dispositivos de bloqueo digital.
-<img src="Resources/Evidencias/space-management.png">
+#### 2. Communication Management
+Este contexto se enfoca estrictamente en la comunicación omnicanal con los contactos. Gestiona las interacciones mediante agregados como **Conversation**, **Message** y **InteractionHistory**. Centraliza el historial de chats para que los SDR y ejecutivos tengan todo el contexto previo a la negociación.
 
-### 2. Access (Control de Acceso)
-Este contexto se enfoca estrictamente en la autorización y la seguridad física. Gestiona las identidades mediante la entidad **Subject** y su agrupación en **Groups** para facilitar la asignación masiva de permisos. Su lógica de negocio define quién tiene permitido ingresar a áreas específicas basándose en la validación de tokens y reglas de seguridad configuradas.
-<img src="Resources/Chapter4/eventStormin/Acces-Context.png">
+<p align="center">
+  <img src="Resources/Chapter4/Evidencias/communication.png" alt="Communication EventStorming">
+</p>
 
-### 3. IAM (Autenticación e Identidad)
-Responsable de la seguridad a nivel de software y la validación de la identidad del usuario en el sistema. Administra las **Accounts**, los hashes de contraseñas y los roles de usuario. Asegura que el usuario sea quien dice ser antes de permitirle interactuar con la interfaz del frontend o las APIs de la aplicación.
-<img src="Resources/Evidencias/access.png">
+#### 3. Identity and Access Management (IAM)
+Responsable de la seguridad a nivel de software, autenticación y validación de la identidad. Administra los **Users**, **Roles** (Salesperson, Administrator) y credenciales. Asegura el control de acceso a métricas financieras y asignaciones de leads.
 
-### 4. Report (Reportes y Auditoría)
-Dedicado a la observabilidad y la persistencia de eventos históricos dentro del ecosistema SmartLock. Utiliza entidades como **Audit**, **AuditRecord** y **Alert** para registrar cada acción realizada por los usuarios y cada anomalía detectada por los dispositivos. Es fundamental para el cumplimiento normativo y la reconstrucción de líneas de tiempo ante incidentes de seguridad.
-<img src="Resources/Evidencias/report.png">
+<p align="center">
+  <img src="Resources/Chapter4/Evidencias/iam.png" alt="IAM EventStorming">
+</p>
 
-### 5. Billing (Facturación y Suscripciones)
-Gestiona el aspecto comercial y la viabilidad del servicio para cada organización. Se encarga de la entidad **Subscription**, controlando los planes activos, precios y fechas de renovación. Este contexto habilita o restringe funcionalidades avanzadas, como el control por franjas horarias o alertas automáticas, según el estado de pago del cliente.
-<img src="Resources/Evidencias/billing.png">
+#### 4. Organization & Subscriptions
+Dedicado a la gestión multitenant de las empresas que contratan NovaLeads. Utiliza entidades como **Organization** y **Subscription** para controlar los planes SaaS (Starter, Pro, Enterprise), los cupos de vendedores por empresa y las fechas de renovación de licencias.
 
-Descripción de los componentes identificados:
-- **Comandos (Azul):** Representan las intenciones de los usuarios o sistemas externos para realizar una acción específica (ej. "Generar Código QR", "Validar Acceso").
-- **Agregados (Amarillo):** Son las entidades o grupos de objetos que mantienen la consistencia de los datos y ejecutan la lógica de negocio ante un comando.
-- **Políticas (Lila):** Definen reacciones automáticas del sistema ante eventos específicos ("Siempre que ocurra el Evento X, ejecutar el Comando Y").
-- **Modelos de Lectura (Verde):** Representan la información que el usuario visualiza en la interfaz para poder tomar una decisión y ejecutar un comando.
-- **Eventos de Dominio (Naranja):** Indican que algo relevante para el negocio ha sucedido exitosamente (ej. "Código QR Generado", "Acceso Denegado").
+<p align="center">
+  <img src="Resources/Chapter4/Evidencias/organization.png" alt="Organization EventStorming">
+</p>
 
-Este modelado permite al equipo de desarrollo tener una guía clara para la implementación de los servicios y la definición de la lógica en el código.
-Descripción de los componentes identificados:
-- **Comandos (Azul):** Representan las intenciones de los usuarios o sistemas externos para realizar una acción específica (ej. "Generar Código QR", "Validar Acceso"). 
-- **Agregados (Amarillo):** Son las entidades o grupos de objetos que mantienen la consistencia de los datos y ejecutan la lógica de negocio ante un comando. 
-- **Políticas (Lila):** Definen reacciones automáticas del sistema ante eventos específicos ("Siempre que ocurra el Evento X, ejecutar el Comando Y"). 
-- **Modelos de Lectura (Verde):** Representan la información que el usuario visualiza en la interfaz para poder tomar una decisión y ejecutar un comando. 
-- **Eventos de Dominio (Naranja):** Indican que algo relevante para el negocio ha sucedido exitosamente (ej. "Código QR Generado", "Acceso Denegado"). 
+**Descripción de los componentes identificados:**
 
-Este modelado permite al equipo de desarrollo tener una guía clara para la implementación de los servicios y la definición de la lógica en el código.
+*   **Comandos (Azul):** Representan las intenciones de los usuarios o sistemas externos para realizar una acción específica (ej. *Create Lead*, *Send Message*).
+*   **Agregados (Amarillo):** Son las entidades o grupos de objetos que mantienen la consistencia de los datos y ejecutan la lógica de negocio ante un comando (ej. *Lead*, *Conversation*).
+*   **Políticas (Lila):** Definen reacciones automáticas del sistema ante eventos específicos (ej. *Siempre que un Deal pase a Closed Won, notificar al manager*).
+*   **Modelos de Lectura (Verde):** Representan la información que el usuario visualiza en la interfaz (ej. *Lead Directory*, *Pipeline Dashboard*).
+*   **Eventos de Dominio (Naranja):** Indican que algo relevante para el negocio ha sucedido exitosamente (ej. *LeadCreated*, *MessageSent*).
+
+Este modelado detallado proporciona al equipo de desarrollo una guía clara para la implementación de los controladores, servicios y repositorios del **RESTful API** de NovaLeads.
 
 
 ### 4.6.2. Software Architecture Context Diagram.
