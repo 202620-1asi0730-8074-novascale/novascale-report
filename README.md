@@ -128,12 +128,19 @@ A continuación, se presenta un análisis detallado de la sesión de validación
 Sebastián es miembro de un equipo de ventas típico dentro de una pyme. De perfil pragmático, enfocado en resultados y motivado por sus comisiones, actualmente sobrevive operativamente utilizando una mezcla desorganizada de hojas de Excel, cruce de mensajes por WhatsApp y anotaciones en su cuaderno personal. Su mayor punto de dolor es la fragmentación de la información, lo cual le hace perder un tiempo valioso buscando qué le dijo a un cliente en interacciones pasadas y, en el peor de los casos, le hace perder comisiones por olvidar realizar seguimientos oportunos. Además, le genera una gran frustración tener que dedicar horas a llenar reportes manuales y poco fiables para su jefatura en lugar de enfocarse 100% en vender.
    
 **6. Rubi**
-   
+
+Rubi es SDR dentro de un equipo de ventas dinámico donde los prospectos se atienden conforme van llegando, sin carteras fijas. De perfil enfocado en la productividad y motivada por aumentar sus comisiones, actualmente sobrevive operativamente utilizando una mezcla desorganizada de hojas de Google Sheets, la interfaz de WhatsApp Web y algunas notas rápidas en Notion. Su mayor punto de dolor es el trabajo manual excesivo, lo cual le hace perder hasta cuatro horas diarias copiando y pegando conversaciones de chat a su Excel y, en el peor de los casos, le hace perder ventas porque no logra dar seguimiento cuando los mensajes se entierran en el fondo de WhatsApp. Además, le genera una gran frustración trabajar sin un historial compartido, lo que provoca que ella y sus compañeras aborden accidentalmente al mismo cliente y dificulta cualquier reemplazo, deseando contar con una plataforma que guarde automáticamente los chats para poder enfocarse 100% en prospectar y comisionar.
+
 **7. Brenda**
+
+Brenda es una Ejecutiva Comercial que forma parte de un equipo de seis vendedores, donde cada uno gestiona su propia cartera segmentada por tipo de empresa. De perfil enfocado en cerrar contratos y asegurar sus comisiones, actualmente sobrevive operativamente saltando entre WhatsApp Business en un celular corporativo, un tablero de Trello adaptado como CRM y una hoja de Excel personal. Su mayor punto de dolor es la fragmentación de la información, lo cual le hace perder hasta seis horas semanales cuadrando datos manualmente para los reportes de su jefatura y, en el peor de los casos, provoca que ventas casi cerradas se enfríen porque los mensajes se pierden en el chat y olvida actualizar su tablero. Además, le genera una gran frustración la dependencia de dispositivos físicos; si debe cubrir a un compañero de vacaciones, necesita literalmente su teléfono corporativo para no trabajar a ciegas, por lo que considera indispensable una plataforma que unifique el embudo de ventas y el historial de chats en una sola pantalla.
 
 #### Síntesis de hallazgos (Insights principales)
 
----
+*   **El trabajo manual mata la productividad:** Tanto los SDRs como los Ejecutivos Comerciales pierden entre 3 y 6 horas a la semana copiando y pegando información de WhatsApp a Excel o Trello, tiempo que deberían invertir en vender.
+*   **La fragmentación de herramientas enfría las ventas:** Al usar WhatsApp para chatear y otra herramienta separada para gestionar el embudo, los mensajes importantes se pierden en el fondo del chat y los clientes se quedan sin el seguimiento oportuno.
+*   **La dependencia del dispositivo físico:** El historial de los clientes está secuestrado en los celulares o cuentas individuales de cada vendedor. Si alguien falta o se va de vacaciones, el equipo trabaja a ciegas porque carecen de un historial centralizado.
+*   **Necesidad urgente de unificación:** La funcionalidad más esperada por todos los perfiles es tener el chat de WhatsApp y la información de la tarjeta del cliente (embudo) integrados en una sola pantalla compartida.
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
