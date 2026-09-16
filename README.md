@@ -69,12 +69,14 @@ En esta sección se consolidan las seis entrevistas realizadas para la validaci�
 | Jacob Rivera | 21 | - | Dueño de Startup/Pyme | ![Captura](/Resources/Chapter2/entrevistas/entrevista2.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210735_upc_edu_pe/IQBUMHHviBCpS5wFct8YjKV7AceuYLoVE4QYPQgbMyiYfvk?e=Kf929d&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MzA2LjR9fQ%3D%3D) | 05:05 | 10:38 | 05:32 |
 | Dhilsen | - | - | Dueño de Startup/Pyme | ![Captura](/Resources/Chapter2/entrevistas/entrevista3.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210735_upc_edu_pe/IQBUMHHviBCpS5wFct8YjKV7AceuYLoVE4QYPQgbMyiYfvk?e=a2VWtu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6NjM5LjQ1fX0%3D) | 10:38 | 16:55 | 06:17 |
 | Rogelio Nuñez | - | - | Equipo de Ventas | ![Captura](/Resources/Chapter2/entrevistas/entrevista4.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210735_upc_edu_pe/IQBUMHHviBCpS5wFct8YjKV7AceuYLoVE4QYPQgbMyiYfvk?e=J1wKao&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTAxNi45MX19) | 16:55 | 25:02 | 08:06 |
-| Sebastián | - | - | Equipo de Ventas | ![Captura](/Resources/Chapter2/entrevistas/entrevista5.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210735_upc_edu_pe/IQBUMHHviBCpS5wFct8YjKV7AceuYLoVE4QYPQgbMyiYfvk?e=M2ATup&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTUwNS4zOH19) | 25:02 | 29:00 | 03:57 |
+| Sebastián Herrera| 24 | Surquillo | Equipo de Ventas | ![Captura](/Resources/Chapter2/entrevistas/entrevista5.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210735_upc_edu_pe/IQBUMHHviBCpS5wFct8YjKV7AceuYLoVE4QYPQgbMyiYfvk?e=M2ATup&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTUwNS4zOH19) | 25:02 | 29:00 | 03:57 |
 | Rubi | - | - | Equipo de Ventas | ![Captura](/Resources/Chapter2/entrevistas/entrevista6.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210735_upc_edu_pe/IQBUMHHviBCpS5wFct8YjKV7AceuYLoVE4QYPQgbMyiYfvk?e=kxQRo2&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTc0MC43M319) | 29:00 | 31:20 | 02:19 |
 | Brenda | 24 | - | Equipo de Ventas | ![Captura](/Resources/Chapter2/entrevistas/entrevista7.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210735_upc_edu_pe/IQBUMHHviBCpS5wFct8YjKV7AceuYLoVE4QYPQgbMyiYfvk?e=eoIEh0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTg4Mi44M319) | 31:20 | 35:49 | 04:29 |
 
 
 ### 2.2.3. Análisis de entrevistas
+
+A continuación, se presenta un análisis detallado de la sesión de validación. En este apartado se describen los comportamientos detectados, los puntos de dolor específicos, el contexto operativo y la recepción de la propuesta de valor de NovaLeads
 
 #### Segmento 1: Dueños de startups y Pymes
 
@@ -89,7 +91,9 @@ En esta sección se consolidan las seis entrevistas realizadas para la validaci�
 
 **4. Rogelio Nuñez**
 
-**5. Sebastián**
+**5. Sebastián Herrera**
+
+Sebastián es miembro de un equipo de ventas típico dentro de una pyme. De perfil pragmático, enfocado en resultados y motivado por sus comisiones, actualmente sobrevive operativamente utilizando una mezcla desorganizada de hojas de Excel, cruce de mensajes por WhatsApp y anotaciones en su cuaderno personal. Su mayor punto de dolor es la fragmentación de la información, lo cual le hace perder un tiempo valioso buscando qué le dijo a un cliente en interacciones pasadas y, en el peor de los casos, le hace perder comisiones por olvidar realizar seguimientos oportunos. Además, le genera una gran frustración tener que dedicar horas a llenar reportes manuales y poco fiables para su jefatura en lugar de enfocarse 100% en vender.
    
 **6. Rubi**
    
