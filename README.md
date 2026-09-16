@@ -542,6 +542,12 @@ Los controladores `SalesController` y `DashboardController` exponen las funciona
 
 ## 4.8. Database Design.
 
+En esta sección se presenta el diseño de base de datos de **NovaLeads**. La propuesta define los objetos de persistencia necesarios para almacenar la información de cada bounded context de la plataforma CRM.
+
+El modelo utiliza **MySQL** como sistema de gestión de base de datos relacional y fue diseñado mediante **MySQL Workbench**. Para cada bounded context se especifican las tablas, columnas, claves primarias, claves foráneas, restricciones y relaciones necesarias para mantener la integridad de los datos.
+
+La división del diseño por bounded context permite separar las responsabilidades de identidad y acceso, gestión comercial, conversaciones y resultados de ventas. Sin embargo, las tablas pueden coexistir dentro de una misma base de datos relacional de NovaLeads.
+
 ### 4.8.1. Database Diagrams.
 
 <img src="/Resources/Chapter4/Data-Base-Diagram/Data-Base-Diagram-image.png" alt="Database Diagram">
