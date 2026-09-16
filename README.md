@@ -114,12 +114,12 @@ Como resultado de este ejercicio, conseguimos humanizar a nuestros segmentos obj
 #### A. User Persona: Mateo Vargas (Segmento Dueños de Startups)
 Este perfil refleja la realidad directiva de Mateo, evidenciando su urgencia por obtener visibilidad en tiempo real sobre el desempeño de las ventas. Asimismo, subraya su frustración ante un entorno de datos desorganizados y herramientas dispersas que le bloquean la posibilidad de medir la rentabilidad financiera y tener un panorama completo del proceso comercial de su equipo.
 
-![Empathy Map - Mateo Vargas](Resources/UserPersona_Mateo Vargas.png)
+![Empathy Map - Mateo Vargas](Resources/UserPersona_Mateo_Vargas.png)
 
 #### B. User Persona: Valeria Torres (Segmento Equipos de Ventas)
 Este perfil refleja la realidad operativa de Valeria, evidenciando su necesidad de contar con una herramienta de ventas ágil que potencie su trabajo en lugar de frenarlo. Asimismo, subraya su frustración frente a las tareas administrativas repetitivas y sistemas lentos que le quitan tiempo valioso para prospectar, dificultando el seguimiento de sus clientes y el logro de sus comisiones mensuales.
 
-![Empathy Map - Valeria Torres](Resources/UserPersona_Valeria Torres.png)
+![Empathy Map - Valeria Torres](Resources/UserPersona_Valeria_Torres.png)
 
 ### 2.3.2. User Task Matrix
 En esta sección se presenta la matriz de tareas que concentra las actividades que los User Persona que representan a cada segmento (Mateo Vargas y Valeria Torres) realizan para cumplir sus objetivos, independientemente de la existencia de la solución de software propuesta
