@@ -9,13 +9,56 @@
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
+Con el propósito de corroborar la viabilidad comercial de *NovaLeads, estructuramos una serie de sesiones de entrevistas enfocadas en nuestros dos públicos objetivos: **fundadores de negocios (startups y pymes)* y *fuerza de ventas*. Ambos perfiles lidian constantemente con el caos administrativo y la pérdida de oportunidades por no tener un sistema ordenado de seguimiento.
 
-#### Segmento 1: Dueños de startups y Pymes
+La finalidad principal de este levantamiento de información es analizar sus rutinas operativas vigentes, descubrir las fricciones que entorpecen su desempeño diario y medir qué tan dispuestos estarían a implementar una plataforma unificada que elimine la carga manual de sus procesos.
+
+---
+#### Segmento 1: Dueños de pymes y startups
+
+> *Objetivo:* Comprender sus flujos de trabajo comerciales vigentes, descubrir qué barreras enfrentan al intentar calcular sus márgenes de ganancia y evaluar qué tan dispuestos estarían a usar un software que unifique el control de sus ventas.
+
 **Cuestionario de validación:**
 
+1. ¿Cuál es el principal canal que utiliza actualmente para captar nuevos leads o potenciales clientes?
+2. ¿Cómo registra actualmente la información de sus leads y clientes?
+3. ¿Qué información considera más importante conservar sobre un lead o cliente?
+4. ¿Cómo realiza actualmente el seguimiento de los leads que todavía no han realizado una compra?
+5. ¿Con qué frecuencia pierde el seguimiento de un lead o potencial cliente?
+6. ¿Cuáles son las principales dificultades que encuentra al gestionar sus leads y clientes?
+7. ¿Cómo administra actualmente las conversaciones que mantiene con sus clientes?
+8. ¿Qué tan fácil le resulta conocer el estado de cada oportunidad de venta?
+9. ¿Cómo realiza actualmente el seguimiento de sus ventas y ganancias?
+10. ¿Qué problemas ha tenido por no contar con toda la información de sus clientes y oportunidades de venta centralizada en un solo lugar?
+11. ¿Cuánto tiempo aproximadamente dedica semanalmente a organizar información de clientes, leads, conversaciones y ventas?
+12. ¿Qué herramientas digitales utiliza actualmente para gestionar sus procesos comerciales?
+13. ¿Qué características considera indispensables en una herramienta para administrar sus leads y clientes?
+14. Si existiera una plataforma que permitiera gestionar leads, clientes, conversaciones y ganancias desde un mismo lugar, ¿qué tan útil sería para su negocio?
+15. ¿Qué tendría que ofrecer una plataforma de este tipo para que usted considerara utilizarla en su negocio?
 
-#### Segmento 2: Equipos de Ventas
+---
+
+#### Segmento 2: Equipos de ventas
+
+> *Objetivo:* Analizar el día a día de sus operaciones comerciales, detectar las molestias que causan las herramientas desintegradas y confirmar si características como un embudo visual aligerarían su carga laboral, garantizando así el cálculo de sus comisiones.
+
 **Cuestionario de validación:**
+
+1. ¿Cuántas personas forman parte actualmente de su equipo de ventas?
+2. ¿Cómo registran y organizan actualmente los leads asignados a cada integrante del equipo?
+3. ¿Qué herramientas utilizan para gestionar el proceso de ventas?
+4. ¿Cómo realizan actualmente el seguimiento del estado de cada oportunidad de venta?
+5. ¿Qué dificultades encuentran al distribuir o asignar leads entre los miembros del equipo?
+6. ¿Con qué frecuencia un lead queda sin seguimiento o se pierde durante el proceso de venta?
+7. ¿Cómo registran actualmente las conversaciones y comunicaciones que cada vendedor mantiene con los clientes?
+8. ¿Qué tan fácil es para un vendedor conocer el historial de interacciones que otro miembro del equipo ha tenido con un cliente?
+9. ¿Cómo supervisa actualmente el responsable del equipo el rendimiento de los vendedores?
+10. ¿Qué indicadores utilizan para medir el desempeño del equipo de ventas?
+11. ¿Qué dificultades tiene actualmente para obtener información sobre las ventas y ganancias del equipo?
+12. ¿Cuánto tiempo dedica el equipo a actualizar registros, preparar reportes o buscar información sobre clientes y oportunidades?
+13. ¿Qué funcionalidades considera más importantes para mejorar la gestión de su equipo de ventas?
+14. Si existiera una plataforma que centralizara leads, clientes, conversaciones, oportunidades y resultados de ventas, ¿qué tan interesado estaría en utilizarla?
+15. ¿Qué característica o problema debería resolver una plataforma de gestión de ventas para que su equipo realmente quisiera utilizarla?
 
 ### 2.2.2. Registro de entrevistas
 En esta sección se consolidan las seis entrevistas realizadas para la validación de la propuesta de valor.
