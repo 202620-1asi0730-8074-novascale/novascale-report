@@ -104,11 +104,40 @@ Sebastián es miembro de un equipo de ventas típico dentro de una pyme. De perf
 ---
 
 ## 2.3. Needfinding
-
 ### 2.3.1. User Personas
+En este apartado, detallaremos la metodología empleada para construir los perfiles clave de nuestros arquetipos de clientes (User Personas), incluyendo las visualizaciones finales generadas a través de la herramienta UXPressia.
+
+Para estructurar estas fichas, adoptamos un enfoque estratégico poniendo al usuario en el centro del análisis, basándonos directamente en los hallazgos de las entrevistas previas. El equipo debatió y sintetizó las características de cada segmento para completar los distintos cuadrantes, definiendo variables esenciales: demografía, nivel de habilidades técnicas y comerciales, contexto diario (background), objetivos principales, frustraciones, motivaciones, y los canales digitales que más utilizan.
+
+Como resultado de este ejercicio, conseguimos humanizar a nuestros segmentos objetivo. Esto nos permitió comprender a fondo sus mayores preocupaciones, las soluciones operativas que demandan y, de manera crucial, los factores que los convencerían de que NovaLeads es la plataforma indicada para centralizar y facilitar la gestión de leads, clientes, conversaciones y ganancias, eliminando la fricción administrativa.
+
+#### A. User Persona: Mateo Vargas (Segmento Dueños de Startups)
+Este perfil refleja la realidad directiva de Mateo, evidenciando su urgencia por obtener visibilidad en tiempo real sobre el desempeño de las ventas. Asimismo, subraya su frustración ante un entorno de datos desorganizados y herramientas dispersas que le bloquean la posibilidad de medir la rentabilidad financiera y tener un panorama completo del proceso comercial de su equipo.
+![Empathy Map - Mateo Vargas](Resources/UserPersona_Mateo Vargas.png)
+#### B. User Persona: Valeria Torres (Segmento Equipos de Ventas)
+Este perfil refleja la realidad operativa de Valeria, evidenciando su necesidad de contar con una herramienta de ventas ágil que potencie su trabajo en lugar de frenarlo. Asimismo, subraya su frustración frente a las tareas administrativas repetitivas y sistemas lentos que le quitan tiempo valioso para prospectar, dificultando el seguimiento de sus clientes y el logro de sus comisiones mensuales.
+![Empathy Map - Valeria Torres](Resources/UserPersona_Valeria Torres.png)
 
 ### 2.3.2. User Task Matrix
+En esta sección se presenta la matriz de tareas que concentra las actividades que los User Persona que representan a cada segmento (Mateo Vargas y Valeria Torres) realizan para cumplir sus objetivos, independientemente de la existencia de la solución de software propuesta
 
+| User Task Matrix | Valeria Torres (Frecuencia) | Valeria Torres (Importancia) | Mateo Vargas (Frecuencia) | Mateo Vargas (Importancia) |
+| :--- | :---: | :---: | :---: | :---: |
+| Registrar datos de contacto de nuevos prospectos (leads) | 3 | 3 | 1 | 2 |
+| Realizar llamadas, correos o mensajes de seguimiento | 3 | 3 | 1 | 1 |
+| Registrar el historial de conversaciones y acuerdos | 3 | 3 | 1 | 2 |
+| Agendar reuniones o demostraciones de producto | 3 | 3 | 2 | 2 |
+| Asignar y distribuir leads a los miembros del equipo | 1 | 1 | 3 | 3 |
+| Calcular y registrar el valor monetario de los tratos | 2 | 3 | 3 | 3 |
+| Revisar el estado general del embudo de ventas | 2 | 2 | 3 | 3 |
+| Generar reportes de rentabilidad y desempeño del equipo | 1 | 1 | 3 | 3 |
+| Proyectar ingresos mensuales y metas comerciales | 1 | 1 | 2 | 3 |
+
+**Leyenda:**
+* **Frecuencia:** 1 (Baja), 2 (Media), 3 (Alta).
+* **Importancia:** 1 (Baja), 2 (Media), 3 (Alta).
+
+A partir de la matriz de tareas, se observa que las tareas con mayor frecuencia e importancia para Valeria Torres (Ejecutiva de Ventas) son puramente operativas y de contacto directo, como el registro de leads, los seguimientos y la documentación del historial de conversaciones. Por otro lado, Mateo Vargas (Dueño de Startup) prioriza tareas analíticas y estratégicas con alta frecuencia e importancia, destacando la revisión del embudo de ventas, el cálculo del valor monetario de los tratos y la generación de reportes de rentabilidad. La coincidencia principal entre ambos perfiles recae en la alta importancia que le otorgan al cálculo de los tratos monetarios, ya que impacta directamente en las comisiones de Valeria y en la rentabilidad general que busca Mateo. La principal diferencia radica en la ejecución diaria: mientras Valeria interactúa con el cliente, Mateo supervisa el rendimiento global del equipo.
 
 ### 2.3.3. User Journey Mapping
 
