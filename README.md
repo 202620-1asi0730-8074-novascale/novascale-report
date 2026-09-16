@@ -1,227 +1,101 @@
-<div align="center">
+# Capítulo V: Product Implementation, Validation & Deployment.
 
-<img src="Resources/UPC-Logo.png" alt="Logo-UPC" width="180">
-
-## Universidad Peruana de Ciencias Aplicadas
-
-**Ingeniería de Software**
-
-**Ciclo:** 2026-20
-
-**Curso:** Aplicaciones Web
-
-**Sección:** 8074
-
-**Profesor:** Alex Humberto Sánchez Ponce
+## 5.1. Software Configuration Management
 
 
-----
-## Informe de Trabajo Final
-Equipo
-### NovaScale
-
-Proyecto
-### NovaLeads
-#### Relación de integrantes
-<br>
-
-| Nombre y Apellidos                | Código     |
-| :-------------------------------- | :--------- |
-| Johan Karl Bottger Salazar       | u202210735 |
-| Sergio Ruben Caldas Garcia      | u202411274 |
-| Lui Mathias Gamero Miranda      | u202419335 |
-| Renzo Paul Retuerto Zapata      | u202320328 |
-| Dario Alberto Romero Vilela      | u202419286|
+### 5.1.1. Software Development Environment Configuration
 
 
-</div>
+### 5.1.2. Source Code Management
 
-<br><div align="center"><h3> Agosto 2026</h3></div><br>
-<div style="page-break-after: always;"></div>
-<div style="text-align: justify;"></div>
+### 5.1.3. Source Code Style Guide & Conventions
 
-<br>
 
----
-### Registro de Versiones
 
-<div align="center">
+### 5.1.4. Software Deployment Configuration
 
-| **Versión** | **Fecha** | **Autor** | **Descripción de modificación** |
-| :---: | :---: | :--- | :--- |
-| **1.0** | 07/04/2026 | Johan Karl Bottger Salazar | Se agregó la estructura inicial del Capítulo I, la carátula, el Startup Profile, antecedentes y problemáticas. |
-| **1.1** | 08/04/2026 | - | Se desarrolló los capitulos iniciales del documento. |
-</div>
-<br>
 
-# Project Report Collaboration Insights
-**URL de la Organización de GitHub:**
-* [NovaScale - Organización](https://github.com/202620-1asi0730-8074-novascale)
+## 5.2. Landing Page, Services & Applications Implementation
 
----
+### 5.2.1. Sprint 1
+En esta sección se registra y explica el avance obtenido durante el primer ciclo de desarrollo (Sprint 1), abarcando tanto la construcción de los productos de software iniciales como el trabajo colaborativo del equipo. Se incluyen los detalles de planificación, los líderes de cada aspecto, el backlog comprometido y las evidencias de ejecución, documentación y despliegue del trabajo completado.
 
-**URLs de los Repositorios del Proyecto:**
+#### 5.2.1.1. Sprint Planning 1
+El Sprint Planning Meeting marcó el inicio formal del desarrollo. Durante esta sesión, se seleccionaron las Historias de Usuario más prioritarias del Product Backlog para definir el objetivo central de la iteración. A continuación, se presenta el cuadro resumen con los detalles y acuerdos de esta reunión:
 
-* **Project Report:**
-    [https://github.com/202620-1asi0730-8074-novascale/novascale-report](https://github.com/202620-1asi0730-8074-novascale/novascale-report)
-* **Software Platform (Backend):**
-    [https://github.com/202620-1asi0730-8074-novascale/novascale-platform](https://github.com/202620-1asi0730-8074-novascale/novascale-platform)
-* **Web Application (Frontend):**
-    [https://github.com/202620-1asi0730-8074-novascale/novascale-webapp](https://github.com/202620-1asi0730-8074-novascale/novascale-webapp)
-* **Landing Page Website:**
-    [https://github.com/202620-1asi0730-8074-novascale/novascale-website](https://github.com/202620-1asi0730-8074-novascale/novascale-website)
+| **Sprint #** | Sprint 1 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| **Date** | 2026-08-26 |
+| **Time** | 21:00 PM |
+| **Location** | Reunión virtual (Google Meet) |
+| **Prepared By** | Bottger Salazar, Johan Karl |
+| **Attendees (to planning meeting)** | Johan, Renzo, Sergio, Lui, Dario |
+| **Sprint n – 1 Review Summary** | - |
+| **Sprint n – 1 Retrospective Summary** | - |
+| **Sprint Goal & User Stories** | |
+| **Sprint 1 Goal** | **Contexto:** El equipo decidió enfocar el primer esfuerzo de codificación en sentar las bases operativas de la plataforma, desarrollando la Landing Page para presentar el producto. <br><br> **Sprint Goal:**<br>*"Our focus is on offering a reliable body of knowledge for future users of our CRM system, while establishing the product's digital presence through a responsive Landing Page.*<br>*We believe it delivers a trustworthy onboarding experience to administrators and clear product value proposition to prospective customers.*<br>*This will be confirmed when administrators and visitors can navigate the Landing Page features without errors."* |
+| **Sprint 1 Velocity** | 20 Story Points. (Velocidad estimada basada en la capacidad inicial del equipo para configurar los entornos). |
+| **Sum of Story Points** | 20 Story Points. |
 
----
+#### 5.2.1.2. Aspect Leaders and Collaborators
 
-# Contenido
+En esta sección se presenta la **Leadership-and-Collaboration Matrix (LACX)**. Esta matriz detalla los líderes (L) y colaboradores (C) para cada aspecto clave del Sprint, asegurando una comunicación clara y una distribución de responsabilidades eficiente para el proyecto. La organización está directamente relacionada con la selección de tareas (*tasks*) que se desarrollarán durante el Sprint.
 
-- [Contenido](#contenido)
-- [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#capítulo-i-introducción)
-  - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2. Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-  - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-  - [2.3. Needfinding](#23-needfinding)
-    - [2.3.1. User Personas](#231-user-personas)
-    - [2.3.2. User Task Matrix](#232-user-task-matrix)
-    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-  - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
-  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-  - [3.1. User Stories](#31-user-stories)
-  - [3.2. Impact Mapping](#32-impact-mapping)
-  - [3.3. Product Backlog](#33-product-backlog)
-- [Capítulo IV: Product Design](#capítulo-iv-product-design)
-  - [4.1. Style Guidelines](#41-style-guidelines)
-    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-  - [4.2. Information Architecture](#42-information-architecture)
-    - [4.2.1. Organization Systems](#421-organization-systems)
-    - [4.2.2. Labeling Systems](#422-labeling-systems)
-    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-    - [4.2.4. Searching Systems](#424-searching-systems)
-    - [4.2.5. Navigation Systems](#425-navigation-systems)
-  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
-    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
-    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
-  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-    - [4.6.1. Design-Level Event Storming](#461-design-level-event-storming)
-    - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
-    - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
-    - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
-  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-    - [4.7.1. Class Diagrams](#471-class-diagrams)
-  - [4.8. Database Design](#48-database-design)
-    - [4.8.1. Database Diagrams](#481-database-diagrams)
-- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-  - [5.1. Software Configuration Management](#51-software-configuration-management)
-    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-    - [5.1.2. Source Code Management](#512-source-code-management)
-    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-    - [5.2.1. Sprint 1](#521-sprint-1)
-      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-      - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-    - [5.2.2. Sprint 2](#521-sprint-1)
-      - [5.2.2.1. Sprint Planning 2](#5211-sprint-planning-1)
-      - [5.2.2.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-      - [5.2.2.3. Sprint Backlog 2](#5213-sprint-backlog-1)
-      - [5.2.2.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-      - [5.2.2.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-      - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.2.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-    - [5.2.3. Sprint 3](#521-sprint-1)
-      - [5.2.3.1. Sprint Planning 3](#5211-sprint-planning-1)
-      - [5.2.3.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-      - [5.2.3.3. Sprint Backlog 3](#5213-sprint-backlog-1)
-      - [5.2.3.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-      - [5.2.3.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.3.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-  - [5.3. Validation Interviews](#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
-    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-  - [5.4. Video About-the-Product](#54-video-about-the-product)
-- [Conclusiones](#conclusiones)
-  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-  - [Video About-the-Team](#video-about-the-team)
-- [Bibliografía](#bibliografía)
-- [Anexos](#anexos)
+| Team Member (First Name, Last Name) | GitHub Username | Arquitectura & DB | Backend API & Seguridad | Frontend (Landing & Web App) | QA & Deployment |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| Lui Mathias Gamero Miranda | lug07m | L | C | C | C |
+| Dario Alberto Romero Vilela | patatitis9-alt | C | L | C | C |
+| Johan Karl Bottger Salazar | Deskjobo | C | C | L | C |
+| Sergio Ruben Caldas Garcia | Sergiocaldas10 | C | C | C | L |
+| Renzo Paul Retuerto Zapata | Renzoocf | C | C | C | C |
 
----
+#### 5.2.1.3. Sprint Backlog 1
+Durante el primer sprint, el equipo se centró en desarrollar una landing page que fuera tanto atractiva como funcional, organizando y distribuyendo tareas en el tablero de Sprint de acuerdo con las habilidades de cada integrante.
 
-# Student Outcome
+##### **Sprint 1 - Tareas Asignadas**
 
-El curso contribuye al cumplimiento del Student Outcome ABET:<br><br>
-**ABET – EAC - Student Outcome 3**
-Criterio: Capacidad de comunicarse efectivamente con un rango de audiencias.<br><br>
-En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.<br><br>
+| **User Story** |  | **Work-Item / Task** |  |  |  |  |  |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Id** | **Título** | **Id** | **Título** | **Descripción** | **Est. (Hrs)** | **Asignado** | **Status** |
+| US-21 | Visualización de información del negocio | T-01 | Diseñar estructura de la Landing Page | Definir la estructura visual de las secciones principales de la Landing Page y organizar la información de NovaLeads. | 3 | Lui | To Do |
+| US-21 | Visualización de información del negocio | T-02 | Implementar sección principal | Implementar la sección inicial con el nombre, propuesta de valor y descripción general de NovaLeads. | 3 | Lui | To Do |
+| US-21 | Visualización de información del negocio | T-03 | Implementar sección de funcionalidades | Implementar una sección que presente las principales funcionalidades de NovaLeads de forma clara y visual. | 4 | Lui | To Do |
+| US-22 | Información para dueños de pymes y startups | T-04 | Diseñar sección para dueños | Diseñar la sección dirigida a dueños de pymes y startups, destacando los beneficios relacionados con la gestión comercial. | 3 | Dario | To Do |
+| US-22 | Información para dueños de pymes y startups | T-05 | Implementar contenido para dueños | Implementar textos y elementos visuales relacionados con la gestión de leads, clientes, conversaciones y resultados de ventas. | 3 | Dario | To Do |
+| US-23 | Información para equipos de ventas | T-06 | Diseñar sección para equipos de ventas | Diseñar la sección dirigida a equipos de ventas, considerando sus principales necesidades de gestión y seguimiento comercial. | 3 | Johan | To Do |
+| US-23 | Información para equipos de ventas | T-07 | Implementar contenido para equipos de ventas | Implementar textos y elementos visuales relacionados con leads, conversaciones y rendimiento del equipo. | 3 | Johan | To Do |
+| US-24 | Navegación entre secciones | T-08 | Implementar menú de navegación | Crear el menú de navegación de la Landing Page con enlaces hacia las principales secciones del sitio. | 3 | Sergio | To Do |
+| US-24 | Navegación entre secciones | T-09 | Implementar navegación interna | Configurar el desplazamiento hacia las secciones correspondientes al seleccionar las opciones del menú. | 2 | Sergio | To Do |
+| US-25 | Call to Action para dueños | T-10 | Diseñar Call to Action para dueños | Diseñar un Call to Action dirigido específicamente a dueños de pymes y startups. | 2 | Renzo | To Do |
+| US-25 | Call to Action para dueños | T-11 | Implementar flujo del Call to Action | Implementar el enlace o acción que permita al visitante iniciar el flujo de acceso o registro correspondiente. | 2 | Renzo | To Do |
+| US-26 | Call to Action para equipos de ventas | T-12 | Diseñar Call to Action para equipos de ventas | Diseñar un Call to Action dirigido específicamente a equipos de ventas. | 2 | Lui | To Do |
+| US-26 | Call to Action para equipos de ventas | T-13 | Implementar flujo del Call to Action | Implementar el enlace o acción que permita al visitante iniciar el flujo de acceso o registro correspondiente. | 2 | Lui | To Do |
+| US-27 | Visualización responsive | T-14 | Adaptar Landing Page a dispositivos | Adaptar la estructura y componentes de la Landing Page para desktop, tablet y dispositivos móviles. | 5 | Johan | To Do |
+| US-27 | Visualización responsive | T-15 | Validar comportamiento responsive | Verificar la correcta visualización de textos, imágenes, navegación y Call to Action en diferentes tamaños de pantalla. | 3 | Johan | To Do |
 
-<table>
-<thead>
-<tr>
-<th colspan="3"><b>Criterio específico</b></th>
-<th colspan="3"><b>Acciones realizadas</b></th>
-<th colspan="3"><b>Conclusiones</b></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td colspan="3">Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
-<td colspan="3" align="justify">
-<h4>Bottger Salazar, Johan Karl</h4>
- <b>AV1:</b><p>Explicó las secciones introductorias y la justificación de la solución propuesta en el pitch inicial del proyecto.</p>
-</td>
-<td colspan="3" align="justify">
-<h4>Bottger Salazar, Johan Karl</h4>
-<b>AV1:</b> Comunicó eficazmente el problema inicial y cómo la solución se alinea con los objetivos del cliente.<br><br>
-</td>
-</tr>
-<tr>
-<td colspan="3">Comunica por escrito con efectividad a diferentes rangos de audiencia.</td>
-<td colspan="3" align="justify">
-<h4>Bottger Salazar, Johan Karl</h4>
- <b>AV1:</b><p>Estructuró y redactó la problemática, los antecedentes y los requerimientos funcionales del sistema.</p>
-</td>
-<td colspan="3" align="justify">
-<h4>Bottger Salazar, Johan Karl</h4>
-<b>AV1:</b> Consolidó los antecedentes y requisitos en un texto claro, formal y académicamente riguroso.<br><br>
-</td>
-</tr>
-</tbody>
-</table>
+#### 5.2.1.4. Development Evidence for Sprint Review
 
----
+El principal avance durante el Sprint 1 fue el desarrollo de la Landing Page institucional del producto. 
+A continuación, se presentan los commits más importantes del Sprint, los cuales muestran el ciclo de vida del proyecto, y toda la información que se usó para el desarrollo del Landing Page.
+
+| Repository | Branch | Commit ID | Message | Body | Commit Date  |
+|---|---|---|---|---|---|
+| novaleads-website | develop |  | feat: Landing Page development | - | 12-05-2026 |
+
+#### 5.2.1.5. Execution Evidence for Sprint Review
+Se incluyen capturas detalladas de la ejecución de la Landing Page de la aplicación como evidencia. La Landing Page es compuesta por varias secciones que se presentan en las capturas a continuación.
+
+<img src="/Resources/Chapter5/sprint1/execution-evidence1.png"/>
+<img src="/Resources/Chapter5/sprint1/execution-evidence2.png"/>
+<img src="/Resources/Chapter5/sprint1/execution-evidence3.png"/>
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+No aplica a primer sprint y desarrollo de Landing Page.
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+El despliegue de la Landing Page se realizó en el servicio de Github Pages, se seleccionó esta alternativa debido a la rapidez de despliegue y su sencillez, apropiada para una página estática.
+Se incluye la evidencia de despliegue del Landing Page en la plataforma Github Pages: 
+
+#### 5.2.1.8. Team Collaboration Insights for Sprint Review
+Durante el transcurso de este sprint, todos los miembros participaron de forma activa y constante en la creación de las tareas asignadas. A continuación todos los analíticos que nos proporciona Github, en su apartado de Insights, sobre la colaboración del equipo durante el Sprint 1:
