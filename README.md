@@ -447,21 +447,24 @@ En esta sección se presentan los Component Diagrams de NovaLeads. Estos diagram
 
 ![Software Architecture Web Application Component Diagram](Resources/webApplicationComponentDiagram.png)
 
-Este diagrama presenta los componentes internos de la **Web Application** de NovaLeads, desarrollada con Vue.js. La aplicación permite a los dueños de pymes y vendedores acceder a las funcionalidades de gestión comercial mediante una interfaz web.
+* **Interfaz y navegación:**
+    * **App Shell:** Inicializa la aplicación y muestra el layout compartido.
+    * **Router:** Gestiona la navegación entre las vistas y protege las rutas que requieren autenticación.
+    * **Login View:** Permite a los usuarios iniciar sesión según sus credenciales y permisos.
+    * **Dashboard View:** Muestra indicadores, gráficos y métricas comerciales.
+    * **Leads View:** Permite registrar, consultar, filtrar y actualizar leads.
+    * **Conversations View:** Permite visualizar conversaciones, consultar mensajes y responder a los contactos.
 
-* **App Shell y Router:** inicializan la aplicación, muestran el layout compartido y gestionan la navegación entre las vistas protegidas.
+* **Gestión de estado:**
+    * **Authentication Store:** Centraliza la sesión, el usuario autenticado y sus permisos.
+    * **Lead Store:** Centraliza los leads, filtros y etiquetas utilizadas en la gestión comercial.
+    * **Conversation Store:** Centraliza las conversaciones, mensajes y prioridades de atención.
+    * **Dashboard Store:** Centraliza las métricas y resultados mostrados en el dashboard.
 
-* **Login View:** permite a los usuarios autenticarse para acceder a las funcionalidades autorizadas según su rol.
+* **Comunicación con el backend:**
+    * **API Client:** Realiza solicitudes HTTP mediante JSON sobre HTTPS hacia la REST API de NovaLeads.
 
-* **Dashboard View:** muestra los indicadores, gráficos y métricas comerciales del negocio o del vendedor.
-
-* **Leads View:** permite registrar, consultar, filtrar y actualizar leads, además de gestionar sus etiquetas.
-
-* **Conversations View:** permite visualizar conversaciones, consultar mensajes y responder a los contactos.
-
-* **Stores:** `Authentication Store`, `Lead Store`, `Conversation Store` y `Dashboard Store` centralizan el estado de la aplicación para cada funcionalidad principal.
-
-* **API Client:** realiza las solicitudes HTTP hacia la REST API mediante JSON sobre HTTPS, permitiendo que la Web Application consuma la lógica de negocio del backend.
+* **Flujo de comunicación:** Las vistas interactúan con los Stores correspondientes. Los Stores utilizan el API Client para consumir los endpoints expuestos por la REST API.
 
 #### Diagrama de componentes de la REST API
 
