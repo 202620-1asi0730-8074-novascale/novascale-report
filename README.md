@@ -144,6 +144,21 @@ A partir de la matriz de tareas, se observa que las tareas con mayor frecuencia 
 
 ### 2.3.3. User Journey Mapping
 
+En este apartado se exponen los **User Journey Maps (As-Is)** diseñados para los dos arquetipos fundamentales de nuestro proyecto: Mateo Vargas (CEO / Dueño de Startup) y Valeria Torres (Ejecutiva de Ventas B2B).
+
+El propósito de estas representaciones visuales es trazar el *end-to-end journey* del escenario actual que viven ambos usuarios al administrar sus operaciones comerciales **sin el respaldo de un CRM centralizado como NovaLeads** para gestionar clientes, prospectos e interacciones. Los gráficos exponen los flujos de trabajo tradicionales, abarcando desde la carga operativa diaria por ingresar contactos, hasta la constante lucha gerencial por supervisar las ganancias y los resultados de las ventas.
+
+Al analizar estos recorridos, logramos detectar los momentos críticos de fricción (*pain points*), los declives en la experiencia y las principales frustraciones, fundamentando así la pertinencia de construir nuestra solución tecnológica. Cada recorrido se encuentra enlazado a su correspondiente **User Persona**, modelado previamente en la herramienta UXPressia.
+
+#### A. User Journey Map: Mateo Vargas (Segmento Dueños de Startups)
+Este diagrama describe la rutina directiva de Mateo, quien hoy en día está atado a hojas de cálculo fragmentadas y reportes manuales para evaluar el desempeño de sus vendedores. El mapa refleja su estrés por la carencia de indicadores exactos del embudo de ventas, la pérdida de datos clave por la desorganización general y la enorme fricción que supone intentar visualizar la rentabilidad de su negocio al instante.
+
+![Customer Journey Map - Mateo Vargas](Resources/Customer%20journey%20map_mateo.png)
+
+#### B. User Journey Map: Valeria Torres (Segmento Equipos de Ventas)
+Este trayecto detalla las actividades cotidianas de Valeria en el ámbito comercial. Su recorrido "As-Is" evidencia cómo el ingreso de datos de prospectos se ve obstaculizado por herramientas lentas y llenas de burocracia. Esto le provoca fatiga administrativa, dispersión en los historiales de conversaciones y el peligro inminente de olvidar hacer retornos de llamada esenciales, lo cual perjudica directamente sus metas y comisiones.
+
+![Customer Journey Map - Valeria Torres](Resources/Customer%20journey%20map_valeria.png)
 
 ### 2.3.4. Empathy Mapping
 
