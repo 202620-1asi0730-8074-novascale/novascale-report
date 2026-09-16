@@ -441,6 +441,30 @@ El Container Diagram descompone la arquitectura interna de NovaLeads en los sigu
 
 ### 4.6.4. Software Architecture Components Diagrams.
 
+En esta sección se presentan los Component Diagrams de NovaLeads. Estos diagramas detallan los componentes internos de los contenedores que concentran la lógica de la solución: la Web Application y la REST API.
+
+#### Diagrama de componentes de la Web Application
+
+![Software Architecture Web Application Component Diagram](Resources/webApplicationComponentDiagram.png)
+
+Este diagrama presenta los componentes internos de la **Web Application** de NovaLeads, desarrollada con Vue.js. La aplicación permite a los dueños de pymes y vendedores acceder a las funcionalidades de gestión comercial mediante una interfaz web.
+
+* **App Shell y Router:** inicializan la aplicación, muestran el layout compartido y gestionan la navegación entre las vistas protegidas.
+
+* **Login View:** permite a los usuarios autenticarse para acceder a las funcionalidades autorizadas según su rol.
+
+* **Dashboard View:** muestra los indicadores, gráficos y métricas comerciales del negocio o del vendedor.
+
+* **Leads View:** permite registrar, consultar, filtrar y actualizar leads, además de gestionar sus etiquetas.
+
+* **Conversations View:** permite visualizar conversaciones, consultar mensajes y responder a los contactos.
+
+* **Stores:** `Authentication Store`, `Lead Store`, `Conversation Store` y `Dashboard Store` centralizan el estado de la aplicación para cada funcionalidad principal.
+
+* **API Client:** realiza las solicitudes HTTP hacia la REST API mediante JSON sobre HTTPS, permitiendo que la Web Application consuma la lógica de negocio del backend.
+
+#### Diagrama de componentes de la REST API
+
 En esta sección se presenta el **Component Diagram** del contenedor REST API de **NovaLeads**. Este diagrama detalla la estructura interna de la API, mostrando cómo se organizan los controladores, servicios de aplicación y repositorios para gestionar usuarios, leads, contactos, conversaciones, notificaciones y métricas de ventas.
 
 ![Software Architecture Component Diagram](Resources/componentDiagram.png)
