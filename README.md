@@ -613,3 +613,45 @@ Este diagrama representa la persistencia del bounded context **Lead and Contact 
 * **opportunities:** registra el monto estimado, estado, fecha esperada de cierre, contacto asociado y vendedor responsable.
 
 * **user:** se muestra como referencia del bounded context Identity and Access para asignar contactos y oportunidades a un vendedor.
+
+##### Conversation Management
+
+![Database Diagram Conversation Management](Resources/Chapter4/Database-diagram/databaseConversationManagementDiagram.png)
+
+Este diagrama representa la persistencia del bounded context **Conversation Management**. Gestiona las conversaciones con contactos, los mensajes recibidos o enviados mediante WhatsApp y las notificaciones dirigidas a los usuarios responsables.
+
+| Tabla | Columnas principales |
+| :--- | :--- |
+| `conversations` | `id_conversation: BIGINT [PK]`, `id_contact: BIGINT [FK]`, `id_user: BIGINT [FK]`, `channel: VARCHAR(30)`, `status: VARCHAR(10)`, `priority: VARCHAR(10)`, `pending_since: DATETIME`, `last_message_at: DATETIME`, `created_at: DATETIME` |
+| `messages` | `id_message: BIGINT [PK]`, `id_conversation: BIGINT [FK]`, `sender_type: VARCHAR(10)`, `content: TEXT`, `sent_at: DATETIME`, `external_message_id: VARCHAR(120) [UQ]` |
+| `notifications` | `id_notification: BIGINT [PK]`, `id_user: BIGINT [FK]`, `id_conversation: BIGINT [FK]`, `type: VARCHAR(30)`, `content: VARCHAR(255)`, `is_read: BOOLEAN`, `created_at: DATETIME` |
+| `contacts` | `id_contact: BIGINT [PK]` |
+| `users` | `id_user: BIGINT [PK]` |
+
+* **conversations:** registra el canal, estado, prioridad y tiempo pendiente de respuesta de cada conversación asociada a un contacto y vendedor.
+
+* **messages:** almacena el contenido, remitente y fecha de cada mensaje. `external_message_id` permite identificar los mensajes recibidos desde WhatsApp Business API.
+
+* **notifications:** registra las alertas generadas para los vendedores cuando llega un mensaje, existe una conversación pendiente o se asigna prioridad.
+
+* **contacts y users:** se muestran como tablas de referencia para asociar cada conversación con un contacto y con el usuario responsable.
+
+##### Sales and Dashboard
+
+![Database Diagram Sales and Dashboard](Resources/Chapter4/Database-diagram/databaseSalesDashboardDiagram.png)
+
+Este diagrama representa la persistencia del bounded context **Sales and Dashboard**. Registra las ventas concretadas y permite relacionarlas con la oportunidad comercial y el vendedor responsable.
+
+| Tabla | Columnas principales |
+| :--- | :--- |
+| `sales` | `id_sale: BIGINT [PK]`, `id_user: BIGINT [FK]`, `id_opportunity: BIGINT [FK, UQ]`, `amount: DECIMAL(12,2)`, `sale_date: DATE`, `status: VARCHAR(20)`, `notes: TEXT` |
+| `users` | `id_user: BIGINT [PK]` |
+| `opportunities` | `id_opportunity: BIGINT [PK]` |
+
+* **sales:** almacena el monto, fecha, estado y observaciones de las oportunidades que fueron concretadas.
+
+* **opportunities:** se relaciona con `sales` mediante `id_opportunity`. La restricción única `UQ` garantiza que una oportunidad genere como máximo una venta.
+
+* **users:** se relaciona con `sales` mediante `id_user`, permitiendo identificar las ventas realizadas por cada vendedor.
+
+* **Dashboard:** no requiere una tabla propia, ya que sus métricas se calculan a partir de la información registrada en `contacts`, `opportunities` y `sales`.
