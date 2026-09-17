@@ -227,5 +227,22 @@ El presente mapa profundiza en la jornada operativa de Valeria, destacando su pr
 
 ## 2.4. Big Picture Event Storming
 
+En este apartado, presentamos una síntesis de la dinámica colaborativa que el equipo llevó a cabo para desglosar y comprender a fondo el modelo de negocio de **NovaLeads**. A lo largo de esta sesión de trabajo en nuestra pizarra virtual (Miro), nos concentramos en descubrir los eventos de dominio más relevantes, los flujos operativos de los equipos de ventas y la manera en que estos interactúan entre sí.
+
+Este ejercicio nos facilitó trazar la ruta temporal completa del sistema: desde el momento exacto en que ingresa un nuevo prospecto (lead) a la plataforma, pasando por el registro del historial de conversaciones y el avance en el embudo comercial, hasta que se concreta la oportunidad de venta y se reflejan las ganancias en el dashboard del negocio.
+
+Este primer acercamiento panorámico (*Big Picture*) fue fundamental para mapear todo el ecosistema del producto. Nos ayudó a descubrir posibles cuellos de botella en la gestión de contactos y en la trazabilidad de las interacciones. Asimismo, nos permitió identificar oportunidades clave para agilizar la experiencia de los vendedores y directores, eliminando la fricción administrativa que generan las herramientas fragmentadas y los procesos manuales actuales.
+
+![Big Picture Event Storming](Resources/BigPicture_Event_Storming.png)
+
+### Descripción del Flujo del Sistema (Big Picture)
+
+El diagrama superior mapea el flujo de valor completo de NovaLeads, diseñado para centralizar y facilitar la gestión de leads, clientes, conversaciones y ganancias desde un único espacio. El proceso se divide en las siguientes etapas clave:
+
+*   **Fase A - Captación Inicial (Lead Capture & Registration):** Abarca la entrada de prospectos al sistema, ya sea de forma automática por la web o mediante ingreso manual del vendedor, convergiendo en un registro centralizado.
+*   **Fase B - Comunicación Omnicanal (Omnichannel Communication):** Detalla la recepción de mensajes vía WhatsApp, la notificación en tiempo real y el reconocimiento automático de clientes para mantener un historial de conversaciones unificado.
+*   **Fase C - Gestión del Embudo (Pipeline Management):** Refleja la operativa ágil del vendedor para realizar el seguimiento de oportunidades comerciales. Incluye temporizadores de inactividad para evitar que los leads se pierdan por falta de atención.
+*   **Fase D - Cierre y Comisiones (Deal Closure & Commissions):** Documenta la consolidación de una venta ganada y el cálculo automático de los resultados personales para asegurar las comisiones del equipo.
+*   **Fase E - Supervisión (Management & Analytics):** Muestra la actualización del *dashboard* gerencial, permitiendo al dueño monitorear los resultados de ventas y métricas del equipo sin depender de reportes manuales en Excel.
 
 ## 2.5. Ubiquitous Language
