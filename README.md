@@ -573,7 +573,7 @@ La base de datos se organiza en cuatro bounded contexts: **Identity and Access**
 
 ##### Identity and Access
 
-![Database Diagram Identity and Access](Resources//Chapter4/Database-diagram/databaseIdentityAccessDiagram.png)
+![Database Diagram Identity and Access](Resources/Chapter4/Database-diagram/databaseIdentityAccessDiagram.png)
 
 Este diagrama representa la persistencia de usuarios, roles y permisos. La tabla `users` almacena los datos de acceso de los usuarios, mientras que `roles` define sus responsabilidades dentro de NovaLeads. La relación entre roles y permisos se implementa mediante la tabla intermedia `role_permissions`.
 
@@ -583,3 +583,23 @@ Este diagrama representa la persistencia de usuarios, roles y permisos. La tabla
 | `users` | `id_user: BIGINT [PK]`, `id_role: BIGINT [FK]`, `email: VARCHAR(120) [UQ]`, `password_hash: VARCHAR(255)`, `status: ENUM('ACTIVE','INACTIVE')`, `created_at: DATETIME`, `updated_at: DATETIME`, `full_name: VARCHAR(120)` |
 | `permissions` | `id_permission: BIGINT [PK]`, `code: VARCHAR(80) [UQ]`, `description: VARCHAR(255)` |
 | `role_permissions` | `id_role: BIGINT [PK, FK]`, `id_permission: BIGINT [PK, FK]` |
+
+##### Lead and Contact Management
+
+![Database Diagram Lead and Contact Management](Resources/Chapter4/Database-diagram/databaseLeadContactDiagram.png)
+
+Este diagrama representa la persistencia del bounded context **Lead and Contact Management**. La tabla `contacts` centraliza la información de leads y clientes, incluyendo sus datos de contacto, empresa, tipo de contacto, estado comercial y fuente de origen.
+
+La tabla `tags` permite administrar etiquetas comerciales. La tabla intermedia `contact_tags` establece una relación de muchos a muchos, permitiendo que un contacto tenga múltiples etiquetas y que una etiqueta pueda clasificarse en varios contactos.
+
+La tabla `opportunities` registra las oportunidades comerciales asociadas a cada contacto. Incluye el título, monto estimado, estado, fecha esperada de cierre y el usuario responsable de realizar el seguimiento.
+
+La tabla `users` se muestra como referencia del bounded context Identity and Access. Las claves foráneas `contacts.id_user` y `opportunities.id_user` permiten asignar leads, contactos y oportunidades a un vendedor específico.
+
+* **contacts:** `id_contact` es la clave primaria. `phone` es único para evitar registrar duplicados, especialmente cuando un contacto inicia una conversación por WhatsApp.
+
+* **tags:** `id_tag` es la clave primaria y `name` es único para evitar etiquetas duplicadas.
+
+* **contact_tags:** utiliza `id_contact` e `id_tag` como claves primarias y foráneas, representando la clasificación de contactos mediante etiquetas.
+
+* **opportunities:** se relaciona con `contacts` mediante `id_contact` y con `users` mediante `id_user`, identificando el contacto y vendedor responsable de cada oportunidad.
