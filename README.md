@@ -403,7 +403,7 @@ Este modelado detallado proporciona al equipo de desarrollo una guía clara para
 
 En esta sección se presenta el Software Architecture Context Diagram de **NovaLeads**. Este diagrama ofrece una visión de alto nivel de la plataforma CRM, mostrando a los usuarios principales y los sistemas externos con los que interactúa para centralizar la gestión de leads, clientes, conversaciones y resultados de ventas.
 
-![Software Architecture Context Diagram](Resources/C4/contextDiagram.png)
+![Software Architecture Context Diagram](Resources/Chapter4/C4/contextDiagram.png)
 
 **Explicación del diagrama:**
 
@@ -421,7 +421,7 @@ En esta sección se presenta el Software Architecture Context Diagram de **NovaL
 
 En esta sección se presenta el **Container Diagram** de **NovaLeads**. Este diagrama amplía la visión del contexto del sistema y muestra los contenedores de software que componen la plataforma CRM, así como la distribución de responsabilidades, las principales decisiones tecnológicas y la comunicación entre los componentes.
 
-![Software Architecture Container Diagram](Resources/C4/containerDiagram.png)
+![Software Architecture Container Diagram](Resources/Chapter4/C4/containerDiagram.png)
 
 #### Explicación del diagrama
 
@@ -445,7 +445,7 @@ En esta sección se presentan los Component Diagrams de NovaLeads. Estos diagram
 
 #### Diagrama de componentes de la Web Application
 
-![Software Architecture Web Application Component Diagram](Resources/C4/webApplicationComponentDiagram.png)
+![Software Architecture Web Application Component Diagram](Resources/Chapter4/C4/webApplicationComponentDiagram.png)
 
 * **Interfaz y navegación:**
     * **App Shell:** Inicializa la aplicación y muestra el layout compartido.
@@ -470,7 +470,7 @@ En esta sección se presentan los Component Diagrams de NovaLeads. Estos diagram
 
 En esta sección se presenta el **Component Diagram** del contenedor REST API de **NovaLeads**. Este diagrama detalla la estructura interna de la API, mostrando cómo se organizan los controladores, servicios de aplicación y repositorios para gestionar usuarios, leads, contactos, conversaciones, notificaciones y métricas de ventas.
 
-![Software Architecture Component Diagram](Resources/C4/componentDiagram.png)
+![Software Architecture Component Diagram](Resources/Chapter4/C4/componentDiagram.png)
 
 #### Explicación del diagrama
 
