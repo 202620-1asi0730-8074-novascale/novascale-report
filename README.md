@@ -584,6 +584,14 @@ Este diagrama representa la persistencia de usuarios, roles y permisos. La tabla
 | `permissions` | `id_permission: BIGINT [PK]`, `code: VARCHAR(80) [UQ]`, `description: VARCHAR(255)` |
 | `role_permissions` | `id_role: BIGINT [PK, FK]`, `id_permission: BIGINT [PK, FK]` |
 
+* **roles:** define las responsabilidades que puede tener cada usuario dentro de NovaLeads, como dueño o vendedor.
+
+* **users:** almacena la información de acceso de cada usuario, incluyendo su correo, contraseña cifrada, estado y rol asignado.
+
+* **permissions:** define las acciones disponibles en la plataforma, como gestionar leads, contactos, conversaciones, usuarios o consultar métricas.
+
+* **role_permissions:** establece una relación de muchos a muchos entre roles y permisos, permitiendo asignar varios permisos a cada rol.
+
 ##### Lead and Contact Management
 
 ![Database Diagram Lead and Contact Management](Resources/Chapter4/Database-diagram/databaseLeadContactDiagram.png)
