@@ -588,18 +588,20 @@ Este diagrama representa la persistencia de usuarios, roles y permisos. La tabla
 
 ![Database Diagram Lead and Contact Management](Resources/Chapter4/Database-diagram/databaseLeadContactDiagram.png)
 
-Este diagrama representa la persistencia del bounded context **Lead and Contact Management**. La tabla `contacts` centraliza la información de leads y clientes, incluyendo sus datos de contacto, empresa, tipo de contacto, estado comercial y fuente de origen.
+Este diagrama representa la persistencia del bounded context **Lead and Contact Management**. La tabla `contacts` centraliza la información de leads y clientes; `tags` y `contact_tags` permiten clasificarlos; y `opportunities` registra las oportunidades comerciales asignadas a un vendedor.
 
-La tabla `tags` permite administrar etiquetas comerciales. La tabla intermedia `contact_tags` establece una relación de muchos a muchos, permitiendo que un contacto tenga múltiples etiquetas y que una etiqueta pueda clasificarse en varios contactos.
+| Tabla | Columnas principales |
+| :--- | :--- |
+| `contacts` | `id_contact: BIGINT [PK]`, `id_user: BIGINT [FK]`, `full_name: VARCHAR(120)`, `email: VARCHAR(120)`, `phone: VARCHAR(30) [UQ]`, `company: VARCHAR(120)`, `contact_type: VARCHAR(10)`, `lead_status: VARCHAR(20)`, `source: VARCHAR(80)`, `created_at: DATETIME`, `updated_at: DATETIME` |
+| `tags` | `id_tag: BIGINT [PK]`, `name: VARCHAR(50) [UQ]`, `color: VARCHAR(20)` |
+| `contact_tags` | `id_contact: BIGINT [PK, FK]`, `id_tag: BIGINT [PK, FK]` |
+| `opportunities` | `id_opportunity: BIGINT [PK]`, `id_contact: BIGINT [FK]`, `id_user: BIGINT [FK]`, `title: VARCHAR(150)`, `estimated_amount: DECIMAL(12,2)`, `status: VARCHAR(10)`, `expected_close_date: DATE`, `created_at: DATETIME` |
+| `user` | `id_user: BIGINT [PK]` |
 
-La tabla `opportunities` registra las oportunidades comerciales asociadas a cada contacto. Incluye el título, monto estimado, estado, fecha esperada de cierre y el usuario responsable de realizar el seguimiento.
+* **contacts:** almacena los datos de leads y clientes. El atributo `contact_type` permite diferenciarlos y `lead_status` registra el estado comercial del lead.
 
-La tabla `users` se muestra como referencia del bounded context Identity and Access. Las claves foráneas `contacts.id_user` y `opportunities.id_user` permiten asignar leads, contactos y oportunidades a un vendedor específico.
+* **tags y contact_tags:** permiten asignar una o varias etiquetas a cada contacto.
 
-* **contacts:** `id_contact` es la clave primaria. `phone` es único para evitar registrar duplicados, especialmente cuando un contacto inicia una conversación por WhatsApp.
+* **opportunities:** registra el monto estimado, estado, fecha esperada de cierre, contacto asociado y vendedor responsable.
 
-* **tags:** `id_tag` es la clave primaria y `name` es único para evitar etiquetas duplicadas.
-
-* **contact_tags:** utiliza `id_contact` e `id_tag` como claves primarias y foráneas, representando la clasificación de contactos mediante etiquetas.
-
-* **opportunities:** se relaciona con `contacts` mediante `id_contact` y con `users` mediante `id_user`, identificando el contacto y vendedor responsable de cada oportunidad.
+* **user:** se muestra como referencia del bounded context Identity and Access para asignar contactos y oportunidades a un vendedor.
