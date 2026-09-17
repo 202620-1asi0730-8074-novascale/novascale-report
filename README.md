@@ -580,6 +580,6 @@ Este diagrama representa la persistencia de usuarios, roles y permisos. La tabla
 | Tabla | Columnas principales |
 |---|---|
 | `roles` | `id_role: BIGINT [PK]`, `name: VARCHAR(50) [UQ]`, `description: VARCHAR(255)` |
-| `users` | `id_user: BIGINT [PK]`, `id_role: BIGINT [FK]`, `full_name: VARCHAR(120)`, `email: VARCHAR(120) [UQ]`, `password_hash: VARCHAR(255)`, `status: ENUM('ACTIVE','INACTIVE')`, `created_at: DATETIME`, `updated_at: DATETIME` |
+| `users` | `id_user: BIGINT [PK]`, `id_role: BIGINT [FK]`, `email: VARCHAR(120) [UQ]`, `password_hash: VARCHAR(255)`, `status: ENUM('ACTIVE','INACTIVE')`, `created_at: DATETIME`, `updated_at: DATETIME`, `full_name: VARCHAR(120)` |
 | `permissions` | `id_permission: BIGINT [PK]`, `code: VARCHAR(80) [UQ]`, `description: VARCHAR(255)` |
 | `role_permissions` | `id_role: BIGINT [PK, FK]`, `id_permission: BIGINT [PK, FK]` |
