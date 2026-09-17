@@ -563,14 +563,23 @@ Los controladores `SalesController` y `DashboardController` exponen las funciona
 
 ## 4.8. Database Design.
 
-En esta sección se presenta el diseño de base de datos de **NovaLeads**. La propuesta define los objetos de persistencia necesarios para almacenar la información de cada bounded context de la plataforma CRM.
+El diseño de base de datos de **NovaLeads** define los objetos necesarios para persistir la información de los bounded contexts de la plataforma. La propuesta utiliza un modelo relacional, en el que las entidades se representan mediante tablas y se relacionan a través de claves primarias y claves foráneas.
 
-El modelo utiliza **MySQL** como sistema de gestión de base de datos relacional y fue diseñado mediante **MySQL Workbench**. Para cada bounded context se especifican las tablas, columnas, claves primarias, claves foráneas, restricciones y relaciones necesarias para mantener la integridad de los datos.
+Los diagramas fueron elaborados en **ERDPlus** mediante Relational Schema. Esta herramienta permite representar tablas, columnas, claves primarias, claves foráneas, relaciones y restricciones de unicidad. Los tipos de datos y tamaños de las columnas se documentan junto a cada diagrama.
 
-La división del diseño por bounded context permite separar las responsabilidades de identidad y acceso, gestión comercial, conversaciones y resultados de ventas. Sin embargo, las tablas pueden coexistir dentro de una misma base de datos relacional de NovaLeads.
+La base de datos se organiza en cuatro bounded contexts: **Identity and Access**, **Lead and Contact Management**, **Conversation Management** y **Sales and Dashboard**.
 
 ### 4.8.1. Database Diagrams.
 
-<img src="/Resources/Chapter4/Data-Base-Diagram/Data-Base-Diagram-image.png" alt="Database Diagram">
+##### Identity and Access
 
-El diagrama de base de datos para SmartLock se ha estructurado bajo un enfoque de normalización 3FN y *Domain-Driven Design* (DDD), organizando la información en *Bounded Contexts* que actúan como *Aggregate Roots* (como Users y Organization) para garantizar la integridad operativa y la escalabilidad mediante el uso de tipos de datos atómicos en MySQL. Desde la perspectiva de seguridad y persistencia, el diseño separa estrictamente las credenciales en la tabla *authentications* y los datos sensibles en *user_profiles* (con correos encriptados) para cumplir con las leyes de protección de datos, mientras que la tabla *access_logs* asegura una auditoría inmutable de cada evento físico. Finalmente, la arquitectura está totalmente optimizada para un ORM como Hibernate, facilitando el mapeo de relaciones uno-a-muchos y uno-a-uno mediante claves foráneas claras y tipos bigint, lo que permite un manejo eficiente de la carga perezosa (*Lazy Loading*) y una transición fluida del modelo relacional al código en Spring Boot.
+![Database Diagram Identity and Access](Resources//Chapter4/Database-diagram/databaseIdentityAccessDiagram.png)
+
+Este diagrama representa la persistencia de usuarios, roles y permisos. La tabla `users` almacena los datos de acceso de los usuarios, mientras que `roles` define sus responsabilidades dentro de NovaLeads. La relación entre roles y permisos se implementa mediante la tabla intermedia `role_permissions`.
+
+| Tabla | Columnas principales |
+|---|---|
+| `roles` | `id_role: BIGINT [PK]`, `name: VARCHAR(50) [UQ]`, `description: VARCHAR(255)` |
+| `users` | `id_user: BIGINT [PK]`, `id_role: BIGINT [FK]`, `full_name: VARCHAR(120)`, `email: VARCHAR(120) [UQ]`, `password_hash: VARCHAR(255)`, `status: ENUM('ACTIVE','INACTIVE')`, `created_at: DATETIME`, `updated_at: DATETIME` |
+| `permissions` | `id_permission: BIGINT [PK]`, `code: VARCHAR(80) [UQ]`, `description: VARCHAR(255)` |
+| `role_permissions` | `id_role: BIGINT [PK, FK]`, `id_permission: BIGINT [PK, FK]` |
