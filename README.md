@@ -509,7 +509,7 @@ En esta sección se presentan los diagramas de clases UML de los productos y bou
 
 #### Diagrama de clases de la Web Application
 
-![Class Diagram Frontend](Resources/classDiagramFrontend.png)
+![Class Diagram Frontend](Resources/Chapter4/class-diagrams/classDiagramFrontend.png)
 
 El diagrama de clases de la Web Application representa la organización del frontend de NovaLeads, desarrollado con Vue.js. La aplicación se estructura mediante las clases `App`, `AppLayout` y `Router`, las cuales permiten iniciar la aplicación, mantener una interfaz compartida y dirigir al usuario hacia las distintas vistas.
 
@@ -521,7 +521,7 @@ Finalmente, los servicios `AuthService`, `LeadService`, `ConversationService` y 
 
 #### Diagrama de clases del bounded context Identity and Access
 
-![Class Diagram Identity and Access](Resources/classDiagramIdentityAccess.png)
+![Class Diagram Identity and Access](Resources/Chapter4/class-diagrams/classDiagramIdentityAccess.png)
 
 El bounded context **Identity and Access** gestiona la autenticación y autorización de los usuarios de NovaLeads. La entidad `User` representa a los dueños de pymes, administradores o vendedores que acceden a la plataforma, mientras que `Role` permite asignar responsabilidades dentro del sistema.
 
@@ -531,7 +531,7 @@ La clase `AuthenticationService` centraliza el proceso de inicio de sesión. Par
 
 #### Diagrama de clases del bounded context Lead and Contact Management
 
-![Class Diagram Lead and Contact Management](Resources/classDiagramLeadContact.png)
+![Class Diagram Lead and Contact Management](Resources/Chapter4/class-diagrams/classDiagramLeadContact.png)
 
 El bounded context **Lead and Contact Management** concentra la gestión de los contactos comerciales de NovaLeads. La clase abstracta `Contact` almacena la información común, como nombre, correo, teléfono y empresa. A partir de ella se especializan las clases `Lead` y `Client`.
 
@@ -541,7 +541,7 @@ Cada lead puede generar una o varias `Opportunity`. Estas registran el monto est
 
 #### Diagrama de clases del bounded context Conversation Management
 
-![Class Diagram Conversation Management](Resources/classDiagramConversationManagement.png)
+![Class Diagram Conversation Management](Resources/Chapter4/class-diagrams/classDiagramConversationManagement.png)
 
 El bounded context **Conversation Management** permite registrar y administrar las comunicaciones entre el equipo comercial y los contactos de NovaLeads. La clase `Conversation` representa el historial de interacción de un contacto mediante un canal determinado, mientras que `Message` almacena cada mensaje enviado o recibido.
 
@@ -551,7 +551,7 @@ La clase `WhatsAppWebhookController` recibe los mensajes entrantes desde WhatsAp
 
 #### Diagrama de clases del bounded context Sales and Dashboard
 
-![Class Diagram Sales and Dashboard](Resources/classDiagramSalesDashboard.png)
+![Class Diagram Sales and Dashboard](Resources/Chapter4/class-diagrams/classDiagramSalesDashboard.png)
 
 El bounded context **Sales and Dashboard** permite registrar las oportunidades comerciales concretadas y mostrar indicadores sobre el desempeño de las actividades de ventas. La clase `Sale` almacena el monto, la fecha, el estado y las observaciones de cada venta realizada.
 
