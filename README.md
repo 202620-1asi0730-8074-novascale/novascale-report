@@ -202,26 +202,24 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <tr>
 <td colspan="3">Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
 <td colspan="3" align="justify">
-<h4>Bottger Salazar, Johan Karl</h4>
- <b>AV1:</b><p>Explicó las secciones introductorias y la justificación de la solución propuesta en el pitch inicial del proyecto.</p>
+<h4>Retuerto Zapata, Renzo Paul</h4>
+ <b>AV1:</b><p>Sustentó y explicó de forma clara el diseño de la interfaz de usuario (UI), los flujos de interacción de las aplicaciones y la arquitectura orientada a dominios (EventStorming) ante el equipo y los evaluadores.</p>
 </td>
 <td colspan="3" align="justify">
-<h4>Bottger Salazar, Johan Karl</h4>
-<b>AV1:</b> Comunicó eficazmente el problema inicial y cómo la solución se alinea con los objetivos del cliente.<br><br>
+<h4>Retuerto Zapata, Renzo Paul</h4>
+<b>AV1:</b> Comunicó con eficacia los fundamentos del diseño de experiencia de usuario (UX/UI) y las decisiones tomadas en el modelado de arquitectura de software.<br><br>
 </td>
 </tr>
 <tr>
 <td colspan="3">Comunica por escrito con efectividad a diferentes rangos de audiencia.</td>
 <td colspan="3" align="justify">
-<h4>Bottger Salazar, Johan Karl</h4>
- <b>AV1:</b><p>Estructuró y redactó la problemática, los antecedentes y los requerimientos funcionales del sistema.</p>
+<h4>Retuerto Zapata, Renzo Paul</h4>
+ <b>AV1:</b><p>Estructuró y redactó la documentación correspondiente al diseño de interfaces (Landing Page y aplicaciones web), wireframes, wireflows, prototipos y el Design-Level EventStorming.</p>
 </td>
 <td colspan="3" align="justify">
-<h4>Bottger Salazar, Johan Karl</h4>
-<b>AV1:</b> Consolidó los antecedentes y requisitos en un texto claro, formal y académicamente riguroso.<br><br>
+<h4>Retuerto Zapata, Renzo Paul</h4>
+<b>AV1:</b> Consolidó los entregables de diseño visual, prototipado y arquitectura de software en un texto claro, formal y académicamente riguroso.<br><br>
 </td>
 </tr>
 </tbody>
 </table>
-
----
