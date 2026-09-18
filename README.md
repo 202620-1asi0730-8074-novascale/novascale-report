@@ -238,9 +238,7 @@ El usuario debe poder iniciar sesión ingresando sus credenciales para acceder a
 #### User Goal 2: Registro de un nuevo prospecto (Lead)
 El vendedor, desde el Directorio de Clientes o el Dashboard CRM, puede registrar los datos de un nuevo contacto comercial y agregarlo al pipeline.
 <p align="center">
-  <!-- PENDIENTE: Agrega aquí la captura de tu Wireflow de Figma -->
-  <!-- <img src="Resources/Chapter4/wireframes/wireflow-add-lead.png" width="800" alt="Wireflow Add Lead"> -->
-  [Espacio reservado para el Wireflow Diagram de Add Lead]
+  <img src="Resources/Chapter4/mockups/userflow_lead.png" width="800" alt="Wireflow Add Lead"> 
 </p>
 
 ### 4.4.3. Web Applications Mock-ups.
