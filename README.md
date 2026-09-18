@@ -334,7 +334,7 @@ En esta sección se presenta el prototipo interactivo de alta fidelidad para la 
 A continuación, se presentan las evidencias visuales y los enlaces de acceso directo al entorno de diseño y a la demostración interactiva:
 
 <p align="center">
-  <img src="Resources/Chapter4/Web-Application/figma prototype.jpg" width="900" alt="Vista general del prototipo en Figma">
+  <img src="Resources/Chapter4/mockups/novaleads-crm-dashboard.png" width="900" alt="Vista general del prototipo en Figma">
 </p>
 
 <br>
