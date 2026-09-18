@@ -327,27 +327,28 @@ En la siguiente sección se detalla el diagrama de flujo de usuario (User Flow) 
   <img src="Resources/Chapter4/style/UserFlow.png" width="1000" alt="User Flow Diagram NovaLeads">
 </p>
 
-## 4.5. Web Applications Prototyping.
+## 4.5. Web Applications Prototyping
 
+En esta sección se presenta el prototipo interactivo de alta fidelidad para la aplicación web de **NovaLeads**. Este diseño simula la experiencia real del usuario final (SDRs y Ejecutivos Comerciales), integrando la identidad visual, la interfaz de usuario (UI) y el flujo de navegación entre las pantallas principales del sistema, como el dashboard, el CRM y la gestión de chats.
+
+A continuación, se presentan las evidencias visuales y los enlaces de acceso directo al entorno de diseño y a la demostración interactiva:
 
 <p align="center">
-  <img src="Resources/Chapter4/Web-Application/figma prototype.jpg" width="900">
+  <img src="Resources/Chapter4/Web-Application/figma prototype.jpg" width="900" alt="Vista general del prototipo en Figma">
 </p>
 
 <br>
 
-**Link del Figma:**  
-[Ver enlace](https://www.figma.com/design/kVDoKtb6qnhzGb0kD1rCyR/Untitled?node-id=0-1&t=ZrgcAyr2GfzBtvf7-1)
+### 🔗 Enlaces de Acceso
 
-<br>
-
-**Link del video de explicación:**  
-[Ver enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a860_upc_edu_pe/IQAoeufOBXR1Q4_QgHSUq5ZoAdnsC9hr3FJfDiVG26U60XM?e=5zpImg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+*   **Prototipo Interactivo (Modo Presentación):** [Ver simulación en Figma](https://www.figma.com/proto/2WXesYSYFt2TovwFrZxvJj/Untitled?node-id=0-1&t=jnp821tF7TLgtdzl-1)
+*   **Archivo de Diseño (Canvas):** [Ver entorno de trabajo en Figma](https://www.figma.com/design/kVDoKtb6qnhzGb0kD1rCyR/Untitled?node-id=0-1&t=ZrgcAyr2GfzBtvf7-1)
+*   **Video Explicativo:** [Ver demostración grabada](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a860_upc_edu_pe/IQAoeufOBXR1Q4_QgHSUq5ZoAdnsC9hr3FJfDiVG26U60XM?e=5zpImg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 <br>
 
 <p align="center">
-  <img src="Resources/Chapter4/Web-Application/Captura Prototype evidencia.jpg" width="900">
+  <img src="Resources/Chapter4/Web-Application/Captura Prototype evidencia.jpg" width="900" alt="Evidencia de las interacciones del Prototipo">
 </p>
 
 ## 4.6. Domain-Driven Software Architecture
