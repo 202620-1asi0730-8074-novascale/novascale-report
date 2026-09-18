@@ -100,15 +100,14 @@
 A continuación, se adjuntan las capturas del tablero de Jira utilizado para la gestión del Backlog y la estimación de Story Points del equipo de NovaScale.
 
 <div align="center">
-  <img src="/Resources/Chapter3/story_points.png" alt="Story Points" width="500"/><br>
+  <img src="/Resources/Chapter3/jira.png" alt="Story Points" width="500"/><br>
   <i>Story Points</i><br><br>
   
-  <img src="/Resources/Chapter3/formato.png" alt="Formato de HU" width="500"/><br>
+  <img src="/Resources/Chapter3/userstory.png" alt="Formato de HU" width="500"/><br>
   <i>Formato de Historias de Usuario</i><br><br>
-  
-  <img src="/Resources/Chapter3/organizacion.png" alt="Estructura de prioridad" width="500"/><br>
-  <i>Estructura de Prioridad</i>
+
 </div>
 <br>
 
 **Enlace al tablero de Jira:** 
+[Jira Board](https://johanbottger.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?isInsightsOpen=true&atlOrigin=eyJpIjoiZTM3OWE3MGViZTBkNGMwMDg1YTY2Y2M0ZTM3MzkxZjEiLCJwIjoiaiJ9?)
