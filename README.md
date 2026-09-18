@@ -342,7 +342,7 @@ A continuación, se presentan las evidencias visuales y los enlaces de acceso di
 ### 🔗 Enlaces de Acceso
 
 *   **Prototipo Interactivo (Modo Presentación):** [Ver simulación en Figma](https://www.figma.com/proto/2WXesYSYFt2TovwFrZxvJj/Untitled?node-id=0-1&t=jnp821tF7TLgtdzl-1)
-*   **Archivo de Diseño (Canvas):** [Ver entorno de trabajo en Figma](https://www.figma.com/design/kVDoKtb6qnhzGb0kD1rCyR/Untitled?node-id=0-1&t=ZrgcAyr2GfzBtvf7-1)
+*   **Archivo de Diseño (Canvas):** [Ver entorno de trabajo en Figma](https://www.figma.com/design/2WXesYSYFt2TovwFrZxvJj/Untitled?node-id=0-1&t=jnp821tF7TLgtdzl-1)
 *   **Video Explicativo:** [Ver demostración grabada](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a860_upc_edu_pe/IQAoeufOBXR1Q4_QgHSUq5ZoAdnsC9hr3FJfDiVG26U60XM?e=5zpImg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 <br>
