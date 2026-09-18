@@ -347,10 +347,6 @@ A continuación, se presentan las evidencias visuales y los enlaces de acceso di
 
 <br>
 
-<p align="center">
-  <img src="Resources/Chapter4/Web-Application/Captura Prototype evidencia.jpg" width="900" alt="Evidencia de las interacciones del Prototipo">
-</p>
-
 ## 4.6. Domain-Driven Software Architecture
 
 En esta sección se define la arquitectura central de **NovaLeads** basándose en los principios de Domain-Driven Design (DDD). El objetivo principal es alinear la complejidad técnica del código con la realidad del modelo de negocio. Para lograrlo, la arquitectura se basará en un **RESTful API** desarrollado con **C# (ASP.NET Core)** para la lógica del lado del servidor, y **Vue.js** para las aplicaciones web del lado del cliente.
