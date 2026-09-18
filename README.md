@@ -58,7 +58,7 @@
 ## 3.2. Impact Mapping
 
 <div align="center">
-  <img src="/Resources/Chapter3/MapaImpacto.png" alt="Mapa de Impacto" width="700"/>
+  <img src="/Resources/Chapter3/Impactmap.png" alt="Mapa de Impacto" width="700"/>
 </div>
 <br>
 
