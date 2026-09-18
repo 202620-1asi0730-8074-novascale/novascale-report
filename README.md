@@ -232,9 +232,7 @@ Esta sección presenta los wireflows que conectan visualmente las pantallas de b
 #### User Goal 1: Autenticación y acceso al sistema
 El usuario debe poder iniciar sesión ingresando sus credenciales para acceder al Dashboard Principal.
 <p align="center">
-  <!-- PENDIENTE: Agrega aquí la captura de tu Wireflow de Figma (las pantallas unidas con flechas) -->
-  <!-- <img src="Resources/Chapter4/wireframes/wireflow-login.png" width="800" alt="Wireflow Login"> -->
-  [Espacio reservado para el Wireflow Diagram de Login]
+  <!-- <img src="Resources/Chapter4/mockups/userflow_login.png" width="800" alt="Wireflow Login"> -->
 </p>
 
 #### User Goal 2: Registro de un nuevo prospecto (Lead)
