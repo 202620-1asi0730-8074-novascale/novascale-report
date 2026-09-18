@@ -246,3 +246,35 @@ El diagrama superior mapea el flujo de valor completo de NovaLeads, diseñado pa
 *   **Fase E - Supervisión (Management & Analytics):** Muestra la actualización del *dashboard* gerencial, permitiendo al dueño monitorear los resultados de ventas y métricas del equipo sin depender de reportes manuales en Excel.
 
 ## 2.5. Ubiquitous Language
+En esta sección se define el Lenguaje Ubicuo (Ubiquitous Language) del proyecto, un concepto clave dentro de la arquitectura orientada al dominio (Domain-Driven Design). El objetivo es establecer un vocabulario estandarizado y compartido entre los desarrolladores y los expertos del negocio para evitar ambigüedades.
+
+| Term | Definition |
+|---|---|
+| **Lead (Prospecto)** | Persona o empresa que ha mostrado interés potencial en los productos o servicios de un negocio, pero que todavía no se considera un cliente. |
+| **Customer (Cliente)** | Persona o empresa que ha realizado una compra o mantiene una relación comercial con el negocio. |
+| **Contact (Contacto)** | Persona registrada con información que permite establecer comunicación y mantener una relación comercial. Puede corresponder a un lead o a un customer. |
+| **Salesperson (Vendedor)** | Persona encargada de gestionar leads, contactos y oportunidades comerciales con el objetivo de concretar ventas. |
+| **Business Owner (Dueño del negocio)** | Persona responsable de administrar el negocio y supervisar la información y resultados de su equipo comercial. |
+| **Sales Team (Equipo de ventas)** | Conjunto de salespeople que trabajan en la gestión de leads, contactos, conversaciones y ventas de un negocio. |
+| **Conversation (Conversación)** | Intercambio de mensajes entre un salesperson y un contact durante el proceso de atención y seguimiento comercial. |
+| **Product (Producto)** | Bien o servicio ofrecido por el negocio que puede ser de interés para un lead o customer. |
+| **Product Tag (Etiqueta de producto)** | Identificador asociado a un lead para indicar los productos en los que ha mostrado interés. |
+| **Lead Status (Estado del lead)** | Situación comercial en la que se encuentra un lead dentro del proceso de seguimiento. |
+| **Active Lead (Lead activo)** | Lead que mantiene un proceso de seguimiento comercial vigente. |
+| **Hot Lead (Lead prioritario)** | Lead que presenta un alto nivel de interés o una mayor probabilidad de avanzar en el proceso comercial. |
+| **Lost Lead (Lead perdido)** | Lead que ya no representa una oportunidad comercial activa. |
+| **Unresponsive Lead (Lead sin respuesta)** | Lead al que se ha intentado contactar sin recibir una respuesta. |
+| **Sales Opportunity (Oportunidad de venta)** | Posibilidad de concretar una venta a partir del interés o necesidad identificada en un lead o customer. |
+| **Sale (Venta)** | Intercambio comercial concretado entre el negocio y un customer mediante la adquisición de un producto o servicio. |
+| **Sales Performance (Rendimiento de ventas)** | Resultado de la actividad comercial de un salesperson o sales team, considerando sus ventas y otros indicadores comerciales. |
+| **Sales Result (Resultado de ventas)** | Información que representa las ventas obtenidas durante un período determinado. |
+| **Sales Metric (Métrica de ventas)** | Indicador utilizado para medir y analizar el desempeño comercial de un salesperson, sales team o negocio. |
+| **Message (Mensaje)** | Comunicación individual enviada entre un contact y un salesperson dentro de una conversation. |
+| **Unread Message (Mensaje no leído)** | Mensaje recibido que todavía no ha sido revisado por el salesperson responsable. |
+| **Response Time (Tiempo de respuesta)** | Tiempo transcurrido desde la recepción de un mensaje hasta que el salesperson responde. |
+| **Conversation Priority (Prioridad de conversación)** | Nivel de atención asignado a una conversation según factores como el tiempo transcurrido sin respuesta. |
+| **Follow-up (Seguimiento)** | Actividad de comunicación realizada para mantener o avanzar la relación comercial con un lead o customer. |
+| **Business (Negocio)** | Organización, pyme o startup que utiliza NovaLeads para gestionar sus relaciones y actividades comerciales. |
+| **Funnel (Embudo de ventas)** | Proceso que representa las diferentes etapas por las que pasa un lead desde su identificación hasta que se convierte en customer o se pierde la oportunidad comercial. |
+| **Conversion (Conversión)** | Resultado de lograr que un lead avance dentro del funnel hasta convertirse en customer o concretar una venta. |
+
