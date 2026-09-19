@@ -217,21 +217,30 @@ A continuación, se presentan los commits más importantes del Sprint, los cuale
 
 | Repository | Branch | Commit ID | Message | Body | Commit Date  |
 |---|---|---|---|---|---|
-| novaleads-website | develop |  | feat: Landing Page development | - | 12-05-2026 |
+| novaleads-website | main | 2cba00275bc03d34bcf17822454a79e95efd4182 | feat: Landing Page initial commit | - | 17-09-2026 |
+| novaleads-website | main | b3cc5e18a42399f9cd1ca8f89190f2ab0d602d5c | feat: Add pricing and footer styles | - | 17-09-2026 |
+| novaleads-website | main | 5cc2120d85e1037a4508f406159024d4a27752ef | feat: add app.js | - | 17-09-2026 |
+
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 Se incluyen capturas detalladas de la ejecución de la Landing Page de la aplicación como evidencia. La Landing Page es compuesta por varias secciones que se presentan en las capturas a continuación.
 
-<img src="/Resources/Chapter5/sprint1/execution-evidence1.png"/>
-<img src="/Resources/Chapter5/sprint1/execution-evidence2.png"/>
-<img src="/Resources/Chapter5/sprint1/execution-evidence3.png"/>
+<img src="/Resources/Chapter5/sprint1/execution1.png"/>
+<img src="/Resources/Chapter5/sprint1/execution2.png"/>
+<img src="/Resources/Chapter5/sprint1/execution3.png"/>
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 No aplica a primer sprint y desarrollo de Landing Page.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 El despliegue de la Landing Page se realizó en el servicio de Github Pages, se seleccionó esta alternativa debido a la rapidez de despliegue y su sencillez, apropiada para una página estática.
-Se incluye la evidencia de despliegue del Landing Page en la plataforma Github Pages: 
+Se incluye la evidencia de despliegue del Landing Page en la plataforma Github Pages: [https://202620-1asi0730-8074-novascale.github.io/novascale-website/](https://202620-1asi0730-8074-novascale.github.io/novascale-website/)
+
+<img src="/Resources/Chapter5/sprint1/deployment1.png"/>
+<img src="/Resources/Chapter5/sprint1/deployment2.png"/>
 
 #### 5.2.1.8. Team Collaboration Insights for Sprint Review
 Durante el transcurso de este sprint, todos los miembros participaron de forma activa y constante en la creación de las tareas asignadas. A continuación todos los analíticos que nos proporciona Github, en su apartado de Insights, sobre la colaboración del equipo durante el Sprint 1:
+
+<img src="/Resources/Chapter5/sprint1/collab1.png"/>
+
