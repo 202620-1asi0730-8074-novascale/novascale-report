@@ -227,7 +227,6 @@ Se incluyen capturas detalladas de la ejecución de la Landing Page de la aplica
 
 <img src="/Resources/Chapter5/sprint1/execution1.png"/>
 <img src="/Resources/Chapter5/sprint1/execution2.png"/>
-<img src="/Resources/Chapter5/sprint1/execution3.png"/>
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 No aplica a primer sprint y desarrollo de Landing Page.
