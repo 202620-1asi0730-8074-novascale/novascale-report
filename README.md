@@ -204,12 +204,18 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <td colspan="3" align="justify">
 <h4>Retuerto Zapata, Renzo Paul</h4>
  <b>AV1:</b><p>Sustentó y explicó de forma clara el diseño de la interfaz de usuario (UI), los flujos de interacción de las aplicaciones y la arquitectura orientada a dominios (EventStorming) ante el equipo y los evaluadores.</p>
+<h4>Bottger Salazar, Johan Karl</h4>
+ <b>AV1:</b><p>Explicó las secciones introductorias y la justificación de la solución propuesta en el pitch inicial del proyecto.</p>
+<h4>Romero Vilela, Dario Alberto</h4>
+ <b>AV1:</b><p>Sustentó y explicó de forma clara el análisis de experiencia (User Journey y Empathy Maps), el modelado de negocio (Big Picture EventStorming) y la configuración de despliegue (CI/CD) en la presentación audiovisual del proyecto. Además, formuló y condujo entrevistas directas con stakeholders del equipo de ventas.</p>
 </td>
 <td colspan="3" align="justify">
 <h4>Retuerto Zapata, Renzo Paul</h4>
 <b>AV1:</b> Comunicó con eficacia los fundamentos del diseño de experiencia de usuario (UX/UI) y las decisiones tomadas en el modelado de arquitectura de software.<br><br>
 <h4>Bottger Salazar, Johan Karl</h4>
- <b>AV1:</b><p>Explicó las secciones introductorias y la justificación de la solución propuesta en el pitch inicial del proyecto.</p>
+<b>AV1:</b> Comunicó eficazmente el problema inicial y cómo la solución se alinea con los objetivos del cliente.<br><br>
+<h4>Romero Vilela, Dario Alberto</h4>
+<b>AV1:</b> Comunicó con eficacia tanto las necesidades operativas de los usuarios como las decisiones técnicas de infraestructura y estándares de código ante el equipo y los evaluadores.<br><br>
 </td>
 </tr>
 <tr>
@@ -217,34 +223,16 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <td colspan="3" align="justify">
 <h4>Retuerto Zapata, Renzo Paul</h4>
  <b>AV1:</b><p>Estructuró y redactó la documentación correspondiente al diseño de interfaces (Landing Page y aplicaciones web), wireframes, wireflows, prototipos y el Design-Level EventStorming.</p>
+<h4>Romero Vilela, Dario Alberto</h4>
+ <b>AV1:</b><p>Estructuró y redactó la documentación correspondiente a las secciones 2.3.3. User Journey Mapping, 2.3.4. Empathy Mapping, y 2.4. Big Picture EventStorming, así como las normativas técnicas en 5.1.3. Source Code Style Guide & Conventions y 5.1.4. Software Deployment Configuration.</p>
 </td>
 <td colspan="3" align="justify">
 <h4>Retuerto Zapata, Renzo Paul</h4>
 <b>AV1:</b> Consolidó los entregables de diseño visual, prototipado y arquitectura de software en un texto claro, formal y académicamente riguroso.<br><br>
 <h4>Bottger Salazar, Johan Karl</h4>
 <b>AV1:</b> Comunicó eficazmente el problema inicial y cómo la solución se alinea con los objetivos del cliente.<br><br>
-</td>
-</tr>
-<tr>
-<td colspan="3">Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
-<td colspan="3" align="justify">
-<h4>Gamero Miranda, Lui Mathias</h4>
- <b>AV1:</b><p>Sustentó el proceso de descubrimiento de clientes (Needfinding) mediante las entrevistas realizadas, definió los perfiles de usuario (User Personas) y justificó la estrategia de precios SaaS, aportando además en la explicación técnica del desarrollo de la Landing Page.</p>
-</td>
-<td colspan="3" align="justify">
-<h4>Gamero Miranda, Lui Mathias</h4>
-<b>AV1:</b> Comunicó con claridad los hallazgos de la investigación de usuarios y defendió las decisiones comerciales y logísticas (gestión de configuración) del proyecto ante el equipo y los evaluadores.<br><br>
-</td>
-</tr>
-<tr>
-<td colspan="3">Comunica por escrito con efectividad a diferentes rangos de audiencia.</td>
-<td colspan="3" align="justify">
-<h4>Gamero Miranda, Lui Mathias</h4>
- <b>AV1:</b><p>Redaccion del análisis de las entrevistas, estructuró la documentación de los User Personas y el análisis competitivo, además de definir las herramientas de Project Management y SCM, contribuyendo también en la codificación y traducción de la Landing Page.</p>
-</td>
-<td colspan="3" align="justify">
-<h4>Gamero Miranda, Lui Mathias</h4>
-<b>AV1:</b> Consolidó la investigación de UX, la estrategia comercial y los lineamientos de gestión de código en un documento formal, riguroso y alineado a los requerimientos del informe académico.<br><br>
+<h4>Romero Vilela, Dario Alberto</h4>
+<b>AV1:</b> Consolidó los entregables de análisis de negocio, modelado de eventos y guías de arquitectura de despliegue en un texto claro, formal y académicamente riguroso.<br><br>
 </td>
 </tr>
 </tbody>
