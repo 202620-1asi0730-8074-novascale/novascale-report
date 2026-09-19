@@ -223,7 +223,28 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <b>AV1:</b> Consolidó los entregables de diseño visual, prototipado y arquitectura de software en un texto claro, formal y académicamente riguroso.<br><br>
 <h4>Bottger Salazar, Johan Karl</h4>
 <b>AV1:</b> Comunicó eficazmente el problema inicial y cómo la solución se alinea con los objetivos del cliente.<br><br>
-    
+</td>
+</tr>
+<tr>
+<td colspan="3">Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
+<td colspan="3" align="justify">
+<h4>Gamero Miranda, Lui Mathias</h4>
+ <b>AV1:</b><p>Sustentó el proceso de descubrimiento de clientes (Needfinding) mediante las entrevistas realizadas, definió los perfiles de usuario (User Personas) y justificó la estrategia de precios SaaS, aportando además en la explicación técnica del desarrollo de la Landing Page.</p>
+</td>
+<td colspan="3" align="justify">
+<h4>Gamero Miranda, Lui Mathias</h4>
+<b>AV1:</b> Comunicó con claridad los hallazgos de la investigación de usuarios y defendió las decisiones comerciales y logísticas (gestión de configuración) del proyecto ante el equipo y los evaluadores.<br><br>
+</td>
+</tr>
+<tr>
+<td colspan="3">Comunica por escrito con efectividad a diferentes rangos de audiencia.</td>
+<td colspan="3" align="justify">
+<h4>Gamero Miranda, Lui Mathias</h4>
+ <b>AV1:</b><p>Redaccion del análisis de las entrevistas, estructuró la documentación de los User Personas y el análisis competitivo, además de definir las herramientas de Project Management y SCM, contribuyendo también en la codificación y traducción de la Landing Page.</p>
+</td>
+<td colspan="3" align="justify">
+<h4>Gamero Miranda, Lui Mathias</h4>
+<b>AV1:</b> Consolidó la investigación de UX, la estrategia comercial y los lineamientos de gestión de código en un documento formal, riguroso y alineado a los requerimientos del informe académico.<br><br>
 </td>
 </tr>
 </tbody>
