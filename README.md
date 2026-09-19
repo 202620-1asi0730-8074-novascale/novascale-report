@@ -208,6 +208,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <td colspan="3" align="justify">
 <h4>Retuerto Zapata, Renzo Paul</h4>
 <b>AV1:</b> Comunicó con eficacia los fundamentos del diseño de experiencia de usuario (UX/UI) y las decisiones tomadas en el modelado de arquitectura de software.<br><br>
+<h4>Bottger Salazar, Johan Karl</h4>
+ <b>AV1:</b><p>Explicó las secciones introductorias y la justificación de la solución propuesta en el pitch inicial del proyecto.</p>
 </td>
 </tr>
 <tr>
@@ -219,6 +221,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <td colspan="3" align="justify">
 <h4>Retuerto Zapata, Renzo Paul</h4>
 <b>AV1:</b> Consolidó los entregables de diseño visual, prototipado y arquitectura de software en un texto claro, formal y académicamente riguroso.<br><br>
+<h4>Bottger Salazar, Johan Karl</h4>
+<b>AV1:</b> Comunicó eficazmente el problema inicial y cómo la solución se alinea con los objetivos del cliente.<br><br>
+    
 </td>
 </tr>
 </tbody>
