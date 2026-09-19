@@ -233,13 +233,15 @@ Comunicó con eficacia las decisiones de arquitectura de NovaLeads, justificando
 <td colspan="3" align="justify">
 <h4>Retuerto Zapata, Renzo Paul</h4>
  <b>AV1:</b><p>Estructuró y redactó la documentación correspondiente al diseño de interfaces (Landing Page y aplicaciones web), wireframes, wireflows, prototipos y el Design-Level EventStorming.</p>
+<h4>Bottger Salazar, Johan Karl</h4>
+ <b>AV1:</b><p>Explicó las secciones introductorias y la justificación de la solución propuesta en el pitch inicial del proyecto.</p>
 <h4>Romero Vilela, Dario Alberto</h4>
  <b>AV1:</b><p>Estructuró y redactó la documentación correspondiente a las secciones 2.3.3. User Journey Mapping, 2.3.4. Empathy Mapping, y 2.4. Big Picture EventStorming, así como las normativas técnicas en 5.1.3. Source Code Style Guide & Conventions y 5.1.4. Software Deployment Configuration.</p>
 <h4>Caldas Garcia, Sergio Ruben</h4>
 <b>AV1:</b>
 <p>Estructuró y redactó la documentación correspondiente a la arquitectura de software de NovaLeads, incluyendo los diagramas C4, los diagramas de clases por bounded context y los diagramas de diseño de base de datos.</p>
 <h4>Gamero Miranda, Lui Mathias</h4>
- <b>AV1:</b><p>Redaccion del análisis de las entrevistas, estructuró la documentación de los Empathy Maps y el análisis competitivo, además de definir las herramientas de Project Management y SCM, contribuyendo también en la codificación y traducción de la Landing Page.</p>
+ <b>AV1:</b><p>Redaccion del análisis de las entrevistas, estructuró la documentación de los User Personas y el análisis competitivo, además de definir las herramientas de Project Management y SCM, contribuyendo también en la codificación y traducción de la Landing Page.</p>
 </td>
 <td colspan="3" align="justify">
 <h4>Retuerto Zapata, Renzo Paul</h4>
@@ -248,10 +250,11 @@ Comunicó con eficacia las decisiones de arquitectura de NovaLeads, justificando
 <b>AV1:</b> Comunicó eficazmente el problema inicial y cómo la solución se alinea con los objetivos del cliente.<br><br>
 <h4>Romero Vilela, Dario Alberto</h4>
 <b>AV1:</b> Consolidó los entregables de análisis de negocio, modelado de eventos y guías de arquitectura de despliegue en un texto claro, formal y académicamente riguroso.<br><br>
+<h4>Caldas Garcia, Sergio Ruben</h4>
+<b>AV1:</b> Consolidó la documentación de arquitectura de NovaLeads, incluyendo los diagramas C4, los diagramas de clases por bounded context y el diseño de base de datos, en un documento claro, consistente y alineado con los requerimientos del informe académico.<br><br>
 <h4>Gamero Miranda, Lui Mathias</h4>
 <b>AV1:</b> Consolidó la investigación de UX, la estrategia comercial y los lineamientos de gestión de código en un documento formal, riguroso y alineado a los requerimientos del informe académico.<br><br>
 </td>
-</td>>
 </tr>
 </tbody>
 </table>
