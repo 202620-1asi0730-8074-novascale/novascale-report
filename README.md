@@ -49,8 +49,11 @@ Proyecto
 
 | **Versión** | **Fecha** | **Autor** | **Descripción de modificación** |
 | :---: | :---: | :--- | :--- |
-| **1.0** | 07/04/2026 | Johan Karl Bottger Salazar | Se agregó la estructura inicial del Capítulo I, la carátula, el Startup Profile, antecedentes y problemáticas. |
-| **1.1** | 08/04/2026 | - | Se desarrolló los capitulos iniciales del documento. |
+| **1.0** | 26/08/2026 | Johan Karl Bottger Salazar | Se agregó la estructura inicial del Capítulo I, la carátula, el Startup Profile, antecedentes y problemáticas. |
+| **1.1** | 17/09/2026 | - | Se desarrolló los capitulos iniciales del documento. |
+| **2.0** | 01/10/2026 | - | Se modificó los capítulos existentes como parte del proceso de mejor continua. |
+| **2.1** | 08/10/2026 | - | Se desarrolló la sección 5.2.2 correspondiente al segundo Sprint. |
+
 </div>
 <br>
 
@@ -161,15 +164,6 @@ Proyecto
       - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-    - [5.2.3. Sprint 3](#521-sprint-1)
-      - [5.2.3.1. Sprint Planning 3](#5211-sprint-planning-1)
-      - [5.2.3.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-      - [5.2.3.3. Sprint Backlog 3](#5213-sprint-backlog-1)
-      - [5.2.3.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-      - [5.2.3.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.3.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
