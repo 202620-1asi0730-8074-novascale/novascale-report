@@ -66,78 +66,92 @@ Para definir el problema central de NovaLeads, se ha aplicado la técnica 5W's y
 
   El impacto se refleja en horas destinadas a buscar y consolidar información, oportunidades que no reciben seguimiento oportuno y decisiones comerciales tomadas sin datos consistentes. La magnitud exacta deberá validarse con entrevistas y pruebas con los segmentos objetivo, dado que varía según el tamaño, proceso y volumen comercial de cada negocio.
 
-
 ### 1.2.2. Lean UX Process
 
-El proceso Lean UX de **NovaLeads** parte de la comprensión del problema comercial y transforma los supuestos iniciales del equipo en hipótesis medibles. Estas hipótesis deberán validarse mediante entrevistas, pruebas de usabilidad y experimentos con un producto mínimo viable (MVP). Por lo tanto, los enunciados de esta sección representan puntos de partida para el aprendizaje y no conclusiones definitivas sobre los usuarios.
+NovaLeads utiliza Lean UX para convertir observaciones sobre el trabajo comercial de startups y pymes en supuestos e hipótesis verificables. Las métricas y los umbrales que se presentan a continuación son **criterios propuestos para las pruebas del MVP**, no resultados obtenidos. El equipo deberá registrar los resultados reales y revisar los supuestos que no se confirmen.
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-Las startups y pymes necesitan captar clientes y dar seguimiento a sus oportunidades comerciales con recursos y tiempo limitados. Sin embargo, sus responsables y equipos de ventas suelen distribuir la información de leads, clientes y conversaciones entre hojas de cálculo, aplicaciones de mensajería, correos electrónicos y notas personales. Esta fragmentación puede dificultar la priorización de oportunidades, la continuidad del seguimiento y la obtención de indicadores confiables sobre el desempeño comercial.
+Las startups y pymes necesitan captar clientes y dar seguimiento a sus oportunidades con equipos y tiempo limitados. En el trabajo diario, sus responsables y vendedores pueden distribuir la información entre hojas de cálculo, WhatsApp, correo y notas personales. Esto dificulta conocer quién atiende cada lead, recuperar el contexto de una conversación, realizar el siguiente contacto y consultar resultados comerciales sin consolidar datos manualmente.
 
-Los usuarios principales son los **responsables comerciales** —fundadores, gerentes o jefes de ventas— y los **ejecutivos o colaboradores de ventas** de startups y pymes. Los primeros necesitan visibilidad del embudo y de los resultados del equipo; los segundos necesitan registrar interacciones, recordar próximas acciones y consultar el contexto de cada oportunidad con rapidez.
+El mercado ofrece CRM especializados y plataformas con numerosas funciones. Sin embargo, el análisis competitivo y las entrevistas del proyecto indican una oportunidad que NovaLeads debe **validar**, no dar por demostrada: algunos equipos pequeños siguen recurriendo a herramientas separadas y perciben el registro o la configuración de un CRM como una carga. NovaLeads propone concentrar el seguimiento de leads, las conversaciones y los resultados de ventas en un flujo simple y accesible para esos equipos.
 
-Las soluciones actuales pueden resultar insuficientes cuando requieren mantener información duplicada en varias herramientas, demandan una configuración compleja o no presentan de manera clara la relación entre leads, conversaciones, clientes y ganancias. Esta situación genera el riesgo de perder seguimientos, trabajar con datos desactualizados y tomar decisiones basadas en información incompleta.
+Los **responsables comerciales** necesitan observar el embudo, las asignaciones y el desempeño del equipo para tomar decisiones. Los **ejecutivos y colaboradores de ventas** necesitan registrar contactos rápidamente, saber a quién atender y continuar una conversación con su historial disponible. El propósito del trabajo es diseñar y evaluar si NovaLeads satisface ambas necesidades y ofrece valor suficiente para que los equipos lo adopten de forma recurrente.
 
-Por ello, se plantea la siguiente pregunta orientadora:
-
-> **¿Cómo podríamos ayudar a los responsables y equipos de ventas de startups y pymes a centralizar sus relaciones comerciales, priorizar oportunidades y comprender sus resultados sin añadir complejidad innecesaria a su trabajo diario?**
+> **¿Cómo podríamos ayudar a los responsables y vendedores de startups y pymes a mantener el contexto de sus clientes, priorizar los seguimientos y comprender sus resultados en un solo espacio, sin aumentar su trabajo administrativo?**
 
 #### 1.2.2.2. Lean UX Assumptions
 
-**Business Assumptions (Suposiciones del Negocio):**
+Los siguientes enunciados son supuestos que el equipo comprobará con entrevistas, tareas observables y un piloto. Los umbrales permiten decidir si el MVP respalda cada supuesto; deben ajustarse antes del experimento si cambia el alcance de la prueba.
 
-* Creemos que las startups y pymes tienen dificultades para mantener una visión actualizada de sus leads cuando emplean herramientas separadas.
-* Creemos que los responsables comerciales valorarán una solución que reúna leads, clientes, conversaciones, oportunidades y ganancias en un solo espacio.
-* Creemos que una adopción frecuente dependerá de que registrar y actualizar información requiera pocos pasos y ofrezca valor inmediato.
-* Creemos que los clientes estarán dispuestos a pagar por NovaLeads si la plataforma reduce seguimientos olvidados y facilita la lectura del desempeño comercial.
-* Creemos que los principales resultados de negocio serán la activación de nuevas cuentas, el uso recurrente del producto, la retención de equipos y la conversión a un plan pagado.
-* Creemos que la diferenciación de NovaLeads estará en una experiencia simple y adaptada a equipos pequeños, con menor esfuerzo de configuración que un CRM empresarial.
-* El mayor riesgo de negocio es que los equipos consideren suficiente su combinación actual de hojas de cálculo y mensajería, y no perciban valor suficiente para migrar.
+**Business Assumptions y Business Outcomes:**
 
-**User Assumptions (Suposiciones del Usuario):**
+| ID | Supuesto y resultado de negocio esperado | Métrica y criterio propuesto |
+| :--- | :--- | :--- |
+| B1 | Creemos que un inicio sencillo aumentará la activación de cuentas nuevas. | **Activación:** cuentas que registran su primer lead y oportunidad / cuentas que inician la prueba. Meta: al menos **80 %** durante la prueba guiada del MVP. |
+| B2 | Creemos que tener el trabajo comercial reunido en la plataforma favorecerá su uso recurrente. | **Uso semanal:** usuarios piloto que registran o actualizan información al menos dos días en una semana / usuarios piloto habilitados. Meta: al menos **60 %** durante el piloto. |
+| B3 | Creemos que hacer visibles las conversaciones pendientes y sus responsables reducirá los seguimientos tardíos. | **Seguimientos tardíos:** acciones o respuestas vencidas / acciones o respuestas programadas. Meta: reducción de al menos **25 %** frente a la línea base del mismo equipo. |
+| B4 | Creemos que una vista de resultados reducirá el tiempo de preparación de información para los responsables comerciales. | **Consulta de resultados:** tiempo necesario para responder preguntas sobre oportunidades y ventas. Meta: reducción de al menos **30 %** frente al método actual, con respuestas correctas. |
+| B5 | Creemos que los equipos percibirán valor suficiente para continuar usando NovaLeads y considerar un plan de pago. | **Retención:** equipos piloto que siguen usando la plataforma cuatro semanas después de activarse / equipos piloto activados. Meta propuesta: al menos **50 %**. **Interés comercial:** registrar por separado cuántos responsables aceptarían evaluar un plan con precio concreto; la intención declarada no equivale a una venta. |
 
-* Los usuarios principales son responsables comerciales y ejecutivos de ventas de startups y pymes que gestionan varias oportunidades simultáneamente.
-* Estos usuarios buscan saber a quién contactar, qué acción realizar y cuáles oportunidades requieren atención inmediata.
-* Actualmente registran información en hojas de cálculo, agendas, correo electrónico, mensajería y notas personales.
-* Sus principales dificultades son la información dispersa, la duplicación de registros, la pérdida del contexto de conversaciones y el olvido de seguimientos.
-* Los ejecutivos de ventas necesitan registrar un lead y actualizar su estado con rapidez durante o después de una interacción.
-* Los responsables comerciales necesitan revisar el avance del embudo, las oportunidades ganadas o perdidas y las ganancias generadas sin consolidar datos manualmente.
-* Los usuarios valorarán recordatorios, estados claros, historial cronológico y paneles comprensibles, siempre que no aumenten su carga administrativa.
-* El mayor riesgo de usuario es que el registro de datos se perciba como trabajo adicional y provoque información incompleta o abandono de la plataforma.
+**Definition of Done para el aprendizaje del MVP:** La validación de esta etapa estará completa cuando participen personas de ambos segmentos, el equipo registre las tareas realizadas y los datos necesarios para calcular B1–B4, compare esos resultados con los criterios definidos y documente qué supuestos se confirmaron o deben cambiar. El flujo principal que se probará comprende registrar un lead, asignarlo, actualizar su estado, consultar su conversación, identificar la siguiente acción y consultar un indicador comercial. B5 requerirá seguimiento posterior y no se dará por cumplido únicamente con una respuesta de entrevista.
 
-Para priorizar el aprendizaje, los supuestos se ordenan según su impacto y el nivel de evidencia disponible:
+**User Assumptions:**
 
-| **Supuesto crítico** | **Impacto si es falso** | **Evidencia inicial** | **Prioridad de validación** |
-| :--- | :---: | :---: | :---: |
-| Los equipos pierden continuidad por tener información comercial dispersa. | Alto | Baja | 1 |
-| Centralizar la información mejora la priorización y el seguimiento. | Alto | Baja | 2 |
-| Los usuarios registrarán datos si el flujo es rápido y sencillo. | Alto | Baja | 3 |
-| Los responsables pagarán por visibilidad y control del proceso comercial. | Alto | Baja | 4 |
+| ID | Grupo objetivo y objetivo que se supone necesario |
+| :--- | :--- |
+| U1 | Los **responsables comerciales** de startups y pymes necesitan conocer el responsable y el estado de cada oportunidad, detectar seguimientos pendientes y consultar ventas sin consolidar hojas manualmente. |
+| U2 | Los **ejecutivos y colaboradores de ventas** necesitan registrar o actualizar leads en pocos pasos mientras atienden a sus prospectos. |
+| U3 | Los vendedores necesitan consultar un historial compartido para retomar conversaciones y evitar que dos integrantes contacten al mismo prospecto sin coordinación. |
+| U4 | Ambos segmentos necesitan identificar las oportunidades y conversaciones que requieren atención inmediata. |
+
+**Solution Assumptions:**
+
+| ID | Característica propuesta y beneficio esperado |
+| :--- | :--- |
+| S1 | Un registro central de leads, contactos y oportunidades permitirá consultar su información comercial sin buscar en varias herramientas. |
+| S2 | La asignación de responsables, los estados y las etiquetas harán más claro quién debe atender cada oportunidad y cómo priorizarla. |
+| S3 | Un historial de conversaciones asociado al contacto permitirá recuperar el contexto de la atención. |
+| S4 | La prioridad y los avisos de conversaciones pendientes ayudarán a realizar respuestas oportunas. |
+| S5 | Los paneles para responsables y vendedores permitirán consultar indicadores acordes con las decisiones de cada perfil. |
+| S6 | Un flujo de registro breve y una configuración inicial simple reducirán el esfuerzo de empezar a usar la plataforma. |
+
+Los supuestos de mayor riesgo son B1, B2 y B3: si los equipos no completan el flujo inicial, no vuelven a utilizarlo o continúan perdiendo seguimientos, la propuesta de valor deberá revisarse antes de ampliar el producto.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-* **Hipótesis 1 — Centralización del seguimiento:** Creemos que ofrecer a los ejecutivos de ventas un espacio único para registrar leads, etapas, próximas acciones y conversaciones reducirá la pérdida de contexto y facilitará el seguimiento. Sabremos que es cierto si, durante una prueba con el MVP, al menos el **80 %** de los participantes registra y actualiza una oportunidad sin apoyo y califica la claridad del flujo con **4 o más sobre 5**.
+Cada hipótesis sigue el mismo formato: **resultado de negocio**, **usuarios**, **resultado para el usuario** y **característica de la solución**. Las métricas son objetivos de validación propuestos.
 
-* **Hipótesis 2 — Priorización de oportunidades:** Creemos que mostrar un embudo con estados y próximas actividades permitirá a los equipos decidir con mayor rapidez qué oportunidades atender. Sabremos que es cierto si los participantes identifican correctamente sus tres acciones prioritarias en **menos de dos minutos** y reducen en al menos **30 %** el tiempo empleado frente a su método actual.
+1. **Registro inicial (B1, U2, S1, S6).** Creemos que aumentará la activación de cuentas si los vendedores logran registrar su primer lead y oportunidad sin ayuda mediante un formulario breve y un flujo inicial simple. Sabremos que la hipótesis se sostiene si al menos el **80 %** completa ambas tareas durante la prueba del MVP.
 
-* **Hipótesis 3 — Historial de conversaciones:** Creemos que asociar las conversaciones y notas a cada lead permitirá retomar una relación comercial sin buscar información en distintas herramientas. Sabremos que es cierto si al menos el **80 %** de los participantes encuentra el último contacto y explica el contexto de la oportunidad en **menos de un minuto**.
+2. **Asignación de leads (B3, U1, U3, S2).** Creemos que disminuirán los leads sin atención y los contactos duplicados si responsables y vendedores pueden ver y actualizar quién atiende cada lead mediante una asignación visible. Sabremos que la hipótesis se sostiene si ambos tipos de incidencia disminuyen al menos **25 %** frente a la línea base del mismo equipo durante el piloto.
 
-* **Hipótesis 4 — Visibilidad de resultados:** Creemos que un panel con oportunidades ganadas, perdidas, tasa de conversión y ganancias ayudará a los responsables comerciales a comprender el desempeño del equipo. Sabremos que es cierto si al menos el **70 %** de los responsables interpreta correctamente estos indicadores y responde preguntas básicas del negocio en **menos de dos minutos**.
+3. **Clasificación y filtros (B2, U2, U4, S2).** Creemos que aumentará el uso recurrente si los vendedores identifican los leads que deben atender mediante estados, etiquetas y filtros por responsable. Sabremos que la función ayuda si al menos el **80 %** encuentra tres leads prioritarios en menos de **dos minutos** y vuelve a usar los filtros durante el piloto.
 
-* **Hipótesis 5 — Intención de adopción:** Creemos que una experiencia simple, con mínima configuración inicial, motivará a startups y pymes a reemplazar sus herramientas dispersas. Sabremos que es cierto si al menos el **60 %** de los participantes completa el flujo principal del MVP, manifiesta intención de utilizar NovaLeads semanalmente y acepta importar o registrar datos reales para una prueba piloto.
+4. **Historial de conversaciones (B2, U3, S3).** Creemos que aumentará el uso recurrente si los vendedores recuperan el contexto de un contacto mediante un historial compartido asociado a su ficha. Sabremos que la hipótesis se sostiene si al menos el **80 %** identifica el último mensaje y explica el estado de la conversación en menos de **un minuto**, y al menos el **60 %** vuelve a consultar historiales durante el piloto.
+
+5. **Atención de mensajes pendientes (B3, U2, U4, S4).** Creemos que disminuirán las respuestas tardías si los vendedores identifican conversaciones pendientes mediante avisos, prioridad y tiempo de espera visibles. Compararemos la proporción de respuestas tardías con la línea base del mismo equipo; la meta propuesta es reducirla al menos **25 %**.
+
+6. **Seguimiento de oportunidades (B2, B3, U2, U4, S1, S2).** Creemos que mejorará la continuidad del seguimiento si los vendedores actualizan la etapa y reconocen la siguiente acción desde la ficha de una oportunidad. Sabremos que la hipótesis se sostiene si al menos el **80 %** completa la tarea sin ayuda y el equipo mantiene actualizadas sus oportunidades durante el piloto.
+
+7. **Resultados para responsables (B4, U1, S5).** Creemos que disminuirá el tiempo de consulta de resultados si los responsables comerciales pueden ver oportunidades, ventas y montos en un panel. Sabremos que la hipótesis se sostiene si responden correctamente preguntas acordadas antes de la prueba en al menos **30 % menos tiempo** que con su método actual.
+
+8. **Resultados para vendedores (B2, U2, S5).** Creemos que aumentará el uso semanal si los vendedores pueden consultar sus oportunidades asignadas y ventas mediante un panel adaptado a su rol. Sabremos que la hipótesis se sostiene si al menos el **60 %** de los usuarios piloto consulta o actualiza su información comercial dos días por semana.
+
+9. **Continuidad e interés comercial (B5, U1, U2, S1–S6).** Creemos que los equipos considerarán continuar con NovaLeads si ambos perfiles completan su trabajo habitual con el flujo integrado y perciben menos esfuerzo administrativo. Sabremos que la hipótesis de retención se sostiene si al menos el **50 %** de los equipos piloto activados sigue usando la plataforma cuatro semanas después. Registraremos por separado la respuesta de los responsables ante una propuesta de precio concreta; no interpretaremos la intención declarada como una compra.
 
 #### 1.2.2.4. Lean UX Canvas
 
-| 1. Business Problem | 2. Business Outcomes |
-| :------------------ | :------------------- |
-| Los equipos comerciales de startups y pymes gestionan información en herramientas separadas, lo que dificulta el seguimiento de oportunidades y la lectura del desempeño. NovaLeads necesita demostrar que centralizar esta información genera suficiente valor para impulsar adopción y pago. | - Aumentar la activación de cuentas mediante la creación del primer lead y la primera oportunidad.<br>- Lograr uso recurrente semanal en los equipos piloto.<br>- Mejorar la retención de cuentas activas.<br>- Convertir equipos piloto en clientes de pago. |
-| **3. Users / Customers** | **4. User Benefits** |
-| - Fundadores, gerentes y jefes responsables del proceso comercial en startups y pymes.<br>- Ejecutivos, asesores y colaboradores encargados de captar, contactar y convertir leads. | - Consultar toda la información comercial desde un único espacio.<br>- Saber qué oportunidades y acciones requieren atención.<br>- Retomar conversaciones con el contexto completo.<br>- Conocer el avance del embudo y los resultados de ventas.<br>- Reducir el tiempo dedicado a consolidar y buscar información. |
-| **5. Solutions / Ideas** | **6. Hypotheses** |
-| - Registro y clasificación de leads y clientes.<br>- Embudo visual de oportunidades por etapas.<br>- Próximas acciones y recordatorios de seguimiento.<br>- Historial cronológico de conversaciones y notas.<br>- Panel de oportunidades, conversiones y ganancias.<br>- Importación inicial desde una hoja de cálculo. | - Si centralizamos leads, estados y conversaciones, los ejecutivos completarán el seguimiento con menos pérdida de contexto.<br>- Si mostramos prioridades y próximas acciones, los usuarios decidirán más rápido qué atender.<br>- Si resumimos el embudo y las ganancias, los responsables comprenderán mejor el desempeño.<br>- Si el registro es simple, los equipos mantendrán la información actualizada y usarán la plataforma semanalmente. |
-| **7. What's the most important thing to learn first?** | **8. What's the least amount of work we need to do to learn this? (MVP)** |
-| Debemos aprender primero si la dispersión de información es un problema frecuente y suficientemente importante, y si una vista centralizada ayuda realmente a los equipos a priorizar y dar seguimiento a sus oportunidades. | Crear un prototipo navegable que permita registrar o importar leads, mover una oportunidad entre etapas, añadir una conversación, definir una próxima acción y consultar un panel básico. Probarlo con representantes de ambos segmentos mediante tareas observables, entrevistas posteriores y una prueba piloto corta con datos reales. |
+| Elemento | Síntesis para NovaLeads |
+| :--- | :--- |
+| **1. Business Problem** | Los equipos pequeños distribuyen datos y conversaciones entre herramientas. NovaLeads debe comprobar si un flujo comercial integrado reduce el trabajo manual y ofrece valor suficiente para su adopción. |
+| **2. Business Outcomes** | Activación de cuentas (B1), uso semanal (B2), menos seguimientos tardíos (B3), consulta más rápida de resultados (B4) y continuidad e interés comercial (B5). Los criterios de medición se detallan en Assumptions. |
+| **3. Users / Customers** | Responsables comerciales de startups y pymes; ejecutivos y colaboradores de ventas. |
+| **4. User Benefits** | Conocer responsables, estados y próximas acciones; retomar conversaciones con contexto; identificar prioridades; consultar resultados sin consolidación manual. |
+| **5. Solutions / Ideas** | Registro central de leads y oportunidades, asignación, estados y etiquetas, historial de conversaciones, avisos de atención pendiente, paneles por rol y registro inicial breve. |
+| **6. Hypotheses** | Nueve hipótesis verificables cubren activación, asignación, clasificación, historial, respuesta, seguimiento, resultados por rol y continuidad de uso. |
+| **7. Most important thing to learn first** | Comprobar si los usuarios completan el flujo comercial básico sin ayuda y si esa centralización mejora el seguimiento respecto de su método actual. |
+| **8. Least work needed to learn this (MVP)** | Probar un prototipo navegable con registro de leads, asignación, actualización de estado, historial de conversación representativo, avisos de pendientes y un panel básico. Después, medir el uso con un piloto corto y datos reales cuando la integración esté disponible. |
 
 ## 1.3. Segmentos objetivo
 ---
