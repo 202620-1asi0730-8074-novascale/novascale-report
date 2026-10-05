@@ -171,8 +171,8 @@ El Sprint Planning Meeting marcó el inicio formal del desarrollo. Durante esta 
 | **Sprint n – 1 Retrospective Summary** | - |
 | **Sprint Goal & User Stories** | |
 | **Sprint 1 Goal** | **Contexto:** El equipo decidió enfocar el primer esfuerzo de codificación en sentar las bases operativas de la plataforma, desarrollando la Landing Page para presentar el producto. <br><br> **Sprint Goal:**<br>*"Our focus is on offering a reliable body of knowledge for future users of our CRM system, while establishing the product's digital presence through a responsive Landing Page.*<br>*We believe it delivers a trustworthy onboarding experience to administrators and clear product value proposition to prospective customers.*<br>*This will be confirmed when administrators and visitors can navigate the Landing Page features without errors."* |
-| **Sprint 1 Velocity** | 43 Story Points. (Velocidad estimada basada en la capacidad inicial del equipo para configurar los entornos). |
-| **Sum of Story Points** | 43 Story Points. |
+| **Sprint 1 Velocity** | 50 Story Points. (Velocidad estimada basada en la capacidad inicial del equipo para configurar los entornos). |
+| **Sum of Story Points** | 50 Story Points. |
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
@@ -209,6 +209,8 @@ Durante el primer sprint, el equipo se centró en desarrollar una landing page q
 | US-26 | Call to Action para equipos de ventas | T-13 | Implementar flujo del Call to Action | Implementar el enlace o acción que permita al visitante iniciar el flujo de acceso o registro correspondiente. | 2 | Lui | To Do |
 | US-27 | Visualización responsive | T-14 | Adaptar Landing Page a dispositivos | Adaptar la estructura y componentes de la Landing Page para desktop, tablet y dispositivos móviles. | 5 | Johan | To Do |
 | US-27 | Visualización responsive | T-15 | Validar comportamiento responsive | Verificar la correcta visualización de textos, imágenes, navegación y Call to Action en diferentes tamaños de pantalla. | 3 | Johan | To Do |
+| TS-02 | Autenticación de usuarios | T-18 | Implementar integración de autenticación | Preparar la integración del frontend con el endpoint de autenticación para permitir el acceso desde los flujos iniciados en la Landing Page. | 4 | Renzo | To Do |
+| TS-02 | Autenticación de usuarios | T-19 | Validar respuestas de autenticación | Verificar el comportamiento del frontend ante credenciales válidas e inválidas y las respuestas HTTP correspondientes. | 3 | Renzo | To Do |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
