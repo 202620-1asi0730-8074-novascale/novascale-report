@@ -219,8 +219,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <b><b>AV1:</b> Comunicó con eficacia tanto las necesidades operativas de los usuarios como las decisiones técnicas de infraestructura y estándares de código ante el equipo y los evaluadores.<br><br>
 <b>TB1:</b> Comunicó eficazmente la arquitectura técnica detrás del acceso seguro de los usuarios (login/registro) y demostró claridad y fluidez al explicar el flujo de despliegue continuo de la aplicación ante los evaluadores.<br><br>
 <h4>Caldas Garcia, Sergio Ruben</h4>
-<b>AV1:</b> Comunicó con eficacia las decisiones de arquitectura de NovaLeads, justificando la separación de responsabilidades entre los componentes del sistema y los bounded contexts del dominio.
-<b>TB1:</b> Comunicó con claridad al equipo el propósito de los dashboards, la organización de sus indicadores y su contribución al frontend, relacionando las decisiones de interfaz con las necesidades de los usuarios.
+<b>AV1:</b> Comunicó con eficacia las decisiones de arquitectura de NovaLeads, justificando la separación de responsabilidades entre los componentes del sistema y los bounded contexts del dominio.<br><br>
+<b>TB1:</b> Comunicó con claridad al equipo el propósito de los dashboards, la organización de sus indicadores y su contribución al frontend, relacionando las decisiones de interfaz con las necesidades de los usuarios.<br><br>
 <h4>Gamero Miranda, Lui Mathias</h4>
 <b>AV1:</b> Comunicó con claridad los hallazgos de la investigación de usuarios y defendió las decisiones comerciales y logísticas (gestión de configuración) del proyecto ante el equipo y los evaluadores.<br><br>
 </td>
