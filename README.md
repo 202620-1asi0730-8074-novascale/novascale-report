@@ -498,61 +498,38 @@ A partir de esta estructura se elabora el Class Diagram, el cual detalla los atr
 
 ### 4.7.1. Class Diagrams.
 
-En esta sección se presentan los diagramas de clases UML de los productos y bounded contexts que conforman NovaLeads. Los diagramas detallan clases, atributos, métodos, enumeraciones, relaciones y multiplicidades para representar la estructura orientada a objetos de la solución.
+Los diagramas siguen una convención común: nombres de clases, interfaces y enumeraciones en **inglés y PascalCase** (`ConversationService`, `IUserRepository`, `LeadStatus`); atributos y métodos en **camelCase** (`createdAt`, `sendMessage()`); y valores de enumeración en **UPPER_SNAKE_CASE** (`NO_RESPONSE`). Los identificadores de clases son singulares (`User`, `Contact`, `Opportunity`). La notación UML usa `+` para miembros públicos, `-` para privados y `#` para protegidos. Las asociaciones indican nombre, dirección cuando corresponde y multiplicidad. Los tipos y estados mencionados en estos diagramas deben coincidir con los del diseño de base de datos y los requisitos.
 
 #### Diagrama de clases de la Web Application
 
 ![Class Diagram Frontend](Resources/Chapter4/class-diagrams/classDiagramFrontend.png)
 
-El diagrama de clases de la Web Application representa la organización del frontend de NovaLeads, desarrollado con Vue.js. La aplicación se estructura mediante las clases `App`, `AppLayout` y `Router`, las cuales permiten iniciar la aplicación, mantener una interfaz compartida y dirigir al usuario hacia las distintas vistas.
-
-Las vistas principales son `LoginView`, `DashboardView`, `LeadsView` y `ConversationsView`. Estas permiten a los usuarios autenticarse, consultar indicadores comerciales, gestionar leads y administrar las conversaciones con contactos.
-
-Los componentes reutilizables, como `LeadForm`, `LeadTable`, `ConversationPanel` y `MetricsCard`, permiten mantener una interfaz modular y reutilizable. Cada vista utiliza los Stores correspondientes para centralizar el estado de la aplicación.
-
-Finalmente, los servicios `AuthService`, `LeadService`, `ConversationService` y `DashboardService` se comunican con la REST API mediante la interfaz `ApiClient`. Esto permite separar la lógica de presentación de la comunicación con el backend.
+La Web Application se desarrolla con Vue.js. `App`, `AppLayout` y `Router` organizan el inicio de la aplicación y la navegación. `LoginView`, `DashboardView`, `LeadsView` y `ConversationsView` representan las vistas principales. Los componentes reutilizables, como `LeadForm`, `LeadTable`, `ConversationPanel` y `MetricsCard`, presentan información y acciones al usuario. Los Stores mantienen el estado de sesión, leads, conversaciones y métricas; los servicios consumen la REST API mediante `ApiClient`. Las clases de la interfaz son representaciones del frontend y no sustituyen a las entidades de dominio de la REST API.
 
 #### Diagrama de clases del bounded context Identity and Access
 
 ![Class Diagram Identity and Access](Resources/Chapter4/class-diagrams/classDiagramIdentityAccess.png)
 
-El bounded context **Identity and Access** gestiona la autenticación y autorización de los usuarios de NovaLeads. La entidad `User` representa a los dueños de pymes, administradores o vendedores que acceden a la plataforma, mientras que `Role` permite asignar responsabilidades dentro del sistema.
+`User` representa la cuenta que accede a NovaLeads y conserva los datos editables del perfil. Cada usuario tiene un `Role`; un rol puede estar asignado a varios usuarios. `Role` agrupa objetos `Permission`, que determinan las operaciones habilitadas para todos los usuarios con ese rol. `AuthenticationService` valida las credenciales con `IPasswordHasher`, obtiene el usuario mediante `IUserRepository` y solicita el token a `ITokenProvider`. `AuthController` expone el inicio de sesión. El diagrama debe expresar las multiplicidades `Role 1 — 0..* User` y `Role 0..* — 0..* Permission`.
 
-Cada rol puede incluir múltiples permisos mediante la entidad `Permission`. Estos permisos determinan las acciones que puede realizar cada usuario, como gestionar usuarios, leads, contactos, conversaciones o consultar el dashboard.
-
-La clase `AuthenticationService` centraliza el proceso de inicio de sesión. Para ello, consulta al usuario mediante `IUserRepository`, valida la contraseña con `IPasswordHasher` y genera un token de acceso a través de `ITokenProvider`. El `AuthController` expone estas funcionalidades mediante la REST API.
 
 #### Diagrama de clases del bounded context Lead and Contact Management
 
 ![Class Diagram Lead and Contact Management](Resources/Chapter4/class-diagrams/classDiagramLeadContact.png)
 
-El bounded context **Lead and Contact Management** concentra la gestión de los contactos comerciales de NovaLeads. La clase abstracta `Contact` almacena la información común, como nombre, correo, teléfono y empresa. A partir de ella se especializan las clases `Lead` y `Client`.
-
-Un `Lead` representa a un contacto que todavía se encuentra en proceso de captación. Puede cambiar de estado, clasificarse mediante múltiples etiquetas `Tag` y convertirse en un `Client` cuando concreta una relación comercial.
-
-Cada lead puede generar una o varias `Opportunity`. Estas registran el monto estimado, el estado de la oportunidad, la fecha esperada de cierre y el vendedor responsable. Los controladores exponen las operaciones mediante la REST API, mientras que los servicios aplican la lógica del negocio y utilizan repositorios para persistir los datos.
+`Contact` contiene los datos comunes de una persona comercial y se especializa en `Lead` o `Client`. `Lead` registra su estado y puede clasificarse con varias `Tag`; una etiqueta puede aplicarse a varios leads. Un contacto puede tener varias `Opportunity`, cada una con monto estimado, estado, fecha prevista y vendedor asignado. `LeadManagementService` y `OpportunityService` aplican las reglas de negocio a través de repositorios. Los usuarios asignados se muestran como referencias al contexto **Identity and Access**, sin duplicar la clase `User` como entidad propia de este contexto. En persistencia, `Lead` y `Client` se distinguen mediante `contacts.contact_type`.
 
 #### Diagrama de clases del bounded context Conversation Management
 
 ![Class Diagram Conversation Management](Resources/Chapter4/class-diagrams/classDiagramConversationManagement.png)
 
-El bounded context **Conversation Management** permite registrar y administrar las comunicaciones entre el equipo comercial y los contactos de NovaLeads. La clase `Conversation` representa el historial de interacción de un contacto mediante un canal determinado, mientras que `Message` almacena cada mensaje enviado o recibido.
-
-Cada conversación puede contener múltiples mensajes y generar notificaciones para los usuarios responsables. Las notificaciones permiten alertar sobre mensajes nuevos, conversaciones sin respuesta o contactos que requieren atención prioritaria.
-
-La clase `WhatsAppWebhookController` recibe los mensajes entrantes desde WhatsApp Business API. El `ConversationService` registra dichos mensajes y permite enviar respuestas mediante `IWhatsAppBusinessGateway`. Finalmente, `NotificationService` genera las alertas necesarias y las almacena mediante los repositorios correspondientes.
+`Conversation` está vinculada con un `Contact` y contiene cero o más `Message`. Sus atributos de estado, prioridad y tiempo pendiente permiten identificar conversaciones que requieren respuesta. La aplicación determina la prioridad automática a partir del tiempo pendiente y de un umbral fijo del sistema; no se persiste una entidad de configuración en la base de datos. `Notification` avisa al usuario responsable sobre nuevos mensajes o conversaciones pendientes. `WhatsAppWebhookController` recibe eventos de WhatsApp Business API; `ConversationService` registra los mensajes y utiliza `IWhatsAppBusinessGateway` para enviar respuestas. `Contact` y `User` son referencias a otros bounded contexts. El diagrama debe mostrar la relación `Conversation 1 — 0..* Message` y las asociaciones de conversaciones y notificaciones con sus responsables.
 
 #### Diagrama de clases del bounded context Sales and Dashboard
 
 ![Class Diagram Sales and Dashboard](Resources/Chapter4/class-diagrams/classDiagramSalesDashboard.png)
 
-El bounded context **Sales and Dashboard** permite registrar las oportunidades comerciales concretadas y mostrar indicadores sobre el desempeño de las actividades de ventas. La clase `Sale` almacena el monto, la fecha, el estado y las observaciones de cada venta realizada.
-
-Cada venta se relaciona con una `Opportunity` proveniente del bounded context Lead and Contact Management. De esta manera, NovaLeads puede identificar qué oportunidades fueron concretadas y qué vendedor estuvo asignado a cada una.
-
-La clase `DashboardSummary` reúne las métricas principales, como cantidad total de leads, oportunidades abiertas, ventas concretadas y monto total de ventas. Estas métricas se representan mediante `DashboardMetric` y pueden filtrarse por rango de fechas o vendedor.
-
-Los controladores `SalesController` y `DashboardController` exponen las funcionalidades mediante la REST API. Los servicios utilizan repositorios para consultar y almacenar la información necesaria para el dashboard comercial.
+`Sale` registra una venta realizada y se relaciona con una `Opportunity` del contexto **Lead and Contact Management**. Una oportunidad produce como máximo una venta; una venta pertenece a exactamente una oportunidad. La venta conserva el vendedor responsable al momento de registrarse. `DashboardService` calcula `DashboardSummary` y `DashboardMetric` a partir de contactos, oportunidades y ventas, con filtros según el rol del usuario. `User` y `Opportunity` se muestran como referencias externas, no como entidades redefinidas en este contexto. Las métricas derivadas no requieren una tabla `dashboard`.
 
 ## 4.8. Database Design.
 
