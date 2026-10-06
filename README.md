@@ -171,8 +171,8 @@ El Sprint Planning Meeting marcó el inicio formal del desarrollo. Durante esta 
 | **Sprint n – 1 Retrospective Summary** | - |
 | **Sprint Goal & User Stories** | |
 | **Sprint 1 Goal** | **Contexto:** El equipo decidió enfocar el primer esfuerzo de codificación en sentar las bases operativas de la plataforma, desarrollando la Landing Page para presentar el producto. <br><br> **Sprint Goal:**<br>*"Our focus is on offering a reliable body of knowledge for future users of our CRM system, while establishing the product's digital presence through a responsive Landing Page.*<br>*We believe it delivers a trustworthy onboarding experience to administrators and clear product value proposition to prospective customers.*<br>*This will be confirmed when administrators and visitors can navigate the Landing Page features without errors."* |
-| **Sprint 1 Velocity** | 50 Story Points. (Velocidad estimada basada en la capacidad inicial del equipo para configurar los entornos). |
-| **Sum of Story Points** | 50 Story Points. |
+| **Sprint 1 Velocity** | 67 Story Points. (Velocidad estimada basada en la capacidad inicial del equipo para configurar los entornos). |
+| **Sum of Story Points** | 67 Story Points. |
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
@@ -194,23 +194,29 @@ Durante el primer sprint, el equipo se centró en desarrollar una landing page q
 | **User Story** |  | **Work-Item / Task** |  |  |  |  |  |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Id** | **Título** | **Id** | **Título** | **Descripción** | **Est. (Hrs)** | **Asignado** | **Status** |
-| US-21 | Visualización de información del negocio | T-01 | Diseñar estructura de la Landing Page | Definir la estructura visual de las secciones principales de la Landing Page y organizar la información de NovaLeads. | 3 | Lui | To Do |
-| US-21 | Visualización de información del negocio | T-02 | Implementar sección principal | Implementar la sección inicial con el nombre, propuesta de valor y descripción general de NovaLeads. | 3 | Lui | To Do |
-| US-21 | Visualización de información del negocio | T-03 | Implementar sección de funcionalidades | Implementar una sección que presente las principales funcionalidades de NovaLeads de forma clara y visual. | 4 | Lui | To Do |
-| US-22 | Información para dueños de pymes y startups | T-04 | Diseñar sección para dueños | Diseñar la sección dirigida a dueños de pymes y startups, destacando los beneficios relacionados con la gestión comercial. | 3 | Dario | To Do |
-| US-22 | Información para dueños de pymes y startups | T-05 | Implementar contenido para dueños | Implementar textos y elementos visuales relacionados con la gestión de leads, clientes, conversaciones y resultados de ventas. | 3 | Dario | To Do |
-| US-23 | Información para equipos de ventas | T-06 | Diseñar sección para equipos de ventas | Diseñar la sección dirigida a equipos de ventas, considerando sus principales necesidades de gestión y seguimiento comercial. | 3 | Johan | To Do |
-| US-23 | Información para equipos de ventas | T-07 | Implementar contenido para equipos de ventas | Implementar textos y elementos visuales relacionados con leads, conversaciones y rendimiento del equipo. | 3 | Johan | To Do |
-| US-24 | Navegación entre secciones | T-08 | Implementar menú de navegación | Crear el menú de navegación de la Landing Page con enlaces hacia las principales secciones del sitio. | 3 | Sergio | To Do |
-| US-24 | Navegación entre secciones | T-09 | Implementar navegación interna | Configurar el desplazamiento hacia las secciones correspondientes al seleccionar las opciones del menú. | 2 | Sergio | To Do |
-| US-25 | Call to Action para dueños | T-10 | Diseñar Call to Action para dueños | Diseñar un Call to Action dirigido específicamente a dueños de pymes y startups. | 2 | Renzo | To Do |
-| US-25 | Call to Action para dueños | T-11 | Implementar flujo del Call to Action | Implementar el enlace o acción que permita al visitante iniciar el flujo de acceso o registro correspondiente. | 2 | Renzo | To Do |
-| US-26 | Call to Action para equipos de ventas | T-12 | Diseñar Call to Action para equipos de ventas | Diseñar un Call to Action dirigido específicamente a equipos de ventas. | 2 | Lui | To Do |
-| US-26 | Call to Action para equipos de ventas | T-13 | Implementar flujo del Call to Action | Implementar el enlace o acción que permita al visitante iniciar el flujo de acceso o registro correspondiente. | 2 | Lui | To Do |
-| US-27 | Visualización responsive | T-14 | Adaptar Landing Page a dispositivos | Adaptar la estructura y componentes de la Landing Page para desktop, tablet y dispositivos móviles. | 5 | Johan | To Do |
-| US-27 | Visualización responsive | T-15 | Validar comportamiento responsive | Verificar la correcta visualización de textos, imágenes, navegación y Call to Action en diferentes tamaños de pantalla. | 3 | Johan | To Do |
-| TS-02 | Autenticación de usuarios | T-18 | Implementar integración de autenticación | Preparar la integración del frontend con el endpoint de autenticación para permitir el acceso desde los flujos iniciados en la Landing Page. | 4 | Renzo | To Do |
-| TS-02 | Autenticación de usuarios | T-19 | Validar respuestas de autenticación | Verificar el comportamiento del frontend ante credenciales válidas e inválidas y las respuestas HTTP correspondientes. | 3 | Renzo | To Do |
+| US-21 | Visualización de información del negocio | T-01 | Diseñar estructura de la Landing Page | Definir la estructura de las secciones principales y organizar la información de NovaLeads. | 3 | Lui | To Do |
+| US-21 | Visualización de información del negocio | T-02 | Implementar información del negocio | Implementar las secciones principales con la propuesta de valor, funcionalidades y beneficios de NovaLeads. | 5 | Lui | To Do |
+| US-22 | Información para dueños de pymes y startups | T-03 | Diseñar sección para dueños | Definir la estructura y contenido de la sección dirigida a dueños de pymes y startups. | 3 | Dario | To Do |
+| US-22 | Información para dueños de pymes y startups | T-04 | Implementar contenido para dueños | Implementar la información relacionada con la gestión de leads, clientes, conversaciones y resultados de ventas. | 4 | Dario | To Do |
+| US-23 | Información para equipos de ventas | T-05 | Diseñar sección para equipos de ventas | Definir la estructura y contenido de la sección dirigida a equipos de ventas. | 3 | Johan | To Do |
+| US-23 | Información para equipos de ventas | T-06 | Implementar contenido para equipos de ventas | Implementar la información relacionada con leads, conversaciones y rendimiento del equipo. | 4 | Johan | To Do |
+| US-24 | Navegación entre secciones | T-07 | Implementar menú de navegación | Crear el menú de navegación con enlaces hacia las principales secciones de la Landing Page. | 3 | Sergio | To Do |
+| US-24 | Navegación entre secciones | T-08 | Implementar navegación interna | Configurar y validar el desplazamiento hacia las secciones correspondientes. | 3 | Sergio | To Do |
+| US-25 | Call to Action para dueños | T-09 | Diseñar Call to Action para dueños | Diseñar el Call to Action dirigido a dueños de pymes y startups. | 2 | Renzo | To Do |
+| US-25 | Call to Action para dueños | T-10 | Implementar flujo del Call to Action | Implementar y validar la acción que permita al visitante iniciar el flujo correspondiente. | 3 | Renzo | To Do |
+| US-26 | Call to Action para equipos de ventas | T-11 | Diseñar Call to Action para equipos de ventas | Diseñar el Call to Action dirigido a equipos de ventas. | 2 | Lui | To Do |
+| US-26 | Call to Action para equipos de ventas | T-12 | Implementar flujo del Call to Action | Implementar y validar la acción que permita al visitante iniciar el flujo correspondiente. | 3 | Lui | To Do |
+| US-27 | Visualización responsive | T-13 | Adaptar Landing Page a dispositivos | Adaptar la estructura y los componentes de la Landing Page para desktop, tablet y dispositivos móviles. | 5 | Johan | To Do |
+| US-27 | Visualización responsive | T-14 | Validar comportamiento responsive | Verificar la correcta visualización y funcionamiento de la Landing Page en diferentes tamaños de pantalla. | 3 | Johan | To Do |
+| TS-02 | Autenticación de usuarios | T-15 | Implementar servicio de autenticación | Configurar la comunicación del frontend con el endpoint de autenticación y procesar sus respuestas. | 5 | Renzo | To Do |
+| TS-02 | Autenticación de usuarios | T-16 | Validar autenticación | Verificar el comportamiento del frontend ante credenciales válidas, inválidas y respuestas HTTP de error. | 3 | Renzo | To Do |
+| — | — | T-17 | Configurar estructura base del frontend | Configurar la estructura inicial del proyecto frontend y los recursos necesarios para el desarrollo del Sprint. | 3 | Sergio | To Do |
+| — | — | T-18 | Configurar dependencias del proyecto | Instalar y configurar las dependencias requeridas según las tecnologías definidas para el proyecto. | 2 | Sergio | To Do |
+| — | — | T-19 | Configurar control de versiones | Configurar la estructura de ramas y realizar la integración del trabajo del Sprint en el repositorio. | 2 | Sergio | To Do |
+| — | — | T-20 | Aplicar lineamientos visuales generales | Aplicar los lineamientos definidos en el Web Style Guide relacionados con espaciado, dimensiones, tipografía y comunicación. | 3 | Dario | To Do |
+| — | — | T-21 | Realizar integración de componentes | Integrar las secciones, navegación y Call to Action desarrollados durante el Sprint en una única Landing Page funcional. | 2 | Sergio | To Do |
+
+
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
