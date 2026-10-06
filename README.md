@@ -206,6 +206,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <h4>Caldas Garcia, Sergio Ruben</h4>
 <b>AV1:</b>
 <p>Sustentó y explicó el diseño de la arquitectura de software de NovaLeads, incluyendo los diagramas de contexto, contenedores, componentes, clases y diseño de base de datos. Explicó la organización de los bounded contexts y la relación entre la Web Application, la REST API y la base de datos.</p>
+<b>TB1:</b>
+<p>Explicó al equipo el funcionamiento de los dashboards de NovaLeads y cómo presentan las métricas comerciales para dueños y vendedores. Asimismo, comunicó su aporte al desarrollo de componentes del frontend de la Web Application.</p>
 <h4>Gamero Miranda, Lui Mathias</h4>
  <b>AV1:</b><p>Sustentó el proceso de descubrimiento de clientes (Needfinding) mediante las entrevistas realizadas, definió los perfiles de usuario (User Personas) y justificó la estrategia de precios SaaS, aportando además en la explicación técnica del desarrollo de la Landing Page.</p>
 </td>
@@ -218,8 +220,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <b><b>AV1:</b> Comunicó con eficacia tanto las necesidades operativas de los usuarios como las decisiones técnicas de infraestructura y estándares de código ante el equipo y los evaluadores.<br><br>
 <b>TB1:</b> Comunicó eficazmente la arquitectura técnica detrás del acceso seguro de los usuarios (login/registro) y demostró claridad y fluidez al explicar el flujo de despliegue continuo de la aplicación ante los evaluadores.<br><br>
 <h4>Caldas Garcia, Sergio Ruben</h4>
-<b>AV1:</b>
-Comunicó con eficacia las decisiones de arquitectura de NovaLeads, justificando la separación de responsabilidades entre los componentes del sistema y los bounded contexts del dominio.
+<b>AV1:</b> Comunicó con eficacia las decisiones de arquitectura de NovaLeads, justificando la separación de responsabilidades entre los componentes del sistema y los bounded contexts del dominio.
+<b>TB1:</b> Comunicó con claridad al equipo el propósito de los dashboards, la organización de sus indicadores y su contribución al frontend, relacionando las decisiones de interfaz con las necesidades de los usuarios.
 <h4>Gamero Miranda, Lui Mathias</h4>
 <b>AV1:</b> Comunicó con claridad los hallazgos de la investigación de usuarios y defendió las decisiones comerciales y logísticas (gestión de configuración) del proyecto ante el equipo y los evaluadores.<br><br>
 </td>
@@ -237,6 +239,7 @@ Comunicó con eficacia las decisiones de arquitectura de NovaLeads, justificando
 <h4>Caldas Garcia, Sergio Ruben</h4>
 <b>AV1:</b>
 <p>Estructuró y redactó la documentación correspondiente a la arquitectura de software de NovaLeads, incluyendo los diagramas C4, los diagramas de clases por bounded context y los diagramas de diseño de base de datos.</p>
+<b>TB1:</b><p>Desarrolló los dashboards y apoyó parcialmente la implementación del frontend. Organizó la presentación de los indicadores comerciales en la interfaz para que dueños y vendedores puedan consultar la información de forma comprensible.</p>
 <h4>Gamero Miranda, Lui Mathias</h4>
  <b>AV1:</b><p>Redaccion del análisis de las entrevistas, estructuró la documentación de los User Personas y el análisis competitivo, además de definir las herramientas de Project Management y SCM, contribuyendo también en la codificación y traducción de la Landing Page.</p>
 </td>
@@ -250,6 +253,7 @@ Comunicó con eficacia las decisiones de arquitectura de NovaLeads, justificando
 <b>TB1:</b> Consolidó la documentación técnica del código frontend y la infraestructura de despliegue de manera estructurada, logrando un texto riguroso que permite al equipo y a los revisores replicar o entender la configuración en la nube.<br><br>
 <h4>Caldas Garcia, Sergio Ruben</h4>
 <b>AV1:</b> Consolidó la documentación de arquitectura de NovaLeads, incluyendo los diagramas C4, los diagramas de clases por bounded context y el diseño de base de datos, en un documento claro, consistente y alineado con los requerimientos del informe académico.<br><br>
+<b>TB1:</b> Contribuyó a comunicar de forma clara los resultados comerciales mediante los dashboards y apoyó el desarrollo del frontend, facilitando que los usuarios interpreten sus métricas y consulten la información relevante en la aplicación.<br><br>
 <h4>Gamero Miranda, Lui Mathias</h4>
 <b>AV1:</b> Consolidó la investigación de UX, la estrategia comercial y los lineamientos de gestión de código en un documento formal, riguroso y alineado a los requerimientos del informe académico.<br><br>
 </td>
