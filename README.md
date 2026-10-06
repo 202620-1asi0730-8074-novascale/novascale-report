@@ -202,6 +202,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
  <b>AV1:</b><p>Explicó las secciones introductorias y la justificación de la solución propuesta en el pitch inicial del proyecto.</p>
 <h4>Romero Vilela, Dario Alberto</h4>
  <b>AV1:</b><p>Sustentó y explicó de forma clara el análisis de experiencia (User Journey y Empathy Maps), el modelado de negocio (Big Picture EventStorming) y la configuración de despliegue (CI/CD) en la presentación audiovisual del proyecto. Además, formuló y condujo entrevistas directas con stakeholders del equipo de ventas.</p>
+<b>TB1:</b><p>Sustentó el desarrollo y la implementación del módulo de autenticación de la Web Application, detallando la estructuración de rutas, vistas y lógica de dominio en Vue.js. Asimismo, explicó el funcionamiento del pipeline automatizado de integración y entrega continua (CI/CD) para el despliegue del Frontend en la nube.</p>
 <h4>Caldas Garcia, Sergio Ruben</h4>
 <b>AV1:</b>
 <p>Sustentó y explicó el diseño de la arquitectura de software de NovaLeads, incluyendo los diagramas de contexto, contenedores, componentes, clases y diseño de base de datos. Explicó la organización de los bounded contexts y la relación entre la Web Application, la REST API y la base de datos.</p>
@@ -214,7 +215,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <h4>Bottger Salazar, Johan Karl</h4>
 <b>AV1:</b> Comunicó eficazmente el problema inicial y cómo la solución se alinea con los objetivos del cliente.<br><br>
 <h4>Romero Vilela, Dario Alberto</h4>
-<b>AV1:</b> Comunicó con eficacia tanto las necesidades operativas de los usuarios como las decisiones técnicas de infraestructura y estándares de código ante el equipo y los evaluadores.<br><br>
+<b><b>AV1:</b> Comunicó con eficacia tanto las necesidades operativas de los usuarios como las decisiones técnicas de infraestructura y estándares de código ante el equipo y los evaluadores.<br><br>
+<b>TB1:</b> Comunicó eficazmente la arquitectura técnica detrás del acceso seguro de los usuarios (login/registro) y demostró claridad y fluidez al explicar el flujo de despliegue continuo de la aplicación ante los evaluadores.<br><br>
 <h4>Caldas Garcia, Sergio Ruben</h4>
 <b>AV1:</b>
 Comunicó con eficacia las decisiones de arquitectura de NovaLeads, justificando la separación de responsabilidades entre los componentes del sistema y los bounded contexts del dominio.
@@ -231,6 +233,7 @@ Comunicó con eficacia las decisiones de arquitectura de NovaLeads, justificando
  <b>AV1:</b><p>Explicó las secciones introductorias y la justificación de la solución propuesta en el pitch inicial del proyecto.</p>
 <h4>Romero Vilela, Dario Alberto</h4>
  <b>AV1:</b><p>Estructuró y redactó la documentación correspondiente a las secciones 2.3.3. User Journey Mapping, 2.3.4. Empathy Mapping, y 2.4. Big Picture EventStorming, así como las normativas técnicas en 5.1.3. Source Code Style Guide & Conventions y 5.1.4. Software Deployment Configuration.</p>
+<b>TB1:</b><p>Estructuró y documentó el código fuente del flujo de autenticación, detallando las rutas e interfaces de usuario. Además, redactó las evidencias de ejecución del Sprint 2 y la configuración final del entorno de despliegue automatizado (Software Deployment Evidence).</p>
 <h4>Caldas Garcia, Sergio Ruben</h4>
 <b>AV1:</b>
 <p>Estructuró y redactó la documentación correspondiente a la arquitectura de software de NovaLeads, incluyendo los diagramas C4, los diagramas de clases por bounded context y los diagramas de diseño de base de datos.</p>
@@ -244,6 +247,7 @@ Comunicó con eficacia las decisiones de arquitectura de NovaLeads, justificando
 <b>AV1:</b> Comunicó eficazmente el problema inicial y cómo la solución se alinea con los objetivos del cliente.<br><br>
 <h4>Romero Vilela, Dario Alberto</h4>
 <b>AV1:</b> Consolidó los entregables de análisis de negocio, modelado de eventos y guías de arquitectura de despliegue en un texto claro, formal y académicamente riguroso.<br><br>
+<b>TB1:</b> Consolidó la documentación técnica del código frontend y la infraestructura de despliegue de manera estructurada, logrando un texto riguroso que permite al equipo y a los revisores replicar o entender la configuración en la nube.<br><br>
 <h4>Caldas Garcia, Sergio Ruben</h4>
 <b>AV1:</b> Consolidó la documentación de arquitectura de NovaLeads, incluyendo los diagramas C4, los diagramas de clases por bounded context y el diseño de base de datos, en un documento claro, consistente y alineado con los requerimientos del informe académico.<br><br>
 <h4>Gamero Miranda, Lui Mathias</h4>
