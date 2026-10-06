@@ -199,12 +199,12 @@ Al analizar estos recorridos, logramos detectar los momentos críticos de fricci
 #### A. User Journey Map: Mateo Vargas (Segmento Dueños de Startups)
 Este diagrama describe la rutina directiva de Mateo, quien hoy en día está atado a hojas de cálculo fragmentadas y reportes manuales para evaluar el desempeño de sus vendedores. El mapa refleja su estrés por la carencia de indicadores exactos del embudo de ventas, la pérdida de datos clave por la desorganización general y la enorme fricción que supone intentar visualizar la rentabilidad de su negocio al instante.
 
-![Customer Journey Map - Mateo Vargas](Resources/Customer%20journey%20map_mateo.png)
+![Customer Journey Map - Mateo Vargas](Resources/Customer%20journey%20map_Mateo.png)
 
 #### B. User Journey Map: Valeria Torres (Segmento Equipos de Ventas)
 Este trayecto detalla las actividades cotidianas de Valeria en el ámbito comercial. Su recorrido "As-Is" evidencia cómo el ingreso de datos de prospectos se ve obstaculizado por herramientas lentas y llenas de burocracia. Esto le provoca fatiga administrativa, dispersión en los historiales de conversaciones y el peligro inminente de olvidar hacer retornos de llamada esenciales, lo cual perjudica directamente sus metas y comisiones.
 
-![Customer Journey Map - Valeria Torres](Resources/Customer%20journey%20map_valeria.png)
+![Customer Journey Map - Valeria Torres](Resources/Customer%20journey%20map_Valeria.png)
 
 ### 2.3.4. Empathy Mapping
 
@@ -217,12 +217,12 @@ Como resultado de este ejercicio, conseguimos extraer los **Pains** (obstáculos
 #### A. Empathy Map: Mateo Vargas (Segmento Dueños de Startups)
 Este diagrama refleja la realidad directiva de Mateo, evidenciando su urgencia por obtener visibilidad en tiempo real sobre el desempeño de las ventas. Asimismo, subraya su frustración ante un entorno de datos desorganizados que le bloquea la posibilidad de medir la rentabilidad financiera y tener un panorama completo del proceso comercial.
 
-![Empathy Map - Mateo Vargas](Resources/Empathy_map_Mateo.png)
+![Empathy Map - Mateo Vargas](Resources/Empathy_map_Mateo_Vargas.png)
 
 #### B. Empathy Map: Valeria Torres (Segmento Equipos de Ventas)
 El presente mapa profundiza en la jornada operativa de Valeria, destacando su prioridad por organizar prospectos y hacer avanzar oportunidades de venta de la manera más rápida posible. Además, expone su rechazo hacia los sistemas lentos y manuales que dispersan la información, causándole el temor constante de olvidar seguimientos importantes y, como consecuencia, perder sus comisiones mensuales.
 
-![Empathy Map - Valeria Torres](Resources/Empathy_map_Valeria%20Torres.png)
+![Empathy Map - Valeria Torres](Resources/Empathy_map_Valeria_Torres.png)
 
 
 ## 2.4. Big Picture Event Storming
