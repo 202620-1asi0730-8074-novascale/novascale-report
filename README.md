@@ -93,6 +93,13 @@
 | **25** | **US-02** | Gestión de usuarios y permisos | Como dueño, quiero gestionar los permisos de los usuarios para controlar qué funcionalidades puede utilizar cada vendedor. | **5** |
 | **26** | **US-24** | Navegación entre secciones | Como visitante, quiero navegar entre las diferentes secciones de la Landing Page, para acceder rápidamente a la información que me interesa. | **2** |
 | **27** | **US-27** | Visualización responsive | Como visitante, quiero visualizar correctamente la Landing Page desde diferentes dispositivos, para poder consultar la información independientemente del tamaño de pantalla utilizado. | **3** |
+| **28** | **TS-01** | Documentación OpenAPI | Como equipo Developer, quiero implementar documentación automática con Swagger/OpenAPI, para mantener una especificación actualizada y accesible de todos los endpoints de la API. | **2** |
+| **29** | **TS-02** | Autenticación de usuarios | Como Developer, quiero implementar un endpoint RESTful para autenticar usuarios, para permitir el acceso seguro a los recursos de NovaLeads. | **5** |
+| **30** | **TS-03** | API de gestión de Leads | Como Developer, quiero implementar endpoints RESTful para registrar y consultar leads, para permitir que los clientes gestionen la información de sus leads mediante la API. | **5** |
+| **31** | **TS-04** | API de gestión de Contactos | Como Developer, quiero implementar endpoints RESTful para consultar y actualizar contactos, para mantener disponible y actualizada la información de los clientes y leads. | **5** |
+| **32** | **TS-05** | API de conversaciones | Como Developer, quiero implementar endpoints RESTful para consultar y gestionar conversaciones, para permitir el acceso al historial de comunicación asociado a los contactos. | **5** |
+| **33** | **TS-06** | API de Dashboard y métricas | Como Developer, quiero implementar endpoints RESTful para obtener métricas de ventas y leads, para proporcionar al frontend los datos necesarios para construir el dashboard. | **5** |
+| **34** | **TS-07** | Manejo de errores y respuestas HTTP | Como Developer, quiero implementar un mecanismo estandarizado para manejar errores y códigos de respuesta HTTP, para proporcionar respuestas consistentes y comprensibles en todos los endpoints de la API. | **3** |
 ---
 
 ### Evidencias de Gestión en Jira
