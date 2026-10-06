@@ -545,83 +545,73 @@ La base de datos se organiza en cuatro bounded contexts: **Identity and Access**
 
 ![Database Diagram Identity and Access](Resources/Chapter4/Database-diagram/databaseIdentityAccessDiagram.png)
 
-Este diagrama representa la persistencia de usuarios, roles y permisos. La tabla `users` almacena los datos de acceso de los usuarios, mientras que `roles` define sus responsabilidades dentro de NovaLeads. La relación entre roles y permisos se implementa mediante la tabla intermedia `role_permissions`.
+Este diagrama presenta las tablas que permiten identificar a los usuarios y controlar sus permisos. `users` conserva la cuenta y el rol asignado; `roles` define los perfiles de acceso; `permissions` enumera las acciones autorizables; y `role_permissions` relaciona cada rol con sus permisos.
 
 | Tabla | Columnas principales |
-|---|---|
+| :--- | :--- |
 | `roles` | `id_role: BIGINT [PK]`, `name: VARCHAR(50) [UQ]`, `description: VARCHAR(255)` |
-| `users` | `id_user: BIGINT [PK]`, `id_role: BIGINT [FK]`, `email: VARCHAR(120) [UQ]`, `password_hash: VARCHAR(255)`, `status: ENUM('ACTIVE','INACTIVE')`, `created_at: DATETIME`, `updated_at: DATETIME`, `full_name: VARCHAR(120)` |
-| `permissions` | `id_permission: BIGINT [PK]`, `code: VARCHAR(80) [UQ]`, `description: VARCHAR(255)` |
+| `users` | `id_user: BIGINT [PK]`, `email: VARCHAR(120) [UQ]`, `password_hash: VARCHAR(255)`, `status: ENUM('ACTIVE','INACTIVE')`, `created_at: DATETIME`, `updated_at: DATETIME`, `full_name: VARCHAR(120)`, `id_role: BIGINT [FK]` |
+| `permissions` | `id_permission: BIGINT [PK]`, `code: VARCHAR(80) [UQ]` |
 | `role_permissions` | `id_role: BIGINT [PK, FK]`, `id_permission: BIGINT [PK, FK]` |
 
-* **roles:** define las responsabilidades que puede tener cada usuario dentro de NovaLeads, como dueño o vendedor.
-
-* **users:** almacena la información de acceso de cada usuario, incluyendo su correo, contraseña cifrada, estado y rol asignado.
-
-* **permissions:** define las acciones disponibles en la plataforma, como gestionar leads, contactos, conversaciones, usuarios o consultar métricas.
-
-* **role_permissions:** establece una relación de muchos a muchos entre roles y permisos, permitiendo asignar varios permisos a cada rol.
+* **`roles`:** identifica perfiles como dueño y vendedor. Un rol puede estar asignado a varios usuarios.
+* **`users`:** almacena los datos de acceso y el estado de cada cuenta. Su columna `id_role` referencia `roles.id_role`; la contraseña se representa mediante su hash, no mediante el valor original.
+* **`permissions`:** identifica acciones como gestionar usuarios, leads y conversaciones o consultar métricas. La unicidad de `code` evita códigos de permiso duplicados.
+* **`role_permissions`:** resuelve la relación de muchos a muchos entre roles y permisos. La combinación de `id_role` e `id_permission` forma su clave primaria y evita asignar dos veces el mismo permiso a un rol.
 
 ##### Lead and Contact Management
 
 ![Database Diagram Lead and Contact Management](Resources/Chapter4/Database-diagram/databaseLeadContactDiagram.png)
 
-Este diagrama representa la persistencia del bounded context **Lead and Contact Management**. La tabla `contacts` centraliza la información de leads y clientes; `tags` y `contact_tags` permiten clasificarlos; y `opportunities` registra las oportunidades comerciales asignadas a un vendedor.
+Este diagrama muestra cómo se guardan los leads, clientes, etiquetas y oportunidades comerciales. `contacts` reúne los datos comunes de leads y clientes; `contact_type` distingue ambas categorías y `lead_status` registra el estado de un lead. `users` aparece como referencia al contexto Identity and Access para indicar el usuario responsable de un contacto o una oportunidad.
 
 | Tabla | Columnas principales |
 | :--- | :--- |
-| `contacts` | `id_contact: BIGINT [PK]`, `id_user: BIGINT [FK]`, `full_name: VARCHAR(120)`, `email: VARCHAR(120)`, `phone: VARCHAR(30) [UQ]`, `company: VARCHAR(120)`, `contact_type: VARCHAR(10)`, `lead_status: VARCHAR(20)`, `source: VARCHAR(80)`, `created_at: DATETIME`, `updated_at: DATETIME` |
+| `contacts` | `id_contact: BIGINT [PK]`, `full_name: VARCHAR(120)`, `email: VARCHAR(120)`, `phone: VARCHAR(30) [UQ]`, `company: VARCHAR(120)`, `contact_type: VARCHAR(10)`, `lead_status: VARCHAR(20)`, `source: VARCHAR(80)`, `created_at: DATETIME`, `updated_at: DATETIME`, `id_user: BIGINT [FK]` |
 | `tags` | `id_tag: BIGINT [PK]`, `name: VARCHAR(50) [UQ]`, `color: VARCHAR(20)` |
 | `contact_tags` | `id_contact: BIGINT [PK, FK]`, `id_tag: BIGINT [PK, FK]` |
-| `opportunities` | `id_opportunity: BIGINT [PK]`, `id_contact: BIGINT [FK]`, `id_user: BIGINT [FK]`, `title: VARCHAR(150)`, `estimated_amount: DECIMAL(12,2)`, `status: VARCHAR(10)`, `expected_close_date: DATE`, `created_at: DATETIME` |
-| `user` | `id_user: BIGINT [PK]` |
+| `opportunities` | `id_opportunity: BIGINT [PK]`, `title: VARCHAR(150)`, `estimated_amount: DECIMAL(12,2)`, `status: VARCHAR(10)`, `expected_close_date: DATE`, `created_at: DATETIME`, `id_user: BIGINT [FK]`, `id_contact: BIGINT [FK]` |
+| `users` *(referencia externa)* | Se muestran `id_user: BIGINT [PK]`, `email: VARCHAR(120) [UQ]`, `status: ENUM('ACTIVE','INACTIVE')`, `created_at: DATETIME`, `updated_at: DATETIME`, `full_name: VARCHAR(120)` y `password_hash: VARCHAR(255)`. La definición de la tabla y su relación con `roles` pertenecen a Identity and Access. |
 
-* **contacts:** almacena los datos de leads y clientes. El atributo `contact_type` permite diferenciarlos y `lead_status` registra el estado comercial del lead.
-
-* **tags y contact_tags:** permiten asignar una o varias etiquetas a cada contacto.
-
-* **opportunities:** registra el monto estimado, estado, fecha esperada de cierre, contacto asociado y vendedor responsable.
-
-* **user:** se muestra como referencia del bounded context Identity and Access para asignar contactos y oportunidades a un vendedor.
+* **`contacts`:** registra los datos de contacto y su clasificación. `id_user` identifica al usuario responsable y `phone` permite localizar un contacto cuando llega un mensaje de WhatsApp.
+* **`tags` y `contact_tags`:** permiten asignar varias etiquetas a un contacto y utilizar una misma etiqueta en distintos contactos. `contact_tags` tiene una clave primaria compuesta.
+* **`opportunities`:** conserva el título, monto estimado, estado, fecha esperada de cierre, contacto asociado y usuario responsable. `id_contact` referencia `contacts.id_contact` e `id_user` referencia `users.id_user`.
+* **`users`:** se incluye para hacer visibles las relaciones con contactos y oportunidades. No representa una segunda tabla física ni administra roles dentro de este contexto.
 
 ##### Conversation Management
 
 ![Database Diagram Conversation Management](Resources/Chapter4/Database-diagram/databaseConversationManagementDiagram.png)
 
-Este diagrama representa la persistencia del bounded context **Conversation Management**. Gestiona las conversaciones con contactos, los mensajes recibidos o enviados mediante WhatsApp y las notificaciones dirigidas a los usuarios responsables.
+Este diagrama representa la persistencia de conversaciones, mensajes y notificaciones. Cada conversación se asocia con un contacto y un usuario responsable. Las referencias a `contacts` y `users` muestran los datos necesarios para identificar al contacto en WhatsApp y al destinatario de las alertas, sin redefinir esas tablas en este bounded context.
 
 | Tabla | Columnas principales |
 | :--- | :--- |
-| `conversations` | `id_conversation: BIGINT [PK]`, `id_contact: BIGINT [FK]`, `id_user: BIGINT [FK]`, `channel: VARCHAR(30)`, `status: VARCHAR(10)`, `priority: VARCHAR(10)`, `pending_since: DATETIME`, `last_message_at: DATETIME`, `created_at: DATETIME` |
-| `messages` | `id_message: BIGINT [PK]`, `id_conversation: BIGINT [FK]`, `sender_type: VARCHAR(10)`, `content: TEXT`, `sent_at: DATETIME`, `external_message_id: VARCHAR(120) [UQ]` |
-| `notifications` | `id_notification: BIGINT [PK]`, `id_user: BIGINT [FK]`, `id_conversation: BIGINT [FK]`, `type: VARCHAR(30)`, `content: VARCHAR(255)`, `is_read: BOOLEAN`, `created_at: DATETIME` |
-| `contacts` | `id_contact: BIGINT [PK]` |
-| `users` | `id_user: BIGINT [PK]` |
+| `conversations` | `id_conversation: BIGINT [PK]`, `channel: VARCHAR(30)`, `status: VARCHAR(10)`, `priority: VARCHAR(10)`, `pending_since: DATETIME`, `last_message_at: DATETIME`, `created_at: DATETIME`, `id_contact: BIGINT [FK]`, `id_user: BIGINT [FK]` |
+| `messages` | `id_message: BIGINT [PK]`, `sender_type: VARCHAR(10)`, `content: TEXT`, `sent_at: DATETIME`, `external_message_id: VARCHAR(120) [UQ]`, `id_conversation: BIGINT [FK]` |
+| `notifications` | `id_notification: BIGINT [PK]`, `type: VARCHAR(30)`, `content: VARCHAR(255)`, `is_read: BOOLEAN`, `created_at: DATETIME`, `id_user: BIGINT [FK]`, `id_conversation: BIGINT [FK]` |
+| `contacts` *(referencia externa)* | Se muestran `id_contact: BIGINT [PK]`, `full_name: VARCHAR(120)`, `phone: VARCHAR(30) [UQ]` y `contact_type: VARCHAR(10)`. Su definición corresponde a Lead and Contact Management. |
+| `users` *(referencia externa)* | Se muestran `id_user: BIGINT [PK]`, `full_name: VARCHAR(120)`, `email: VARCHAR(120) [UQ]` y `status: ENUM('ACTIVE','INACTIVE')`. Su definición corresponde a Identity and Access. |
 
-* **conversations:** registra el canal, estado, prioridad y tiempo pendiente de respuesta de cada conversación asociada a un contacto y vendedor.
-
-* **messages:** almacena el contenido, remitente y fecha de cada mensaje. `external_message_id` permite identificar los mensajes recibidos desde WhatsApp Business API.
-
-* **notifications:** registra las alertas generadas para los vendedores cuando llega un mensaje, existe una conversación pendiente o se asigna prioridad.
-
-* **contacts y users:** se muestran como tablas de referencia para asociar cada conversación con un contacto y con el usuario responsable.
+* **`conversations`:** conserva el canal, estado, prioridad y fechas necesarias para medir el tiempo pendiente de respuesta. `id_contact` apunta al contacto y `id_user` al usuario responsable.
+* **`messages`:** guarda los mensajes enviados y recibidos. `external_message_id` identifica los mensajes de un proveedor externo y evita registrar dos veces un mismo identificador.
+* **`notifications`:** registra alertas para un usuario relacionadas con una conversación. `is_read` permite distinguir las alertas pendientes de las ya revisadas.
+* **`contacts` y `users`:** se muestran como referencias a tablas existentes. Sus claves `id_contact` e `id_user` son destinos de las FK del contexto de conversaciones.
 
 ##### Sales and Dashboard
 
 ![Database Diagram Sales and Dashboard](Resources/Chapter4/Database-diagram/databaseSalesDashboardDiagram.png)
 
-Este diagrama representa la persistencia del bounded context **Sales and Dashboard**. Registra las ventas concretadas y permite relacionarlas con la oportunidad comercial y el vendedor responsable.
+Este diagrama registra las ventas y muestra los datos consultados para calcular las métricas del dashboard. `sales` es la tabla propia del contexto; `opportunities` y `contacts` provienen de Lead and Contact Management, mientras que `users` proviene de Identity and Access. Estas referencias permiten relacionar una venta con su oportunidad y vendedor, y contar los leads registrados.
 
 | Tabla | Columnas principales |
 | :--- | :--- |
-| `sales` | `id_sale: BIGINT [PK]`, `id_user: BIGINT [FK]`, `id_opportunity: BIGINT [FK, UQ]`, `amount: DECIMAL(12,2)`, `sale_date: DATE`, `status: VARCHAR(20)`, `notes: TEXT` |
-| `users` | `id_user: BIGINT [PK]` |
-| `opportunities` | `id_opportunity: BIGINT [PK]` |
+| `sales` | `id_sale: BIGINT [PK]`, `amount: DECIMAL(12,2)`, `sale_date: DATE`, `status: VARCHAR(20)`, `notes: TEXT`, `id_user: BIGINT [FK]`, `id_opportunity: BIGINT [FK, UQ]` |
+| `opportunities` *(referencia externa)* | Se muestran `id_opportunity: BIGINT [PK]`, `title: VARCHAR(150)`, `estimated_amount: DECIMAL(12,2)`, `status: VARCHAR(10)`, `expected_close_date: DATE`, `created_at: DATETIME`, `id_user: BIGINT [FK]` e `id_contact: BIGINT [FK]`. Su definición corresponde a Lead and Contact Management. |
+| `contacts` *(referencia externa)* | Se muestran `id_contact: BIGINT [PK]`, `contact_type: VARCHAR(10)`, `lead_status: VARCHAR(20)` y `created_at: DATETIME`. Su definición corresponde a Lead and Contact Management. |
+| `users` *(referencia externa)* | Se muestran `id_user: BIGINT [PK]`, `email: VARCHAR(120)`, `status: ENUM('ACTIVE','INACTIVE')`, `created_at: DATETIME`, `updated_at: DATETIME`, `full_name: VARCHAR(120)` y `password_hash: VARCHAR(255)`. Su definición y la unicidad de `email` se establecen en Identity and Access. |
 
-* **sales:** almacena el monto, fecha, estado y observaciones de las oportunidades que fueron concretadas.
-
-* **opportunities:** se relaciona con `sales` mediante `id_opportunity`. La restricción única `UQ` garantiza que una oportunidad genere como máximo una venta.
-
-* **users:** se relaciona con `sales` mediante `id_user`, permitiendo identificar las ventas realizadas por cada vendedor.
-
-* **Dashboard:** no requiere una tabla propia, ya que sus métricas se calculan a partir de la información registrada en `contacts`, `opportunities` y `sales`.
+* **`sales`:** almacena el monto, fecha, estado y observaciones de cada venta. `id_user` identifica al vendedor y `id_opportunity` enlaza con la oportunidad que se concretó.
+* **`opportunities`:** enlaza cada venta con el contacto y con la información comercial de origen. La restricción única en `sales.id_opportunity` establece un máximo de una venta por oportunidad.
+* **`contacts`:** permite contar los leads por clasificación y estado, incluso cuando todavía no existe una oportunidad asociada.
+* **`users`:** permite agrupar las ventas y oportunidades por usuario responsable; es la misma tabla física definida en Identity and Access.
+* **Dashboard:** no necesita una tabla propia. Sus indicadores se obtienen mediante consultas a `contacts`, `opportunities` y `sales`.
