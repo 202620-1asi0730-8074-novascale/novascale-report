@@ -206,8 +206,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <h4>Caldas Garcia, Sergio Ruben</h4>
 <b>AV1:</b>
 <p>Sustentó y explicó el diseño de la arquitectura de software de NovaLeads, incluyendo los diagramas de contexto, contenedores, componentes, clases y diseño de base de datos. Explicó la organización de los bounded contexts y la relación entre la Web Application, la REST API y la base de datos.</p>
-<b>TB1:</b>
-<p>Explicó al equipo el funcionamiento de los dashboards de NovaLeads y cómo presentan las métricas comerciales para dueños y vendedores. Asimismo, comunicó su aporte al desarrollo de componentes del frontend de la Web Application.</p>
+<b>TB1:</b><p>Explicó al equipo el funcionamiento de los dashboards de NovaLeads y cómo presentan las métricas comerciales para dueños y vendedores. Asimismo, comunicó su aporte al desarrollo de componentes del frontend de la Web Application.</p>
 <h4>Gamero Miranda, Lui Mathias</h4>
  <b>AV1:</b><p>Sustentó el proceso de descubrimiento de clientes (Needfinding) mediante las entrevistas realizadas, definió los perfiles de usuario (User Personas) y justificó la estrategia de precios SaaS, aportando además en la explicación técnica del desarrollo de la Landing Page.</p>
 </td>
