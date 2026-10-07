@@ -197,13 +197,13 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <td colspan="3">Trabaja en equipo para proporcionar liderazgo en forma conjunta.</td>
 <td colspan="3" align="justify">
 <h4>Retuerto Zapata, Renzo Paul</h4>
- <b>AV1:</b><p>Sustentó y explicó de forma clara el diseño de la interfaz de usuario (UI), los flujos de interacción de las aplicaciones y la arquitectura orientada a dominios (EventStorming) ante el equipo y los evaluadores.</p>
- <b>TB1:</b><p>Sustentó la implementación de componentes clave del frontend de la Web Application (módulo de gestión de prospectos y pipeline de ventas), detallando la integración de la UI con la arquitectura modular en Vue.js, el uso de componentes de interfaz y el consumo de los endpoints RESTful para la sincronización de datos en tiempo real.</p>   
+<b>AV1:</b><p>Sustentó y explicó de forma clara el diseño de la interfaz de usuario (UI), los flujos de interacción de las aplicaciones y la arquitectura orientada a dominios (EventStorming) ante el equipo y los evaluadores.</p>
+<b>TB1:</b><p>Sustentó la implementación de componentes clave del frontend de la Web Application (módulo de gestión de prospectos y pipeline de ventas), detallando la integración de la UI con la arquitectura modular en Vue.js, el uso de componentes de interfaz y el consumo de los endpoints RESTful para la sincronización de datos en tiempo real.</p>
 <h4>Bottger Salazar, Johan Karl</h4>
- <b>AV1:</b><p>Explicó las secciones introductorias y la justificación de la solución propuesta en el pitch inicial del proyecto.</p>
- <b>TB1:</b><p>Definió con liderazgo las tareas a ser realizadas durante el desarrollo de la solución propuesta.</p>
+<b>AV1:</b><p>Explicó las secciones introductorias y la justificación de la solución propuesta en el pitch inicial del proyecto.</p>
+<b>TB1:</b><p>Definió con liderazgo las tareas a ser realizadas durante el desarrollo de la solución propuesta.</p>
 <h4>Romero Vilela, Dario Alberto</h4>
- <b>AV1:</b><p>Sustentó y explicó de forma clara el análisis de experiencia (User Journey y Empathy Maps), el modelado de negocio (Big Picture EventStorming) y la configuración de despliegue (CI/CD) en la presentación audiovisual del proyecto. Además, formuló y condujo entrevistas directas con stakeholders del equipo de ventas.</p>
+<b>AV1:</b><p>Sustentó y explicó de forma clara el análisis de experiencia (User Journey y Empathy Maps), el modelado de negocio (Big Picture EventStorming) y la configuración de despliegue (CI/CD) en la presentación audiovisual del proyecto. Además, formuló y condujo entrevistas directas con stakeholders del equipo de ventas.</p>
 <b>TB1:</b><p>Sustentó el desarrollo y la implementación del módulo de autenticación de la Web Application, detallando la estructuración de rutas, vistas y lógica de dominio en Vue.js. Asimismo, explicó el funcionamiento del pipeline automatizado de integración y entrega continua (CI/CD) para el despliegue del Frontend en la nube.</p>
 <h4>Caldas Garcia, Sergio Ruben</h4>
 <b>AV1:</b>
@@ -216,11 +216,12 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <td colspan="3" align="justify">
 <h4>Retuerto Zapata, Renzo Paul</h4>
 <b>AV1:</b> Comunicó con eficacia los fundamentos del diseño de experiencia de usuario (UX/UI) y las decisiones tomadas en el modelado de arquitectura de software.<br><br>
+<b>TB1:</b> Comunicó con precisión técnica la vinculación entre los prototipos de diseño y la implementación funcional en el frontend, argumentando con claridad las decisiones de usabilidad, modularidad y coherencia arquitectónica ante el equipo y los evaluadores.<br><br>
 <h4>Bottger Salazar, Johan Karl</h4>
 <b>AV1:</b> Comunicó eficazmente el problema inicial y cómo la solución se alinea con los objetivos del cliente.<br><br>
 <b>TB1:</b> Comunicó de manera precisa el flujo de trabajo y sustentó las decisiones tomadas.<br><br>
 <h4>Romero Vilela, Dario Alberto</h4>
-<b><b>AV1:</b> Comunicó con eficacia tanto las necesidades operativas de los usuarios como las decisiones técnicas de infraestructura y estándares de código ante el equipo y los evaluadores.<br><br>
+<b>AV1:</b> Comunicó con eficacia tanto las necesidades operativas de los usuarios como las decisiones técnicas de infraestructura y estándares de código ante el equipo y los evaluadores.<br><br>
 <b>TB1:</b> Comunicó eficazmente la arquitectura técnica detrás del acceso seguro de los usuarios (login/registro) y demostró claridad y fluidez al explicar el flujo de despliegue continuo de la aplicación ante los evaluadores.<br><br>
 <h4>Caldas Garcia, Sergio Ruben</h4>
 <b>AV1:</b> Comunicó con eficacia las decisiones de arquitectura de NovaLeads, justificando la separación de responsabilidades entre los componentes del sistema y los bounded contexts del dominio.<br><br>
@@ -234,24 +235,26 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <td colspan="3">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
 <td colspan="3" align="justify">
 <h4>Retuerto Zapata, Renzo Paul</h4>
- <b>AV1:</b><p>Estructuró y redactó la documentación correspondiente al diseño de interfaces (Landing Page y aplicaciones web), wireframes, wireflows, prototipos y el Design-Level EventStorming.</p>
+<b>AV1:</b><p>Estructuró y redactó la documentación correspondiente al diseño de interfaces (Landing Page y aplicaciones web), wireframes, wireflows, prototipos y el Design-Level EventStorming.</p>
+<b>TB1:</b><p>Codificó y estructuró las vistas y componentes principales de la aplicación web aplicando los lineamientos de diseño UI/UX acordados. Asimismo, redactó y documentó las evidencias de desarrollo (Development Evidence for Sprint Review) y ejecución correspondientes a las User Stories asignadas para el Sprint 2.</p>
 <h4>Bottger Salazar, Johan Karl</h4>
- <b>AV1:</b><p>Explicó las secciones introductorias y la justificación de la solución propuesta en el pitch inicial del proyecto.</p>
- <b>TB1:</b><p>Definió y comunicó con liderazgo las tareas necesarias para los objetivos establecidos.</p>
+<b>AV1:</b><p>Explicó las secciones introductorias y la justificación de la solución propuesta en el pitch inicial del proyecto.</p>
+<b>TB1:</b><p>Definió y comunicó con liderazgo las tareas necesarias para los objetivos establecidos.</p>
 <h4>Romero Vilela, Dario Alberto</h4>
- <b>AV1:</b><p>Estructuró y redactó la documentación correspondiente a las secciones 2.3.3. User Journey Mapping, 2.3.4. Empathy Mapping, y 2.4. Big Picture EventStorming, así como las normativas técnicas en 5.1.3. Source Code Style Guide & Conventions y 5.1.4. Software Deployment Configuration.</p>
+<b>AV1:</b><p>Estructuró y redactó la documentación correspondiente a las secciones 2.3.3. User Journey Mapping, 2.3.4. Empathy Mapping, y 2.4. Big Picture EventStorming, así como las normativas técnicas en 5.1.3. Source Code Style Guide & Conventions y 5.1.4. Software Deployment Configuration.</p>
 <b>TB1:</b><p>Estructuró y documentó el código fuente del flujo de autenticación, detallando las rutas e interfaces de usuario. Además, redactó las evidencias de ejecución del Sprint 2 y la configuración final del entorno de despliegue automatizado (Software Deployment Evidence).</p>
 <h4>Caldas Garcia, Sergio Ruben</h4>
 <b>AV1:</b>
 <p>Estructuró y redactó la documentación correspondiente a la arquitectura de software de NovaLeads, incluyendo los diagramas C4, los diagramas de clases por bounded context y los diagramas de diseño de base de datos.</p>
 <b>TB1:</b><p>Desarrolló los dashboards y apoyó parcialmente la implementación del frontend. Organizó la presentación de los indicadores comerciales en la interfaz para que dueños y vendedores puedan consultar la información de forma comprensible.</p>
 <h4>Gamero Miranda, Lui Mathias</h4>
- <b>AV1:</b><p>Redaccion del análisis de las entrevistas, estructuró la documentación de los User Personas y el análisis competitivo, además de definir las herramientas de Project Management y SCM, contribuyendo también en la codificación y traducción de la Landing Page.</p>
+<b>AV1:</b><p>Redaccion del análisis de las entrevistas, estructuró la documentación de los User Personas y el análisis competitivo, además de definir las herramientas de Project Management y SCM, contribuyendo también en la codificación y traducción de la Landing Page.</p>
 <b>TB1:</b><p>Documentó las correcciones visuales de la Landing Page y estructuró el código de la arquitectura del frontend aplicando principios de diseño modular y Domain-Driven Design.</p>
 </td>
 <td colspan="3" align="justify">
 <h4>Retuerto Zapata, Renzo Paul</h4>
 <b>AV1:</b> Consolidó los entregables de diseño visual, prototipado y arquitectura de software en un texto claro, formal y académicamente riguroso.<br><br>
+<b>TB1:</b> Consolidó el código del frontend y la documentación técnica del sprint de manera ordenada y oportuna, asegurando el cumplimiento de los estándares de código, la calidad de la interfaz y los objetivos planificados dentro del equipo de desarrollo.<br><br>
 <h4>Bottger Salazar, Johan Karl</h4>
 <b>AV1:</b> Comunicó eficazmente el problema inicial y cómo la solución se alinea con los objetivos del cliente.<br><br>
 <b>TB1:</b> Solidificó los artefactos del proyecto según la estructura Ágil de la solución.<br><br>
