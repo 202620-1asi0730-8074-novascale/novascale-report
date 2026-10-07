@@ -384,3 +384,23 @@ Durante el transcurso de este sprint, todos los miembros participaron de forma a
 * **Mantenimiento de Estándares y Modularidad:** Es fundamental mantener el rigor en el uso de las convenciones de código (nomenclatura en inglés, metodología BEM y separación de capas DDD) para asegurar que la plataforma escale de forma ordenada y sea fácilmente mantenible por cualquier miembro del equipo.
 * **Enfoque en la Simplicidad Operativa (UX/UI):** Se recomienda priorizar siempre interfaces ágiles y de mínima fricción (como el embudo Kanban y registros rápidos), evitando formularios extensos que puedan generar rechazo o abandono por parte de la fuerza de ventas.
 * **Gestión Estricta del Control de Versiones:** Continuar aplicando revisiones constantes mediante *Pull Requests* en ramas independientes (*feature branches*) antes de fusionar en `develop` o `main`, previniendo conflictos de integración y asegurando la estabilidad continua de los entornos desplegados.
+
+# Anexos
+
+A continuación, se detallan los enlaces de acceso a la plataforma de gestión ágil de tareas y a los repositorios oficiales de control de versiones en la organización de GitHub del equipo **NovaScale**:
+
+* **Gestión de Proyecto y Product Backlog (Jira Software):** [Tablero Scrum - NovaLeads](https://johanbottger.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?atlOrigin=eyJpIjoiZGFhNGMxZDBiNWNkNGU1NTlmOTBjMmY3YjZhODZiZmQiLCJwIjoiaiJ9)
+* **Organización Oficial en GitHub:** [202620-1asi0730-8074-novascale](https://github.com/202620-1asi0730-8074-novascale)
+
+# Bibliografía
+
+A continuación, se detallan las referencias en formato **APA 7.ª edición** correspondientes a los marcos de trabajo, guías oficiales del curso, herramientas de software y recursos de competidores (nombres y logotipos usados con fines académicos) empleados en el proyecto:
+
+* Conventional Commits. (s.f.). *Conventional Commits 1.0.0*. https://www.conventionalcommits.org/
+* GitHub, Inc. (2026). *GitHub* [Plataforma de desarrollo colaborativo y control de versiones]. https://github.com/
+* HubSpot, Inc. (2026). *HubSpot CRM* [Marca registrada y logotipo]. https://www.hubspot.com/
+* JetBrains s.r.o. (2026). *WebStorm* [Entorno de desarrollo integrado]. https://www.jetbrains.com/webstorm/
+* Pipedrive Inc. (2026). *Pipedrive* [Marca registrada y logotipo]. https://www.pipedrive.com/
+* Typicode. (2026). *JSON Server* [Biblioteca de simulación de REST API]. GitHub. https://github.com/typicode/json-server
+* Vue.js. (s.f.). *Vue Style Guide*. https://vuejs.org/v2/style-guide/
+* Zoho Corporation Pvt. Ltd. (2026). *Zoho CRM* [Marca registrada y logotipo]. https://www.zoho.com/crm/
