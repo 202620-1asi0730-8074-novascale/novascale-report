@@ -363,6 +363,7 @@ Se incluye la evidencia de despliegue: []()
 
 <img src="Resources/Chapter5/sprint2/deployment1.png"/>
 <img src="Resources/Chapter5/sprint2/deployment2.png"/>
+<img src="Resources/Chapter5/sprint2/deployment3.png"/>
 
 URL: https://novaleads.onrender.com
 
