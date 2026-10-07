@@ -233,8 +233,8 @@ A continuación, se presentan los commits más importantes del Sprint, los cuale
 #### 5.2.1.5. Execution Evidence for Sprint Review
 Se incluyen capturas detalladas de la ejecución de la Landing Page de la aplicación como evidencia. La Landing Page es compuesta por varias secciones que se presentan en las capturas a continuación.
 
-<img src="/Resources/Chapter5/sprint1/execution1.png"/>
-<img src="/Resources/Chapter5/sprint1/execution2.png"/>
+<img src="Resources/Chapter5/sprint1/execution1.png"/>
+<img src="Resources/Chapter5/sprint1/execution2.png"/>
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 No aplica a primer sprint y desarrollo de Landing Page.
@@ -243,13 +243,13 @@ No aplica a primer sprint y desarrollo de Landing Page.
 El despliegue de la Landing Page se realizó en el servicio de Github Pages, se seleccionó esta alternativa debido a la rapidez de despliegue y su sencillez, apropiada para una página estática.
 Se incluye la evidencia de despliegue del Landing Page en la plataforma Github Pages: [https://202620-1asi0730-8074-novascale.github.io/novascale-website/](https://202620-1asi0730-8074-novascale.github.io/novascale-website/)
 
-<img src="/Resources/Chapter5/sprint1/deployment1.png"/>
-<img src="/Resources/Chapter5/sprint1/deployment2.png"/>
+<img src="Resources/Chapter5/sprint1/deployment1.png"/>
+<img src="Resources/Chapter5/sprint1/deployment2.png"/>
 
 #### 5.2.1.8. Team Collaboration Insights for Sprint Review
 Durante el transcurso de este sprint, todos los miembros participaron de forma activa y constante en la creación de las tareas asignadas. A continuación todos los analíticos que nos proporciona Github, en su apartado de Insights, sobre la colaboración del equipo durante el Sprint 1:
 
-<img src="/Resources/Chapter5/sprint1/collab1.png"/>
+<img src="Resources/Chapter5/sprint1/collab1.png"/>
 
 
 ____
@@ -334,19 +334,24 @@ A continuación, se presentan los commits más importantes del Sprint, los cuale
 | Repository | Branch | Commit ID | Message | Body | Commit Date  |
 |---|---|---|---|---|---|
 | novaleads-webapp | main | 7232b642decc898fccb61cf8274f89b5b18eb295 | feat: Initial frontend commit | - | 6-10-2026 |
+| novaleads-webapp | feature/authentication | 62472074af1f6030186ed13777b84aab05444b79 | feat(authentication): add frontend authentication module layers | - | 6-10-2026 |
+| novaleads-webapp | feature/conversations | e8bab0c9d6f1303c0d14eaa13a6034dd19201494 | feat(conversations): add frontend conversations | - | 6-10-2026 |
+| novaleads-webapp | feature/dashboard | 537b42fda98eafb6f8c599e15c4f4e345b57165a | feat(dashboard): add dashboards and reports | - | 6-10-2026 |
+| novaleads-webapp | feature/leads | ed2da282fe144471657364868c7d9519e88ef20c | feat(leads): add frontend leads module | - | 7-10-2026 |
 
 
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 Se incluyen capturas detalladas de la ejecución del Frontend Web Application como evidencia.
 
-<img src="/Resources/Chapter5/sprint2/execution1.png"/>
-<img src="/Resources/Chapter5/sprint2/execution2.png"/>
+<img src="Resources/Chapter5/sprint2/execution1.png"/>
+<img src="Resources/Chapter5/sprint2/execution2.png"/>
+<img src="Resources/Chapter5/sprint2/execution3.png"/>
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 Se incluyen capturas detalladas de los servicios utilizados por el Frontend Web Application, correspondientes a un fakeapi bajo el alcance del sprint.
 
-<img src="/Resources/Chapter5/sprint2/services.png"/>
+<img src="Resources/Chapter5/sprint2/services1.png"/>
 
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
@@ -355,10 +360,11 @@ El despliegue del Frontend Web Application se realizó en el servicio de , se se
 
 Se incluye la evidencia de despliegue: []()
 
-<img src="/Resources/Chapter5/sprint2/deployment1.png"/>
-<img src="/Resources/Chapter5/sprint2/deployment2.png"/>
+<img src="Resources/Chapter5/sprint2/deployment1.png"/>
+<img src="Resources/Chapter5/sprint2/deployment2.png"/>
 
 #### 5.2.2.8. Team Collaboration Insights for Sprint Review
 Durante el transcurso de este sprint, todos los miembros participaron de forma activa y constante en la creación de las tareas asignadas. A continuación todos los analíticos que nos proporciona Github, en su apartado de Insights, sobre la colaboración del equipo durante el Sprint 2:
 
-<img src="/Resources/Chapter5/sprint2/collab1.png"/>
+<img src="Resources/Chapter5/sprint2/collab1.png"/>
+<img src="Resources/Chapter5/sprint2/collab2.png"/>
