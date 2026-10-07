@@ -368,3 +368,19 @@ Durante el transcurso de este sprint, todos los miembros participaron de forma a
 
 <img src="Resources/Chapter5/sprint2/collab1.png"/>
 <img src="Resources/Chapter5/sprint2/collab2.png"/>
+
+# Conclusiones
+
+## Conclusiones y recomendaciones
+
+### Conclusiones
+
+* **Validación del Problema y Propuesta de Valor:** El análisis de nuestros segmentos objetivo (dueños de startups y equipos de ventas) confirmó que la fragmentación de información en herramientas manuales como hojas de cálculo y chats dispersos genera pérdidas económicas y falta de visibilidad financiera. Esto valida la necesidad de NovaLeads como una solución integral para centralizar la gestión de leads, conversaciones y ganancias en un único espacio.
+* **Implementación de la Arquitectura Frontend:** Durante esta etapa se consolidó el desarrollo de la primera versión funcional de la *Frontend Web Application* (`novascale-webapp`) utilizando **Vue.js** y **PrimeVue. La aplicación de principios de *Domain-Driven Design (DDD)* permitió estructurar de manera modular e independiente los contextos de Autenticación, Gestión de Conversaciones y Dashboards comerciales.
+* **Estandarización y Despliegue Continuo (CI/CD):** El trabajo colaborativo guiado por **GitFlow**, *Conventional Commits* y nuestras guías de estilo en inglés garantizó una integración de código limpia. Asimismo, la automatización mediante **GitHub Actions** permitió desplegar con éxito tanto la *Landing Page* en **GitHub Pages** como la aplicación web en **Amazon S3 y CloudFront**.
+
+### Recomendaciones
+
+* **Mantenimiento de Estándares y Modularidad:** Es fundamental mantener el rigor en el uso de las convenciones de código (nomenclatura en inglés, metodología BEM y separación de capas DDD) para asegurar que la plataforma escale de forma ordenada y sea fácilmente mantenible por cualquier miembro del equipo.
+* **Enfoque en la Simplicidad Operativa (UX/UI):** Se recomienda priorizar siempre interfaces ágiles y de mínima fricción (como el embudo Kanban y registros rápidos), evitando formularios extensos que puedan generar rechazo o abandono por parte de la fuerza de ventas.
+* **Gestión Estricta del Control de Versiones:** Continuar aplicando revisiones constantes mediante *Pull Requests* en ramas independientes (*feature branches*) antes de fusionar en `develop` o `main`, previniendo conflictos de integración y asegurando la estabilidad continua de los entornos desplegados.
