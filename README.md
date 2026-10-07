@@ -200,6 +200,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
  <b>AV1:</b><p>Sustentó y explicó de forma clara el diseño de la interfaz de usuario (UI), los flujos de interacción de las aplicaciones y la arquitectura orientada a dominios (EventStorming) ante el equipo y los evaluadores.</p>
 <h4>Bottger Salazar, Johan Karl</h4>
  <b>AV1:</b><p>Explicó las secciones introductorias y la justificación de la solución propuesta en el pitch inicial del proyecto.</p>
+ <b>TB1:</b><p>Definió con liderazgo las tareas a ser realizadas durante el desarrollo de la solución propuesta.</p>
 <h4>Romero Vilela, Dario Alberto</h4>
  <b>AV1:</b><p>Sustentó y explicó de forma clara el análisis de experiencia (User Journey y Empathy Maps), el modelado de negocio (Big Picture EventStorming) y la configuración de despliegue (CI/CD) en la presentación audiovisual del proyecto. Además, formuló y condujo entrevistas directas con stakeholders del equipo de ventas.</p>
 <b>TB1:</b><p>Sustentó el desarrollo y la implementación del módulo de autenticación de la Web Application, detallando la estructuración de rutas, vistas y lógica de dominio en Vue.js. Asimismo, explicó el funcionamiento del pipeline automatizado de integración y entrega continua (CI/CD) para el despliegue del Frontend en la nube.</p>
@@ -216,6 +217,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <b>AV1:</b> Comunicó con eficacia los fundamentos del diseño de experiencia de usuario (UX/UI) y las decisiones tomadas en el modelado de arquitectura de software.<br><br>
 <h4>Bottger Salazar, Johan Karl</h4>
 <b>AV1:</b> Comunicó eficazmente el problema inicial y cómo la solución se alinea con los objetivos del cliente.<br><br>
+<b>TB1:</b> Comunicó de manera precisa el flujo de trabajo y sustentó las decisiones tomadas.<br><br>
 <h4>Romero Vilela, Dario Alberto</h4>
 <b><b>AV1:</b> Comunicó con eficacia tanto las necesidades operativas de los usuarios como las decisiones técnicas de infraestructura y estándares de código ante el equipo y los evaluadores.<br><br>
 <b>TB1:</b> Comunicó eficazmente la arquitectura técnica detrás del acceso seguro de los usuarios (login/registro) y demostró claridad y fluidez al explicar el flujo de despliegue continuo de la aplicación ante los evaluadores.<br><br>
@@ -234,6 +236,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
  <b>AV1:</b><p>Estructuró y redactó la documentación correspondiente al diseño de interfaces (Landing Page y aplicaciones web), wireframes, wireflows, prototipos y el Design-Level EventStorming.</p>
 <h4>Bottger Salazar, Johan Karl</h4>
  <b>AV1:</b><p>Explicó las secciones introductorias y la justificación de la solución propuesta en el pitch inicial del proyecto.</p>
+ <b>TB1:</b><p>Definió y comunicó con liderazgo las tareas necesarias para los objetivos establecidos.</p>
 <h4>Romero Vilela, Dario Alberto</h4>
  <b>AV1:</b><p>Estructuró y redactó la documentación correspondiente a las secciones 2.3.3. User Journey Mapping, 2.3.4. Empathy Mapping, y 2.4. Big Picture EventStorming, así como las normativas técnicas en 5.1.3. Source Code Style Guide & Conventions y 5.1.4. Software Deployment Configuration.</p>
 <b>TB1:</b><p>Estructuró y documentó el código fuente del flujo de autenticación, detallando las rutas e interfaces de usuario. Además, redactó las evidencias de ejecución del Sprint 2 y la configuración final del entorno de despliegue automatizado (Software Deployment Evidence).</p>
@@ -250,6 +253,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <b>AV1:</b> Consolidó los entregables de diseño visual, prototipado y arquitectura de software en un texto claro, formal y académicamente riguroso.<br><br>
 <h4>Bottger Salazar, Johan Karl</h4>
 <b>AV1:</b> Comunicó eficazmente el problema inicial y cómo la solución se alinea con los objetivos del cliente.<br><br>
+<b>TB1:</b> Solidificó los artefactos del proyecto según la estructura Ágil de la solución.<br><br>
 <h4>Romero Vilela, Dario Alberto</h4>
 <b>AV1:</b> Consolidó los entregables de análisis de negocio, modelado de eventos y guías de arquitectura de despliegue en un texto claro, formal y académicamente riguroso.<br><br>
 <b>TB1:</b> Consolidó la documentación técnica del código frontend y la infraestructura de despliegue de manera estructurada, logrando un texto riguroso que permite al equipo y a los revisores replicar o entender la configuración en la nube.<br><br>
