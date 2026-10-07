@@ -394,7 +394,7 @@ A continuación, se detallan los enlaces de acceso a la plataforma de gestión �
 
 * **Gestión de Proyecto y Product Backlog (Jira Software):** [Tablero Scrum - NovaLeads](https://johanbottger.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?atlOrigin=eyJpIjoiZGFhNGMxZDBiNWNkNGU1NTlmOTBjMmY3YjZhODZiZmQiLCJwIjoiaiJ9)
 * **Organización Oficial en GitHub:** [202620-1asi0730-8074-novascale](https://github.com/202620-1asi0730-8074-novascale)
-
+* **Web application:** https://novaleads.onrender.com/
 # Bibliografía
 
 A continuación, se detallan las referencias en formato **APA 7.ª edición** correspondientes a los marcos de trabajo, guías oficiales del curso, herramientas de software y recursos de competidores (nombres y logotipos usados con fines académicos) empleados en el proyecto:
