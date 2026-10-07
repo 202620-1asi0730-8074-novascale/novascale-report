@@ -56,7 +56,7 @@
 ## 3.2. Impact Mapping
 
 <div align="center">
-  <img src="/Resources/Chapter3/Impactmap.png" alt="Mapa de Impacto" width="700"/>
+  <img src="Resources/Chapter3/Impactmap.png" alt="Mapa de Impacto" width="700"/>
 </div>
 <br>
 
@@ -105,10 +105,10 @@
 A continuación, se adjuntan las capturas del tablero de Jira utilizado para la gestión del Backlog y la estimación de Story Points del equipo de NovaScale.
 
 <div align="center">
-  <img src="/Resources/Chapter3/jira.png" alt="Story Points" width="500"/><br>
+  <img src="Resources/Chapter3/jira.png" alt="Story Points" width="500"/><br>
   <i>Story Points</i><br><br>
   
-  <img src="/Resources/Chapter3/userstory.png" alt="Formato de HU" width="500"/><br>
+  <img src="Resources/Chapter3/userstory.png" alt="Formato de HU" width="500"/><br>
   <i>Formato de Historias de Usuario</i><br><br>
 
 </div>
