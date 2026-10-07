@@ -251,3 +251,114 @@ Durante el transcurso de este sprint, todos los miembros participaron de forma a
 
 <img src="/Resources/Chapter5/sprint1/collab1.png"/>
 
+
+____
+
+
+### 5.2.2. Sprint 2
+En esta sección se registra y explica el avance obtenido durante el segundo ciclo de desarrollo (Sprint 2), abarcando la construcción de los productos de software intermedios y el trabajo colaborativo del equipo. Se incluyen los detalles de planificación, los líderes de cada aspecto, el backlog comprometido y las evidencias de ejecución, documentación y despliegue del trabajo completado.
+
+#### 5.2.2.1. Sprint Planning 2
+Durante esta sesión, se seleccionaron las Historias de Usuario más prioritarias del Product Backlog para definir el objetivo central de la iteración. A continuación, se presenta el cuadro resumen con los detalles y acuerdos de esta reunión:
+
+| **Sprint #** | Sprint 2 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| **Date** | 2026-09-21 |
+| **Time** | 21:00 PM |
+| **Location** | Reunión virtual (Google Meet) |
+| **Prepared By** | Bottger Salazar, Johan Karl |
+| **Attendees (to planning meeting)** | Johan, Renzo, Sergio, Lui, Dario |
+| **Sprint 1 Review Summary** | Durante el Sprint 1 el equipo logró completar la primera versión funcional de la Landing Page. Se cumplió el objetivo principal del sprint de habilitar la presencia digital del producto y redactar el tronco del conocimiento relacionado a la solución. |
+| **Sprint 1 Retrospective Summary** | La comunicación entre integrantes fue constante y facilitó la integración temprana. Mantener documentación y estándares técnicos actualizados durante el sprint. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 2 Goal** | **Contexto:** El equipo decidió enfocar el trabajo en el desarrollo del Frontend Web Application. <br><br> **Sprint Goal:**<br>*"Our focus is on delivering the first operational version of the NovaLeads Web Application while improving the quality, usability, and stability of artifacts created during Sprint 1.
+We believe this delivers a more complete digital experience to administrators and prospective customers by providing the first functional version of the Frontend Web Application.
+This will be confirmed when users can access the deployed web application, navigate the improved Landing Page without usability issues, and interact successfully with the first administrative frontend modules in a production-like environment."* |
+| **Sprint 2 Velocity** | XX Story Points. (Velocidad estimada basada en la capacidad inicial del equipo para configurar los entornos). |
+| **Sum of Story Points** | XX Story Points. |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+En esta sección se presenta la **Leadership-and-Collaboration Matrix (LACX)**. Esta matriz detalla los líderes (L) y colaboradores (C) para cada aspecto clave del Sprint, asegurando una comunicación clara y una distribución de responsabilidades eficiente para el proyecto. La organización está directamente relacionada con la selección de tareas (*tasks*) que se desarrollarán durante el Sprint.
+
+| Team Member (First Name, Last Name) | GitHub Username | Dashboard | Conversations | Authentication | Leads | QA & Deployment |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| Lui Mathias Gamero Miranda | lug07m | C | L | C | C | C |
+| Dario Alberto Romero Vilela | patatitis9-alt | C | C | L | C | C |
+| Johan Karl Bottger Salazar | Deskjobo | C | C | C | C | L |
+| Sergio Ruben Caldas Garcia | Sergiocaldas10 | L | C | C | C | C |
+| Renzo Paul Retuerto Zapata | Renzoocf | C | C | C | L | C |
+
+#### 5.2.2.3. Sprint Backlog 2
+Durante el segundo sprint, el equipo se centró en desarrollar la primera versión del Web Application funcional, organizando y distribuyendo tareas en el tablero de Sprint de acuerdo con las habilidades de cada integrante.
+
+##### Sprint 2 - Tareas Asignadas
+
+| User Story | Título | Work-Item / Task | Título | Descripción | Est. (Hrs) | Asignado | Status |
+| :--- | :--- | :--- | :--- | :--- | ---: | :--- | :--- |
+| HU-01 | Inicio de sesión | T-01 | Implementar inicio de sesión y manejo de sesión | Implementar el formulario de autenticación, integrarlo con el servicio correspondiente y gestionar la respuesta y sesión del usuario. | 8 | Renzo | To Do |
+| HU-02 | Gestión de usuarios y permisos | T-02 | Implementar gestión de usuarios y permisos | Implementar la consulta de usuarios vendedores y la modificación y validación de los permisos asignados. | 8 | Dario | To Do |
+| HU-03 | Dashboard del dueño | T-03 | Implementar dashboard e indicadores del negocio | Implementar la consulta y presentación de los indicadores generales de leads y ventas mediante los gráficos correspondientes. | 8 | Lui | To Do |
+| HU-04 | Dashboard del vendedor | T-04 | Implementar dashboard y validación de indicadores personales | Implementar la consulta y presentación de los indicadores del vendedor autenticado y validar que únicamente pueda consultar sus propios resultados. | 7 | Johan | To Do |
+| HU-05 | Visualización de ventas por vendedor | T-05 | Implementar visualización de ventas por vendedor | Implementar la consulta y presentación de las ventas asociadas a cada vendedor para usuarios con permisos de dueño. | 7 | Sergio | To Do |
+| HU-06 | Registro de leads | T-06 | Implementar registro y validación de leads | Implementar el formulario de registro de leads, integrarlo con el servicio de creación y validar la información requerida. | 8 | Dario | To Do |
+| HU-07 | Filtrado de leads | T-07 | Implementar consulta y filtrado de leads | Implementar la obtención de leads disponibles y su filtrado mediante criterios como estado, vendedor y etiqueta. | 7 | Lui | To Do |
+| HU-08 | Cambio de estado de un lead | T-08 | Implementar actualización y validación de estados | Implementar la modificación del estado de un lead y validar los valores permitidos y las respuestas ante valores no válidos. | 7 | Johan | To Do |
+| HU-09 | Etiquetado de leads por producto | T-09 | Implementar etiquetado de leads por producto | Implementar la consulta de etiquetas disponibles y la asignación de una o más etiquetas de producto a un lead. | 7 | Sergio | To Do |
+| HU-10 | Gestión de etiquetas | T-10 | Implementar gestión de etiquetas | Implementar la creación y edición de etiquetas de productos para usuarios con permisos de gestión, incluyendo la gestión de sus asociaciones con leads. | 8 | Dario | To Do |
+| HU-11 | Visualización de contactos | T-11 | Implementar visualización de contactos | Implementar la consulta y presentación de los contactos disponibles según los permisos del usuario. | 6 | Lui | To Do |
+| HU-12 | Clasificación de contacto | T-12 | Implementar clasificación de contactos | Implementar la consulta y presentación de la clasificación de cada contacto como lead o cliente. | 5 | Sergio | To Do |
+| HU-13 | Edición de información de contacto | T-13 | Implementar edición y validación de contactos | Implementar la modificación de información de contactos autorizados, integrarla con la API y gestionar las validaciones y restricciones de permisos. | 7 | Renzo | To Do |
+| HU-14 | Creación automática de contactos | T-14 | Implementar sincronización automática de contactos | Integrar el frontend con la información de contactos generada automáticamente a partir de conversaciones y verificar la correcta sincronización de contactos nuevos y existentes. | 8 | Johan | To Do |
+| HU-15 | Visualización de conversaciones | T-15 | Implementar visualización e historial de conversaciones | Implementar la consulta y presentación de las conversaciones disponibles y del historial de mensajes de una conversación seleccionada. | 9 | Lui | To Do |
+| HU-16 | Notificación de nuevos mensajes | T-16 | Implementar notificaciones y actualización de conversaciones | Integrar la recepción de notificaciones de nuevos mensajes y actualizar la información de las conversaciones correspondientes. | 7 | Sergio | To Do |
+| HU-17 | Temporizador de conversaciones | T-17 | Implementar temporizador de conversaciones | Implementar el cálculo y actualización del tiempo transcurrido desde la recepción de un mensaje pendiente de respuesta. | 6 | Dario | To Do |
+| HU-18 | Prioridad automática de conversaciones | T-18 | Implementar prioridad automática de conversaciones | Integrar la información de prioridad calculada y actualizar las conversaciones cuando la prioridad cambia según el umbral definido. | 7 | Johan | To Do |
+| HU-19 | Ordenamiento y filtrado de conversaciones | T-19 | Implementar ordenamiento y filtrado de conversaciones | Implementar el ordenamiento y filtrado de conversaciones utilizando criterios de prioridad, etiquetas y vendedor según los permisos disponibles. | 8 | Renzo | To Do |
+| HU-20 | Perfil del vendedor | T-20 | Implementar consulta y edición del perfil | Implementar la consulta y modificación de la información autorizada del perfil del vendedor autenticado, incluyendo sus validaciones. | 7 | Sergio | To Do |
+| TS-01 | Documentación OpenAPI | T-21 | Configurar y validar documentación OpenAPI | Configurar la documentación automática de los endpoints mediante OpenAPI/Swagger y verificar que recursos, métodos, respuestas y esquemas estén documentados correctamente. | 4 | Renzo | To Do |
+| TS-02 | Autenticación de usuarios | T-22 | Implementar y validar API de autenticación | Implementar el endpoint RESTful para autenticar usuarios y generar el token de acceso, validando credenciales, respuestas y códigos HTTP correspondientes. | 8 | Renzo | To Do |
+| TS-03 | API de gestión de Leads | T-23 | Implementar y validar API de Leads | Implementar los endpoints RESTful para registrar y consultar leads, incluyendo las validaciones de datos y respuestas HTTP correspondientes. | 10 | Dario | To Do |
+| TS-04 | API de gestión de Contactos | T-24 | Implementar y validar API de Contactos | Implementar los endpoints RESTful para consultar y actualizar contactos, incluyendo las validaciones de permisos y respuestas HTTP correspondientes. | 9 | Lui | To Do |
+| TS-05 | API de conversaciones | T-25 | Implementar y validar API de conversaciones | Implementar los endpoints RESTful para consultar y gestionar conversaciones e historial de mensajes, incluyendo autorización y respuestas para recursos existentes, inexistentes o no autorizados. | 9 | Johan | To Do |
+| TS-06 | API de Dashboard y métricas | T-26 | Implementar y validar API de métricas | Implementar los endpoints RESTful para obtener indicadores de ventas y leads según el rol, validando datos, permisos y períodos sin información. | 9 | Sergio | To Do |
+| TS-07 | Manejo de errores y respuestas HTTP | T-27 | Implementar y validar manejo estandarizado de errores | Implementar un mecanismo común para gestionar errores y generar respuestas HTTP consistentes, verificando solicitudes inválidas, recursos inexistentes, accesos no autorizados y errores internos. | 7 | Dario | To Do |
+
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+El principal avance durante el Sprint 2 fue el desarrollo del Frontend Web Application del producto. 
+A continuación, se presentan los commits más importantes del Sprint, los cuales muestran el ciclo de vida del proyecto, y toda la información que se usó para el desarrollo.
+
+| Repository | Branch | Commit ID | Message | Body | Commit Date  |
+|---|---|---|---|---|---|
+| novaleads-webapp | main | 7232b642decc898fccb61cf8274f89b5b18eb295 | feat: Initial frontend commit | - | 6-10-2026 |
+
+
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+Se incluyen capturas detalladas de la ejecución del Frontend Web Application como evidencia.
+
+<img src="/Resources/Chapter5/sprint2/execution1.png"/>
+<img src="/Resources/Chapter5/sprint2/execution2.png"/>
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+Se incluyen capturas detalladas de los servicios utilizados por el Frontend Web Application, correspondientes a un fakeapi bajo el alcance del sprint.
+
+<img src="/Resources/Chapter5/sprint2/services.png"/>
+
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+El despliegue del Frontend Web Application se realizó en el servicio de , se seleccionó esta alternativa debido a su rapidez de despliegue y accesibilidad.
+
+Se incluye la evidencia de despliegue: []()
+
+<img src="/Resources/Chapter5/sprint2/deployment1.png"/>
+<img src="/Resources/Chapter5/sprint2/deployment2.png"/>
+
+#### 5.2.2.8. Team Collaboration Insights for Sprint Review
+Durante el transcurso de este sprint, todos los miembros participaron de forma activa y constante en la creación de las tareas asignadas. A continuación todos los analíticos que nos proporciona Github, en su apartado de Insights, sobre la colaboración del equipo durante el Sprint 2:
+
+<img src="/Resources/Chapter5/sprint2/collab1.png"/>
