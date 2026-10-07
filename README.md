@@ -198,6 +198,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <td colspan="3" align="justify">
 <h4>Retuerto Zapata, Renzo Paul</h4>
  <b>AV1:</b><p>Sustentó y explicó de forma clara el diseño de la interfaz de usuario (UI), los flujos de interacción de las aplicaciones y la arquitectura orientada a dominios (EventStorming) ante el equipo y los evaluadores.</p>
+ <b>TB1:</b><p>Sustentó la implementación de componentes clave del frontend de la Web Application (módulo de gestión de prospectos y pipeline de ventas), detallando la integración de la UI con la arquitectura modular en Vue.js, el uso de componentes de interfaz y el consumo de los endpoints RESTful para la sincronización de datos en tiempo real.</p>   
 <h4>Bottger Salazar, Johan Karl</h4>
  <b>AV1:</b><p>Explicó las secciones introductorias y la justificación de la solución propuesta en el pitch inicial del proyecto.</p>
  <b>TB1:</b><p>Definió con liderazgo las tareas a ser realizadas durante el desarrollo de la solución propuesta.</p>
