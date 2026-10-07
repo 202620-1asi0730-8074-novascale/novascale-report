@@ -353,6 +353,7 @@ Se incluyen capturas detalladas de los servicios utilizados por el Frontend Web 
 
 <img src="Resources/Chapter5/sprint2/services1.png"/>
 
+URL de la fake api: https://novaleads-api.onrender.com/users
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
@@ -362,6 +363,8 @@ Se incluye la evidencia de despliegue: []()
 
 <img src="Resources/Chapter5/sprint2/deployment1.png"/>
 <img src="Resources/Chapter5/sprint2/deployment2.png"/>
+
+URL: https://novaleads.onrender.com
 
 #### 5.2.2.8. Team Collaboration Insights for Sprint Review
 Durante el transcurso de este sprint, todos los miembros participaron de forma activa y constante en la creación de las tareas asignadas. A continuación todos los analíticos que nos proporciona Github, en su apartado de Insights, sobre la colaboración del equipo durante el Sprint 2:
