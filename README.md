@@ -53,6 +53,8 @@ Proyecto
 | **1.1** | 17/09/2026 | - | Se desarrolló los capitulos iniciales del documento. |
 | **2.0** | 01/10/2026 | - | Se modificó los capítulos existentes como parte del proceso de mejor continua. |
 | **2.1** | 08/10/2026 | - | Se desarrolló la sección 5.2.2 correspondiente al segundo Sprint. |
+| **3.0** | 12/11/2026 | - | Se modificó los capítulos existentes como parte del proceso de mejor continua.  |
+| **3.1** | 12/11/2026 | - | Se desarrolló la sección 5.2.3 correspondiente al tercer sprint Sprint. |
 
 </div>
 <br>
@@ -155,15 +157,24 @@ Proyecto
       - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-    - [5.2.2. Sprint 2](#521-sprint-1)
-      - [5.2.2.1. Sprint Planning 2](#5211-sprint-planning-1)
-      - [5.2.2.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-      - [5.2.2.3. Sprint Backlog 2](#5213-sprint-backlog-1)
-      - [5.2.2.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-      - [5.2.2.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-      - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.2.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+      - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
+      - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+    - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 2](#5231-sprint-planning-3)
+      - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -202,6 +213,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <h4>Bottger Salazar, Johan Karl</h4>
 <b>AV1:</b><p>Explicó las secciones introductorias y la justificación de la solución propuesta en el pitch inicial del proyecto.</p>
 <b>TB1:</b><p>Definió con liderazgo las tareas a ser realizadas durante el desarrollo de la solución propuesta.</p>
+<b>AV2:</b><p>Organizó el proceso de mejora continua en el documento del proyecto.</p>
 <h4>Romero Vilela, Dario Alberto</h4>
 <b>AV1:</b><p>Sustentó y explicó de forma clara el análisis de experiencia (User Journey y Empathy Maps), el modelado de negocio (Big Picture EventStorming) y la configuración de despliegue (CI/CD) en la presentación audiovisual del proyecto. Además, formuló y condujo entrevistas directas con stakeholders del equipo de ventas.</p>
 <b>TB1:</b><p>Sustentó el desarrollo y la implementación del módulo de autenticación de la Web Application, detallando la estructuración de rutas, vistas y lógica de dominio en Vue.js. Asimismo, explicó el funcionamiento del pipeline automatizado de integración y entrega continua (CI/CD) para el despliegue del Frontend en la nube.</p>
@@ -219,7 +231,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <b>TB1:</b> Comunicó con precisión técnica la vinculación entre los prototipos de diseño y la implementación funcional en el frontend, argumentando con claridad las decisiones de usabilidad, modularidad y coherencia arquitectónica ante el equipo y los evaluadores.<br><br>
 <h4>Bottger Salazar, Johan Karl</h4>
 <b>AV1:</b> Comunicó eficazmente el problema inicial y cómo la solución se alinea con los objetivos del cliente.<br><br>
-<b>TB1:</b> Comunicó de manera precisa el flujo de trabajo y sustentó las decisiones tomadas.<br><br>
+<b>TB1:</b> Comunicó de manera precisa el flujo de trabajo y sustentó las decisiones tomadas.<br>
+<b>AV2:</b> .</p>                                                                                                 
 <h4>Romero Vilela, Dario Alberto</h4>
 <b>AV1:</b> Comunicó con eficacia tanto las necesidades operativas de los usuarios como las decisiones técnicas de infraestructura y estándares de código ante el equipo y los evaluadores.<br><br>
 <b>TB1:</b> Comunicó eficazmente la arquitectura técnica detrás del acceso seguro de los usuarios (login/registro) y demostró claridad y fluidez al explicar el flujo de despliegue continuo de la aplicación ante los evaluadores.<br><br>
@@ -240,6 +253,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <h4>Bottger Salazar, Johan Karl</h4>
 <b>AV1:</b><p>Explicó las secciones introductorias y la justificación de la solución propuesta en el pitch inicial del proyecto.</p>
 <b>TB1:</b><p>Definió y comunicó con liderazgo las tareas necesarias para los objetivos establecidos.</p>
+<b>AV2:</b><p>Estructuró el desarrollo del tercer sprint del proyecto, para los objetivos definidos.</p>  
 <h4>Romero Vilela, Dario Alberto</h4>
 <b>AV1:</b><p>Estructuró y redactó la documentación correspondiente a las secciones 2.3.3. User Journey Mapping, 2.3.4. Empathy Mapping, y 2.4. Big Picture EventStorming, así como las normativas técnicas en 5.1.3. Source Code Style Guide & Conventions y 5.1.4. Software Deployment Configuration.</p>
 <b>TB1:</b><p>Estructuró y documentó el código fuente del flujo de autenticación, detallando las rutas e interfaces de usuario. Además, redactó las evidencias de ejecución del Sprint 2 y la configuración final del entorno de despliegue automatizado (Software Deployment Evidence).</p>
@@ -258,6 +272,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <h4>Bottger Salazar, Johan Karl</h4>
 <b>AV1:</b> Comunicó eficazmente el problema inicial y cómo la solución se alinea con los objetivos del cliente.<br><br>
 <b>TB1:</b> Solidificó los artefactos del proyecto según la estructura Ágil de la solución.<br><br>
+<b>AV2:</b> Concretó el desarrollo del tercer sprint. <br><br>
 <h4>Romero Vilela, Dario Alberto</h4>
 <b>AV1:</b> Consolidó los entregables de análisis de negocio, modelado de eventos y guías de arquitectura de despliegue en un texto claro, formal y académicamente riguroso.<br><br>
 <b>TB1:</b> Consolidó la documentación técnica del código frontend y la infraestructura de despliegue de manera estructurada, logrando un texto riguroso que permite al equipo y a los revisores replicar o entender la configuración en la nube.<br><br>
