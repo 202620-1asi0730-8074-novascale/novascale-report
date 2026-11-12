@@ -36,7 +36,7 @@ Proyecto
 
 </div>
 
-<br><div align="center"><h3> Agosto 2026</h3></div><br>
+<br><div align="center"><h3> Noviembre 2026</h3></div><br>
 <div style="page-break-after: always;"></div>
 <div style="text-align: justify;"></div>
 
