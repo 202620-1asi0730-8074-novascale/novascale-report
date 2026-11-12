@@ -373,6 +373,33 @@ Durante el transcurso de este sprint, todos los miembros participaron de forma a
 <img src="Resources/Chapter5/sprint2/collab1.png"/>
 <img src="Resources/Chapter5/sprint2/collab2.png"/>
 
+---
+# 5.3. Validation Interviews
+
+## 5.3.1. Diseño de Entrevistas
+
+Con el objetivo de validar la usabilidad, funcionalidad y eficiencia de NovaLeads, se diseñaron entrevistas dirigidas a los dos segmentos objetivo de la plataforma. Estas entrevistas permitirán recopilar las experiencias de los usuarios durante la interacción con el sistema, identificando posibles dificultades y oportunidades de mejora en los procesos de gestión comercial.
+
+### Segmento 1: Dueños de Startups y Pymes
+
+1. Al iniciar sesión en la plataforma, ¿qué tan rápido e intuitivo le resultó el proceso de autenticación?
+2. Al ingresar al Dashboard principal, ¿considera que los indicadores y datos comerciales se presentan de manera clara y comprensible?
+3. Al revisar el listado de leads y clientes, ¿le resultó sencillo identificar la información y el estado de las oportunidades de venta?
+4. ¿Considera que la visualización del pipeline de ventas facilita la identificación de oportunidades pendientes, en proceso y concretadas?
+5. Al consultar los reportes de ventas y ganancias, ¿la información presentada le resultó útil para evaluar el rendimiento comercial de su negocio?
+6. ¿Le resultó sencillo navegar entre las diferentes secciones de la plataforma y encontrar las funcionalidades necesarias para supervisar las actividades comerciales?
+7. En términos generales, ¿considera que NovaLeads le permitiría mejorar la organización de sus procesos comerciales y tomar decisiones de manera más rápida y efectiva?
+
+### Segmento 2: Equipos de Ventas
+
+1. Al iniciar sesión en la plataforma, ¿qué tan sencillo e intuitivo le resultó acceder a las funcionalidades disponibles para su rol?
+2. Durante el registro de un nuevo lead, ¿le resultó fácil ingresar y guardar correctamente la información del potencial cliente?
+3. Al consultar el listado de leads asignados, ¿considera que la información presentada le permite identificar rápidamente a los clientes que requieren atención?
+4. Al actualizar el estado de una oportunidad dentro del pipeline de ventas, ¿le resultó sencillo comprender y realizar el proceso?
+5. Al revisar el historial de conversaciones con un cliente, ¿considera que la información se encuentra organizada de manera clara y facilita la continuidad del seguimiento comercial?
+6. ¿Le resultó sencillo identificar las oportunidades de venta pendientes y reconocer cuáles requieren un seguimiento prioritario?
+7. En términos generales, ¿considera que el uso de NovaLeads agilizaría sus actividades diarias de seguimiento de clientes y gestión de oportunidades en comparación con las herramientas que utiliza actualmente?
+
 # Conclusiones
 
 ## Conclusiones y recomendaciones
