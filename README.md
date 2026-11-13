@@ -602,13 +602,13 @@ A continuación, se presenta el registro de las entrevistas de validación reali
 
 
 #### Entrevista 2 – Segmento 2
-- **Nombres y Apellidos:** `[Nombre y Apellido Entrevistado 2 - Seg. 2]`
-- **Edad:** 28 años
-- **Distrito:** Lince, Lima
-- **Fecha:** 13 de noviembre de 2026
-- **Enlace del video (Microsoft Stream):** `[PEGAR_LINK_STREAM_S2_E2]` — Inicio: `00:00` | Duración: `[03:50]`
-- **Evidencia visual:** `![Entrevista 2 - Segmento 2](ruta/captura_s2_entrevista_2.png)`
-- **Resumen de la entrevista:** Durante la sesión, el participante probó la actualización de etapas dentro del tablero *Pipeline*, señalando que mover una oportunidad de *Contactado* a *Propuesta enviada* desde el selector inferior de cada tarjeta resulta intuitivo y rápido. Asimismo, revisó la vista de *Conversaciones*, valorando la organización cronológica del historial para dar continuidad al seguimiento comercial. Como sugerencia, propuso mostrar un indicador visual de confirmación al actualizar el estado de un lead.
+- **Nombres y Apellidos:** `[Nombre y apellidos de la persona entrevistada]`
+- **Edad:** `[Edad]`
+- **Distrito:** `[Distrito]`
+- **Fecha:** `[Fecha de la entrevista]`
+- **Enlace del video (Google Drive):** [Ver video de la Entrevista 5](https://drive.google.com/file/d/1WSy_STwC9aSqxFdmnXYCMDD_3-cUkKkh/view?usp=sharing) — Inicio: `00:00` | Duración: por verificar.
+- **Evidencia visual:** Por incorporar.
+- **Resumen de la entrevista:** Por completar después de revisar la grabación.
 
 #### Entrevista 3 – Segmento 2
 - **Nombres y Apellidos:** `[Nombre y Apellido Entrevistado 3 - Seg. 2]`
