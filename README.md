@@ -221,6 +221,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <b>AV1:</b>
 <p>Sustentó y explicó el diseño de la arquitectura de software de NovaLeads, incluyendo los diagramas de contexto, contenedores, componentes, clases y diseño de base de datos. Explicó la organización de los bounded contexts y la relación entre la Web Application, la REST API y la base de datos.</p>
 <b>TB1:</b><p>Explicó al equipo el funcionamiento de los dashboards de NovaLeads y cómo presentan las métricas comerciales para dueños y vendedores. Asimismo, comunicó su aporte al desarrollo de componentes del frontend de la Web Application.</p>
+<b>AV2:</b><p>Explicó el alcance y el avance del bounded context SalesManagement, relacionado con la gestión de ventas y la consulta de métricas comerciales. Grabó su intervención para el video About-the-Team, en la que presentó sus aportes, sus responsabilidades y su autoevaluación. Asimismo, definió los criterios de usabilidad, arquitectura de información y diseño inclusivo que orientan la evaluación heurística de NovaLeads.</p>
 <h4>Gamero Miranda, Lui Mathias</h4>
 <b>AV1:</b><p>Sustentó el proceso de descubrimiento de clientes (Needfinding) mediante las entrevistas realizadas, definió los perfiles de usuario (User Personas) y justificó la estrategia de precios SaaS, aportando además en la explicación técnica del desarrollo de la Landing Page.</p>
 <b>TB1:</b><p>Sustentó las correcciones aplicadas a la Landing Page (ajustes de estilos, navegación y diseño responsivo) y explicó la implementación de la arquitectura frontend basada en Domain-Driven Design para el módulo de conversaciones, detallando la separación funcional en capas aplicación, dominio, infraestructura y presentación.</p>
@@ -239,6 +240,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <h4>Caldas Garcia, Sergio Ruben</h4>
 <b>AV1:</b> Comunicó con eficacia las decisiones de arquitectura de NovaLeads, justificando la separación de responsabilidades entre los componentes del sistema y los bounded contexts del dominio.<br><br>
 <b>TB1:</b> Comunicó con claridad al equipo el propósito de los dashboards, la organización de sus indicadores y su contribución al frontend, relacionando las decisiones de interfaz con las necesidades de los usuarios.<br><br>
+<b>AV2:</b> Comunicó con claridad sus aportes al backend y a la mejora continua del informe, relacionando SalesManagement con las necesidades de dueños y vendedores. Su intervención en About-the-Team permitió explicar su participación y reconocer oportunidades de mejora en la coordinación y en la coherencia entre el código, la documentación y las evidencias.<br><br>
 <h4>Gamero Miranda, Lui Mathias</h4>
 <b>AV1:</b> Comunicó con claridad los hallazgos de la investigación de usuarios y defendió las decisiones comerciales y logísticas (gestión de configuración) del proyecto ante el equipo y los evaluadores.<br><br>
 <b>TB1:</b> Explicó con claridad las decisiones de refactorización visual en la Landing Page y la estructuración técnica del cliente web.<br><br>
@@ -261,6 +263,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <b>AV1:</b>
 <p>Estructuró y redactó la documentación correspondiente a la arquitectura de software de NovaLeads, incluyendo los diagramas C4, los diagramas de clases por bounded context y los diagramas de diseño de base de datos.</p>
 <b>TB1:</b><p>Desarrolló los dashboards y apoyó parcialmente la implementación del frontend. Organizó la presentación de los indicadores comerciales en la interfaz para que dueños y vendedores puedan consultar la información de forma comprensible.</p>
+<b>AV2:</b><p>Incorporó los archivos del bounded context SalesManagement en la rama feature/sales-management, organizados en las capas de aplicación, dominio, infraestructura e interfaces. Trabajó en la mejora continua de sus secciones del informe y grabó su testimonio para About-the-Team. Además, preparó la estructura de la evaluación heurística y definió el registro de evidencias, la escala de severidad y las recomendaciones conforme al formato del proyecto.</p>
 <h4>Gamero Miranda, Lui Mathias</h4>
 <b>AV1:</b><p>Redaccion del análisis de las entrevistas, estructuró la documentación de los User Personas y el análisis competitivo, además de definir las herramientas de Project Management y SCM, contribuyendo también en la codificación y traducción de la Landing Page.</p>
 <b>TB1:</b><p>Documentó las correcciones visuales de la Landing Page y estructuró el código de la arquitectura del frontend aplicando principios de diseño modular y Domain-Driven Design.</p>
@@ -279,6 +282,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <h4>Caldas Garcia, Sergio Ruben</h4>
 <b>AV1:</b> Consolidó la documentación de arquitectura de NovaLeads, incluyendo los diagramas C4, los diagramas de clases por bounded context y el diseño de base de datos, en un documento claro, consistente y alineado con los requerimientos del informe académico.<br><br>
 <b>TB1:</b> Contribuyó a comunicar de forma clara los resultados comerciales mediante los dashboards y apoyó el desarrollo del frontend, facilitando que los usuarios interpreten sus métricas y consulten la información relevante en la aplicación.<br><br>
+<b>AV2:</b> Contribuyó al avance del Sprint 3 mediante su trabajo en SalesManagement y la revisión de sus aportes documentales. La preparación de la evaluación heurística estableció una estructura para registrar problemas y priorizar mejoras, mientras que su autoevaluación permitió identificar la necesidad de mantener alineados la implementación, el informe y las evidencias de cada entrega.<br><br>
 <h4>Gamero Miranda, Lui Mathias</h4>
 <b>AV1:</b> Consolidó la investigación de UX, la estrategia comercial y los lineamientos de gestión de código en un documento formal, riguroso y alineado a los requerimientos del informe académico.<br><br>
 <b>TB1:</b> Consolidó la implementación del código fuente del frontend y las mejoras en la interfaz web bajo estándares limpios, legibles y debidamente estructurados conforme a los requerimientos de la arquitectura del software.<br><br>
