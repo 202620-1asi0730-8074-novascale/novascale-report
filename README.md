@@ -217,6 +217,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <h4>Romero Vilela, Dario Alberto</h4>
 <b>AV1:</b><p>Sustentó y explicó de forma clara el análisis de experiencia (User Journey y Empathy Maps), el modelado de negocio (Big Picture EventStorming) y la configuración de despliegue (CI/CD) en la presentación audiovisual del proyecto. Además, formuló y condujo entrevistas directas con stakeholders del equipo de ventas.</p>
 <b>TB1:</b><p>Sustentó el desarrollo y la implementación del módulo de autenticación de la Web Application, detallando la estructuración de rutas, vistas y lógica de dominio en Vue.js. Asimismo, explicó el funcionamiento del pipeline automatizado de integración y entrega continua (CI/CD) para el despliegue del Frontend en la nube.</p>
+<b>AV2:</b><p>Participó en el desarrollo del backend de NovaLeads mediante la elaboración del módulo IdentityAccess, correspondiente a la gestión de identidad y acceso de usuarios dentro de la arquitectura del sistema. Asimismo, contribuyó a la documentación del proyecto mediante el diseño de preguntas para las entrevistas de validación dirigidas a los dos segmentos objetivo: responsables de startups y pymes, y equipos de ventas.</p>
+
 <h4>Caldas Garcia, Sergio Ruben</h4>
 <b>AV1:</b>
 <p>Sustentó y explicó el diseño de la arquitectura de software de NovaLeads, incluyendo los diagramas de contexto, contenedores, componentes, clases y diseño de base de datos. Explicó la organización de los bounded contexts y la relación entre la Web Application, la REST API y la base de datos.</p>
@@ -237,6 +239,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <h4>Romero Vilela, Dario Alberto</h4>
 <b>AV1:</b> Comunicó con eficacia tanto las necesidades operativas de los usuarios como las decisiones técnicas de infraestructura y estándares de código ante el equipo y los evaluadores.<br><br>
 <b>TB1:</b> Comunicó eficazmente la arquitectura técnica detrás del acceso seguro de los usuarios (login/registro) y demostró claridad y fluidez al explicar el flujo de despliegue continuo de la aplicación ante los evaluadores.<br><br>
+<b>AV2:</b> Contribuyó al avance del proyecto mediante su participación en el desarrollo del módulo IdentityAccess del backend y en la elaboración de las preguntas de validación de NovaLeads. Estos aportes permitieron colaborar en el desarrollo técnico de la solución y en la preparación de actividades orientadas a evaluar la experiencia de los usuarios de ambos segmentos objetivo.<br><br>
+
 <h4>Caldas Garcia, Sergio Ruben</h4>
 <b>AV1:</b> Comunicó con eficacia las decisiones de arquitectura de NovaLeads, justificando la separación de responsabilidades entre los componentes del sistema y los bounded contexts del dominio.<br><br>
 <b>TB1:</b> Comunicó con claridad al equipo el propósito de los dashboards, la organización de sus indicadores y su contribución al frontend, relacionando las decisiones de interfaz con las necesidades de los usuarios.<br><br>
@@ -259,6 +263,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <h4>Romero Vilela, Dario Alberto</h4>
 <b>AV1:</b><p>Estructuró y redactó la documentación correspondiente a las secciones 2.3.3. User Journey Mapping, 2.3.4. Empathy Mapping, y 2.4. Big Picture EventStorming, así como las normativas técnicas en 5.1.3. Source Code Style Guide & Conventions y 5.1.4. Software Deployment Configuration.</p>
 <b>TB1:</b><p>Estructuró y documentó el código fuente del flujo de autenticación, detallando las rutas e interfaces de usuario. Además, redactó las evidencias de ejecución del Sprint 2 y la configuración final del entorno de despliegue automatizado (Software Deployment Evidence).</p>
+<b>AV2:</b><p>Desarrolló y organizó el módulo IdentityAccess del backend de NovaLeads, siguiendo la estructura modular establecida para los componentes de la solución. Adicionalmente, estructuró y redactó las preguntas correspondientes a la sección 5.3.1. Diseño de Entrevistas, contemplando las funcionalidades de la plataforma y las necesidades de los dos segmentos objetivo.</p>
+
 <h4>Caldas Garcia, Sergio Ruben</h4>
 <b>AV1:</b>
 <p>Estructuró y redactó la documentación correspondiente a la arquitectura de software de NovaLeads, incluyendo los diagramas C4, los diagramas de clases por bounded context y los diagramas de diseño de base de datos.</p>
@@ -279,6 +285,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <h4>Romero Vilela, Dario Alberto</h4>
 <b>AV1:</b> Consolidó los entregables de análisis de negocio, modelado de eventos y guías de arquitectura de despliegue en un texto claro, formal y académicamente riguroso.<br><br>
 <b>TB1:</b> Consolidó la documentación técnica del código frontend y la infraestructura de despliegue de manera estructurada, logrando un texto riguroso que permite al equipo y a los revisores replicar o entender la configuración en la nube.<br><br>
+<b>AV2:</b> Contribuyó al cumplimiento de las actividades de la entrega mediante la organización del módulo IdentityAccess y la elaboración de las preguntas de entrevistas de validación. Su participación permitió avanzar en la implementación del backend y en la documentación del Chapter 5, manteniendo una estructura organizada y alineada con los objetivos del proyecto.<br><br>
 <h4>Caldas Garcia, Sergio Ruben</h4>
 <b>AV1:</b> Consolidó la documentación de arquitectura de NovaLeads, incluyendo los diagramas C4, los diagramas de clases por bounded context y el diseño de base de datos, en un documento claro, consistente y alineado con los requerimientos del informe académico.<br><br>
 <b>TB1:</b> Contribuyó a comunicar de forma clara los resultados comerciales mediante los dashboards y apoyó el desarrollo del frontend, facilitando que los usuarios interpreten sus métricas y consulten la información relevante en la aplicación.<br><br>
