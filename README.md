@@ -603,9 +603,9 @@ A continuación, se presenta el registro de las entrevistas de validación reali
 
 #### Entrevista 2 – Segmento 2
 - **Nombres y Apellidos:** Giuseppe Chavez.
-- **Edad:** 19 años, según el registro inicial del proyecto (sección 2.2.2).
-- **Distrito:** Comas, según el registro inicial del proyecto (sección 2.2.2).
-- **Fecha:** 12 de noviembre de 2026, según la fecha visible en la interfaz durante la grabación.
+- **Edad:** 19 años.
+- **Distrito:** Comas.
+- **Fecha:** 12 de noviembre de 2026.
 - **Perfil:** Estudiante y emprendedor encargado de atender consultas, contactar a potenciales clientes y realizar seguimiento de ventas.
 - **Entrevistador:** Lui Mathias Gamero Miranda.
 - **Enlace del video (Google Drive):** [Ver video de la Entrevista 5](https://drive.google.com/file/d/1WSy_STwC9aSqxFdmnXYCMDD_3-cUkKkh/view?usp=sharing) — Inicio: `00:00` | Duración: `04:23`.
