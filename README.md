@@ -297,26 +297,26 @@ Durante el segundo sprint, el equipo se centró en desarrollar la primera versi�
 
 | User Story | Título | Work-Item / Task | Título | Descripción | Est. (Hrs) | Asignado | Status |
 | :--- | :--- | :--- | :--- | :--- | ---: | :--- | :--- |
-| HU-01 | Inicio de sesión | T-01 | Implementar inicio de sesión y manejo de sesión | Implementar el formulario de autenticación, integrarlo con el servicio correspondiente y gestionar la respuesta y sesión del usuario. | 8 | Renzo | To Do |
-| HU-02 | Gestión de usuarios y permisos | T-02 | Implementar gestión de usuarios y permisos | Implementar la consulta de usuarios vendedores y la modificación y validación de los permisos asignados. | 8 | Dario | To Do |
-| HU-03 | Dashboard del dueño | T-03 | Implementar dashboard e indicadores del negocio | Implementar la consulta y presentación de los indicadores generales de leads y ventas mediante los gráficos correspondientes. | 8 | Lui | To Do |
-| HU-04 | Dashboard del vendedor | T-04 | Implementar dashboard y validación de indicadores personales | Implementar la consulta y presentación de los indicadores del vendedor autenticado y validar que únicamente pueda consultar sus propios resultados. | 7 | Johan | To Do |
-| HU-05 | Visualización de ventas por vendedor | T-05 | Implementar visualización de ventas por vendedor | Implementar la consulta y presentación de las ventas asociadas a cada vendedor para usuarios con permisos de dueño. | 7 | Sergio | To Do |
-| HU-06 | Registro de leads | T-06 | Implementar registro y validación de leads | Implementar el formulario de registro de leads, integrarlo con el servicio de creación y validar la información requerida. | 8 | Dario | To Do |
-| HU-07 | Filtrado de leads | T-07 | Implementar consulta y filtrado de leads | Implementar la obtención de leads disponibles y su filtrado mediante criterios como estado, vendedor y etiqueta. | 7 | Lui | To Do |
-| HU-08 | Cambio de estado de un lead | T-08 | Implementar actualización y validación de estados | Implementar la modificación del estado de un lead y validar los valores permitidos y las respuestas ante valores no válidos. | 7 | Johan | To Do |
-| HU-09 | Etiquetado de leads por producto | T-09 | Implementar etiquetado de leads por producto | Implementar la consulta de etiquetas disponibles y la asignación de una o más etiquetas de producto a un lead. | 7 | Sergio | To Do |
-| HU-10 | Gestión de etiquetas | T-10 | Implementar gestión de etiquetas | Implementar la creación y edición de etiquetas de productos para usuarios con permisos de gestión, incluyendo la gestión de sus asociaciones con leads. | 8 | Dario | To Do |
-| HU-11 | Visualización de contactos | T-11 | Implementar visualización de contactos | Implementar la consulta y presentación de los contactos disponibles según los permisos del usuario. | 6 | Lui | To Do |
-| HU-12 | Clasificación de contacto | T-12 | Implementar clasificación de contactos | Implementar la consulta y presentación de la clasificación de cada contacto como lead o cliente. | 5 | Sergio | To Do |
-| HU-13 | Edición de información de contacto | T-13 | Implementar edición y validación de contactos | Implementar la modificación de información de contactos autorizados, integrarla con la API y gestionar las validaciones y restricciones de permisos. | 7 | Renzo | To Do |
-| HU-14 | Creación automática de contactos | T-14 | Implementar sincronización automática de contactos | Integrar el frontend con la información de contactos generada automáticamente a partir de conversaciones y verificar la correcta sincronización de contactos nuevos y existentes. | 8 | Johan | To Do |
-| HU-15 | Visualización de conversaciones | T-15 | Implementar visualización e historial de conversaciones | Implementar la consulta y presentación de las conversaciones disponibles y del historial de mensajes de una conversación seleccionada. | 9 | Lui | To Do |
-| HU-16 | Notificación de nuevos mensajes | T-16 | Implementar notificaciones y actualización de conversaciones | Integrar la recepción de notificaciones de nuevos mensajes y actualizar la información de las conversaciones correspondientes. | 7 | Sergio | To Do |
-| HU-17 | Temporizador de conversaciones | T-17 | Implementar temporizador de conversaciones | Implementar el cálculo y actualización del tiempo transcurrido desde la recepción de un mensaje pendiente de respuesta. | 6 | Dario | To Do |
-| HU-18 | Prioridad automática de conversaciones | T-18 | Implementar prioridad automática de conversaciones | Integrar la información de prioridad calculada y actualizar las conversaciones cuando la prioridad cambia según el umbral definido. | 7 | Johan | To Do |
-| HU-19 | Ordenamiento y filtrado de conversaciones | T-19 | Implementar ordenamiento y filtrado de conversaciones | Implementar el ordenamiento y filtrado de conversaciones utilizando criterios de prioridad, etiquetas y vendedor según los permisos disponibles. | 8 | Renzo | To Do |
-| HU-20 | Perfil del vendedor | T-20 | Implementar consulta y edición del perfil | Implementar la consulta y modificación de la información autorizada del perfil del vendedor autenticado, incluyendo sus validaciones. | 7 | Sergio | To Do |
+| US-01 | Inicio de sesión | T-01 | Implementar inicio de sesión y manejo de sesión | Implementar el formulario de autenticación, integrarlo con el servicio correspondiente y gestionar la respuesta y sesión del usuario. | 8 | Renzo | To Do |
+| US-02 | Gestión de usuarios y permisos | T-02 | Implementar gestión de usuarios y permisos | Implementar la consulta de usuarios vendedores y la modificación y validación de los permisos asignados. | 8 | Dario | To Do |
+| US-03 | Dashboard del dueño | T-03 | Implementar dashboard e indicadores del negocio | Implementar la consulta y presentación de los indicadores generales de leads y ventas mediante los gráficos correspondientes. | 8 | Lui | To Do |
+| US-04 | Dashboard del vendedor | T-04 | Implementar dashboard y validación de indicadores personales | Implementar la consulta y presentación de los indicadores del vendedor autenticado y validar que únicamente pueda consultar sus propios resultados. | 7 | Johan | To Do |
+| US-05 | Visualización de ventas por vendedor | T-05 | Implementar visualización de ventas por vendedor | Implementar la consulta y presentación de las ventas asociadas a cada vendedor para usuarios con permisos de dueño. | 7 | Sergio | To Do |
+| US-06 | Registro de leads | T-06 | Implementar registro y validación de leads | Implementar el formulario de registro de leads, integrarlo con el servicio de creación y validar la información requerida. | 8 | Dario | To Do |
+| US-07 | Filtrado de leads | T-07 | Implementar consulta y filtrado de leads | Implementar la obtención de leads disponibles y su filtrado mediante criterios como estado, vendedor y etiqueta. | 7 | Lui | To Do |
+| US-08 | Cambio de estado de un lead | T-08 | Implementar actualización y validación de estados | Implementar la modificación del estado de un lead y validar los valores permitidos y las respuestas ante valores no válidos. | 7 | Johan | To Do |
+| US-09 | Etiquetado de leads por producto | T-09 | Implementar etiquetado de leads por producto | Implementar la consulta de etiquetas disponibles y la asignación de una o más etiquetas de producto a un lead. | 7 | Sergio | To Do |
+| US-10 | Gestión de etiquetas | T-10 | Implementar gestión de etiquetas | Implementar la creación y edición de etiquetas de productos para usuarios con permisos de gestión, incluyendo la gestión de sus asociaciones con leads. | 8 | Dario | To Do |
+| US-11 | Visualización de contactos | T-11 | Implementar visualización de contactos | Implementar la consulta y presentación de los contactos disponibles según los permisos del usuario. | 6 | Lui | To Do |
+| US-12 | Clasificación de contacto | T-12 | Implementar clasificación de contactos | Implementar la consulta y presentación de la clasificación de cada contacto como lead o cliente. | 5 | Sergio | To Do |
+| US-13 | Edición de información de contacto | T-13 | Implementar edición y validación de contactos | Implementar la modificación de información de contactos autorizados, integrarla con la API y gestionar las validaciones y restricciones de permisos. | 7 | Renzo | To Do |
+| US-14 | Creación automática de contactos | T-14 | Implementar sincronización automática de contactos | Integrar el frontend con la información de contactos generada automáticamente a partir de conversaciones y verificar la correcta sincronización de contactos nuevos y existentes. | 8 | Johan | To Do |
+| US-15 | Visualización de conversaciones | T-15 | Implementar visualización e historial de conversaciones | Implementar la consulta y presentación de las conversaciones disponibles y del historial de mensajes de una conversación seleccionada. | 9 | Lui | To Do |
+| US-16 | Notificación de nuevos mensajes | T-16 | Implementar notificaciones y actualización de conversaciones | Integrar la recepción de notificaciones de nuevos mensajes y actualizar la información de las conversaciones correspondientes. | 7 | Sergio | To Do |
+| US-17 | Temporizador de conversaciones | T-17 | Implementar temporizador de conversaciones | Implementar el cálculo y actualización del tiempo transcurrido desde la recepción de un mensaje pendiente de respuesta. | 6 | Dario | To Do |
+| US-18 | Prioridad automática de conversaciones | T-18 | Implementar prioridad automática de conversaciones | Integrar la información de prioridad calculada y actualizar las conversaciones cuando la prioridad cambia según el umbral definido. | 7 | Johan | To Do |
+| US-19 | Ordenamiento y filtrado de conversaciones | T-19 | Implementar ordenamiento y filtrado de conversaciones | Implementar el ordenamiento y filtrado de conversaciones utilizando criterios de prioridad, etiquetas y vendedor según los permisos disponibles. | 8 | Renzo | To Do |
+| US-20 | Perfil del vendedor | T-20 | Implementar consulta y edición del perfil | Implementar la consulta y modificación de la información autorizada del perfil del vendedor autenticado, incluyendo sus validaciones. | 7 | Sergio | To Do |
 | TS-01 | Documentación OpenAPI | T-21 | Configurar y validar documentación OpenAPI | Configurar la documentación automática de los endpoints mediante OpenAPI/Swagger y verificar que recursos, métodos, respuestas y esquemas estén documentados correctamente. | 4 | Renzo | To Do |
 | TS-02 | Autenticación de usuarios | T-22 | Implementar y validar API de autenticación | Implementar el endpoint RESTful para autenticar usuarios y generar el token de acceso, validando credenciales, respuestas y códigos HTTP correspondientes. | 8 | Renzo | To Do |
 | TS-03 | API de gestión de Leads | T-23 | Implementar y validar API de Leads | Implementar los endpoints RESTful para registrar y consultar leads, incluyendo las validaciones de datos y respuestas HTTP correspondientes. | 10 | Dario | To Do |
@@ -372,6 +372,162 @@ Durante el transcurso de este sprint, todos los miembros participaron de forma a
 
 <img src="Resources/Chapter5/sprint2/collab1.png"/>
 <img src="Resources/Chapter5/sprint2/collab2.png"/>
+
+
+
+____
+
+
+### 5.2.3. Sprint 3
+En esta sección se registra y explica el avance obtenido durante el tercer ciclo de desarrollo (Sprint 3), abarcando la construcción de los productos de software finales, la validación y el trabajo colaborativo del equipo. Se incluyen los detalles de planificación, los líderes de cada aspecto, el backlog comprometido y las evidencias de ejecución, documentación y despliegue del trabajo completado.
+
+#### 5.2.3.1. Sprint Planning 3
+Durante esta sesión, se seleccionaron las Historias de Usuario más prioritarias del Product Backlog para definir el objetivo central de la iteración. A continuación, se presenta el cuadro resumen con los detalles y acuerdos de esta reunión:
+
+| **Sprint #** | Sprint 3 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| **Date** | 2026-11-01 |
+| **Time** | 21:00 PM |
+| **Location** | Reunión virtual (Google Meet) |
+| **Prepared By** | Bottger Salazar, Johan Karl |
+| **Attendees (to planning meeting)** | Johan, Renzo, Sergio, Lui, Dario |
+| **Sprint 2 Review Summary** | Durante el Sprint 2 el equipo logró completar la primera versión funcional del frontend web application y una nueva versión del Landing Page. Se cumplió el objetivo principal del sprint de la primera versión operacional de NovaLeads. |
+| **Sprint 2 Retrospective Summary** | La comunicación entre integrantes fue constante y facilitó la integración temprana. Mantener documentación y estándares técnicos actualizados durante el sprint. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 3 Goal** | **Contexto:** El equipo decidió enfocar el trabajo en el desarrollo del Backend Web Services. <br><br> **Sprint Goal:**<br>*"Our focus is on delivering the first operational version of the NovaLeads backend web services while improving the quality, usability, and stability of artifacts created during previous sprints.
+We believe this delivers a more complete digital experience to administrators and prospective customers by providing the first functional version of the Backend Web Service.
+This will be confirmed when users can access the deployed service through our frontend, navigate the improved Landing Page and frontend web application without usability issues, and interact successfully over the first backend modules in a production-like environment."* |
+| **Sprint 3 Velocity** | 216 Story Points. (Velocidad estimada basada en la capacidad inicial del equipo para configurar los entornos). |
+| **Sum of Story Points** | 216 Story Points. |
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+En esta sección se presenta la **Leadership-and-Collaboration Matrix (LACX)**. Esta matriz detalla los líderes (L) y colaboradores (C) para cada aspecto clave del Sprint, asegurando una comunicación clara y una distribución de responsabilidades eficiente para el proyecto. La organización está directamente relacionada con la selección de tareas (*tasks*) que se desarrollarán durante el Sprint.
+
+| Team Member (First Name, Last Name) | GitHub Username | IdentityAccess | LeadManagement| SalesManagement | ConversationManagement | QA & Deployment |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| Lui Mathias Gamero Miranda | lug07m | C | C | C | C | L |
+| Dario Alberto Romero Vilela | patatitis9-alt | L | C | C | C | C |
+| Johan Karl Bottger Salazar | Deskjobo | C | C | C | L | C |
+| Sergio Ruben Caldas Garcia | Sergiocaldas10 | C | C | L | C | C |
+| Renzo Paul Retuerto Zapata | Renzoocf | C | L | C | C | C |
+
+#### 5.2.3.3. Sprint Backlog 3
+Durante el tercer sprint, el equipo se centró en desarrollar la primera versión de los Web Services funcionales, organizando y distribuyendo tareas en el tablero de Sprint de acuerdo con las habilidades de cada integrante.
+
+##### Sprint 3 - Tareas Asignadas
+
+
+| User Story | Título | Work-Item / Task | Título | Descripción | Est. (Hrs) | Asignado | Status |
+| :--- | :--- | :--- | :--- | :--- | ---: | :--- | :--- |
+| US-01 | Inicio de sesión | T-01 | Implementar servicio de autenticación | Implementar la lógica de autenticación de usuarios, verificando las credenciales registradas en la base de datos. | 5 | Renzo | To Do |
+| US-01 | Inicio de sesión | T-02 | Implementar generación y validación de tokens | Implementar la generación de tokens de acceso y los mecanismos necesarios para validar la identidad del usuario autenticado. | 4 | Renzo | To Do |
+| US-02 | Gestión de usuarios y permisos | T-03 | Implementar consulta de usuarios y permisos | Implementar las consultas a la base de datos para obtener usuarios vendedores y sus permisos asociados. | 5 | Renzo | To Do |
+| US-02 | Gestión de usuarios y permisos | T-04 | Implementar actualización de permisos | Implementar la lógica de actualización de permisos, verificando las autorizaciones del usuario que realiza la operación. | 4 | Renzo | To Do |
+| US-03 | Dashboard del dueño | T-05 | Implementar consultas de métricas generales | Implementar las consultas a la base de datos para obtener indicadores generales de leads y ventas del negocio. | 5 | Lui | To Do |
+| US-03 | Dashboard del dueño | T-06 | Implementar servicio de métricas del negocio | Implementar el servicio que procesa y proporciona los indicadores generales correspondientes al usuario con permisos de dueño. | 4 | Lui | To Do |
+| US-04 | Dashboard del vendedor | T-07 | Implementar consultas de métricas personales | Implementar las consultas necesarias para obtener los indicadores de ventas asociados al vendedor autenticado. | 4 | Sergio | To Do |
+| US-04 | Dashboard del vendedor | T-08 | Implementar validación de acceso a métricas | Implementar las restricciones de acceso para garantizar que cada vendedor consulte únicamente sus propios resultados. | 4 | Sergio | To Do |
+| US-05 | Visualización de ventas por vendedor | T-09 | Implementar consulta de ventas por vendedor | Implementar las consultas a la base de datos para obtener las ventas agrupadas según el vendedor responsable. | 4 | Sergio | To Do |
+| US-05 | Visualización de ventas por vendedor | T-10 | Implementar servicio de ventas por vendedor | Implementar el servicio que procesa y proporciona la información de ventas individuales al usuario con permisos de dueño. | 4 | Sergio | To Do |
+| US-06 | Registro de leads | T-11 | Implementar persistencia de leads | Implementar la lógica de creación y almacenamiento de nuevos leads en la base de datos. | 5 | Dario | To Do |
+| US-06 | Registro de leads | T-12 | Implementar validación de registro de leads | Implementar las validaciones de información requerida y las restricciones correspondientes antes de registrar un lead. | 4 | Dario | To Do |
+| US-07 | Filtrado de leads | T-13 | Implementar consultas de leads | Implementar las consultas a la base de datos para obtener los leads disponibles según los permisos del usuario. | 4 | Dario | To Do |
+| US-07 | Filtrado de leads | T-14 | Implementar filtros de leads en API | Implementar los parámetros de filtrado por estado, vendedor y etiqueta en los servicios de consulta de leads. | 4 | Dario | To Do |
+| US-08 | Cambio de estado de un lead | T-15 | Implementar actualización de estado de leads | Implementar la lógica de modificación del estado de un lead y persistir los cambios en la base de datos. | 4 | Dario | To Do |
+| US-08 | Cambio de estado de un lead | T-16 | Implementar validación de estados permitidos | Implementar las validaciones de estados disponibles y gestionar las respuestas ante modificaciones no válidas. | 3 | Dario | To Do |
+| US-09 | Etiquetado de leads por producto | T-17 | Implementar consulta de etiquetas de productos | Implementar las consultas para obtener las etiquetas de productos disponibles en la base de datos. | 4 | Dario | To Do |
+| US-09 | Etiquetado de leads por producto | T-18 | Implementar asociación de etiquetas a leads | Implementar la lógica de asociación y almacenamiento de una o más etiquetas de productos vinculadas a un lead. | 4 | Dario | To Do |
+| US-10 | Gestión de etiquetas | T-19 | Implementar creación de etiquetas | Implementar la lógica de creación y persistencia de nuevas etiquetas de productos, verificando los permisos correspondientes. | 4 | Lui | To Do |
+| US-10 | Gestión de etiquetas | T-20 | Implementar actualización de etiquetas | Implementar la modificación de etiquetas existentes y gestionar la consistencia de sus asociaciones con los leads. | 4 | Lui | To Do |
+| US-11 | Visualización de contactos | T-21 | Implementar consultas de contactos | Implementar las consultas a la base de datos para obtener los contactos registrados según los permisos del usuario. | 4 | Lui | To Do |
+| US-11 | Visualización de contactos | T-22 | Implementar servicio de consulta de contactos | Implementar el servicio RESTful para proporcionar la información de contactos solicitada. | 3 | Lui | To Do |
+| US-12 | Clasificación de contacto | T-23 | Implementar clasificación de contactos | Implementar la lógica para identificar y obtener la clasificación de cada contacto como lead o cliente. | 3 | Lui | To Do |
+| US-12 | Clasificación de contacto | T-24 | Implementar persistencia de clasificación | Implementar el almacenamiento y consulta de la clasificación correspondiente a cada contacto. | 3 | Lui | To Do |
+| US-13 | Edición de información de contacto | T-25 | Implementar actualización de contactos | Implementar la lógica de modificación y persistencia de la información de contactos existentes. | 4 | Sergio | To Do |
+| US-13 | Edición de información de contacto | T-26 | Implementar validación de actualización de contactos | Implementar las validaciones de información y permisos necesarios para actualizar los datos de un contacto. | 4 | Sergio | To Do |
+| US-14 | Creación automática de contactos | T-27 | Implementar recepción de mensajes de WhatsApp | Implementar el procesamiento de los eventos recibidos mediante la integración de WhatsApp para identificar nuevos contactos. | 5 | Johan | To Do |
+| US-14 | Creación automática de contactos | T-28 | Implementar creación y sincronización de contactos | Implementar la lógica para registrar automáticamente contactos nuevos y conservar los existentes cuando reciben nuevos mensajes. | 4 | Johan | To Do |
+| US-15 | Visualización de conversaciones | T-29 | Implementar consultas de conversaciones | Implementar las consultas a la base de datos para obtener las conversaciones asociadas a los contactos y vendedores. | 5 | Johan | To Do |
+| US-15 | Visualización de conversaciones | T-30 | Implementar consulta de historial de mensajes | Implementar el servicio para obtener el historial de mensajes asociado a una conversación seleccionada. | 4 | Johan | To Do |
+| US-16 | Notificación de nuevos mensajes | T-31 | Implementar procesamiento de nuevos mensajes | Implementar el procesamiento de mensajes entrantes y su asociación con las conversaciones correspondientes. | 5 | Johan | To Do |
+| US-16 | Notificación de nuevos mensajes | T-32 | Implementar generación de notificaciones | Implementar el mecanismo backend para generar y distribuir notificaciones cuando se reciben nuevos mensajes. | 4 | Johan | To Do |
+| US-17 | Temporizador de conversaciones | T-33 | Implementar cálculo de tiempo pendiente | Implementar la lógica para calcular el tiempo transcurrido desde la recepción de un mensaje pendiente de respuesta. | 3 | Johan | To Do |
+| US-17 | Temporizador de conversaciones | T-34 | Implementar servicio de tiempo de conversación | Implementar el servicio para proporcionar el tiempo pendiente de respuesta correspondiente a cada conversación activa. | 3 | Johan | To Do |
+| US-18 | Prioridad automática de conversaciones | T-35 | Implementar cálculo de prioridad de conversaciones | Implementar la lógica de asignación automática de prioridad según el tiempo transcurrido sin respuesta y el umbral definido. | 4 | Sergio | To Do |
+| US-18 | Prioridad automática de conversaciones | T-36 | Implementar actualización de prioridades | Implementar el mecanismo de actualización de prioridades y persistencia de los cambios en las conversaciones correspondientes. | 4 | Sergio | To Do |
+| US-19 | Ordenamiento y filtrado de conversaciones | T-37 | Implementar consultas y ordenamiento de conversaciones | Implementar las consultas necesarias para ordenar las conversaciones según los criterios disponibles. | 4 | Renzo | To Do |
+| US-19 | Ordenamiento y filtrado de conversaciones | T-38 | Implementar filtros de conversaciones | Implementar los filtros por prioridad, etiquetas y vendedor, considerando los permisos del usuario autenticado. | 4 | Renzo | To Do |
+| US-20 | Perfil del vendedor | T-39 | Implementar consulta de perfil de usuario | Implementar el servicio para obtener la información del perfil del vendedor autenticado desde la base de datos. | 4 | Renzo | To Do |
+| US-20 | Perfil del vendedor | T-40 | Implementar actualización de perfil | Implementar la modificación y persistencia de la información autorizada del perfil del vendedor, incluyendo sus validaciones. | 3 | Renzo | To Do |
+| TS-01 | Documentación OpenAPI | T-41 | Configurar documentación OpenAPI | Configurar Swagger/OpenAPI para documentar automáticamente los endpoints, modelos y esquemas disponibles en el backend. | 2 | Renzo | To Do |
+| TS-01 | Documentación OpenAPI | T-42 | Validar documentación de API | Verificar que los recursos, métodos HTTP, parámetros, esquemas y respuestas de los servicios estén documentados correctamente. | 2 | Renzo | To Do |
+| TS-02 | Autenticación de usuarios | T-43 | Implementar endpoint RESTful de autenticación | Implementar el endpoint POST de autenticación para validar credenciales y generar el token de acceso correspondiente. | 5 | Renzo | To Do |
+| TS-02 | Autenticación de usuarios | T-44 | Validar respuestas de autenticación | Verificar las respuestas HTTP para credenciales válidas e inválidas, incluyendo los códigos 200 OK y 401 Unauthorized. | 3 | Renzo | To Do |
+| TS-03 | API de gestión de Leads | T-45 | Implementar endpoints RESTful de leads | Implementar los endpoints necesarios para registrar y consultar leads mediante los métodos HTTP correspondientes. | 6 | Dario | To Do |
+| TS-03 | API de gestión de Leads | T-46 | Validar datos y respuestas de API de leads | Verificar las validaciones de datos, persistencia y respuestas HTTP de las operaciones de creación y consulta de leads. | 4 | Dario | To Do |
+| TS-04 | API de gestión de Contactos | T-47 | Implementar endpoints RESTful de contactos | Implementar los endpoints para consultar y actualizar contactos mediante los recursos correspondientes de la API. | 5 | Lui | To Do |
+| TS-04 | API de gestión de Contactos | T-48 | Validar permisos y respuestas de API de contactos | Verificar las restricciones de acceso, validaciones y respuestas HTTP para las operaciones sobre contactos. | 4 | Lui | To Do |
+| TS-05 | API de conversaciones | T-49 | Implementar endpoints RESTful de conversaciones | Implementar los endpoints para consultar conversaciones e historiales de mensajes asociados a los contactos. | 5 | Johan | To Do |
+| TS-05 | API de conversaciones | T-50 | Validar autorización y respuestas de API de conversaciones | Verificar los permisos de acceso y las respuestas HTTP para conversaciones existentes, inexistentes o no autorizadas. | 4 | Johan | To Do |
+| TS-06 | API de Dashboard y métricas | T-51 | Implementar endpoints RESTful de métricas | Implementar los endpoints para obtener indicadores de ventas y leads según el rol y permisos del usuario autenticado. | 5 | Sergio | To Do |
+| TS-06 | API de Dashboard y métricas | T-52 | Validar métricas y permisos | Verificar los resultados de las consultas, restricciones de acceso y respuestas para períodos sin información. | 4 | Sergio | To Do |
+| TS-07 | Manejo de errores y respuestas HTTP | T-53 | Implementar manejo estandarizado de errores | Implementar un mecanismo centralizado para gestionar excepciones y generar respuestas HTTP consistentes en los servicios backend. | 4 | Dario | To Do |
+| TS-07 | Manejo de errores y respuestas HTTP | T-54 | Validar respuestas de error | Verificar las respuestas para solicitudes inválidas, recursos inexistentes, accesos no autorizados y errores internos del servidor. | 3 | Dario | To Do |
+| **Total** | **216** |
+
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+El principal avance durante el Sprint 3 fue el desarrollo del Backend Web Services del producto. 
+A continuación, se presentan los commits más importantes del Sprint, los cuales muestran el ciclo de vida del proyecto, y toda la información que se usó para el desarrollo.
+
+| Repository | Branch | Commit ID | Message | Body | Commit Date  |
+|---|---|---|---|---|---|
+| novascale-platform | feature/platform-foundation | bb5627787e8e6eb542350e6b8299e1df38f96fd0 | feat: add shared backend foundation | - | 12-11-2026 |
+| novascale-platform | feature/conversation-management | edc4ceeb4dba3095cf2213a8d4a0376fc8359c62 | feat(ConversationManagement): Bounded Context completed | - | 12-11-2026 |
+| novascale-platform | feature/identity-access | 52e6a8df9f1dc4d8499d35f8207d6a8d99a53d4c | feat(IdentityAccess): add full bounded context | - | 12-11-2026 |
+| novascale-platform | feature/lead-management | b3004b3fca47da9be6d19e4421dcb76da1e1491f | feat(LeadManagement): add full bounded context | - | 12-11-2026 |
+| novascale-platform | feature/sales-management | ab1b84a40eb70a24e03563f25abcfd327dc6e48c | feat(LeadManagement): add full bounded context | - | 12-11-2026 |
+
+
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+Se incluyen capturas detalladas de la ejecución del Backend Web Services como evidencia.
+
+<img src="Resources/Chapter5/sprint3/execution1.png"/>
+<img src="Resources/Chapter5/sprint3/execution2.png"/>
+<img src="Resources/Chapter5/sprint3/execution3.png"/>
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+Se incluyen capturas detalladas de la documentación del Backend Web Services.
+
+<img src="Resources/Chapter5/sprint3/services1.png"/>
+
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+
+El despliegue del Backend Web Service se realizó en el servicio de , se seleccionó esta alternativa debido a su rapidez de despliegue y accesibilidad.
+
+Se incluye la evidencia de despliegue:
+
+<img src="Resources/Chapter5/sprint3/deployment1.png"/>
+<img src="Resources/Chapter5/sprint3/deployment2.png"/>
+<img src="Resources/Chapter5/sprint3/deployment3.png"/>
+
+URL: 
+
+#### 5.2.3.8. Team Collaboration Insights for Sprint Review
+Durante el transcurso de este sprint, todos los miembros participaron de forma activa y constante en la creación de las tareas asignadas. A continuación todos los analíticos que nos proporciona Github, en su apartado de Insights, sobre la colaboración del equipo durante el Sprint 2:
+
+<img src="Resources/Chapter5/sprint3/collab1.png"/>
+<img src="Resources/Chapter5/sprint3/collab2.png"/>
+
+
+
+
+
 
 ---
 # 5.3. Validation Interviews
