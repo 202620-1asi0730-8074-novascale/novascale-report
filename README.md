@@ -251,6 +251,7 @@ En esta sección se define el Lenguaje Ubicuo (Ubiquitous Language) del proyecto
 | Term | Definition |
 |---|---|
 | **Lead (Prospecto)** | Persona o empresa que ha mostrado interés potencial en los productos o servicios de un negocio, pero que todavía no se considera un cliente. |
+| **Pipeline (Recorrido)** | Conjunto de procesos secuenciales por el que se clasifica a un contacto, incluye el recorrido desde Lead a Customer.  |
 | **Customer (Cliente)** | Persona o empresa que ha realizado una compra o mantiene una relación comercial con el negocio. |
 | **Contact (Contacto)** | Persona registrada con información que permite establecer comunicación y mantener una relación comercial. Puede corresponder a un lead o a un customer. |
 | **Salesperson (Vendedor)** | Persona encargada de gestionar leads, contactos y oportunidades comerciales con el objetivo de concretar ventas. |
