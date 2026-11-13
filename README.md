@@ -602,13 +602,15 @@ A continuación, se presenta el registro de las entrevistas de validación reali
 
 
 #### Entrevista 2 – Segmento 2
-- **Nombres y Apellidos:** `[Nombre y apellidos de la persona entrevistada]`
-- **Edad:** `[Edad]`
-- **Distrito:** `[Distrito]`
-- **Fecha:** `[Fecha de la entrevista]`
-- **Enlace del video (Google Drive):** [Ver video de la Entrevista 5](https://drive.google.com/file/d/1WSy_STwC9aSqxFdmnXYCMDD_3-cUkKkh/view?usp=sharing) — Inicio: `00:00` | Duración: por verificar.
-- **Evidencia visual:** Por incorporar.
-- **Resumen de la entrevista:** Por completar después de revisar la grabación.
+- **Nombres y Apellidos:** Giuseppe Chavez.
+- **Edad:** 19 años, según el registro inicial del proyecto (sección 2.2.2).
+- **Distrito:** Comas, según el registro inicial del proyecto (sección 2.2.2).
+- **Fecha:** 12 de noviembre de 2026, según la fecha visible en la interfaz durante la grabación.
+- **Perfil:** Estudiante y emprendedor encargado de atender consultas, contactar a potenciales clientes y realizar seguimiento de ventas.
+- **Entrevistador:** Lui Mathias Gamero Miranda.
+- **Enlace del video (Google Drive):** [Ver video de la Entrevista 5](https://drive.google.com/file/d/1WSy_STwC9aSqxFdmnXYCMDD_3-cUkKkh/view?usp=sharing) — Inicio: `00:00` | Duración: `04:23`.
+- **Evidencia visual:** ![Entrevista 5 - Segmento 2: Giuseppe Chavez y Lui Mathias Gamero Miranda durante la sesión de validación](Resources/Chapter5/entrevistas/5.png)
+- **Resumen de la entrevista:** Giuseppe describió su experiencia de uso de NovaLeads desde sus actividades de atención comercial y seguimiento de clientes, que actualmente organiza con Excel y WhatsApp. Manifestó que el menú y los nombres de las secciones le permitieron ubicar las funcionalidades con pocas indicaciones, y valoró la claridad de los campos y la centralización de los datos de los contactos. Asimismo, consideró comprensibles las etapas del pipeline y útil consultar el historial de conversaciones junto con la información de cada cliente para retomar el seguimiento con mayor contexto. Respecto a la priorización, explicó que también necesita considerar la situación de cada oportunidad, la última conversación, el tiempo de espera y los compromisos pendientes, como el envío de una cotización. Finalmente, señaló que la plataforma podría ayudarle a organizar la información y reducir el tiempo de búsqueda, aunque manifestó su interés en utilizarla durante varios días con sus actividades habituales para valorar mejor su utilidad. Estas apreciaciones corresponden a lo declarado por el participante; la grabación muestra una presentación compartida del dashboard y no documenta paso a paso la ejecución autónoma de todos los flujos mencionados.
 
 #### Entrevista 3 – Segmento 2
 - **Nombres y Apellidos:** `[Nombre y Apellido Entrevistado 3 - Seg. 2]`
