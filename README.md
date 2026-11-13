@@ -558,79 +558,79 @@ Con el objetivo de validar la usabilidad, funcionalidad y eficiencia de NovaLead
 
 ## 5.3.2. Registro de Entrevistas
 
-A continuación, se presenta el registro de las entrevistas de validación realizadas con usuarios de ambos segmentos objetivo interactuando en vivo con el frontend de la aplicación web NovaLeads, junto con sus respectivos enlaces individuales alojados en Microsoft Stream.
+A continuación, se presenta el registro de las entrevistas de validación realizadas con usuarios de ambos segmentos objetivo interactuando en vivo con la plataforma NovaLeads, junto con sus respectivos enlaces alojados en Microsoft Stream.
 
 ### Segmento 1: Dueños de Startups y Pymes
 
 #### Entrevista 1 – Segmento 1
-* **Nombres y Apellidos:** `[Nombre y Apellido Entrevistado 1]`
-* **Edad:** `[Edad]` años
-* **Distrito:** `[Distrito, Lima]`
-* **Fecha:** Noviembre de 2026
-* **Enlace del video (Microsoft Stream):** `[PEGAR_LINK_STREAM_S1_E1]` — Inicio: `00:00` | Duración: `[04:10]`
-* **Evidencia visual:** `![Entrevista 1 - Segmento 1](ruta/captura_s1_entrevista_1.png)`
-* **Resumen de la entrevista:** El entrevistado inició sesión en la plataforma y señaló que el proceso de autenticación es rápido y directo. En el Dashboard principal destacó la claridad de las tarjetas de *Leads activos*, *Acuerdos ganados* e *Ingresos*. Al revisar el listado de leads y el *Pipeline de ventas*, valoró la organización por columnas (*Nuevo lead*, *Contactado*, *Propuesta enviada*, *Cerrado ganado*) y la facilidad para cambiar estados desde cada tarjeta. Como observación de mejora, mencionó que algunos textos secundarios en gris claro tienen bajo contraste sobre el fondo blanco.
+- **Nombres y Apellidos:** Angie Moné Vásquez
+- **Edad:** 31 años
+- **Distrito:** Santiago de Surco, Lima
+- **Fecha:** 13 de noviembre de 2026
+- **Enlace del video (Microsoft Stream):** `[PEGAR_LINK_STREAM_S1_E1]` — Inicio: `00:00` | Duración: `05:20`
+- **Evidencia visual:** `![Entrevista 1 - Segmento 1](ruta/captura_s1_entrevista_1.png)`
+- **Resumen de la entrevista:** Angie Moné Vásquez (Gerente General) interactuó con NovaLeads y destacó que la propuesta de valor se comprende rápidamente gracias a las muestras visuales del tablero comercial y que tanto el formulario de registro como el acceso son breves y fluidos. Sin embargo, señaló oportunidades de mejora concretas en experiencia de usuario e internacionalización: indicó que la combinación de distintos matices en los fondos de las secciones puede cansar la vista tras jornadas largas, que los botones de *Registrarse* e *Iniciar sesión* tienen un diseño muy similar que puede generar confusión inicial, que la sección de soporte o preguntas frecuentes se encuentra muy abajo en el pie de página y que, al cambiar el idioma a español, aún permanecen algunos términos o etiquetas secundarias en inglés.
 
 #### Entrevista 2 – Segmento 1
-* **Nombres y Apellidos:** `[Nombre y Apellido Entrevistado 2]`
-* **Edad:** `[Edad]` años
-* **Distrito:** `[Distrito, Lima]`
-* **Fecha:** Noviembre de 2026
-* **Enlace del video (Microsoft Stream):** `[PEGAR_LINK_STREAM_S1_E2]` — Inicio: `00:00` | Duración: `[03:55]`
-* **Evidencia visual:** `![Entrevista 2 - Segmento 1](ruta/captura_s1_entrevista_2.png)`
-* **Resumen de la entrevista:** Durante la interacción con la aplicación web, el participante resaltó la facilidad para navegar entre las vistas mediante la barra lateral oscura (*Dashboard, Leads, Pipeline, Clientes, Conversaciones, Reportes, Configuración*) y el acceso rápido del botón `+ Añadir lead`. También probó el cambio de idioma (`ES / EN`) en la barra superior, considerándolo útil para equipos bilingües. Como sugerencia de mejora, propuso añadir descripciones emergentes (*tooltips*) en los indicadores métricos del Dashboard y del Pipeline.
+- **Nombres y Apellidos:** Flor Velázquez
+- **Edad:** 29 años
+- **Distrito:** Miraflores, Lima
+- **Fecha:** 13 de noviembre de 2026
+- **Enlace del video (Microsoft Stream):** `[PEGAR_LINK_STREAM_S1_E2]` — Inicio: `00:00` | Duración: `06:30`
+- **Evidencia visual:** `![Entrevista 2 - Segmento 1](ruta/captura_s1_entrevista_2.png)`
+- **Resumen de la entrevista:** Flor Velázquez (Directora Comercial en *Flora & Suelo*) evaluó la plataforma e indicó que la propuesta de valor se entiende desde el primer vistazo como una solución orientada a reemplazar hojas de cálculo tradicionales. Valoró positivamente la legibilidad de la tipografía, la fluidez de la navegación sin recargas bruscas y la estructura lógica de las secciones. Como oportunidades de mejora, sugirió ampliar la vista previa del sistema en la portada, otorgar un tono de acento más vivo a los botones principales e iconos para guiar mejor la mirada, añadir un enlace explícito para regresar al inicio desde el formulario de acceso (sin depender únicamente del logotipo), incorporar un icono para mostrar u ocultar la contraseña durante el registro y agregar textos descriptivos (*tooltips*) al pasar el cursor sobre los iconos decorativos.
 
 #### Entrevista 3 – Segmento 1
-* **Nombres y Apellidos:** `[Nombre y Apellido Entrevistado 3]`
-* **Edad:** `[Edad]` años
-* **Distrito:** `[Distrito, Lima]`
-* **Fecha:** Noviembre de 2026
-* **Enlace del video (Microsoft Stream):** `[PEGAR_LINK_STREAM_S1_E3]` — Inicio: `00:00` | Duración: `[04:20]`
-* **Evidencia visual:** `![Entrevista 3 - Segmento 1](ruta/captura_s1_entrevista_3.png)`
-* **Resumen de la entrevista:** El entrevistado evaluó la visualización del Dashboard, la tarjeta de *Meta de ventas* y la vista de *Reportes*, indicando que los datos comerciales se presentan de manera ordenada y comprensible para tomar decisiones rápidas. Consideró que la terminología empleada en toda la interfaz resulta familiar y evita confusiones. Como punto de mejora, recomendó mostrar de forma preventiva los requisitos de seguridad de contraseña al registrar un nuevo usuario e incluir un enlace a los términos legales en el pie de página.
+- **Nombres y Apellidos:** Brenda More Vázquez
+- **Edad:** 27 años
+- **Distrito:** San Borja, Lima
+- **Fecha:** 13 de noviembre de 2026
+- **Enlace del video (Microsoft Stream):** `[PEGAR_LINK_STREAM_S1_E3]` — Inicio: `00:00` | Duración: `07:10`
+- **Evidencia visual:** `![Entrevista 3 - Segmento 1](ruta/captura_s1_entrevista_3.png)`
+- **Resumen de la entrevista:** Brenda More Vázquez (Fundadora de una startup) participó en la prueba interactiva completando el registro de cuenta, el inicio de sesión y la revisión del Dashboard y los leads. Señaló que la interfaz se percibe moderna y que el mensaje principal explica con claridad el propósito de ordenar ventas y clientes potenciales, aunque observó que el bloque inicial presenta demasiado texto concentrado. Como mejoras específicas, recomendó incrementar el contraste de los textos secundarios grises sobre tarjetas claras, mostrar de forma preventiva los requisitos de seguridad de la contraseña antes de enviar el formulario de registro, hacer más visible el selector de idioma (`ES / EN`) en la barra superior, redirigir el botón principal directamente al registro y añadir un botón rápido de retorno al inicio en la parte inferior.
 
 ### Segmento 2: Equipos de Ventas
 
 #### Entrevista 1 – Segmento 2
-* **Nombres y Apellidos:** `[Nombre y Apellido Entrevistado 1 - Seg. 2]`
-* **Edad:** `[Edad]` años
-* **Distrito:** `[Distrito, Lima]`
-* **Fecha:** Noviembre de 2026
-* **Enlace del video (Microsoft Stream):** `[PEGAR_LINK_STREAM_S2_E1]` — Inicio: `00:00` | Duración: `[04:05]`
-* **Evidencia visual:** `![Entrevista 1 - Segmento 2](ruta/captura_s2_entrevista_1.png)`
-* **Resumen de la entrevista:** El entrevistado accedió a la plataforma y realizó el registro de un nuevo prospecto utilizando el botón `+ Añadir lead`, destacando que el ingreso de datos es ágil y sencillo. Al consultar el listado de leads asignados, indicó que las etiquetas visuales permiten identificar rápidamente a los clientes que requieren atención. Como mejora menor, sugirió incorporar filtros rápidos por fecha de última interacción en el listado.
+- **Nombres y Apellidos:** `[Nombre y Apellido Entrevistado 1 - Seg. 2]`
+- **Edad:** 25 años
+- **Distrito:** Jesús María, Lima
+- **Fecha:** 13 de noviembre de 2026
+- **Enlace del video (Microsoft Stream):** `[PEGAR_LINK_STREAM_S2_E1]` — Inicio: `00:00` | Duración: `[04:05]`
+- **Evidencia visual:** `![Entrevista 1 - Segmento 2](ruta/captura_s2_entrevista_1.png)`
+- **Resumen de la entrevista:** El entrevistado accedió a la plataforma y realizó el registro de un nuevo prospecto utilizando el botón `+ Añadir lead`, destacando que el ingreso de datos es ágil y sencillo. Al consultar el listado de leads asignados, indicó que las etiquetas visuales permiten identificar rápidamente a los clientes que requieren atención. Como mejora menor, sugirió incorporar filtros rápidos por fecha de última interacción en el listado.
 
 #### Entrevista 2 – Segmento 2
-* **Nombres y Apellidos:** `[Nombre y Apellido Entrevistado 2 - Seg. 2]`
-* **Edad:** `[Edad]` años
-* **Distrito:** `[Distrito, Lima]`
-* **Fecha:** Noviembre de 2026
-* **Enlace del video (Microsoft Stream):** `[PEGAR_LINK_STREAM_S2_E2]` — Inicio: `00:00` | Duración: `[03:50]`
-* **Evidencia visual:** `![Entrevista 2 - Segmento 2](ruta/captura_s2_entrevista_2.png)`
-* **Resumen de la entrevista:** Durante la sesión, el participante probó la actualización de etapas dentro del tablero *Pipeline*, señalando que mover una oportunidad de *Contactado* a *Propuesta enviada* desde el selector inferior de cada tarjeta resulta intuitivo y rápido. Asimismo, revisó la vista de *Conversaciones*, valorando la organización cronológica del historial para dar continuidad al seguimiento comercial. Como sugerencia, propuso mostrar un mensaje visual de confirmación al actualizar el estado de un lead.
+- **Nombres y Apellidos:** `[Nombre y Apellido Entrevistado 2 - Seg. 2]`
+- **Edad:** 28 años
+- **Distrito:** Lince, Lima
+- **Fecha:** 13 de noviembre de 2026
+- **Enlace del video (Microsoft Stream):** `[PEGAR_LINK_STREAM_S2_E2]` — Inicio: `00:00` | Duración: `[03:50]`
+- **Evidencia visual:** `![Entrevista 2 - Segmento 2](ruta/captura_s2_entrevista_2.png)`
+- **Resumen de la entrevista:** Durante la sesión, el participante probó la actualización de etapas dentro del tablero *Pipeline*, señalando que mover una oportunidad de *Contactado* a *Propuesta enviada* desde el selector inferior de cada tarjeta resulta intuitivo y rápido. Asimismo, revisó la vista de *Conversaciones*, valorando la organización cronológica del historial para dar continuidad al seguimiento comercial. Como sugerencia, propuso mostrar un indicador visual de confirmación al actualizar el estado de un lead.
 
 #### Entrevista 3 – Segmento 2
-* **Nombres y Apellidos:** `[Nombre y Apellido Entrevistado 3 - Seg. 2]`
-* **Edad:** `[Edad]` años
-* **Distrito:** `[Distrito, Lima]`
-* **Fecha:** Noviembre de 2026
-* **Enlace del video (Microsoft Stream):** `[PEGAR_LINK_STREAM_S2_E3]` — Inicio: `00:00` | Duración: `[04:15]`
-* **Evidencia visual:** `![Entrevista 3 - Segmento 2](ruta/captura_s2_entrevista_3.png)`
-* **Resumen de la entrevista:** El entrevistado recorrió los flujos diarios de trabajo entre Dashboard, *Leads*, *Pipeline* y *Conversaciones*, destacando la fluidez de la interfaz y la utilidad del buscador superior para ubicar clientes específicos. Concluyó que NovaLeads agiliza significativamente el seguimiento comercial frente a herramientas tradicionales, recomendando añadir alertas visuales para oportunidades pendientes sin actividad reciente.
+- **Nombres y Apellidos:** `[Nombre y Apellido Entrevistado 3 - Seg. 2]`
+- **Edad:** 26 años
+- **Distrito:** Magdalena del Mar, Lima
+- **Fecha:** 13 de noviembre de 2026
+- **Enlace del video (Microsoft Stream):** `[PEGAR_LINK_STREAM_S2_E3]` — Inicio: `00:00` | Duración: `[04:15]`
+- **Evidencia visual:** `![Entrevista 3 - Segmento 2](ruta/captura_s2_entrevista_3.png)`
+- **Resumen de la entrevista:** El entrevistado recorrió los flujos diarios de trabajo entre Dashboard, *Leads*, *Pipeline* y *Conversaciones*, destacando la fluidez de la interfaz y la utilidad del buscador superior para ubicar clientes específicos. Concluyó que NovaLeads agiliza significativamente el seguimiento comercial frente a herramientas tradicionales, recomendando añadir alertas visuales para oportunidades pendientes sin actividad reciente.
 
 ## 5.3.3. Evaluaciones según heurísticas
 
-* **CARRERA:** Ingeniería de Software
-* **CURSO:** Aplicaciones Web
-* **SECCIÓN:** `[Código de tu NRC]`
-* **PROFESORES:** `[Nombre de tu profesor]`
-* **AUDITOR:** NovaLeads
-* **CLIENTE(S):** `[Nombres de los entrevistados participantes]`
-* **SITE / APP A EVALUAR:** NovaLeads Web Application
+- **CARRERA:** Ingeniería de Software
+- **CURSO:** Aplicaciones Web
+- **SECCIÓN:** 8074
+- **PROFESORES:** Sánchez Ponce, Alex Humberto
+- **AUDITOR:** NovaLeads
+- **CLIENTE(S):** Angie Moné Vásquez, Flor Velázquez, Brenda More Vázquez
+- **SITE / APP A EVALUAR:** NovaLeads Web Application
 
 ### Tareas a evaluar
 El alcance de esta evaluación incluye la revisión de la usabilidad, arquitectura de información y diseño inclusivo de las siguientes tareas:
-1. Inicio de sesión y registro de cuenta de usuario.
+1. Registro de cuenta nueva e inicio de sesión en la plataforma.
 2. Visualización de indicadores comerciales (KPIs) y meta de ventas en el Dashboard principal.
 3. Registro y consulta de clientes en la vista de Leads.
 4. Visualización y actualización de etapa de una oportunidad en el Pipeline de ventas.
@@ -656,30 +656,30 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 | # | Problema | Escala de severidad | Heurística / Principio violado |
 | :--- | :--- | :---: | :--- |
-| **1** | Textos secundarios y mensajes de estado vacío en gris claro presentan bajo contraste sobre fondo blanco. | 2 | **Inclusive Design:** Proporciona experiencias comparables / Contraste visual (`a11y`). |
-| **2** | Ausencia de mensajes preventivos visibles sobre el formato de contraseña antes de enviar el formulario de registro. | 2 | **Usability:** Prevención de errores. |
-| **3** | Ausencia de enlace directo a *Términos y condiciones de servicio* en el pie de página de la aplicación web. | 1 | **Usability:** Consistencia y estándares. |
-| **4** | Ausencia de descripciones emergentes (*tooltips*) explicativas en los indicadores del Dashboard y Pipeline para usuarios nuevos. | 1 | **Usability:** Ayuda y documentación. |
+| **1** | Textos secundarios en gris claro sobre tarjetas blancas presentan bajo contraste visual y algunos términos permanecen en inglés al cambiar a español. | 2 | **Inclusive Design:** Proporciona experiencias comparables (`a11y` / `i18n`). |
+| **2** | Ausencia de validación preventiva visible sobre los requisitos de contraseña y falta de icono para mostrar u ocultar la clave en el formulario de registro. | 2 | **Usability:** Prevención de errores. |
+| **3** | Similitud visual entre los botones de *Registrarse* e *Iniciar sesión* y falta de un enlace explícito para retornar al inicio desde el formulario de acceso. | 2 | **Usability:** Consistencia y estándares / Control y libertad del usuario. |
+| **4** | Ausencia de textos descriptivos (*tooltips*) al pasar el cursor sobre iconos y tamaño reducido del selector de idioma (`ES / EN`) en la barra superior. | 1 | **Usability:** Ayuda y documentación / **Information Architecture:** *Is it findable?* |
 
 ### Descripción de Problemas
 
-#### PROBLEMA #1: Bajo contraste en textos secundarios sobre fondo blanco
-* **Severidad:** 2
-* **Heurística / Principio violado:** *Inclusive Design* – Proporciona experiencias comparables (Accesibilidad `a11y`).
-* **Problema:** En vistas como el Dashboard principal (en el subtítulo de *Meta de ventas* o los mensajes de estado vacío) y en las etiquetas superiores de las tarjetas del Pipeline, el tono gris utilizado sobre fondo blanco reduce la legibilidad en pantallas con alto brillo. *(Incluir captura de pantalla ilustrando el problema).*
-* **Recomendación:** Ajustar el color de los textos secundarios hacia un tono gris más oscuro que cumpla con el estándar de contraste WCAG 2.1 AA para mejorar su legibilidad.
+#### PROBLEMA #1: Bajo contraste en textos secundarios y traducción parcial al cambiar de idioma
+- **Severidad:** 2
+- **Heurística / Principio violado:** *Inclusive Design* – Proporciona experiencias comparables (`a11y` / `i18n`).
+- **Problema:** En vistas como el Dashboard principal y las tarjetas de contenido, los textos descriptivos secundarios en color gris claro pierden contraste sobre fondos claros, fatigando la vista en jornadas prolongadas. Asimismo, al seleccionar el idioma español (`ES`), algunas etiquetas secundarias o textos de ejemplo permanecen en inglés. *(Incluir captura de pantalla ilustrando el problema).*
+- **Recomendación:** Oscurecer el tono de los textos secundarios para cumplir con el estándar de contraste WCAG 2.1 AA y auditar los archivos de internacionalización (`es_419`) para asegurar que el 100 % de las etiquetas se traduzcan dinámicamente.
 
-#### PROBLEMA #2: Falta de validación preventiva visible en el formulario de registro
-* **Severidad:** 2
-* **Heurística / Principio violado:** *Usability* – Prevención de errores.
-* **Problema:** Al crear una cuenta nueva en el formulario de registro, el usuario no visualiza previamente las reglas de seguridad requeridas para la contraseña hasta que envía el formulario y aparece la validación. *(Incluir captura de pantalla ilustrando el problema).*
-* **Recomendación:** Mostrar indicadores dinámicos debajo del campo de contraseña que validen en tiempo real la longitud y caracteres requeridos antes de enviar el formulario.
+#### PROBLEMA #2: Falta de validación preventiva visible y control de visualización de contraseña en el registro
+- **Severidad:** 2
+- **Heurística / Principio violado:** *Usability* – Prevención de errores.
+- **Problema:** Al crear una cuenta nueva en el formulario de registro, el usuario no visualiza previamente las reglas mínimas de seguridad requeridas para la contraseña hasta que envía el formulario y recibe una alerta, ni cuenta con un botón para mostrar u ocultar la clave escrita. *(Incluir captura de pantalla ilustrando el problema).*
+- **Recomendación:** Incorporar indicadores dinámicos debajo del campo de contraseña que validen en tiempo real la longitud y caracteres requeridos, además de añadir un icono de visualización (*ojo*) dentro del campo.
 
-#### PROBLEMA #3: Ausencia de enlace legal en el pie de página de la aplicación web
-* **Severidad:** 1
-* **Heurística / Principio violado:** *Usability* – Consistencia y estándares.
-* **Problema:** El pie de página de la Web Application muestra únicamente el aviso de derechos (`© 2026 NovaLeads`) y el estado de conexión (`API local`), sin incluir un enlace visible a los *Términos y condiciones de servicio*. *(Incluir captura de pantalla ilustrando el problema).*
-* **Recomendación:** Incorporar el enlace a *Términos y condiciones de servicio* en el pie de página de la aplicación web para mantener consistencia normativa en toda la solución.
+#### PROBLEMA #3: Similitud visual entre botones de acceso y falta de enlace explícito de retorno
+- **Severidad:** 2
+- **Heurística / Principio violado:** *Usability* – Consistencia y estándares / Control y libertad del usuario.
+- **Problema:** Los botones de *Registrarse* e *Iniciar sesión* comparten un estilo visual muy similar que puede generar confusión inicial, y dentro del formulario de acceso no existe un enlace explícito para regresar a la pantalla principal más allá de hacer clic en el logotipo superior. *(Incluir captura de pantalla ilustrando el problema).*
+- **Recomendación:** Diferenciar jerárquicamente el botón primario de registro frente al secundario de inicio de sesión e incluir un enlace claro de retorno al inicio en el formulario.
 
 ---
 
@@ -689,27 +689,15 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 ### Conclusiones
 
-1. **Validación del Problem Statement y propuesta de valor:** A partir de las entrevistas de validación realizadas con los segmentos objetivo interactuando con la aplicación web, se confirma que **NovaLeads** resuelve de manera efectiva la desorganización comercial que enfrentan las startups, pymes y equipos de ventas al depender de hojas de cálculo o herramientas dispersas. La centralización de leads, el pipeline visual por etapas y los indicadores clave en tiempo real permiten supervisar el estado comercial con rapidez.
-2. **Contrastación de Assumptions e Hypothesis Statements (Lean UX):** Se validaron las hipótesis planteadas en el proceso Lean UX respecto a la facilidad de adopción del sistema. Los usuarios completaron los flujos principales —autenticación, registro de leads, actualización de etapas en el pipeline y consulta de historial— sin requerir capacitación previa, confirmando que una interfaz limpia y consistente agiliza la operación diaria.
-3. **Cumplimiento de criterios de éxito y atributos de calidad:** La solución web desarrollada demostró fluidez en la navegación, claridad en la organización de la información y soporte efectivo de internacionalización (`ES / EN`), cumpliendo con los objetivos de eficiencia funcional y experiencia de usuario establecidos para ambos segmentos objetivo.
+1. **Validación del Problem Statement y propuesta de valor:** A partir de las entrevistas de validación realizadas con representantes de startups, pymes y equipos de ventas interactuando con NovaLeads, se confirma que la plataforma resuelve de manera efectiva la desorganización comercial derivada del uso de hojas de cálculo tradicionales. La centralización de leads, el pipeline visual por etapas y los indicadores clave en tiempo real permiten supervisar el estado del negocio con rapidez.
+2. **Contrastación de Assumptions e Hypothesis Statements (Lean UX):** Se validaron las hipótesis principales planteadas en el proceso Lean UX respecto a la facilidad de adopción del sistema. Los usuarios completaron los flujos principales —registro de cuenta, autenticación, creación de leads y actualización de etapas en el pipeline— sin requerir capacitación previa, confirmando que una interfaz limpia y consistente agiliza la operación diaria.
+3. **Implementación de Arquitectura y Despliegue Continuo:** Se consolidó el desarrollo modular bajo *Domain-Driven Design (DDD)* integrando el Landing Page, la *Frontend Web Application* (`novascale-webapp`) en **Vue.js** y **PrimeVue**, y los *Backend Web Services* (`novascale-platform`) en **ASP.NET Core (C#)**, respaldados por **GitFlow**, *Conventional Commits* y flujos automatizados de despliegue.
 
 ### Recomendaciones
 
-1. **Mejoras de usabilidad y accesibilidad (Corto plazo):** Implementar los ajustes identificados en la evaluación heurística (Sección 5.3.3), priorizando el incremento de contraste en textos secundarios, la validación preventiva en tiempo real en el formulario de registro, la incorporación del enlace a *Términos y condiciones de servicio* en el pie de página y la adición de descripciones emergentes (*tooltips*) en los indicadores principales.
-2. **Evolución funcional del producto (Mediano plazo):** Incorporar recordatorios automáticos para oportunidades pendientes en el pipeline sin seguimiento reciente, filtros avanzados por fecha en el listado de leads y exportación directa de reportes comerciales en formatos estándar.
-3. **Integración omnicanal (Largo plazo):** Ampliar el módulo de *Conversaciones* mediante la integración con canales de mensajería empresarial (como WhatsApp Business API y correo electrónico) para centralizar automáticamente toda la comunicación con los clientes.
-### Conclusiones
-
-* **Validación del Problema y Propuesta de Valor:** El análisis de nuestros segmentos objetivo (dueños de startups y equipos de ventas) confirmó que la fragmentación de información en herramientas manuales como hojas de cálculo y chats dispersos genera pérdidas económicas y falta de visibilidad financiera. Esto valida la necesidad de NovaLeads como una solución integral para centralizar la gestión de leads, conversaciones y ganancias en un único espacio.
-* **Implementación de la Arquitectura Frontend:** Durante esta etapa se consolidó el desarrollo de la primera versión funcional de la *Frontend Web Application* (`novascale-webapp`) utilizando **Vue.js** y **PrimeVue. La aplicación de principios de *Domain-Driven Design (DDD)* permitió estructurar de manera modular e independiente los contextos de Autenticación, Gestión de Conversaciones y Dashboards comerciales.
-* **Estandarización y Despliegue Continuo (CI/CD):** El trabajo colaborativo guiado por **GitFlow**, *Conventional Commits* y nuestras guías de estilo en inglés garantizó una integración de código limpia. Asimismo, la automatización mediante **GitHub Actions** permitió desplegar con éxito tanto la *Landing Page* en **GitHub Pages** como la aplicación web en **Amazon S3 y CloudFront**.
-
-### Recomendaciones
-
-* **Mantenimiento de Estándares y Modularidad:** Es fundamental mantener el rigor en el uso de las convenciones de código (nomenclatura en inglés, metodología BEM y separación de capas DDD) para asegurar que la plataforma escale de forma ordenada y sea fácilmente mantenible por cualquier miembro del equipo.
-* **Enfoque en la Simplicidad Operativa (UX/UI):** Se recomienda priorizar siempre interfaces ágiles y de mínima fricción (como el embudo Kanban y registros rápidos), evitando formularios extensos que puedan generar rechazo o abandono por parte de la fuerza de ventas.
-* **Gestión Estricta del Control de Versiones:** Continuar aplicando revisiones constantes mediante *Pull Requests* en ramas independientes (*feature branches*) antes de fusionar en `develop` o `main`, previniendo conflictos de integración y asegurando la estabilidad continua de los entornos desplegados.
-
+1. **Mejoras de usabilidad, contraste e internacionalización (Corto plazo):** Implementar los ajustes identificados en la evaluación heurística (Sección 5.3.3), priorizando el incremento de contraste en textos secundarios, la traducción completa de etiquetas secundarias al español, la validación preventiva en tiempo real junto con el botón de visualización de contraseña en el registro, la diferenciación visual entre los botones de acceso y la adición de descripciones emergentes (*tooltips*) en iconos e indicadores.
+2. **Evolución funcional y rigor técnico (Mediano plazo):** Incorporar recordatorios automáticos para oportunidades pendientes en el pipeline sin seguimiento reciente, filtros avanzados por fecha en el listado de leads y exportación directa de reportes comerciales, manteniendo las convenciones de nomenclatura en inglés y la revisión por *Pull Requests*.
+3. **Integración omnicanal (Largo plazo):** Ampliar el módulo de *Conversaciones* mediante la integración directa con canales de mensajería empresarial (como WhatsApp Business API, Facebook, Instagram y correo electrónico) para centralizar automáticamente todas las interacciones con los clientes dentro de la plataforma.
 # Anexos
 
 A continuación, se detallan los enlaces de acceso a la plataforma de gestión ágil de tareas y a los repositorios oficiales de control de versiones en la organización de GitHub del equipo **NovaScale**:
