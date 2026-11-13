@@ -619,66 +619,162 @@ A continuación, se presenta el registro de las entrevistas de validación reali
 
 ## 5.3.3. Evaluaciones según heurísticas
 
-- **CARRERA:** Ingeniería de Software
-- **CURSO:** Aplicaciones Web
-- **SECCIÓN:** 8074
-- **PROFESORES:** Sánchez Ponce, Alex Humberto
-- **AUDITOR:** NovaLeads
-- **CLIENTE(S):** Angie Moné Vásquez, Flor Velázquez, Brenda More Vázquez
-- **SITE / APP A EVALUAR:** NovaLeads Web Application
+La evaluación heurística de NovaLeads tiene como finalidad identificar dificultades de interacción y oportunidades de mejora en la experiencia de los usuarios. Se consideran principios de **usabilidad, arquitectura de información y diseño inclusivo**.
 
-### Tareas a evaluar
-El alcance de esta evaluación incluye la revisión de la usabilidad, arquitectura de información y diseño inclusivo de las siguientes tareas:
-1. Registro de cuenta nueva e inicio de sesión en la plataforma.
-2. Visualización de indicadores comerciales (KPIs) y meta de ventas en el Dashboard principal.
-3. Registro y consulta de clientes en la vista de Leads.
-4. Visualización y actualización de etapa de una oportunidad en el Pipeline de ventas.
-5. Consulta de historial en la vista de Conversaciones y revisión de Reportes.
-6. Cambio de idioma de la interfaz (`ES / EN`).
+La evaluación se desarrolla mediante una autoauditoría del equipo NovaScale, autorizada por el docente. Esta versión preliminar utiliza las observaciones documentadas en las entrevistas de Angie Moné Vásquez, Flor Velázquez y Brenda More Vázquez, pertenecientes al segmento de dueños de startups y pymes.
 
-### Tareas no incluidas
-No están incluidas en esta versión de la evaluación las siguientes tareas:
-1. Configuración avanzada de roles y permisos personalizados.
-2. Exportación masiva de reportes históricos en formatos externos.
-3. Integración con pasarelas de pago para suscripciones empresariales.
+**Estado de la evaluación:** los hallazgos se extraen de los resúmenes publicados en la sección 5.3.2 y las severidades son propuestas iniciales. Deben contrastarse con la aplicación e incorporar las capturas y los minutos correspondientes antes de cerrar la evaluación.
 
-### Escala de Severidad
+### Datos generales
+
+| Campo | Información |
+| :--- | :--- |
+| **CARRERA** | Ingeniería de Software |
+| **CURSO** | Aplicaciones Web |
+| **SECCIÓN** | 8074 |
+| **PROFESOR** | Alex Humberto Sánchez Ponce |
+| **EQUIPO AUDITOR** | NovaScale |
+| **RESPONSABLE** | Sergio Rubén Caldas García |
+| **PARTICIPANTES CONSIDERADAS** | Angie Moné Vásquez, Flor Velázquez y Brenda More Vázquez |
+| **PRODUCTO EVALUADO** | NovaLeads |
+| **ACCESO A LA APLICACIÓN** | https://novaleads.onrender.com/login |
+| **FECHA DE LAS ENTREVISTAS** | 13 de noviembre de 2026 |
+
+### Alcance de la evaluación
+
+Esta revisión preliminar comprende las observaciones sobre las siguientes tareas:
+
+1. Comprender la propuesta de valor de NovaLeads.
+2. Identificar las opciones de registro e inicio de sesión.
+3. Crear una cuenta e introducir una contraseña.
+4. Navegar entre las pantallas de acceso y la página principal.
+5. Cambiar el idioma de la interfaz.
+6. Interpretar los textos e indicadores de las pantallas consultadas.
+7. Localizar información de soporte y preguntas frecuentes.
+
+La incorporación de los flujos específicos de vendedores y la revisión en dispositivos móviles se realizará conforme se disponga de sus evidencias.
+
+No se incluyen pruebas de seguridad del backend, rendimiento de la infraestructura ni integraciones externas.
+
+### Escala de severidad
 
 | Nivel | Descripción |
 | :--- | :--- |
-| **1** | **Problema superficial:** puede ser fácilmente superado por el usuario u ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
-| **2** | **Problema menor:** puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo de cara al siguiente *release*. |
-| **3** | **Problema mayor:** ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
-| **4** | **Problema muy grave:** un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+| **1 - Superficial** | Dificultad de impacto limitado, fácilmente superable por el usuario. Su corrección puede realizarse cuando exista disponibilidad. |
+| **2 - Menor** | Dificulta la interacción, aunque permite continuar con la tarea. Se recomienda corregirla en una siguiente versión. |
+| **3 - Mayor** | Afecta considerablemente una tarea o resulta difícil de superar. Requiere prioridad alta. |
+| **4 - Muy grave** | Impide continuar una tarea esencial. Su corrección es necesaria antes del lanzamiento. |
 
-### Tabla Resumen
+### Referencias de las entrevistas
 
-| # | Problema | Escala de severidad | Heurística / Principio violado |
-| :--- | :--- | :---: | :--- |
-| **1** | Textos secundarios en gris claro sobre tarjetas blancas presentan bajo contraste visual y algunos términos permanecen en inglés al cambiar a español. | 2 | **Inclusive Design:** Proporciona experiencias comparables (`a11y` / `i18n`). |
-| **2** | Ausencia de validación preventiva visible sobre los requisitos de contraseña y falta de icono para mostrar u ocultar la clave en el formulario de registro. | 2 | **Usability:** Prevención de errores. |
-| **3** | Similitud visual entre los botones de *Registrarse* e *Iniciar sesión* y falta de un enlace explícito para retornar al inicio desde el formulario de acceso. | 2 | **Usability:** Consistencia y estándares / Control y libertad del usuario. |
-| **4** | Ausencia de textos descriptivos (*tooltips*) al pasar el cursor sobre iconos y tamaño reducido del selector de idioma (`ES / EN`) en la barra superior. | 1 | **Usability:** Ayuda y documentación / **Information Architecture:** *Is it findable?* |
+| Código | Participante | Referencia |
+| :--- | :--- | :--- |
+| **E01** | Angie Moné Vásquez | Entrevista 1 del segmento de dueños, sección 5.3.2. |
+| **E02** | Flor Velázquez | Entrevista 2 del segmento de dueños, sección 5.3.2. |
+| **E03** | Brenda More Vázquez | Entrevista 3 del segmento de dueños, sección 5.3.2. |
 
-### Descripción de Problemas
+### Tabla resumen de hallazgos preliminares
 
-#### PROBLEMA #1: Bajo contraste en textos secundarios y traducción parcial al cambiar de idioma
-- **Severidad:** 2
-- **Heurística / Principio violado:** *Inclusive Design* – Proporciona experiencias comparables (`a11y` / `i18n`).
-- **Problema:** En vistas como el Dashboard principal y las tarjetas de contenido, los textos descriptivos secundarios en color gris claro pierden contraste sobre fondos claros, fatigando la vista en jornadas prolongadas. Asimismo, al seleccionar el idioma español (`ES`), algunas etiquetas secundarias o textos de ejemplo permanecen en inglés. *(Incluir captura de pantalla ilustrando el problema).*
-- **Recomendación:** Oscurecer el tono de los textos secundarios para cumplir con el estándar de contraste WCAG 2.1 AA y auditar los archivos de internacionalización (`es_419`) para asegurar que el 100 % de las etiquetas se traduzcan dinámicamente.
+| N.º | Problema reportado | Severidad propuesta | Heurística o principio afectado | Fuente |
+| :--- | :--- | :---: | :--- | :--- |
+| **P01** | Permanencia de términos en inglés después de seleccionar español. | **2** | Diseño inclusivo: proporcionar experiencias comparables. | E01 |
+| **P02** | Dificultad de lectura de textos secundarios grises sobre fondos claros. | **2** | Diseño inclusivo: proporcionar experiencias comparables. | E03 |
+| **P03** | Requisitos de contraseña poco visibles antes de enviar el registro. | **2** | Usabilidad: prevención de errores. | E03 |
+| **P04** | Retorno a la página principal poco explícito desde el acceso. | **2** | Usabilidad: control y libertad del usuario. | E02, E03 |
+| **P05** | Diferenciación visual insuficiente entre registro e inicio de sesión. | **2** | Usabilidad: reconocimiento antes que recuerdo. | E01 |
+| **P06** | Baja visibilidad del acceso a soporte y preguntas frecuentes. | **2** | Arquitectura de información: facilidad para encontrar información. | E01 |
 
-#### PROBLEMA #2: Falta de validación preventiva visible y control de visualización de contraseña en el registro
-- **Severidad:** 2
-- **Heurística / Principio violado:** *Usability* – Prevención de errores.
-- **Problema:** Al crear una cuenta nueva en el formulario de registro, el usuario no visualiza previamente las reglas mínimas de seguridad requeridas para la contraseña hasta que envía el formulario y recibe una alerta, ni cuenta con un botón para mostrar u ocultar la clave escrita. *(Incluir captura de pantalla ilustrando el problema).*
-- **Recomendación:** Incorporar indicadores dinámicos debajo del campo de contraseña que validen en tiempo real la longitud y caracteres requeridos, además de añadir un icono de visualización (*ojo*) dentro del campo.
+### Detalle de hallazgos
 
-#### PROBLEMA #3: Similitud visual entre botones de acceso y falta de enlace explícito de retorno
-- **Severidad:** 2
-- **Heurística / Principio violado:** *Usability* – Consistencia y estándares / Control y libertad del usuario.
-- **Problema:** Los botones de *Registrarse* e *Iniciar sesión* comparten un estilo visual muy similar que puede generar confusión inicial, y dentro del formulario de acceso no existe un enlace explícito para regresar a la pantalla principal más allá de hacer clic en el logotipo superior. *(Incluir captura de pantalla ilustrando el problema).*
-- **Recomendación:** Diferenciar jerárquicamente el botón primario de registro frente al secundario de inicio de sesión e incluir un enlace claro de retorno al inicio en el formulario.
+#### PROBLEMA P01: Traducción incompleta al seleccionar español
+
+**Severidad propuesta:** 2 - Menor.<br>
+**Principio afectado:** Diseño inclusivo - proporcionar experiencias comparables.<br>
+**Fuente:** E01 - Angie Moné Vásquez.
+
+**Problema:** El resumen de la entrevista indica que algunas etiquetas secundarias permanecen en inglés después de seleccionar español. Esta combinación puede dificultar la comprensión de personas que esperan utilizar toda la interfaz en el idioma seleccionado.
+
+**Justificación:** La observación sugiere un esfuerzo adicional de interpretación, sin documentar un bloqueo completo de la tarea.
+
+**Recomendación:** Revisar los textos visibles de cada pantalla y completar sus traducciones. Comprobar que el idioma seleccionado se mantenga durante la navegación.
+
+**Evidencia que se incorporará:** Captura con español seleccionado y los términos sin traducir, junto con el minuto de la observación.
+
+#### PROBLEMA P02: Legibilidad reducida de textos secundarios
+
+**Severidad propuesta:** 2 - Menor.<br>
+**Principio afectado:** Diseño inclusivo - proporcionar experiencias comparables.<br>
+**Fuente:** E03 - Brenda More Vázquez.
+
+**Problema:** La participante recomendó incrementar el contraste de los textos secundarios grises sobre tarjetas claras. Esta observación señala una posible dificultad para leer información complementaria de las pantallas.
+
+**Justificación:** Se propone severidad menor por el esfuerzo de lectura reportado. Todavía debe medirse el contraste para determinar si existe un incumplimiento técnico.
+
+**Recomendación:** Medir los colores de texto y fondo y ajustar los pares que no alcancen el contraste aplicable. Comprobar también los estados interactivos.
+
+**Evidencia que se incorporará:** Captura del texto afectado, colores utilizados y relación de contraste obtenida.
+
+#### PROBLEMA P03: Requisitos de contraseña poco visibles durante el registro
+
+**Severidad propuesta:** 2 - Menor.<br>
+**Heurística afectada:** Usabilidad - prevención de errores.<br>
+**Fuente:** E03 - Brenda More Vázquez.
+
+**Problema:** La participante solicitó que las condiciones de seguridad de la contraseña se presenten antes de enviar el formulario. La falta de orientación previa puede provocar intentos de registro que requieran corrección.
+
+**Justificación:** El usuario podría continuar después de corregir los datos, pero realizaría un esfuerzo evitable.
+
+**Recomendación:** Mostrar las condiciones junto al campo de contraseña e indicar claramente cuáles se cumplen. Los mensajes deben explicar cómo corregir una entrada inválida.
+
+**Evidencia que se incorporará:** Capturas del formulario antes del envío y de la respuesta ante una contraseña que incumpla sus condiciones.
+
+#### PROBLEMA P04: Retorno poco explícito a la página principal
+
+**Severidad propuesta:** 2 - Menor.<br>
+**Heurística afectada:** Usabilidad - control y libertad del usuario.<br>
+**Fuentes:** E02 - Flor Velázquez; E03 - Brenda More Vázquez.
+
+**Problema:** Las participantes recomendaron incluir un acceso explícito para regresar al inicio. El resumen de E02 indica que actualmente se depende del logotipo como opción de retorno, cuyo comportamiento puede resultar poco evidente para usuarios nuevos.
+
+**Justificación:** La dificultad afecta la identificación de la salida del flujo, aunque no demuestra que el retorno sea imposible.
+
+**Recomendación:** Incorporar un enlace visible y comprensible, como "Volver al inicio", y comprobar su funcionamiento.
+
+**Evidencia que se incorporará:** Captura de la pantalla afectada y referencia al momento en que se observa o comenta la dificultad.
+
+#### PROBLEMA P05: Diferenciación insuficiente entre registro e inicio de sesión
+
+**Severidad propuesta:** 2 - Menor.<br>
+**Heurística afectada:** Usabilidad - reconocimiento antes que recuerdo.<br>
+**Fuente:** E01 - Angie Moné Vásquez.
+
+**Problema:** La participante señaló que los controles de registro e inicio de sesión presentan una apariencia similar que puede generar confusión inicial. Esto puede dificultar reconocer la acción correspondiente a una persona nueva o a una que ya tiene cuenta.
+
+**Justificación:** La observación afecta la elección inicial, sin documentar una imposibilidad de acceder.
+
+**Recomendación:** Revisar la jerarquía de las acciones, conservar etiquetas claras y comprobar con usuarios que ambas opciones se distingan con facilidad.
+
+**Evidencia que se incorporará:** Captura de ambos controles en su contexto y minuto de la observación.
+
+#### PROBLEMA P06: Acceso poco visible a soporte y preguntas frecuentes
+
+**Severidad propuesta:** 2 - Menor.<br>
+**Principio afectado:** Arquitectura de información - facilidad para encontrar información.<br>
+**Fuente:** E01 - Angie Moné Vásquez.
+
+**Problema:** La participante indicó que la información de soporte y preguntas frecuentes se encuentra muy abajo, en el pie de página. Esto puede aumentar el esfuerzo necesario para localizar ayuda durante la navegación.
+
+**Justificación:** Se propone severidad menor porque la información estaría disponible, aunque su localización podría resultar difícil.
+
+**Recomendación:** Evaluar un acceso adicional a ayuda desde la navegación principal o desde los formularios donde resulte pertinente, conservando etiquetas consistentes.
+
+**Evidencia que se incorporará:** Captura de la ubicación actual y registro del recorrido necesario para encontrar la ayuda.
+
+### Síntesis preliminar
+
+Las observaciones documentadas permiten orientar la revisión hacia la comprensión del idioma, la legibilidad, la prevención de errores y la facilidad de navegación. Las severidades propuestas deberán confirmarse considerando el impacto observado y la posibilidad de completar las tareas.
+
+La evaluación se completará contrastando estos hallazgos con la aplicación, incorporando sus evidencias y añadiendo las observaciones verificables del segmento de vendedores.
 
 ---
 
