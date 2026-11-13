@@ -567,7 +567,7 @@ A continuación, se presenta el registro de las entrevistas de validación reali
 - **Edad:** 31 años
 - **Distrito:** Santiago de Surco, Lima
 - **Fecha:** 13 de noviembre de 2026
-- **Enlace del video (Microsoft Stream):** `[https://drive.google.com/file/d/1vijFBkCROYGYsBUbqvPtduEBpG0Al7Ne/view?usp=sharing]` — Inicio: `00:00` | Duración: `05:20`
+- **Enlace del video:** [Ver video de la Entrevista 1](https://drive.google.com/file/d/1vijFBkCROYGYsBUbqvPtduEBpG0Al7Ne/view?usp=sharing) — Inicio: `00:00` | Duración: `05:20`
 - **Evidencia visual:** `![Entrevista 1 - Segmento 1](ruta/captura_s1_entrevista_1.png)`
 - **Resumen de la entrevista:** Angie Moné Vásquez (Gerente General) interactuó con NovaLeads y destacó que la propuesta de valor se comprende rápidamente gracias a las muestras visuales del tablero comercial y que tanto el formulario de registro como el acceso son breves y fluidos. Sin embargo, señaló oportunidades de mejora concretas en experiencia de usuario e internacionalización: indicó que la combinación de distintos matices en los fondos de las secciones puede cansar la vista tras jornadas largas, que los botones de *Registrarse* e *Iniciar sesión* tienen un diseño muy similar que puede generar confusión inicial, que la sección de soporte o preguntas frecuentes se encuentra muy abajo en el pie de página y que, al cambiar el idioma a español, aún permanecen algunos términos o etiquetas secundarias en inglés.
 
@@ -576,7 +576,7 @@ A continuación, se presenta el registro de las entrevistas de validación reali
 - **Edad:** 29 años
 - **Distrito:** Miraflores, Lima
 - **Fecha:** 13 de noviembre de 2026
-- **Enlace del video (Microsoft Stream):** `[https://drive.google.com/file/d/1i3FKSDKPjATFDNwPwGrUgVSYZbRqdpie/view?usp=sharing]` — Inicio: `00:00` | Duración: `06:30`
+- **Enlace del video:** [Ver video de la Entrevista 2](https://drive.google.com/file/d/1i3FKSDKPjATFDNwPwGrUgVSYZbRqdpie/view?usp=sharing) — Inicio: `00:00` | Duración: `06:30`
 - **Evidencia visual:** `![Entrevista 2 - Segmento 1](ruta/captura_s1_entrevista_2.png)`
 - **Resumen de la entrevista:** Flor Velázquez (Directora Comercial en *Flora & Suelo*) evaluó la plataforma e indicó que la propuesta de valor se entiende desde el primer vistazo como una solución orientada a reemplazar hojas de cálculo tradicionales. Valoró positivamente la legibilidad de la tipografía, la fluidez de la navegación sin recargas bruscas y la estructura lógica de las secciones. Como oportunidades de mejora, sugirió ampliar la vista previa del sistema en la portada, otorgar un tono de acento más vivo a los botones principales e iconos para guiar mejor la mirada, añadir un enlace explícito para regresar al inicio desde el formulario de acceso (sin depender únicamente del logotipo), incorporar un icono para mostrar u ocultar la contraseña durante el registro y agregar textos descriptivos (*tooltips*) al pasar el cursor sobre los iconos decorativos.
 
@@ -585,10 +585,9 @@ A continuación, se presenta el registro de las entrevistas de validación reali
 - **Edad:** 27 años
 - **Distrito:** San Borja, Lima
 - **Fecha:** 13 de noviembre de 2026
-- **Enlace del video (Microsoft Stream):** `[https://drive.google.com/file/d/1J42g26O0tRrzP23BzxxzYP-5Dd8pCN4n/view?usp=sharing]` — Inicio: `00:00` | Duración: `07:10`
+- **Enlace del video:** [Ver video de la Entrevista 3](https://drive.google.com/file/d/1J42g26O0tRrzP23BzxxzYP-5Dd8pCN4n/view?usp=sharing) — Inicio: `00:00` | Duración: `07:10`
 - **Evidencia visual:** `![Entrevista 3 - Segmento 1](ruta/captura_s1_entrevista_3.png)`
 - **Resumen de la entrevista:** Brenda More Vázquez (Fundadora de una startup) participó en la prueba interactiva completando el registro de cuenta, el inicio de sesión y la revisión del Dashboard y los leads. Señaló que la interfaz se percibe moderna y que el mensaje principal explica con claridad el propósito de ordenar ventas y clientes potenciales, aunque observó que el bloque inicial presenta demasiado texto concentrado. Como mejoras específicas, recomendó incrementar el contraste de los textos secundarios grises sobre tarjetas claras, mostrar de forma preventiva los requisitos de seguridad de la contraseña antes de enviar el formulario de registro, hacer más visible el selector de idioma (`ES / EN`) en la barra superior, redirigir el botón principal directamente al registro y añadir un botón rápido de retorno al inicio en la parte inferior.
-
 ### Segmento 2: Equipos de Ventas
 
 #### Entrevista 1 – Segmento 2
