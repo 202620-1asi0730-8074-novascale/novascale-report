@@ -501,14 +501,15 @@ Se incluyen capturas detalladas de la ejecución del Backend Web Services como e
 <img src="Resources/Chapter5/sprint3/execution3.png"/>
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
-Se incluyen capturas detalladas de la documentación del Backend Web Services.
+Se incluyen capturas detalladas de la documentación del Backend Web Services. Se utilizó Scalar para la documentación de servicios.
 
 <img src="Resources/Chapter5/sprint3/services1.png"/>
 
+Url backend con documentación en scalar : [https://novascale-platform.onrender.com/scalar](https://novascale-platform.onrender.com/scalar)
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
-El despliegue del Backend Web Service se realizó en el servicio de , se seleccionó esta alternativa debido a su rapidez de despliegue y accesibilidad.
+El despliegue del Backend Web Service se realizó en el servicio de Render, se seleccionó esta alternativa debido a su rapidez de despliegue y accesibilidad. La base de datos se desplegó en Aiven debido a su accesibilidad en costo para el alcance del proyecto y facilidad de anclaje. Además, se renovó el despliegue de los artefactos existentes: Landing Page, Frontend Web Application.
 
 Se incluye la evidencia de despliegue:
 
@@ -516,7 +517,7 @@ Se incluye la evidencia de despliegue:
 <img src="Resources/Chapter5/sprint3/deployment2.png"/>
 <img src="Resources/Chapter5/sprint3/deployment3.png"/>
 
-URL: 
+URL Backend (considerar startup): [https://novascale-platform.onrender.com/scalar](https://novascale-platform.onrender.com/scalar)
 
 #### 5.2.3.8. Team Collaboration Insights for Sprint Review
 Durante el transcurso de este sprint, todos los miembros participaron de forma activa y constante en la creación de las tareas asignadas. A continuación todos los analíticos que nos proporciona Github, en su apartado de Insights, sobre la colaboración del equipo durante el Sprint 2:
