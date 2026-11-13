@@ -590,14 +590,16 @@ A continuación, se presenta el registro de las entrevistas de validación reali
 - **Resumen de la entrevista:** Brenda More Vázquez (Fundadora de una startup) participó en la prueba interactiva completando el registro de cuenta, el inicio de sesión y la revisión del Dashboard y los leads. Señaló que la interfaz se percibe moderna y que el mensaje principal explica con claridad el propósito de ordenar ventas y clientes potenciales, aunque observó que el bloque inicial presenta demasiado texto concentrado. Como mejoras específicas, recomendó incrementar el contraste de los textos secundarios grises sobre tarjetas claras, mostrar de forma preventiva los requisitos de seguridad de la contraseña antes de enviar el formulario de registro, hacer más visible el selector de idioma (`ES / EN`) en la barra superior, redirigir el botón principal directamente al registro y añadir un botón rápido de retorno al inicio en la parte inferior.
 ### Segmento 2: Equipos de Ventas
 
+
 #### Entrevista 1 – Segmento 2
-- **Nombres y Apellidos:** `[Nombre y Apellido Entrevistado 1 - Seg. 2]`
-- **Edad:** 25 años
-- **Distrito:** Jesús María, Lima
+- **Nombres y Apellidos:** Sebastián Herrera
+- **Edad:** 24 años
+- **Distrito:** Surquillo
 - **Fecha:** 13 de noviembre de 2026
-- **Enlace del video (Microsoft Stream):** `[PEGAR_LINK_STREAM_S2_E1]` — Inicio: `00:00` | Duración: `[04:05]`
-- **Evidencia visual:** `![Entrevista 1 - Segmento 2](ruta/captura_s2_entrevista_1.png)`
-- **Resumen de la entrevista:** El entrevistado accedió a la plataforma y realizó el registro de un nuevo prospecto utilizando el botón `+ Añadir lead`, destacando que el ingreso de datos es ágil y sencillo. Al consultar el listado de leads asignados, indicó que las etiquetas visuales permiten identificar rápidamente a los clientes que requieren atención. Como mejora menor, sugirió incorporar filtros rápidos por fecha de última interacción en el listado.
+- **Enlace del video:** [Ver video de la Entrevista 4](https://drive.google.com/file/d/1ln4vHPm9JEiD3Evv5d1MgPGwO8RPYmJ2/view?usp=drive_link) — Inicio: `00:00` | Duración: `02:43`
+- **Evidencia visual:** ![Entrevista 4 - Segmento 2](Resources/Chapter5/entrevistas/4.png)
+- **Resumen de la entrevista:** Sebastián evaluó su experiencia de uso de NovaLeads e indicó que el inicio de sesión fue rápido y que encontró fácilmente las opciones necesarias para trabajar. Señaló que el registro de leads fue fácil de entender, con campos bien organizados que permitieron ingresar la información sin complicaciones. Asimismo, manifestó que la organización de los datos de los clientes ayuda a identificar con quién debe comunicarse. Respecto al pipeline de ventas, consideró intuitivo identificar las etapas y actualizar el estado de las oportunidades. También valoró la utilidad del historial de conversaciones para recordar lo tratado con cada cliente antes de volver a contactarlo. Como oportunidad de mejora, propuso destacar más las oportunidades que necesitan atención urgente. Finalmente, expresó que centralizar la información de clientes y ventas en un solo lugar facilitaría el trabajo y ayudaría a ahorrar tiempo.
+
 
 #### Entrevista 2 – Segmento 2
 - **Nombres y Apellidos:** `[Nombre y Apellido Entrevistado 2 - Seg. 2]`
