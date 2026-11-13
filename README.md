@@ -227,6 +227,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <h4>Gamero Miranda, Lui Mathias</h4>
 <b>AV1:</b><p>Sustentó el proceso de descubrimiento de clientes (Needfinding) mediante las entrevistas realizadas, definió los perfiles de usuario (User Personas) y justificó la estrategia de precios SaaS, aportando además en la explicación técnica del desarrollo de la Landing Page.</p>
 <b>TB1:</b><p>Sustentó las correcciones aplicadas a la Landing Page (ajustes de estilos, navegación y diseño responsivo) y explicó la implementación de la arquitectura frontend basada en Domain-Driven Design para el módulo de conversaciones, detallando la separación funcional en capas aplicación, dominio, infraestructura y presentación.</p>
+<b>AV2:</b><p>Colaboró con el equipo en la revisión de las mejoras de la Landing Page y el frontend, así como en la preparación de la base compartida del backend de NovaLeads. Compartió observaciones sobre la relación entre la interfaz y los servicios, apoyando la distribución de responsabilidades para integrar los aportes de los distintos módulos.</p>
 </td>
 <td colspan="3" align="justify">
 <h4>Retuerto Zapata, Renzo Paul</h4>
@@ -248,6 +249,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <h4>Gamero Miranda, Lui Mathias</h4>
 <b>AV1:</b> Comunicó con claridad los hallazgos de la investigación de usuarios y defendió las decisiones comerciales y logísticas (gestión de configuración) del proyecto ante el equipo y los evaluadores.<br><br>
 <b>TB1:</b> Explicó con claridad las decisiones de refactorización visual en la Landing Page y la estructuración técnica del cliente web.<br><br>
+<b>AV2:</b> Reforzó la comunicación con sus compañeros al revisar las necesidades de integración entre el frontend y el backend. Su participación permitió compartir dificultades y propuestas de mejora, contribuyendo a la toma de decisiones conjunta y a mantener objetivos comunes.<br><br>
 </td>
 </tr>
 <tr>
@@ -273,6 +275,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <h4>Gamero Miranda, Lui Mathias</h4>
 <b>AV1:</b><p>Redaccion del análisis de las entrevistas, estructuró la documentación de los User Personas y el análisis competitivo, además de definir las herramientas de Project Management y SCM, contribuyendo también en la codificación y traducción de la Landing Page.</p>
 <b>TB1:</b><p>Documentó las correcciones visuales de la Landing Page y estructuró el código de la arquitectura del frontend aplicando principios de diseño modular y Domain-Driven Design.</p>
+<b>AV2:</b><p>Participó en las correcciones de navegación, traducciones y presentación de la aplicación web. Organizó los componentes Shared, OrganizationManagement y los recursos de traducción del backend.</p>
 </td>
 <td colspan="3" align="justify">
 <h4>Retuerto Zapata, Renzo Paul</h4>
@@ -293,6 +296,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 <h4>Gamero Miranda, Lui Mathias</h4>
 <b>AV1:</b> Consolidó la investigación de UX, la estrategia comercial y los lineamientos de gestión de código en un documento formal, riguroso y alineado a los requerimientos del informe académico.<br><br>
 <b>TB1:</b> Consolidó la implementación del código fuente del frontend y las mejoras en la interfaz web bajo estándares limpios, legibles y debidamente estructurados conforme a los requerimientos de la arquitectura del software.<br><br>
+<b>AV2:</b> Sus aportes al frontend, a la estructura compartida del backend y a la preparación de la validación contribuyeron al avance de las actividades del Sprint 3. Fortaleció la organización de sus responsabilidades y reconoció la importancia de coordinar los cambios con el equipo para mantener coherencia entre la implementación y las necesidades de los usuarios.<br><br>
 </td>
 </tr>
 </tbody>
