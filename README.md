@@ -815,6 +815,31 @@ Para cerrar la evidencia visual de esta sección se deben incorporar las captura
 
 # Conclusiones
 
+## 5.4. Video About-the-Product
+
+En esta sección se presenta el video explicativo y demostrativo de **NovaLeads** (*About-the-Product*), en el cual se expone la propuesta de valor del producto, la arquitectura general de la solución y el funcionamiento integral de la plataforma (Landing Page, Frontend Web Application y Backend Web Services).
+
+* **Título del video:** NovaLeads - Video About-the-Product
+* **Plataforma:** Microsoft Stream (SharePoint UPC) / YouTube
+* **Enlace de visualización (Microsoft Stream):** [Ver Video About-the-Product en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320328_upc_edu_pe/IQCJaPj1JNEoToIZdQMDglykAeuwLMK5tVDMfuZIhQH02T0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=HQOQMv)
+* **Enlace de visualización (YouTube):** [Ver Video About-the-Product en YouTube](https://youtu.be/Sn5wpiUlpns)
+
+<p align="center">
+  <a href="https://youtu.be/Sn5wpiUlpns">
+    <img src="https://img.youtube.com/vi/Sn5wpiUlpns/maxresdefault.jpg" width="800" alt="Vista previa del Video About-the-Product en YouTube - NovaLeads"/>
+  </a>
+</p>
+
+### Contenido de la demostración
+1. **Presentación de la solución y propuesta de valor:** Resumen del problema identificado en la gestión comercial y cómo NovaLeads centraliza leads, contactos y métricas.
+2. **Recorrido por la Landing Page:** Estructura informativa, planes de suscripción y accesos al registro.
+3. **Flujo de la Web Application y Servicios Backend:**
+   - Registro de usuario e inicio de sesión seguro (autenticación y roles).
+   - Gestión y prospección de leads en el embudo comercial (pipeline de ventas).
+   - Directorio de contactos y visualización de conversaciones.
+   - Dashboard comercial con métricas e indicadores de rendimiento en tiempo real.
+4. **Resumen técnico:** Tecnologías utilizadas (Vue.js, PrimeVue, ASP.NET Core REST API, MySQL) y despliegue continuo en la nube.
+
 ## Conclusiones y recomendaciones
 
 ### Conclusiones
