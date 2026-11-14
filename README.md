@@ -624,9 +624,9 @@ A continuación, se presenta el registro de las entrevistas de validación reali
 
 ## 5.3.3. Evaluaciones según heurísticas
 
-La evaluación de NovaLeads se realizó mediante una autoauditoría del equipo NovaScale, autorizada por el docente, considerando principios de usabilidad, diseño inclusivo y arquitectura de información. Se contrastaron las apreciaciones de cinco participantes con una inspección de la interfaz pública de la landing page y de las pantallas de acceso de la aplicación.
+La evaluación de NovaLeads se realizó mediante una autoauditoría del equipo NovaScale, autorizada por el docente, considerando principios de usabilidad, diseño inclusivo y arquitectura de información. Se contrastaron las apreciaciones de seis participantes con una inspección de la interfaz pública de la landing page y de las pantallas de acceso de la aplicación.
 
-Se revisaron transcripciones automáticas de los audios originales y cuadros de las grabaciones registradas en la sección 5.3.2, junto con la inspección directa de la interfaz. Las referencias temporales son aproximadas y las opiniones de los participantes se distinguen de los problemas observados en la web.
+Se revisaron transcripciones automáticas de los audios originales y cuadros de las grabaciones registradas en la sección 5.3.2, junto con la inspección directa de la interfaz. Todas las referencias temporales de esta sección corresponden al video consolidado de **32:21** y son aproximadas. Las opiniones de los participantes se distinguen de los problemas observados directamente en la web.
 
 ### Datos generales
 
@@ -645,14 +645,16 @@ Se revisaron transcripciones automáticas de los audios originales y cuadros de 
 
 ### Referencias de las entrevistas
 
-| Código | Participante | Duración | Grabación |
-| :--- | :--- | :---: | :--- |
-| E01 | Angie Moné Vásquez | 05:25 | [Entrevista 1](https://drive.google.com/file/d/1vijFBkCROYGYsBUbqvPtduEBpG0Al7Ne/view) |
-| E02 | Flor Velázquez | 06:38 | [Entrevista 2](https://drive.google.com/file/d/1i3FKSDKPjATFDNwPwGrUgVSYZbRqdpie/view) |
-| E03 | Brenda More Vázquez | 07:13 | [Entrevista 3](https://drive.google.com/file/d/1J42g26O0tRrzP23BzxxzYP-5Dd8pCN4n/view) |
-| E04 | Sebastián Herrera | 02:43 | [Entrevista 4](https://drive.google.com/file/d/1ln4vHPm9JEiD3Evv5d1MgPGwO8RPYmJ2/view) |
-| E05 | Giuseppe Chavez | 04:23 | [Entrevista 5](https://drive.google.com/file/d/1WSy_STwC9aSqxFdmnXYCMDD_3-cUkKkh/view?usp=sharing) |
-| E06 | Sebastián De Las Casas | 05:28 | [Entrevista 6]() |
+[Video consolidado de validación — Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411274_upc_edu_pe/IQCH2RjEChWBT6VU_na50mqXAZ6nlWJcbio0ylZRxHMMgug). Los intervalos siguientes permiten localizar cada entrevista dentro de la misma grabación.
+
+| Código | Participante | Inicio | Fin | Duración | Grabación |
+| :--- | :--- | :---: | :---: | :---: | :--- |
+| E01 | Angie Moné Vásquez | `00:00:08` | `00:05:33` | 05:25 | [Entrevista 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411274_upc_edu_pe/IQCH2RjEChWBT6VU_na50mqXAZ6nlWJcbio0ylZRxHMMgug) |
+| E02 | Flor Velázquez | `00:05:37` | `00:12:16` | 06:38 | [Entrevista 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411274_upc_edu_pe/IQCH2RjEChWBT6VU_na50mqXAZ6nlWJcbio0ylZRxHMMgug) |
+| E03 | Brenda More Vázquez | `00:12:20` | `00:19:33` | 07:13 | [Entrevista 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411274_upc_edu_pe/IQCH2RjEChWBT6VU_na50mqXAZ6nlWJcbio0ylZRxHMMgug) |
+| E04 | Sebastián Herrera | `00:19:37` | `00:22:21` | 02:43 | [Entrevista 4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411274_upc_edu_pe/IQCH2RjEChWBT6VU_na50mqXAZ6nlWJcbio0ylZRxHMMgug) |
+| E05 | Giuseppe Chavez | `00:22:25` | `00:26:48` | 04:23 | [Entrevista 5](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411274_upc_edu_pe/IQCH2RjEChWBT6VU_na50mqXAZ6nlWJcbio0ylZRxHMMgug) |
+| E06 | Sebastián De Las Casas | `00:26:52` | `00:32:21` | 05:28 | [Entrevista 6](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411274_upc_edu_pe/IQCH2RjEChWBT6VU_na50mqXAZ6nlWJcbio0ylZRxHMMgug) |
 
 ### Alcance de la evaluación
 
@@ -666,7 +668,7 @@ La inspección directa comprendió las siguientes tareas:
 6. Examinar la legibilidad de un texto secundario del login y la adaptación visual de login/signup a 390 × 844 píxeles.
 7. Localizar accesos públicos a ayuda y contacto.
 
-Las entrevistas E04 y E05 aportaron apreciaciones sobre autenticación, registro y consulta de leads, actualización del pipeline, historial de conversaciones y priorización de oportunidades. Estas respuestas se incorporan como información declarada por los participantes; no equivalen a una ejecución observada de cada tarea. E05 fue conducida por Lui Mathias Gamero Miranda; Sergio Rubén Caldas García participó en su revisión y documentación, no como entrevistador.
+Las entrevistas E04, E05 y E06 aportaron apreciaciones sobre autenticación, registro y consulta de leads, actualización del pipeline, historial de conversaciones y priorización de oportunidades. Estas respuestas se incorporan como información declarada por los participantes; no equivalen a una ejecución observada de cada tarea. E05 fue conducida por Lui Mathias Gamero Miranda y E06 por Johan Karl Bottger Salazar. Sergio Rubén Caldas García participó en la revisión y documentación de estas sesiones.
 
 La revisión directa no incluyó el envío de formularios, la creación de cuentas, la recuperación completa de contraseñas, los flujos autenticados de los distintos roles, las pruebas del backend ni el rendimiento de la infraestructura. Tampoco permite generalizar la adaptación móvil a todas las vistas de la aplicación.
 
@@ -685,10 +687,10 @@ Las severidades se asignaron según la tarea afectada, el impacto observado, las
 
 | Código | Problema identificado | Severidad | Heurística o principio afectado | Sustento |
 | :--- | :--- | :---: | :--- | :--- |
-| H01 | La vista previa del producto conserva textos en inglés cuando la landing está en español. | 1 — Superficial | Diseño inclusivo: proporcionar experiencias comparables. | Inspección de la landing; E01, 01:15–01:33 y 03:48–04:04. |
-| H02 | El texto secundario de acceso presenta contraste insuficiente sobre fondo blanco. | 2 | Diseño inclusivo: legibilidad y percepción de la información. | Medición en login; E03 reporta una dificultad relacionada en 03:28–03:51. |
-| H03 | No se identifica un retorno explícito a la landing desde login y registro. | 2 | Usabilidad: control y libertad del usuario. | Inspección de acceso/registro; E02, 03:04–03:16. |
-| H04 | La invitación a pedir ayuda no ofrece un acceso interactivo a un canal. | 2 — Menor | Arquitectura de información: facilidad para encontrar información; usabilidad: ayuda y documentación. | Inspección de planes y ayuda; E01, 03:10–03:28. |
+| H01 | La vista previa del producto conserva textos en inglés cuando la landing está en español. | 1 — Superficial | Diseño inclusivo: proporcionar experiencias comparables. | Inspección de la landing; E01, 00:01:23–00:01:41 y 00:03:56–00:04:12. |
+| H02 | El texto secundario de acceso presenta contraste insuficiente sobre fondo blanco. | 2 — Menor | Diseño inclusivo: legibilidad y percepción de la información. | Medición en login; E03 reporta una dificultad relacionada en 00:15:48–00:16:11. |
+| H03 | No se identifica un retorno explícito a la landing desde login y registro. | 2 — Menor | Usabilidad: control y libertad del usuario. | Inspección de acceso/registro; E02, 00:08:41–00:08:53. |
+| H04 | La invitación a pedir ayuda no ofrece un acceso interactivo a un canal. | 2 — Menor | Arquitectura de información: facilidad para encontrar información; usabilidad: ayuda y documentación. | Inspección de planes y ayuda; E01, 00:03:18–00:03:36. |
 | H05 | Las etiquetas de demo y contacto de ventas no anticipan que llevan al registro. | 2 — Menor | Usabilidad: correspondencia entre el sistema y el mundo real; arquitectura de información: claridad de las etiquetas. | Inspección de los destinos de los enlaces de la landing. |
 
 ### Detalle de hallazgos
@@ -699,7 +701,7 @@ Las severidades se asignaron según la tarea afectada, el impacto observado, las
 **Principio:** Diseño inclusivo — proporcionar experiencias comparables.<br>
 **Ubicación:** Imagen principal de presentación del dashboard en la landing page.
 
-**Problema y evidencia:** Con ES seleccionado, la imagen de muestra conserva etiquetas como «My Active Leads», «Deals Won This Month» y «Personal Conversion Rate». E01 comenta que los términos en inglés pueden generar dudas (01:15–01:33) y señala la permanencia de textos en inglés tras seleccionar español (03:48–04:04). La reproducción de este hallazgo se limita a la vista previa de la landing; los textos visibles examinados en el registro sí cambiaron al alternar ES/EN.
+**Problema y evidencia:** Con ES seleccionado, la imagen de muestra conserva etiquetas como «My Active Leads», «Deals Won This Month» y «Personal Conversion Rate». E01 comenta que los términos en inglés pueden generar dudas (00:01:23–00:01:41) y señala la permanencia de textos en inglés tras seleccionar español (00:03:56–00:04:12). La reproducción de este hallazgo se limita a la vista previa de la landing; los textos visibles examinados en el registro sí cambiaron al alternar ES/EN.
 
 **Impacto y justificación:** La imagen ayuda a comprender el producto antes de registrarse. Mantener sus indicadores en otro idioma puede exigir una interpretación adicional a usuarios que esperan una presentación en español. Se asigna nivel 1 porque el caso comprobado afecta una imagen ilustrativa, existe contenido explicativo en español alrededor y no se documentó un impedimento para continuar.
 
@@ -707,7 +709,9 @@ Las severidades se asignaron según la tarea afectada, el impacto observado, las
 
 **Criterio de comprobación:** Con ES activo, los indicadores de la vista previa pueden comprenderse en español; con EN, se conserva su versión inglesa.
 
-**Captura necesaria para la publicación:** Landing con ES seleccionado y las etiquetas inglesas de la imagen visibles en el mismo cuadro.
+**Evidencia visual:**
+
+![H01: vista previa en inglés con español seleccionado](Resources/Chapter5/heuristicas/H01-H05-landing.jpg)
 
 #### PROBLEMA H02: Contraste insuficiente en un texto secundario del login
 
@@ -715,7 +719,7 @@ Las severidades se asignaron según la tarea afectada, el impacto observado, las
 **Principio:** Diseño inclusivo — legibilidad y percepción de la información.<br>
 **Ubicación:** Texto «Accede con tu correo y contraseña.» en login.
 
-**Problema y evidencia:** La inspección de los estilos efectivos identificó texto `#8591A7` sobre fondo `#FFFFFF`, con tamaño de 14 px, peso 400 y sin transparencias ni imagen de fondo que modificasen esos colores. El contraste calculado mediante luminancia relativa sRGB fue **3,18:1**. El [criterio 1.4.3 de WCAG 2.2](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html) establece al menos **4,5:1 para texto normal**. La observación de E03 en 03:28–03:51 aporta una preocupación relacionada sobre textos secundarios grises; no se afirma que esa respuesta mida o identifique este mismo elemento del login.
+**Problema y evidencia:** La inspección de los estilos efectivos identificó texto `#8591A7` sobre fondo `#FFFFFF`, con tamaño de 14 px, peso 400 y sin transparencias ni imagen de fondo que modificasen esos colores. El contraste calculado mediante luminancia relativa sRGB fue **3,18:1**. El [criterio 1.4.3 de WCAG 2.2](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html) establece al menos **4,5:1 para texto normal**. La observación de E03 en 00:15:48–00:16:11 aporta una preocupación relacionada sobre textos secundarios grises; no se afirma que esa respuesta mida o identifique este mismo elemento del login.
 
 **Impacto y justificación:** La baja diferenciación entre texto y fondo dificulta percibir una instrucción complementaria, especialmente para personas con baja visión. El formulario sigue disponible y no se observó un bloqueo de autenticación causado por este texto.
 
@@ -723,7 +727,11 @@ Las severidades se asignaron según la tarea afectada, el impacto observado, las
 
 **Criterio de comprobación:** El elemento alcanza al menos 4,5:1 en sus estados aplicables y mantiene su legibilidad en las vistas examinadas.
 
-**Captura necesaria para la publicación:** Texto de acceso acompañado por la medición que identifique los dos colores y su relación de contraste.
+**Evidencia visual:**
+
+![H02: texto secundario del acceso](Resources/Chapter5/heuristicas/H02-H03-login.jpg)
+
+La medición identifica texto `#8591A7`, fondo `#FFFFFF`, tamaño 14 px y peso 400: contraste **3,18:1**.
 
 #### PROBLEMA H03: Retorno poco explícito a la landing desde el acceso
 
@@ -731,7 +739,7 @@ Las severidades se asignaron según la tarea afectada, el impacto observado, las
 **Heurística:** Usabilidad — control y libertad del usuario.<br>
 **Ubicación:** Pantallas de inicio de sesión y registro.
 
-**Problema y evidencia:** No se identificó un enlace explícito hacia el sitio de presentación del producto en esas pantallas. En el registro, el logotipo dirige a la raíz de la aplicación y termina en login, en lugar de regresar a la landing pública. E02 describe la dificultad de encontrar un retorno claro, más allá del logotipo, en 03:04–03:16.
+**Problema y evidencia:** No se identificó un enlace explícito hacia el sitio de presentación del producto en esas pantallas. En el registro, el logotipo dirige a la raíz de la aplicación y termina en login, en lugar de regresar a la landing pública. E02 describe la dificultad de encontrar un retorno claro, más allá del logotipo, en 00:08:41–00:08:53.
 
 **Impacto y justificación:** Una persona que desea volver a revisar beneficios o planes necesita recurrir al historial del navegador o recuperar la dirección del sitio público. Existe una alternativa para continuar, pero requiere esfuerzo adicional.
 
@@ -739,7 +747,11 @@ Las severidades se asignaron según la tarea afectada, el impacto observado, las
 
 **Criterio de comprobación:** Desde login y signup se puede regresar al sitio de presentación mediante un control identificable y con el destino anunciado.
 
-**Captura necesaria para la publicación:** Pantalla completa de acceso y registro, con sus controles de navegación; acompañar el recorrido comprobado del logotipo.
+**Evidencia visual:**
+
+![H03: controles de navegación del registro](Resources/Chapter5/heuristicas/H03-registro.jpg)
+
+Al activar el logotipo se comprobó el retorno a `https://novaleads.onrender.com/login`, no a la landing.
 
 #### PROBLEMA H04: Invitación de ayuda sin un acceso funcional
 
@@ -747,7 +759,7 @@ Las severidades se asignaron según la tarea afectada, el impacto observado, las
 **Principios:** Arquitectura de información — facilidad para encontrar información; usabilidad — ayuda y documentación.<br>
 **Ubicación:** Bloque de planes y precios de la landing.
 
-**Problema y evidencia:** El texto «¿Necesitas ayuda? Habla con ventas» se presenta como una invitación a solicitar asistencia, pero es texto sin enlace ni botón asociado. La inspección no identificó un acceso a FAQ o un canal de soporte en la navegación pública revisada. E01 manifiesta dificultad para localizar soporte en 03:10–03:28. Su mención de una FAQ situada al pie no se reprodujo en la versión inspeccionada y no se considera una ubicación confirmada.
+**Problema y evidencia:** El texto «¿Necesitas ayuda? Habla con ventas» se presenta como una invitación a solicitar asistencia, pero es texto sin enlace ni botón asociado. La inspección no identificó un acceso a FAQ o un canal de soporte en la navegación pública revisada. E01 manifiesta dificultad para localizar soporte en 00:03:18–00:03:36. Su mención de una FAQ situada al pie no se reprodujo en la versión inspeccionada y no se considera una ubicación confirmada.
 
 **Impacto y justificación:** La invitación no ofrece una acción para abrir ayuda o contactar con ventas. Se asigna nivel 2 por la dificultad para identificar cómo solicitar asistencia desde ese bloque, mientras el resto de la navegación sigue disponible. La clasificación se refiere a este elemento; no se afirma que se haya observado un bloqueo de una tarea por falta de soporte.
 
@@ -755,7 +767,11 @@ Las severidades se asignaron según la tarea afectada, el impacto observado, las
 
 **Criterio de comprobación:** La invitación abre un canal real de asistencia, identificable antes de activar el control.
 
-**Captura necesaria para la publicación:** Invitación de ayuda en su contexto y evidencia de la ausencia actual de acción asociada.
+**Evidencia visual:**
+
+![H04: invitación de ayuda en la sección de precios](Resources/Chapter5/heuristicas/H04-H05-precios.jpg)
+
+El texto inspeccionado es un elemento de texto sin enlace ni botón asociado.
 
 #### PROBLEMA H05: Las etiquetas de demo y contacto no anticipan el registro
 
@@ -771,46 +787,65 @@ Las severidades se asignaron según la tarea afectada, el impacto observado, las
 
 **Criterio de comprobación:** La pantalla de destino corresponde a la acción anunciada; cualquier requisito previo se explica antes de iniciar el flujo.
 
-**Captura necesaria para la publicación:** Cada enlace en su contexto y su destino de registro.
+**Evidencia visual:**
+
+![H05: enlace de demo en la landing](Resources/Chapter5/heuristicas/H01-H05-landing.jpg)
+
+![H05: enlace de contacto de ventas](Resources/Chapter5/heuristicas/H04-H05-precios.jpg)
+
+Ambos destinos inspeccionados apuntan a `https://novaleads.onrender.com/signup`, cuya pantalla de registro se ilustra en H03.
 
 ### Observación del segmento de equipos de ventas
 
-**OM01 — Visibilidad de las oportunidades urgentes.** En E04, aproximadamente 01:56–02:10, Sebastián indica que pudo reconocer las oportunidades pendientes y propone destacar más aquellas que necesitan atención urgente. El comentario orienta una mejora relacionada con visibilidad del estado del sistema y reconocimiento de prioridades.
+**OM01 — Visibilidad de las oportunidades urgentes.** En E04, aproximadamente 00:21:33–00:21:47, Sebastián indica que pudo reconocer las oportunidades pendientes y propone destacar más aquellas que necesitan atención urgente. El comentario orienta una mejora relacionada con visibilidad del estado del sistema y reconocimiento de prioridades.
 
-E05 aporta criterios concretos para esa revisión: en 01:51–02:18, Giuseppe explica que también necesita conocer la situación de la oportunidad y la última conversación; en 03:16–03:42 menciona el tiempo de espera y los compromisos pendientes, como una cotización prometida. Esto refuerza la necesidad de comprobar cómo la interfaz ayuda a priorizar, pero no demuestra que esos datos o funciones estén ausentes.
+E05 aporta criterios concretos para esa revisión: en 00:24:16–00:24:43, Giuseppe explica que también necesita conocer la situación de la oportunidad y la última conversación; en 00:25:41–00:26:07 menciona el tiempo de espera y los compromisos pendientes, como una cotización prometida. Esto refuerza la necesidad de comprobar cómo la interfaz ayuda a priorizar, pero no demuestra que esos datos o funciones estén ausentes.
 
 Se recomienda comprobar la vista real de oportunidades con casos que tengan diferentes fechas, estados y compromisos, y evaluar un indicador textual o visual de prioridad que no dependa únicamente del color. Las capturas muestreadas de E04 y E05 muestran el dashboard; no permiten demostrar el estado de las tarjetas del pipeline ni un fallo al priorizarlas. Por ello, **OM01 se registra como oportunidad de mejora declarada por los participantes, sin asignarle una severidad confirmada ni incorporarla al conteo de los cinco defectos inspeccionados**.
 
-E05 también expresa una valoración favorable de los campos, las etapas y el historial (01:25–03:14). Entre 03:45 y 04:22 plantea una utilidad potencial y su interés en probar el producto durante varios días. No se interpreta esta expectativa como una reducción medida del tiempo de trabajo ni como validación de retención o uso sostenido.
+E05 también expresa una valoración favorable de los campos, las etapas y el historial (00:23:50–00:25:39). Entre 00:26:10 y 00:26:47 plantea una utilidad potencial y su interés en probar el producto durante varios días. No se interpreta esta expectativa como una reducción medida del tiempo de trabajo ni como validación de retención o uso sostenido.
+
+### Observaciones de la sexta entrevista
+
+**OM02 — Información adicional en el registro de leads.** E06 propone disponer de un espacio para anotaciones que no encajen en los campos establecidos (00:29:01–00:29:44). La sugerencia se relaciona con la flexibilidad para registrar el contexto comercial y con la organización de la información. Se recomienda comprobar primero si ese campo ya existe en la versión utilizada, su visibilidad y su persistencia. La solicitud del participante no demuestra por sí sola que la funcionalidad esté ausente; por ello no se cuenta como un sexto defecto confirmado.
+
+**OM03 — Legibilidad de las etiquetas del menú lateral.** E06 comenta que las opciones del menú lateral se perciben desaturadas y propone diferenciarlas más del fondo (00:31:24–00:31:54). El principio relacionado es diseño inclusivo: legibilidad y percepción de la información. Se recomienda medir cada combinación efectiva de texto y fondo en los estados normal, seleccionado y de foco, y ajustar los estilos cuando corresponda. El color de un video comprimido no permite concluir una relación de contraste de la interfaz, de modo que esta observación no se equipara a la medición confirmada de H02 ni recibe una severidad comprobada.
+
+E06 valora favorablemente la facilidad de acceso (00:28:33–00:29:01), la comprensión del pipeline (00:29:45–00:30:09), la organización del historial (00:30:09–00:30:45) y la clasificación de oportunidades (00:30:45–00:31:15). Se registran como beneficios percibidos después de una demostración y no como resultados medidos de éxito de tareas, ahorro de tiempo o uso sostenido.
 
 ### Observaciones contrastadas con la interfaz inspeccionada
 
 | Observación | Fuente y tiempo aproximado | Resultado de la contrastación |
 | :--- | :--- | :--- |
-| Confusión entre crear cuenta e iniciar sesión. | E01, 02:25–02:45. | La landing inspeccionada diferencia el botón violeta «Empieza gratis» del enlace «Iniciar sesión». Se conserva la experiencia reportada, sin afirmar que la dificultad se reprodujo ni que una corrección histórica quedó demostrada. |
-| Falta de visualización de contraseña. | E02, 03:39–04:09. | El control está presente en el registro inspeccionado y no se clasifica como función ausente. |
-| Reglas de contraseña no indicadas antes del envío. | E03, 04:22–05:01. | Se observó «Mínimo 8 caracteres» y longitud mínima de ocho caracteres. La persistencia de la ayuda y los mensajes tras enviar requieren una prueba específica. |
-| El botón principal lleva primero a secciones informativas. | E03, 03:52–04:22. | «Empieza gratis» apunta a signup en la versión inspeccionada. No se reprodujo ese recorrido; debe precisarse el control y la versión descritos por la participante. |
-| Falta de retorno rápido hacia arriba. | E03, 05:22–05:35. | Es distinta del retorno hacia la landing de H03. Existe un logo de cabecera con destino al inicio de la página; un control adicional al final puede evaluarse como mejora. |
-| Preferencias sobre colores, fondos, comparación de planes y explicaciones de iconos. | E01, 01:45–02:01; E02, 02:07–02:35, 04:38–04:51 y 05:21–05:33. E06, 6:30 | Se conservan como sugerencias. Para clasificarlas como defectos deben precisarse el elemento afectado, el efecto sobre una tarea y la evidencia. |
-| Acceso sencillo y campos de leads organizados. | E04, 00:24–00:55. | Valoración positiva declarada por Sebastián. Las capturas muestreadas muestran el dashboard; no acreditan el proceso completo de registro de un lead. |
-| Destacar las oportunidades que necesitan atención urgente. | E04, 01:56–02:10. | Se incorpora a OM01. Debe comprobarse la vista de oportunidades con casos reales antes de afirmar la ausencia de indicadores de urgencia. |
-| Menú comprensible y nombres de secciones que orientan la navegación. | E05, 00:56–01:24. | Valoración positiva declarada por Giuseppe; no se convierte en una medición de éxito de navegación autónoma. |
-| Claridad de las etapas y utilidad del historial para retomar conversaciones. | E05, 02:20–03:14. E06, 5:00-6:30| Se conserva como beneficio percibido. Los cuadros muestreados de la sesión muestran el dashboard y no documentan paso a paso esos flujos. |
-| Priorizar según la última conversación, el tiempo de espera y los compromisos pendientes. | E05, 01:51–02:18 y 03:16–03:42. | Complementa OM01 con criterios concretos de prioridad. No demuestra que esos datos o funciones falten en la interfaz. |
-| Interés en probar la plataforma durante varios días. | E05, 03:45–04:22. | Expresa una utilidad esperada. No constituye una medición de ahorro de tiempo ni una comprobación del uso sostenido. |
+| Confusión entre crear cuenta e iniciar sesión. | E01, 00:02:33–00:02:53. | La landing inspeccionada diferencia el botón violeta «Empieza gratis» del enlace «Iniciar sesión». Se conserva la experiencia reportada, sin afirmar que la dificultad se reprodujo ni que una corrección histórica quedó demostrada. |
+| Falta de visualización de contraseña. | E02, 00:09:16–00:09:46. | El control está presente en el registro inspeccionado y no se clasifica como función ausente. |
+| Reglas de contraseña no indicadas antes del envío. | E03, 00:16:42–00:17:21. | Se observó «Mínimo 8 caracteres» y longitud mínima de ocho caracteres. La persistencia de la ayuda y los mensajes tras enviar requieren una prueba específica. |
+| El botón principal lleva primero a secciones informativas. | E03, 00:16:12–00:16:42. | «Empieza gratis» apunta a signup en la versión inspeccionada. No se reprodujo ese recorrido; debe precisarse el control y la versión descritos por la participante. |
+| Falta de retorno rápido hacia arriba. | E03, 00:17:42–00:17:55. | Es distinta del retorno hacia la landing de H03. Existe un logo de cabecera con destino al inicio de la página; un control adicional al final puede evaluarse como mejora. |
+| Preferencias sobre colores, fondos, comparación de planes y explicaciones de iconos. | E01, 00:01:53–00:02:09; E02, 00:07:44–00:08:12, 00:10:15–00:10:28 y 00:10:58–00:11:10. | Se conservan como sugerencias. Para clasificarlas como defectos deben precisarse el elemento afectado, el efecto sobre una tarea y la evidencia. |
+| Acceso sencillo y campos de leads organizados. | E04, 00:20:01–00:20:32. | Valoración positiva declarada por Sebastián. Las capturas muestreadas muestran el dashboard; no acreditan el proceso completo de registro de un lead. |
+| Destacar las oportunidades que necesitan atención urgente. | E04, 00:21:33–00:21:47. | Se incorpora a OM01. Debe comprobarse la vista de oportunidades con casos reales antes de afirmar la ausencia de indicadores de urgencia. |
+| Menú comprensible y nombres de secciones que orientan la navegación. | E05, 00:23:21–00:23:49. | Valoración positiva declarada por Giuseppe; no se convierte en una medición de éxito de navegación autónoma. |
+| Claridad de las etapas y utilidad del historial para retomar conversaciones. | E05, 00:24:45–00:25:39.| Se conserva como beneficio percibido. Los cuadros muestreados de la sesión muestran el dashboard y no documentan paso a paso esos flujos. |
+| Priorizar según la última conversación, el tiempo de espera y los compromisos pendientes. | E05, 00:24:16–00:24:43 y 00:25:41–00:26:07. | Complementa OM01 con criterios concretos de prioridad. No demuestra que esos datos o funciones falten en la interfaz. |
+| Interés en probar la plataforma durante varios días. | E05, 00:26:10–00:26:47. | Expresa una utilidad esperada. No constituye una medición de ahorro de tiempo ni una comprobación del uso sostenido. |
+| Acceso intuitivo, etapas del pipeline comprensibles e historial organizado. | E06, 00:28:33–00:29:01, 00:29:45–00:30:09 y 00:30:09–00:30:45. | Valoración positiva declarada después de la demostración. La grabación no documenta una ejecución autónoma completa de esos flujos. |
+| Espacio para anotaciones adicionales en un lead. | E06, 00:29:01–00:29:44. | Se incorpora como OM02. Se debe comprobar la existencia y visibilidad del campo antes de afirmar que falta. |
+| Mejorar la legibilidad del menú lateral. | E06, 00:31:24–00:31:54. | Se incorpora como OM03. Requiere una medición específica; no se transfiere al menú la relación de contraste calculada para el login en H02. |
+| Utilidad de clasificar las oportunidades comerciales. | E06, 00:30:45–00:31:15. | Beneficio percibido. No demuestra por sí mismo la efectividad de la priorización ni contradice la mejora de urgencia propuesta en OM01. |
 
 ### Síntesis de la evaluación
 
-La inspección identificó cinco problemas relacionados con la comprensión del contenido, la legibilidad, el retorno entre sitios y la correspondencia de las acciones de ayuda y contacto. E04 y E05 aportaron una oportunidad de mejora para la priorización comercial. Las respuestas también expresan una valoración positiva de la organización de la información y de la centralización del trabajo.
+La inspección identificó **cinco problemas comprobados: uno superficial y cuatro menores**, relacionados con el idioma de la vista previa, la legibilidad de una instrucción de acceso, el retorno hacia la landing y las acciones de ayuda y contacto. Esta clasificación corresponde a los elementos inspeccionados y no demuestra que los flujos autenticados estén libres de otros problemas.
 
-En el alcance inspeccionado se clasificaron un hallazgo superficial y cuatro menores. Esta distribución describe los elementos examinados y no constituye una evaluación de los flujos todavía no probados.
+Las seis entrevistas reúnen tres registros asignados al segmento de dueños y tres al segmento de ventas. Giuseppe, emprendedor que realiza atención y seguimiento comercial, se incluye en el segundo segmento por esas funciones operativas. Esta clasificación describe el rol evaluado en la sesión.
 
-El registro actual reúne tres entrevistas asignadas al segmento de dueños y dos al segmento de ventas; no se cuenta el registro de ejemplo restante como una sesión realizada. Giuseppe figura como dueño de startup/pyme en la investigación inicial y describe actividades operativas de atención y seguimiento en E05. Debe explicarse ese criterio de inclusión en el segmento de ventas y comprobar su correspondencia con la persona objetivo antes de afirmar que la muestra está completa.
+Las entrevistas de ventas aportan tres oportunidades de mejora: visibilidad de la urgencia comercial (OM01), información adicional en los leads (OM02) y legibilidad del menú lateral (OM03). Se mantienen separadas del conteo de defectos comprobados para evitar atribuir a la aplicación ausencias o incumplimientos que las grabaciones no demuestran.
 
-La demostración guiada observada en E03 y la presentación del dashboard en los cuadros examinados de E04 y E05 no permiten concluir que todos los participantes ejecutaron autónomamente todos los flujos. Las conclusiones de validación deben respetar esta diferencia.
+Las respuestas expresan beneficios percibidos en la organización de la información, la comprensión de las etapas y la centralización del seguimiento. Las sesiones guiadas y las demostraciones no acreditan que todos los participantes ejecutaron de forma autónoma cada flujo. Tampoco permiten afirmar un ahorro de tiempo medido o una mejora sostenida de las ventas.
 
-Para cerrar la evidencia visual de esta sección se deben incorporar las capturas específicas descritas en cada hallazgo. Los cuadros generales de entrevista identifican la sesión, pero no reemplazan una captura que ilustre el defecto. La verificación de las mejoras requerirá repetir las tareas afectadas y registrar su resultado.
+La sección incorpora capturas específicas de los cinco hallazgos. Las recomendaciones se comprobarán repitiendo las tareas afectadas, verificando los destinos de los controles y midiendo el contraste de los elementos correspondientes.
+
 
 ---
 
