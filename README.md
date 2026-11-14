@@ -614,13 +614,13 @@ A continuación, se presenta el registro de las entrevistas de validación reali
 - **Resumen de la entrevista:** Giuseppe describió su experiencia de uso de NovaLeads desde sus actividades de atención comercial y seguimiento de clientes, que actualmente organiza con Excel y WhatsApp. Manifestó que el menú y los nombres de las secciones le permitieron ubicar las funcionalidades con pocas indicaciones, y valoró la claridad de los campos y la centralización de los datos de los contactos. Asimismo, consideró comprensibles las etapas del pipeline y útil consultar el historial de conversaciones junto con la información de cada cliente para retomar el seguimiento con mayor contexto. Respecto a la priorización, explicó que también necesita considerar la situación de cada oportunidad, la última conversación, el tiempo de espera y los compromisos pendientes, como el envío de una cotización. Finalmente, señaló que la plataforma podría ayudarle a organizar la información y reducir el tiempo de búsqueda, aunque manifestó su interés en utilizarla durante varios días con sus actividades habituales para valorar mejor su utilidad. Estas apreciaciones corresponden a lo declarado por el participante; la grabación muestra una presentación compartida del dashboard y no documenta paso a paso la ejecución autónoma de todos los flujos mencionados.
 
 #### Entrevista 3 – Segmento 2
-- **Nombres y Apellidos:** `[Nombre y Apellido Entrevistado 3 - Seg. 2]`
-- **Edad:** 26 años
-- **Distrito:** Magdalena del Mar, Lima
+- **Nombres y Apellidos:** Sebastián De Las Casas
+- **Edad:** 22 años
+- **Distrito:** San Borja, Lima
 - **Fecha:** 13 de noviembre de 2026
-- **Enlace del video (Microsoft Stream):** `[PEGAR_LINK_STREAM_S2_E3]` — Inicio: `00:00` | Duración: `[04:15]`
-- **Evidencia visual:** `![Entrevista 3 - Segmento 2](ruta/captura_s2_entrevista_3.png)`
-- **Resumen de la entrevista:** El entrevistado recorrió los flujos diarios de trabajo entre Dashboard, *Leads*, *Pipeline* y *Conversaciones*, destacando la fluidez de la interfaz y la utilidad del buscador superior para ubicar clientes específicos. Concluyó que NovaLeads agiliza significativamente el seguimiento comercial frente a herramientas tradicionales, recomendando añadir alertas visuales para oportunidades pendientes sin actividad reciente.
+- **Enlace del video (Microsoft Stream):** — Inicio: `00:00` | Duración: `[04:15]`
+- **Evidencia visual:** ![Entrevista 6 - Segmento 2: Sebastian De Las Casas y Johan Karl Bottger durante la sesión de validación](Resources/Chapter5/entrevistas/6.png)
+- **Resumen de la entrevista:** El entrevistado se le presentó el flujo estándar para miembros de equipo de ventas, demostrando la sencillez y fluidez del proceso. Comentó en los colores, similarmente a otros entrevistados, sin embargo, consideró el valor agregado del sistema como mayormente positivo.
 
 ## 5.3.3. Evaluaciones según heurísticas
 
