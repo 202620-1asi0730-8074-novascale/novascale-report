@@ -637,7 +637,7 @@ Se revisaron transcripciones automáticas de los audios originales y cuadros de 
 | Profesor | Alex Humberto Sánchez Ponce |
 | Equipo auditor | NovaScale |
 | Responsable de la consolidación | Sergio Rubén Caldas García |
-| Clientes o participantes | E01: Angie Moné Vásquez; E02: Flor Velázquez; E03: Brenda More Vázquez; E04: Sebastián Herrera; E05: Giuseppe Chavez. |
+| Clientes o participantes | E01: Angie Moné Vásquez; E02: Flor Velázquez; E03: Brenda More Vázquez; E04: Sebastián Herrera; E05: Giuseppe Chavez; E06: Sebastián De Las Casas |
 | Producto | NovaLeads |
 | Fecha de revisión | 13 de noviembre de 2026 |
 | Landing page | https://202620-1asi0730-8074-novascale.github.io/novascale-website/ |
@@ -652,6 +652,7 @@ Se revisaron transcripciones automáticas de los audios originales y cuadros de 
 | E03 | Brenda More Vázquez | 07:13 | [Entrevista 3](https://drive.google.com/file/d/1J42g26O0tRrzP23BzxxzYP-5Dd8pCN4n/view) |
 | E04 | Sebastián Herrera | 02:43 | [Entrevista 4](https://drive.google.com/file/d/1ln4vHPm9JEiD3Evv5d1MgPGwO8RPYmJ2/view) |
 | E05 | Giuseppe Chavez | 04:23 | [Entrevista 5](https://drive.google.com/file/d/1WSy_STwC9aSqxFdmnXYCMDD_3-cUkKkh/view?usp=sharing) |
+| E06 | Sebastián De Las Casas | 05:28 | [Entrevista 6]() |
 
 ### Alcance de la evaluación
 
@@ -791,11 +792,11 @@ E05 también expresa una valoración favorable de los campos, las etapas y el hi
 | Reglas de contraseña no indicadas antes del envío. | E03, 04:22–05:01. | Se observó «Mínimo 8 caracteres» y longitud mínima de ocho caracteres. La persistencia de la ayuda y los mensajes tras enviar requieren una prueba específica. |
 | El botón principal lleva primero a secciones informativas. | E03, 03:52–04:22. | «Empieza gratis» apunta a signup en la versión inspeccionada. No se reprodujo ese recorrido; debe precisarse el control y la versión descritos por la participante. |
 | Falta de retorno rápido hacia arriba. | E03, 05:22–05:35. | Es distinta del retorno hacia la landing de H03. Existe un logo de cabecera con destino al inicio de la página; un control adicional al final puede evaluarse como mejora. |
-| Preferencias sobre colores, fondos, comparación de planes y explicaciones de iconos. | E01, 01:45–02:01; E02, 02:07–02:35, 04:38–04:51 y 05:21–05:33. | Se conservan como sugerencias. Para clasificarlas como defectos deben precisarse el elemento afectado, el efecto sobre una tarea y la evidencia. |
+| Preferencias sobre colores, fondos, comparación de planes y explicaciones de iconos. | E01, 01:45–02:01; E02, 02:07–02:35, 04:38–04:51 y 05:21–05:33. E06, 6:30 | Se conservan como sugerencias. Para clasificarlas como defectos deben precisarse el elemento afectado, el efecto sobre una tarea y la evidencia. |
 | Acceso sencillo y campos de leads organizados. | E04, 00:24–00:55. | Valoración positiva declarada por Sebastián. Las capturas muestreadas muestran el dashboard; no acreditan el proceso completo de registro de un lead. |
 | Destacar las oportunidades que necesitan atención urgente. | E04, 01:56–02:10. | Se incorpora a OM01. Debe comprobarse la vista de oportunidades con casos reales antes de afirmar la ausencia de indicadores de urgencia. |
 | Menú comprensible y nombres de secciones que orientan la navegación. | E05, 00:56–01:24. | Valoración positiva declarada por Giuseppe; no se convierte en una medición de éxito de navegación autónoma. |
-| Claridad de las etapas y utilidad del historial para retomar conversaciones. | E05, 02:20–03:14. | Se conserva como beneficio percibido. Los cuadros muestreados de la sesión muestran el dashboard y no documentan paso a paso esos flujos. |
+| Claridad de las etapas y utilidad del historial para retomar conversaciones. | E05, 02:20–03:14. E06, 5:00-6:30| Se conserva como beneficio percibido. Los cuadros muestreados de la sesión muestran el dashboard y no documentan paso a paso esos flujos. |
 | Priorizar según la última conversación, el tiempo de espera y los compromisos pendientes. | E05, 01:51–02:18 y 03:16–03:42. | Complementa OM01 con criterios concretos de prioridad. No demuestra que esos datos o funciones falten en la interfaz. |
 | Interés en probar la plataforma durante varios días. | E05, 03:45–04:22. | Expresa una utilidad esperada. No constituye una medición de ahorro de tiempo ni una comprobación del uso sostenido. |
 
