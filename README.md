@@ -321,6 +321,10 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 
 
+
+
+<!--  Capitulo 1   -->
+
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
@@ -490,6 +494,10 @@ Para el desarrollo de **NovaLeads**, se han definido dos segmentos objetivo que 
 | **Responsables comerciales de startups y pymes** | Fundadores, gerentes, jefes de ventas o personas que dirigen la estrategia comercial y supervisan a un equipo pequeño o mediano. Son responsables de las metas, el embudo de ventas y los ingresos generados. | Contar con una visión global y actualizada del proceso comercial; conocer la carga y avance del equipo; identificar oportunidades estancadas; consultar conversiones y ganancias; tomar decisiones con información confiable. | Orientados a resultados y al crecimiento; valoran la rapidez y el control; disponen de poco tiempo para configurar herramientas; revisan indicadores periódicamente; buscan soluciones accesibles, fáciles de adoptar y capaces de acompañar el crecimiento del negocio. |
 | **Ejecutivos y colaboradores de ventas** | Asesores, representantes o integrantes del equipo que prospectan, califican leads, mantienen conversaciones y hacen seguimiento hasta cerrar o descartar una oportunidad. | Registrar contactos e interacciones con rapidez; consultar el contexto de cada lead; organizar próximas acciones; priorizar oportunidades; evitar seguimientos olvidados; actualizar estados desde un flujo sencillo. | Trabajan con varias oportunidades a la vez y alternan entre mensajería, correo, llamadas y reuniones; prefieren herramientas ágiles y claras; pueden resistirse al registro manual excesivo; adoptan una solución cuando esta reduce búsquedas, recordatorios mentales y tareas repetitivas. |
 
+
+
+
+<!--  Capitulo 2   -->
 
 # Capítulo II: Requirements Elicitation & Analysis
 
@@ -744,6 +752,7 @@ En esta sección se define el Lenguaje Ubicuo (Ubiquitous Language) del proyecto
 | Term | Definition |
 |---|---|
 | **Lead (Prospecto)** | Persona o empresa que ha mostrado interés potencial en los productos o servicios de un negocio, pero que todavía no se considera un cliente. |
+| **Pipeline (Recorrido)** | Conjunto de procesos secuenciales por el que se clasifica a un contacto, incluye el recorrido desde Lead a Customer.  |
 | **Customer (Cliente)** | Persona o empresa que ha realizado una compra o mantiene una relación comercial con el negocio. |
 | **Contact (Contacto)** | Persona registrada con información que permite establecer comunicación y mantener una relación comercial. Puede corresponder a un lead o a un customer. |
 | **Salesperson (Vendedor)** | Persona encargada de gestionar leads, contactos y oportunidades comerciales con el objetivo de concretar ventas. |
@@ -772,6 +781,9 @@ En esta sección se define el Lenguaje Ubicuo (Ubiquitous Language) del proyecto
 | **Conversion (Conversión)** | Resultado de lograr que un lead avance dentro del funnel hasta convertirse en customer o concretar una venta. |
 
 
+
+
+<!--  Capitulo 3   -->
 
 
 # Capítulo III: Requirements Specification
@@ -892,6 +904,9 @@ A continuación, se adjuntan las capturas del tablero de Jira utilizado para la 
 **Enlace al tablero de Jira:** 
 [Jira Board](https://johanbottger.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?isInsightsOpen=true&atlOrigin=eyJpIjoiZTM3OWE3MGViZTBkNGMwMDg1YTY2Y2M0ZTM3MzkxZjEiLCJwIjoiaiJ9?)
 
+
+
+<!--  Capitulo 4   -->
 
 # Capítulo IV: Product Design
 
@@ -1511,6 +1526,9 @@ Este diagrama registra las ventas y muestra los datos consultados para calcular 
 * **`users`:** permite agrupar las ventas y oportunidades por usuario responsable; es la misma tabla física definida en Identity and Access.
 * **Dashboard:** no necesita una tabla propia. Sus indicadores se obtienen mediante consultas a `contacts`, `opportunities` y `sales`.
 
+
+<!--  Capitulo 5   -->
+
 # Capítulo V: Product Implementation, Validation & Deployment.
 
 ## 5.1. Software Configuration Management
@@ -1810,26 +1828,26 @@ Durante el segundo sprint, el equipo se centró en desarrollar la primera versi�
 
 | User Story | Título | Work-Item / Task | Título | Descripción | Est. (Hrs) | Asignado | Status |
 | :--- | :--- | :--- | :--- | :--- | ---: | :--- | :--- |
-| HU-01 | Inicio de sesión | T-01 | Implementar inicio de sesión y manejo de sesión | Implementar el formulario de autenticación, integrarlo con el servicio correspondiente y gestionar la respuesta y sesión del usuario. | 8 | Renzo | To Do |
-| HU-02 | Gestión de usuarios y permisos | T-02 | Implementar gestión de usuarios y permisos | Implementar la consulta de usuarios vendedores y la modificación y validación de los permisos asignados. | 8 | Dario | To Do |
-| HU-03 | Dashboard del dueño | T-03 | Implementar dashboard e indicadores del negocio | Implementar la consulta y presentación de los indicadores generales de leads y ventas mediante los gráficos correspondientes. | 8 | Lui | To Do |
-| HU-04 | Dashboard del vendedor | T-04 | Implementar dashboard y validación de indicadores personales | Implementar la consulta y presentación de los indicadores del vendedor autenticado y validar que únicamente pueda consultar sus propios resultados. | 7 | Johan | To Do |
-| HU-05 | Visualización de ventas por vendedor | T-05 | Implementar visualización de ventas por vendedor | Implementar la consulta y presentación de las ventas asociadas a cada vendedor para usuarios con permisos de dueño. | 7 | Sergio | To Do |
-| HU-06 | Registro de leads | T-06 | Implementar registro y validación de leads | Implementar el formulario de registro de leads, integrarlo con el servicio de creación y validar la información requerida. | 8 | Dario | To Do |
-| HU-07 | Filtrado de leads | T-07 | Implementar consulta y filtrado de leads | Implementar la obtención de leads disponibles y su filtrado mediante criterios como estado, vendedor y etiqueta. | 7 | Lui | To Do |
-| HU-08 | Cambio de estado de un lead | T-08 | Implementar actualización y validación de estados | Implementar la modificación del estado de un lead y validar los valores permitidos y las respuestas ante valores no válidos. | 7 | Johan | To Do |
-| HU-09 | Etiquetado de leads por producto | T-09 | Implementar etiquetado de leads por producto | Implementar la consulta de etiquetas disponibles y la asignación de una o más etiquetas de producto a un lead. | 7 | Sergio | To Do |
-| HU-10 | Gestión de etiquetas | T-10 | Implementar gestión de etiquetas | Implementar la creación y edición de etiquetas de productos para usuarios con permisos de gestión, incluyendo la gestión de sus asociaciones con leads. | 8 | Dario | To Do |
-| HU-11 | Visualización de contactos | T-11 | Implementar visualización de contactos | Implementar la consulta y presentación de los contactos disponibles según los permisos del usuario. | 6 | Lui | To Do |
-| HU-12 | Clasificación de contacto | T-12 | Implementar clasificación de contactos | Implementar la consulta y presentación de la clasificación de cada contacto como lead o cliente. | 5 | Sergio | To Do |
-| HU-13 | Edición de información de contacto | T-13 | Implementar edición y validación de contactos | Implementar la modificación de información de contactos autorizados, integrarla con la API y gestionar las validaciones y restricciones de permisos. | 7 | Renzo | To Do |
-| HU-14 | Creación automática de contactos | T-14 | Implementar sincronización automática de contactos | Integrar el frontend con la información de contactos generada automáticamente a partir de conversaciones y verificar la correcta sincronización de contactos nuevos y existentes. | 8 | Johan | To Do |
-| HU-15 | Visualización de conversaciones | T-15 | Implementar visualización e historial de conversaciones | Implementar la consulta y presentación de las conversaciones disponibles y del historial de mensajes de una conversación seleccionada. | 9 | Lui | To Do |
-| HU-16 | Notificación de nuevos mensajes | T-16 | Implementar notificaciones y actualización de conversaciones | Integrar la recepción de notificaciones de nuevos mensajes y actualizar la información de las conversaciones correspondientes. | 7 | Sergio | To Do |
-| HU-17 | Temporizador de conversaciones | T-17 | Implementar temporizador de conversaciones | Implementar el cálculo y actualización del tiempo transcurrido desde la recepción de un mensaje pendiente de respuesta. | 6 | Dario | To Do |
-| HU-18 | Prioridad automática de conversaciones | T-18 | Implementar prioridad automática de conversaciones | Integrar la información de prioridad calculada y actualizar las conversaciones cuando la prioridad cambia según el umbral definido. | 7 | Johan | To Do |
-| HU-19 | Ordenamiento y filtrado de conversaciones | T-19 | Implementar ordenamiento y filtrado de conversaciones | Implementar el ordenamiento y filtrado de conversaciones utilizando criterios de prioridad, etiquetas y vendedor según los permisos disponibles. | 8 | Renzo | To Do |
-| HU-20 | Perfil del vendedor | T-20 | Implementar consulta y edición del perfil | Implementar la consulta y modificación de la información autorizada del perfil del vendedor autenticado, incluyendo sus validaciones. | 7 | Sergio | To Do |
+| US-01 | Inicio de sesión | T-01 | Implementar inicio de sesión y manejo de sesión | Implementar el formulario de autenticación, integrarlo con el servicio correspondiente y gestionar la respuesta y sesión del usuario. | 8 | Renzo | To Do |
+| US-02 | Gestión de usuarios y permisos | T-02 | Implementar gestión de usuarios y permisos | Implementar la consulta de usuarios vendedores y la modificación y validación de los permisos asignados. | 8 | Dario | To Do |
+| US-03 | Dashboard del dueño | T-03 | Implementar dashboard e indicadores del negocio | Implementar la consulta y presentación de los indicadores generales de leads y ventas mediante los gráficos correspondientes. | 8 | Lui | To Do |
+| US-04 | Dashboard del vendedor | T-04 | Implementar dashboard y validación de indicadores personales | Implementar la consulta y presentación de los indicadores del vendedor autenticado y validar que únicamente pueda consultar sus propios resultados. | 7 | Johan | To Do |
+| US-05 | Visualización de ventas por vendedor | T-05 | Implementar visualización de ventas por vendedor | Implementar la consulta y presentación de las ventas asociadas a cada vendedor para usuarios con permisos de dueño. | 7 | Sergio | To Do |
+| US-06 | Registro de leads | T-06 | Implementar registro y validación de leads | Implementar el formulario de registro de leads, integrarlo con el servicio de creación y validar la información requerida. | 8 | Dario | To Do |
+| US-07 | Filtrado de leads | T-07 | Implementar consulta y filtrado de leads | Implementar la obtención de leads disponibles y su filtrado mediante criterios como estado, vendedor y etiqueta. | 7 | Lui | To Do |
+| US-08 | Cambio de estado de un lead | T-08 | Implementar actualización y validación de estados | Implementar la modificación del estado de un lead y validar los valores permitidos y las respuestas ante valores no válidos. | 7 | Johan | To Do |
+| US-09 | Etiquetado de leads por producto | T-09 | Implementar etiquetado de leads por producto | Implementar la consulta de etiquetas disponibles y la asignación de una o más etiquetas de producto a un lead. | 7 | Sergio | To Do |
+| US-10 | Gestión de etiquetas | T-10 | Implementar gestión de etiquetas | Implementar la creación y edición de etiquetas de productos para usuarios con permisos de gestión, incluyendo la gestión de sus asociaciones con leads. | 8 | Dario | To Do |
+| US-11 | Visualización de contactos | T-11 | Implementar visualización de contactos | Implementar la consulta y presentación de los contactos disponibles según los permisos del usuario. | 6 | Lui | To Do |
+| US-12 | Clasificación de contacto | T-12 | Implementar clasificación de contactos | Implementar la consulta y presentación de la clasificación de cada contacto como lead o cliente. | 5 | Sergio | To Do |
+| US-13 | Edición de información de contacto | T-13 | Implementar edición y validación de contactos | Implementar la modificación de información de contactos autorizados, integrarla con la API y gestionar las validaciones y restricciones de permisos. | 7 | Renzo | To Do |
+| US-14 | Creación automática de contactos | T-14 | Implementar sincronización automática de contactos | Integrar el frontend con la información de contactos generada automáticamente a partir de conversaciones y verificar la correcta sincronización de contactos nuevos y existentes. | 8 | Johan | To Do |
+| US-15 | Visualización de conversaciones | T-15 | Implementar visualización e historial de conversaciones | Implementar la consulta y presentación de las conversaciones disponibles y del historial de mensajes de una conversación seleccionada. | 9 | Lui | To Do |
+| US-16 | Notificación de nuevos mensajes | T-16 | Implementar notificaciones y actualización de conversaciones | Integrar la recepción de notificaciones de nuevos mensajes y actualizar la información de las conversaciones correspondientes. | 7 | Sergio | To Do |
+| US-17 | Temporizador de conversaciones | T-17 | Implementar temporizador de conversaciones | Implementar el cálculo y actualización del tiempo transcurrido desde la recepción de un mensaje pendiente de respuesta. | 6 | Dario | To Do |
+| US-18 | Prioridad automática de conversaciones | T-18 | Implementar prioridad automática de conversaciones | Integrar la información de prioridad calculada y actualizar las conversaciones cuando la prioridad cambia según el umbral definido. | 7 | Johan | To Do |
+| US-19 | Ordenamiento y filtrado de conversaciones | T-19 | Implementar ordenamiento y filtrado de conversaciones | Implementar el ordenamiento y filtrado de conversaciones utilizando criterios de prioridad, etiquetas y vendedor según los permisos disponibles. | 8 | Renzo | To Do |
+| US-20 | Perfil del vendedor | T-20 | Implementar consulta y edición del perfil | Implementar la consulta y modificación de la información autorizada del perfil del vendedor autenticado, incluyendo sus validaciones. | 7 | Sergio | To Do |
 | TS-01 | Documentación OpenAPI | T-21 | Configurar y validar documentación OpenAPI | Configurar la documentación automática de los endpoints mediante OpenAPI/Swagger y verificar que recursos, métodos, respuestas y esquemas estén documentados correctamente. | 4 | Renzo | To Do |
 | TS-02 | Autenticación de usuarios | T-22 | Implementar y validar API de autenticación | Implementar el endpoint RESTful para autenticar usuarios y generar el token de acceso, validando credenciales, respuestas y códigos HTTP correspondientes. | 8 | Renzo | To Do |
 | TS-03 | API de gestión de Leads | T-23 | Implementar y validar API de Leads | Implementar los endpoints RESTful para registrar y consultar leads, incluyendo las validaciones de datos y respuestas HTTP correspondientes. | 10 | Dario | To Do |
@@ -1886,22 +1904,547 @@ Durante el transcurso de este sprint, todos los miembros participaron de forma a
 <img src="Resources/Chapter5/sprint2/collab1.png"/>
 <img src="Resources/Chapter5/sprint2/collab2.png"/>
 
+
+
+____
+
+
+### 5.2.3. Sprint 3
+En esta sección se registra y explica el avance obtenido durante el tercer ciclo de desarrollo (Sprint 3), abarcando la construcción de los productos de software finales, la validación y el trabajo colaborativo del equipo. Se incluyen los detalles de planificación, los líderes de cada aspecto, el backlog comprometido y las evidencias de ejecución, documentación y despliegue del trabajo completado.
+
+#### 5.2.3.1. Sprint Planning 3
+Durante esta sesión, se seleccionaron las Historias de Usuario más prioritarias del Product Backlog para definir el objetivo central de la iteración. A continuación, se presenta el cuadro resumen con los detalles y acuerdos de esta reunión:
+
+| **Sprint #** | Sprint 3 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| **Date** | 2026-11-01 |
+| **Time** | 21:00 PM |
+| **Location** | Reunión virtual (Google Meet) |
+| **Prepared By** | Bottger Salazar, Johan Karl |
+| **Attendees (to planning meeting)** | Johan, Renzo, Sergio, Lui, Dario |
+| **Sprint 2 Review Summary** | Durante el Sprint 2 el equipo logró completar la primera versión funcional del frontend web application y una nueva versión del Landing Page. Se cumplió el objetivo principal del sprint de la primera versión operacional de NovaLeads. |
+| **Sprint 2 Retrospective Summary** | La comunicación entre integrantes fue constante y facilitó la integración temprana. Mantener documentación y estándares técnicos actualizados durante el sprint. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 3 Goal** | **Contexto:** El equipo decidió enfocar el trabajo en el desarrollo del Backend Web Services. <br><br> **Sprint Goal:**<br>*"Our focus is on delivering the first operational version of the NovaLeads backend web services while improving the quality, usability, and stability of artifacts created during previous sprints.
+We believe this delivers a more complete digital experience to administrators and prospective customers by providing the first functional version of the Backend Web Service.
+This will be confirmed when users can access the deployed service through our frontend, navigate the improved Landing Page and frontend web application without usability issues, and interact successfully over the first backend modules in a production-like environment."* |
+| **Sprint 3 Velocity** | 216 Story Points. (Velocidad estimada basada en la capacidad inicial del equipo para configurar los entornos). |
+| **Sum of Story Points** | 216 Story Points. |
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+En esta sección se presenta la **Leadership-and-Collaboration Matrix (LACX)**. Esta matriz detalla los líderes (L) y colaboradores (C) para cada aspecto clave del Sprint, asegurando una comunicación clara y una distribución de responsabilidades eficiente para el proyecto. La organización está directamente relacionada con la selección de tareas (*tasks*) que se desarrollarán durante el Sprint.
+
+| Team Member (First Name, Last Name) | GitHub Username | IdentityAccess | LeadManagement| SalesManagement | ConversationManagement | QA & Deployment |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| Lui Mathias Gamero Miranda | lug07m | C | C | C | C | L |
+| Dario Alberto Romero Vilela | patatitis9-alt | L | C | C | C | C |
+| Johan Karl Bottger Salazar | Deskjobo | C | C | C | L | C |
+| Sergio Ruben Caldas Garcia | Sergiocaldas10 | C | C | L | C | C |
+| Renzo Paul Retuerto Zapata | Renzoocf | C | L | C | C | C |
+
+#### 5.2.3.3. Sprint Backlog 3
+Durante el tercer sprint, el equipo se centró en desarrollar la primera versión de los Web Services funcionales, organizando y distribuyendo tareas en el tablero de Sprint de acuerdo con las habilidades de cada integrante.
+
+##### Sprint 3 - Tareas Asignadas
+
+
+| User Story | Título | Work-Item / Task | Título | Descripción | Est. (Hrs) | Asignado | Status |
+| :--- | :--- | :--- | :--- | :--- | ---: | :--- | :--- |
+| US-01 | Inicio de sesión | T-01 | Implementar servicio de autenticación | Implementar la lógica de autenticación de usuarios, verificando las credenciales registradas en la base de datos. | 5 | Renzo | To Do |
+| US-01 | Inicio de sesión | T-02 | Implementar generación y validación de tokens | Implementar la generación de tokens de acceso y los mecanismos necesarios para validar la identidad del usuario autenticado. | 4 | Renzo | To Do |
+| US-02 | Gestión de usuarios y permisos | T-03 | Implementar consulta de usuarios y permisos | Implementar las consultas a la base de datos para obtener usuarios vendedores y sus permisos asociados. | 5 | Renzo | To Do |
+| US-02 | Gestión de usuarios y permisos | T-04 | Implementar actualización de permisos | Implementar la lógica de actualización de permisos, verificando las autorizaciones del usuario que realiza la operación. | 4 | Renzo | To Do |
+| US-03 | Dashboard del dueño | T-05 | Implementar consultas de métricas generales | Implementar las consultas a la base de datos para obtener indicadores generales de leads y ventas del negocio. | 5 | Lui | To Do |
+| US-03 | Dashboard del dueño | T-06 | Implementar servicio de métricas del negocio | Implementar el servicio que procesa y proporciona los indicadores generales correspondientes al usuario con permisos de dueño. | 4 | Lui | To Do |
+| US-04 | Dashboard del vendedor | T-07 | Implementar consultas de métricas personales | Implementar las consultas necesarias para obtener los indicadores de ventas asociados al vendedor autenticado. | 4 | Sergio | To Do |
+| US-04 | Dashboard del vendedor | T-08 | Implementar validación de acceso a métricas | Implementar las restricciones de acceso para garantizar que cada vendedor consulte únicamente sus propios resultados. | 4 | Sergio | To Do |
+| US-05 | Visualización de ventas por vendedor | T-09 | Implementar consulta de ventas por vendedor | Implementar las consultas a la base de datos para obtener las ventas agrupadas según el vendedor responsable. | 4 | Sergio | To Do |
+| US-05 | Visualización de ventas por vendedor | T-10 | Implementar servicio de ventas por vendedor | Implementar el servicio que procesa y proporciona la información de ventas individuales al usuario con permisos de dueño. | 4 | Sergio | To Do |
+| US-06 | Registro de leads | T-11 | Implementar persistencia de leads | Implementar la lógica de creación y almacenamiento de nuevos leads en la base de datos. | 5 | Dario | To Do |
+| US-06 | Registro de leads | T-12 | Implementar validación de registro de leads | Implementar las validaciones de información requerida y las restricciones correspondientes antes de registrar un lead. | 4 | Dario | To Do |
+| US-07 | Filtrado de leads | T-13 | Implementar consultas de leads | Implementar las consultas a la base de datos para obtener los leads disponibles según los permisos del usuario. | 4 | Dario | To Do |
+| US-07 | Filtrado de leads | T-14 | Implementar filtros de leads en API | Implementar los parámetros de filtrado por estado, vendedor y etiqueta en los servicios de consulta de leads. | 4 | Dario | To Do |
+| US-08 | Cambio de estado de un lead | T-15 | Implementar actualización de estado de leads | Implementar la lógica de modificación del estado de un lead y persistir los cambios en la base de datos. | 4 | Dario | To Do |
+| US-08 | Cambio de estado de un lead | T-16 | Implementar validación de estados permitidos | Implementar las validaciones de estados disponibles y gestionar las respuestas ante modificaciones no válidas. | 3 | Dario | To Do |
+| US-09 | Etiquetado de leads por producto | T-17 | Implementar consulta de etiquetas de productos | Implementar las consultas para obtener las etiquetas de productos disponibles en la base de datos. | 4 | Dario | To Do |
+| US-09 | Etiquetado de leads por producto | T-18 | Implementar asociación de etiquetas a leads | Implementar la lógica de asociación y almacenamiento de una o más etiquetas de productos vinculadas a un lead. | 4 | Dario | To Do |
+| US-10 | Gestión de etiquetas | T-19 | Implementar creación de etiquetas | Implementar la lógica de creación y persistencia de nuevas etiquetas de productos, verificando los permisos correspondientes. | 4 | Lui | To Do |
+| US-10 | Gestión de etiquetas | T-20 | Implementar actualización de etiquetas | Implementar la modificación de etiquetas existentes y gestionar la consistencia de sus asociaciones con los leads. | 4 | Lui | To Do |
+| US-11 | Visualización de contactos | T-21 | Implementar consultas de contactos | Implementar las consultas a la base de datos para obtener los contactos registrados según los permisos del usuario. | 4 | Lui | To Do |
+| US-11 | Visualización de contactos | T-22 | Implementar servicio de consulta de contactos | Implementar el servicio RESTful para proporcionar la información de contactos solicitada. | 3 | Lui | To Do |
+| US-12 | Clasificación de contacto | T-23 | Implementar clasificación de contactos | Implementar la lógica para identificar y obtener la clasificación de cada contacto como lead o cliente. | 3 | Lui | To Do |
+| US-12 | Clasificación de contacto | T-24 | Implementar persistencia de clasificación | Implementar el almacenamiento y consulta de la clasificación correspondiente a cada contacto. | 3 | Lui | To Do |
+| US-13 | Edición de información de contacto | T-25 | Implementar actualización de contactos | Implementar la lógica de modificación y persistencia de la información de contactos existentes. | 4 | Sergio | To Do |
+| US-13 | Edición de información de contacto | T-26 | Implementar validación de actualización de contactos | Implementar las validaciones de información y permisos necesarios para actualizar los datos de un contacto. | 4 | Sergio | To Do |
+| US-14 | Creación automática de contactos | T-27 | Implementar recepción de mensajes de WhatsApp | Implementar el procesamiento de los eventos recibidos mediante la integración de WhatsApp para identificar nuevos contactos. | 5 | Johan | To Do |
+| US-14 | Creación automática de contactos | T-28 | Implementar creación y sincronización de contactos | Implementar la lógica para registrar automáticamente contactos nuevos y conservar los existentes cuando reciben nuevos mensajes. | 4 | Johan | To Do |
+| US-15 | Visualización de conversaciones | T-29 | Implementar consultas de conversaciones | Implementar las consultas a la base de datos para obtener las conversaciones asociadas a los contactos y vendedores. | 5 | Johan | To Do |
+| US-15 | Visualización de conversaciones | T-30 | Implementar consulta de historial de mensajes | Implementar el servicio para obtener el historial de mensajes asociado a una conversación seleccionada. | 4 | Johan | To Do |
+| US-16 | Notificación de nuevos mensajes | T-31 | Implementar procesamiento de nuevos mensajes | Implementar el procesamiento de mensajes entrantes y su asociación con las conversaciones correspondientes. | 5 | Johan | To Do |
+| US-16 | Notificación de nuevos mensajes | T-32 | Implementar generación de notificaciones | Implementar el mecanismo backend para generar y distribuir notificaciones cuando se reciben nuevos mensajes. | 4 | Johan | To Do |
+| US-17 | Temporizador de conversaciones | T-33 | Implementar cálculo de tiempo pendiente | Implementar la lógica para calcular el tiempo transcurrido desde la recepción de un mensaje pendiente de respuesta. | 3 | Johan | To Do |
+| US-17 | Temporizador de conversaciones | T-34 | Implementar servicio de tiempo de conversación | Implementar el servicio para proporcionar el tiempo pendiente de respuesta correspondiente a cada conversación activa. | 3 | Johan | To Do |
+| US-18 | Prioridad automática de conversaciones | T-35 | Implementar cálculo de prioridad de conversaciones | Implementar la lógica de asignación automática de prioridad según el tiempo transcurrido sin respuesta y el umbral definido. | 4 | Sergio | To Do |
+| US-18 | Prioridad automática de conversaciones | T-36 | Implementar actualización de prioridades | Implementar el mecanismo de actualización de prioridades y persistencia de los cambios en las conversaciones correspondientes. | 4 | Sergio | To Do |
+| US-19 | Ordenamiento y filtrado de conversaciones | T-37 | Implementar consultas y ordenamiento de conversaciones | Implementar las consultas necesarias para ordenar las conversaciones según los criterios disponibles. | 4 | Renzo | To Do |
+| US-19 | Ordenamiento y filtrado de conversaciones | T-38 | Implementar filtros de conversaciones | Implementar los filtros por prioridad, etiquetas y vendedor, considerando los permisos del usuario autenticado. | 4 | Renzo | To Do |
+| US-20 | Perfil del vendedor | T-39 | Implementar consulta de perfil de usuario | Implementar el servicio para obtener la información del perfil del vendedor autenticado desde la base de datos. | 4 | Renzo | To Do |
+| US-20 | Perfil del vendedor | T-40 | Implementar actualización de perfil | Implementar la modificación y persistencia de la información autorizada del perfil del vendedor, incluyendo sus validaciones. | 3 | Renzo | To Do |
+| TS-01 | Documentación OpenAPI | T-41 | Configurar documentación OpenAPI | Configurar Swagger/OpenAPI para documentar automáticamente los endpoints, modelos y esquemas disponibles en el backend. | 2 | Renzo | To Do |
+| TS-01 | Documentación OpenAPI | T-42 | Validar documentación de API | Verificar que los recursos, métodos HTTP, parámetros, esquemas y respuestas de los servicios estén documentados correctamente. | 2 | Renzo | To Do |
+| TS-02 | Autenticación de usuarios | T-43 | Implementar endpoint RESTful de autenticación | Implementar el endpoint POST de autenticación para validar credenciales y generar el token de acceso correspondiente. | 5 | Renzo | To Do |
+| TS-02 | Autenticación de usuarios | T-44 | Validar respuestas de autenticación | Verificar las respuestas HTTP para credenciales válidas e inválidas, incluyendo los códigos 200 OK y 401 Unauthorized. | 3 | Renzo | To Do |
+| TS-03 | API de gestión de Leads | T-45 | Implementar endpoints RESTful de leads | Implementar los endpoints necesarios para registrar y consultar leads mediante los métodos HTTP correspondientes. | 6 | Dario | To Do |
+| TS-03 | API de gestión de Leads | T-46 | Validar datos y respuestas de API de leads | Verificar las validaciones de datos, persistencia y respuestas HTTP de las operaciones de creación y consulta de leads. | 4 | Dario | To Do |
+| TS-04 | API de gestión de Contactos | T-47 | Implementar endpoints RESTful de contactos | Implementar los endpoints para consultar y actualizar contactos mediante los recursos correspondientes de la API. | 5 | Lui | To Do |
+| TS-04 | API de gestión de Contactos | T-48 | Validar permisos y respuestas de API de contactos | Verificar las restricciones de acceso, validaciones y respuestas HTTP para las operaciones sobre contactos. | 4 | Lui | To Do |
+| TS-05 | API de conversaciones | T-49 | Implementar endpoints RESTful de conversaciones | Implementar los endpoints para consultar conversaciones e historiales de mensajes asociados a los contactos. | 5 | Johan | To Do |
+| TS-05 | API de conversaciones | T-50 | Validar autorización y respuestas de API de conversaciones | Verificar los permisos de acceso y las respuestas HTTP para conversaciones existentes, inexistentes o no autorizadas. | 4 | Johan | To Do |
+| TS-06 | API de Dashboard y métricas | T-51 | Implementar endpoints RESTful de métricas | Implementar los endpoints para obtener indicadores de ventas y leads según el rol y permisos del usuario autenticado. | 5 | Sergio | To Do |
+| TS-06 | API de Dashboard y métricas | T-52 | Validar métricas y permisos | Verificar los resultados de las consultas, restricciones de acceso y respuestas para períodos sin información. | 4 | Sergio | To Do |
+| TS-07 | Manejo de errores y respuestas HTTP | T-53 | Implementar manejo estandarizado de errores | Implementar un mecanismo centralizado para gestionar excepciones y generar respuestas HTTP consistentes en los servicios backend. | 4 | Dario | To Do |
+| TS-07 | Manejo de errores y respuestas HTTP | T-54 | Validar respuestas de error | Verificar las respuestas para solicitudes inválidas, recursos inexistentes, accesos no autorizados y errores internos del servidor. | 3 | Dario | To Do |
+| **Total** | **216** |
+
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+El principal avance durante el Sprint 3 fue el desarrollo del Backend Web Services del producto. 
+A continuación, se presentan los commits más importantes del Sprint, los cuales muestran el ciclo de vida del proyecto, y toda la información que se usó para el desarrollo.
+
+| Repository | Branch | Commit ID | Message | Body | Commit Date  |
+|---|---|---|---|---|---|
+| novascale-platform | feature/platform-foundation | bb5627787e8e6eb542350e6b8299e1df38f96fd0 | feat: add shared backend foundation | - | 12-11-2026 |
+| novascale-platform | feature/conversation-management | edc4ceeb4dba3095cf2213a8d4a0376fc8359c62 | feat(ConversationManagement): Bounded Context completed | - | 12-11-2026 |
+| novascale-platform | feature/identity-access | 52e6a8df9f1dc4d8499d35f8207d6a8d99a53d4c | feat(IdentityAccess): add full bounded context | - | 12-11-2026 |
+| novascale-platform | feature/lead-management | b3004b3fca47da9be6d19e4421dcb76da1e1491f | feat(LeadManagement): add full bounded context | - | 12-11-2026 |
+| novascale-platform | feature/sales-management | ab1b84a40eb70a24e03563f25abcfd327dc6e48c | feat(LeadManagement): add full bounded context | - | 12-11-2026 |
+
+
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+Se incluyen capturas detalladas de la ejecución del Backend Web Services como evidencia.
+
+<img src="Resources/Chapter5/sprint3/execution1.png"/>
+<img src="Resources/Chapter5/sprint3/execution2.png"/>
+<img src="Resources/Chapter5/sprint3/execution3.png"/>
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+Se incluyen capturas detalladas de la documentación del Backend Web Services. Se utilizó Scalar para la documentación de servicios.
+
+<img src="Resources/Chapter5/sprint3/services1.png"/>
+
+Url backend con documentación en scalar : [https://novascale-platform.onrender.com/scalar](https://novascale-platform.onrender.com/scalar)
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+
+El despliegue del Backend Web Service se realizó en el servicio de Render, se seleccionó esta alternativa debido a su rapidez de despliegue y accesibilidad. La base de datos se desplegó en Aiven debido a su accesibilidad en costo para el alcance del proyecto y facilidad de anclaje. Además, se renovó el despliegue de los artefactos existentes: Landing Page, Frontend Web Application.
+
+Se incluye la evidencia de despliegue:
+
+<img src="Resources/Chapter5/sprint3/deployment1.png"/>
+<img src="Resources/Chapter5/sprint3/deployment2.png"/>
+<img src="Resources/Chapter5/sprint3/deployment3.png"/>
+
+URL Backend (considerar startup): [https://novascale-platform.onrender.com/scalar](https://novascale-platform.onrender.com/scalar)
+
+#### 5.2.3.8. Team Collaboration Insights for Sprint Review
+Durante el transcurso de este sprint, todos los miembros participaron de forma activa y constante en la creación de las tareas asignadas. A continuación todos los analíticos que nos proporciona Github, en su apartado de Insights, sobre la colaboración del equipo durante el Sprint 2:
+
+<img src="Resources/Chapter5/sprint3/collab1.png"/>
+<img src="Resources/Chapter5/sprint3/collab2.png"/>
+
+
+
+
+
+
+---
+# 5.3. Validation Interviews
+
+## 5.3.1. Diseño de Entrevistas
+
+Con el objetivo de validar la usabilidad, funcionalidad y eficiencia de NovaLeads, se diseñaron entrevistas dirigidas a los dos segmentos objetivo de la plataforma. Estas entrevistas permitirán recopilar las experiencias de los usuarios durante la interacción con el sistema, identificando posibles dificultades y oportunidades de mejora en los procesos de gestión comercial.
+
+### Segmento 1: Dueños de Startups y Pymes
+
+1. Al iniciar sesión en la plataforma, ¿qué tan rápido e intuitivo le resultó el proceso de autenticación?
+2. Al ingresar al Dashboard principal, ¿considera que los indicadores y datos comerciales se presentan de manera clara y comprensible?
+3. Al revisar el listado de leads y clientes, ¿le resultó sencillo identificar la información y el estado de las oportunidades de venta?
+4. ¿Considera que la visualización del pipeline de ventas facilita la identificación de oportunidades pendientes, en proceso y concretadas?
+5. Al consultar los reportes de ventas y ganancias, ¿la información presentada le resultó útil para evaluar el rendimiento comercial de su negocio?
+6. ¿Le resultó sencillo navegar entre las diferentes secciones de la plataforma y encontrar las funcionalidades necesarias para supervisar las actividades comerciales?
+7. En términos generales, ¿considera que NovaLeads le permitiría mejorar la organización de sus procesos comerciales y tomar decisiones de manera más rápida y efectiva?
+
+### Segmento 2: Equipos de Ventas
+
+1. Al iniciar sesión en la plataforma, ¿qué tan sencillo e intuitivo le resultó acceder a las funcionalidades disponibles para su rol?
+2. Durante el registro de un nuevo lead, ¿le resultó fácil ingresar y guardar correctamente la información del potencial cliente?
+3. Al consultar el listado de leads asignados, ¿considera que la información presentada le permite identificar rápidamente a los clientes que requieren atención?
+4. Al actualizar el estado de una oportunidad dentro del pipeline de ventas, ¿le resultó sencillo comprender y realizar el proceso?
+5. Al revisar el historial de conversaciones con un cliente, ¿considera que la información se encuentra organizada de manera clara y facilita la continuidad del seguimiento comercial?
+6. ¿Le resultó sencillo identificar las oportunidades de venta pendientes y reconocer cuáles requieren un seguimiento prioritario?
+7. En términos generales, ¿considera que el uso de NovaLeads agilizaría sus actividades diarias de seguimiento de clientes y gestión de oportunidades en comparación con las herramientas que utiliza actualmente?
+
+## 5.3.2. Registro de Entrevistas
+
+A continuación, se presenta el registro de las entrevistas de validación realizadas con usuarios de ambos segmentos objetivo interactuando en vivo con la plataforma NovaLeads, junto con sus respectivos enlaces alojados en Microsoft Stream.
+
+### Segmento 1: Dueños de Startups y Pymes
+
+#### Entrevista 1 – Segmento 1
+- **Nombres y Apellidos:** Angie Moné Vásquez
+- **Edad:** 31 años
+- **Distrito:** Santiago de Surco, Lima
+- **Fecha:** 13 de noviembre de 2026
+- **Enlace del video:** [Ver video de la Entrevista 1](https://drive.google.com/file/d/1vijFBkCROYGYsBUbqvPtduEBpG0Al7Ne/view?usp=sharing) — Inicio: `00:00` | Duración: `05:20`
+- **Evidencia visual:** ![Entrevista 1 - Segmento 1](Resources/Chapter5/entrevistas/1.png)
+- **Resumen de la entrevista:** Angie Moné Vásquez (Gerente General) interactuó con NovaLeads y destacó que la propuesta de valor se comprende rápidamente gracias a las muestras visuales del tablero comercial y que tanto el formulario de registro como el acceso son breves y fluidos. Sin embargo, señaló oportunidades de mejora concretas en experiencia de usuario e internacionalización: indicó que la combinación de distintos matices en los fondos de las secciones puede cansar la vista tras jornadas largas, que los botones de *Registrarse* e *Iniciar sesión* tienen un diseño muy similar que puede generar confusión inicial, que la sección de soporte o preguntas frecuentes se encuentra muy abajo en el pie de página y que, al cambiar el idioma a español, aún permanecen algunos términos o etiquetas secundarias en inglés.
+
+#### Entrevista 2 – Segmento 1
+- **Nombres y Apellidos:** Flor Velázquez
+- **Edad:** 29 años
+- **Distrito:** Miraflores, Lima
+- **Fecha:** 13 de noviembre de 2026
+- **Enlace del video:** [Ver video de la Entrevista 2](https://drive.google.com/file/d/1i3FKSDKPjATFDNwPwGrUgVSYZbRqdpie/view?usp=sharing) — Inicio: `00:00` | Duración: `06:30`
+- **Evidencia visual:** ![Entrevista 2 - Segmento 1](Resources/Chapter5/entrevistas/2.png)
+- **Resumen de la entrevista:** Flor Velázquez (Directora Comercial en *Flora & Suelo*) evaluó la plataforma e indicó que la propuesta de valor se entiende desde el primer vistazo como una solución orientada a reemplazar hojas de cálculo tradicionales. Valoró positivamente la legibilidad de la tipografía, la fluidez de la navegación sin recargas bruscas y la estructura lógica de las secciones. Como oportunidades de mejora, sugirió ampliar la vista previa del sistema en la portada, otorgar un tono de acento más vivo a los botones principales e iconos para guiar mejor la mirada, añadir un enlace explícito para regresar al inicio desde el formulario de acceso (sin depender únicamente del logotipo), incorporar un icono para mostrar u ocultar la contraseña durante el registro y agregar textos descriptivos (*tooltips*) al pasar el cursor sobre los iconos decorativos.
+
+#### Entrevista 3 – Segmento 1
+- **Nombres y Apellidos:** Brenda More Vázquez
+- **Edad:** 27 años
+- **Distrito:** San Borja, Lima
+- **Fecha:** 13 de noviembre de 2026
+- **Enlace del video:** [Ver video de la Entrevista 3](https://drive.google.com/file/d/1J42g26O0tRrzP23BzxxzYP-5Dd8pCN4n/view?usp=sharing) — Inicio: `00:00` | Duración: `07:10`
+- **Evidencia visual:** ![Entrevista 3 - Segmento 1](Resources/Chapter5/entrevistas/3.png)
+- **Resumen de la entrevista:** Brenda More Vázquez (Fundadora de una startup) participó en la prueba interactiva completando el registro de cuenta, el inicio de sesión y la revisión del Dashboard y los leads. Señaló que la interfaz se percibe moderna y que el mensaje principal explica con claridad el propósito de ordenar ventas y clientes potenciales, aunque observó que el bloque inicial presenta demasiado texto concentrado. Como mejoras específicas, recomendó incrementar el contraste de los textos secundarios grises sobre tarjetas claras, mostrar de forma preventiva los requisitos de seguridad de la contraseña antes de enviar el formulario de registro, hacer más visible el selector de idioma (`ES / EN`) en la barra superior, redirigir el botón principal directamente al registro y añadir un botón rápido de retorno al inicio en la parte inferior.
+### Segmento 2: Equipos de Ventas
+
+
+#### Entrevista 1 – Segmento 2
+- **Nombres y Apellidos:** Sebastián Herrera
+- **Edad:** 24 años
+- **Distrito:** Surquillo
+- **Fecha:** 13 de noviembre de 2026
+- **Enlace del video:** [Ver video de la Entrevista 4](https://drive.google.com/file/d/1ln4vHPm9JEiD3Evv5d1MgPGwO8RPYmJ2/view?usp=drive_link) — Inicio: `00:00` | Duración: `02:43`
+- **Evidencia visual:** ![Entrevista 4 - Segmento 2](Resources/Chapter5/entrevistas/4.png)
+- **Resumen de la entrevista:** Sebastián evaluó su experiencia de uso de NovaLeads e indicó que el inicio de sesión fue rápido y que encontró fácilmente las opciones necesarias para trabajar. Señaló que el registro de leads fue fácil de entender, con campos bien organizados que permitieron ingresar la información sin complicaciones. Asimismo, manifestó que la organización de los datos de los clientes ayuda a identificar con quién debe comunicarse. Respecto al pipeline de ventas, consideró intuitivo identificar las etapas y actualizar el estado de las oportunidades. También valoró la utilidad del historial de conversaciones para recordar lo tratado con cada cliente antes de volver a contactarlo. Como oportunidad de mejora, propuso destacar más las oportunidades que necesitan atención urgente. Finalmente, expresó que centralizar la información de clientes y ventas en un solo lugar facilitaría el trabajo y ayudaría a ahorrar tiempo.
+
+
+#### Entrevista 2 – Segmento 2
+- **Nombres y Apellidos:** Giuseppe Chavez.
+- **Edad:** 19 años.
+- **Distrito:** Comas.
+- **Fecha:** 12 de noviembre de 2026.
+- **Perfil:** Estudiante y emprendedor encargado de atender consultas, contactar a potenciales clientes y realizar seguimiento de ventas.
+- **Entrevistador:** Lui Mathias Gamero Miranda.
+- **Enlace del video (Google Drive):** [Ver video de la Entrevista 5](https://drive.google.com/file/d/1WSy_STwC9aSqxFdmnXYCMDD_3-cUkKkh/view?usp=sharing) — Inicio: `00:00` | Duración: `04:23`.
+- **Evidencia visual:** ![Entrevista 5 - Segmento 2: Giuseppe Chavez y Lui Mathias Gamero Miranda durante la sesión de validación](Resources/Chapter5/entrevistas/5.png)
+- **Resumen de la entrevista:** Giuseppe describió su experiencia de uso de NovaLeads desde sus actividades de atención comercial y seguimiento de clientes, que actualmente organiza con Excel y WhatsApp. Manifestó que el menú y los nombres de las secciones le permitieron ubicar las funcionalidades con pocas indicaciones, y valoró la claridad de los campos y la centralización de los datos de los contactos. Asimismo, consideró comprensibles las etapas del pipeline y útil consultar el historial de conversaciones junto con la información de cada cliente para retomar el seguimiento con mayor contexto. Respecto a la priorización, explicó que también necesita considerar la situación de cada oportunidad, la última conversación, el tiempo de espera y los compromisos pendientes, como el envío de una cotización. Finalmente, señaló que la plataforma podría ayudarle a organizar la información y reducir el tiempo de búsqueda, aunque manifestó su interés en utilizarla durante varios días con sus actividades habituales para valorar mejor su utilidad. Estas apreciaciones corresponden a lo declarado por el participante; la grabación muestra una presentación compartida del dashboard y no documenta paso a paso la ejecución autónoma de todos los flujos mencionados.
+
+#### Entrevista 3 – Segmento 2
+- **Nombres y Apellidos:** Sebastián De Las Casas
+- **Edad:** 22 años
+- **Distrito:** San Borja, Lima
+- **Fecha:** 13 de noviembre de 2026
+- **Enlace del video (Microsoft Stream):** — Inicio: `00:00` | Duración: `[04:15]`
+- **Evidencia visual:** ![Entrevista 6 - Segmento 2: Sebastian De Las Casas y Johan Karl Bottger durante la sesión de validación](Resources/Chapter5/entrevistas/6.png)
+- **Resumen de la entrevista:** El entrevistado se le presentó el flujo estándar para miembros de equipo de ventas, demostrando la sencillez y fluidez del proceso. Comentó en los colores, similarmente a otros entrevistados, sin embargo, consideró el valor agregado del sistema como mayormente positivo.
+
+## 5.3.3. Evaluaciones según heurísticas
+
+La evaluación de NovaLeads se realizó mediante una autoauditoría del equipo NovaScale, autorizada por el docente, considerando principios de usabilidad, diseño inclusivo y arquitectura de información. Se contrastaron las apreciaciones de seis participantes con una inspección de la interfaz pública de la landing page y de las pantallas de acceso de la aplicación.
+
+Se revisaron transcripciones automáticas de los audios originales y cuadros de las grabaciones registradas en la sección 5.3.2, junto con la inspección directa de la interfaz. Todas las referencias temporales de esta sección corresponden al video consolidado de **32:21** y son aproximadas. Las opiniones de los participantes se distinguen de los problemas observados directamente en la web.
+
+### Datos generales
+
+| Campo | Información |
+| :--- | :--- |
+| Carrera | Ingeniería de Software |
+| Curso y sección | Aplicaciones Web — 8074 |
+| Profesor | Alex Humberto Sánchez Ponce |
+| Equipo auditor | NovaScale |
+| Responsable de la consolidación | Sergio Rubén Caldas García |
+| Clientes o participantes | E01: Angie Moné Vásquez; E02: Flor Velázquez; E03: Brenda More Vázquez; E04: Sebastián Herrera; E05: Giuseppe Chavez; E06: Sebastián De Las Casas |
+| Producto | NovaLeads |
+| Fecha de revisión | 13 de noviembre de 2026 |
+| Landing page | https://202620-1asi0730-8074-novascale.github.io/novascale-website/ |
+| Aplicación | https://novaleads.onrender.com/login |
+
+### Referencias de las entrevistas
+
+[Video consolidado de validación — Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411274_upc_edu_pe/IQCH2RjEChWBT6VU_na50mqXAZ6nlWJcbio0ylZRxHMMgug). Los intervalos siguientes permiten localizar cada entrevista dentro de la misma grabación.
+
+| Código | Participante | Inicio | Fin | Duración | Grabación |
+| :--- | :--- | :---: | :---: | :---: | :--- |
+| E01 | Angie Moné Vásquez | `00:00:08` | `00:05:33` | 05:25 | [Entrevista 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411274_upc_edu_pe/IQCH2RjEChWBT6VU_na50mqXAZ6nlWJcbio0ylZRxHMMgug) |
+| E02 | Flor Velázquez | `00:05:37` | `00:12:16` | 06:38 | [Entrevista 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411274_upc_edu_pe/IQCH2RjEChWBT6VU_na50mqXAZ6nlWJcbio0ylZRxHMMgug) |
+| E03 | Brenda More Vázquez | `00:12:20` | `00:19:33` | 07:13 | [Entrevista 3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411274_upc_edu_pe/IQCH2RjEChWBT6VU_na50mqXAZ6nlWJcbio0ylZRxHMMgug) |
+| E04 | Sebastián Herrera | `00:19:37` | `00:22:21` | 02:43 | [Entrevista 4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411274_upc_edu_pe/IQCH2RjEChWBT6VU_na50mqXAZ6nlWJcbio0ylZRxHMMgug) |
+| E05 | Giuseppe Chavez | `00:22:25` | `00:26:48` | 04:23 | [Entrevista 5](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411274_upc_edu_pe/IQCH2RjEChWBT6VU_na50mqXAZ6nlWJcbio0ylZRxHMMgug) |
+| E06 | Sebastián De Las Casas | `00:26:52` | `00:32:21` | 05:28 | [Entrevista 6](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411274_upc_edu_pe/IQCH2RjEChWBT6VU_na50mqXAZ6nlWJcbio0ylZRxHMMgug) |
+
+### Alcance de la evaluación
+
+La inspección directa comprendió las siguientes tareas:
+
+1. Comprender la propuesta de valor y la vista previa del producto.
+2. Identificar los accesos de registro e inicio de sesión y los destinos de los llamados a la acción.
+3. Consultar las indicaciones visibles del formulario de registro y el control de visualización de contraseña.
+4. Identificar el retorno desde las pantallas de acceso hacia la landing page.
+5. Revisar el cambio de idioma en el registro y el contenido de la landing con español seleccionado.
+6. Examinar la legibilidad de un texto secundario del login y la adaptación visual de login/signup a 390 × 844 píxeles.
+7. Localizar accesos públicos a ayuda y contacto.
+
+Las entrevistas E04, E05 y E06 aportaron apreciaciones sobre autenticación, registro y consulta de leads, actualización del pipeline, historial de conversaciones y priorización de oportunidades. Estas respuestas se incorporan como información declarada por los participantes; no equivalen a una ejecución observada de cada tarea. E05 fue conducida por Lui Mathias Gamero Miranda y E06 por Johan Karl Bottger Salazar. Sergio Rubén Caldas García participó en la revisión y documentación de estas sesiones.
+
+La revisión directa no incluyó el envío de formularios, la creación de cuentas, la recuperación completa de contraseñas, los flujos autenticados de los distintos roles, las pruebas del backend ni el rendimiento de la infraestructura. Tampoco permite generalizar la adaptación móvil a todas las vistas de la aplicación.
+
+### Escala de severidad
+
+| Nivel | Descripción |
+| :---: | :--- |
+| 1 — Superficial | Dificultad de impacto limitado y fácilmente superable; puede corregirse según disponibilidad. |
+| 2 — Menor | Aumenta el esfuerzo de interacción, aunque permite continuar; requiere una corrección planificada. |
+| 3 — Mayor | Afecta considerablemente una tarea o resulta difícil de superar; requiere prioridad alta. |
+| 4 — Muy grave | Impide continuar una tarea esencial; requiere corrección antes del lanzamiento. |
+
+Las severidades se asignaron según la tarea afectada, el impacto observado, las alternativas para continuar y el esfuerzo de recuperación. La clasificación corresponde al alcance inspeccionado. Las entrevistas disponibles no permiten estimar una frecuencia representativa en toda la población de usuarios. Los flujos todavía no probados quedan fuera de esta clasificación.
+
+### Tabla resumen de hallazgos
+
+| Código | Problema identificado | Severidad | Heurística o principio afectado | Sustento |
+| :--- | :--- | :---: | :--- | :--- |
+| H01 | La vista previa del producto conserva textos en inglés cuando la landing está en español. | 1 — Superficial | Diseño inclusivo: proporcionar experiencias comparables. | Inspección de la landing; E01, 00:01:23–00:01:41 y 00:03:56–00:04:12. |
+| H02 | El texto secundario de acceso presenta contraste insuficiente sobre fondo blanco. | 2 — Menor | Diseño inclusivo: legibilidad y percepción de la información. | Medición en login; E03 reporta una dificultad relacionada en 00:15:48–00:16:11. |
+| H03 | No se identifica un retorno explícito a la landing desde login y registro. | 2 — Menor | Usabilidad: control y libertad del usuario. | Inspección de acceso/registro; E02, 00:08:41–00:08:53. |
+| H04 | La invitación a pedir ayuda no ofrece un acceso interactivo a un canal. | 2 — Menor | Arquitectura de información: facilidad para encontrar información; usabilidad: ayuda y documentación. | Inspección de planes y ayuda; E01, 00:03:18–00:03:36. |
+| H05 | Las etiquetas de demo y contacto de ventas no anticipan que llevan al registro. | 2 — Menor | Usabilidad: correspondencia entre el sistema y el mundo real; arquitectura de información: claridad de las etiquetas. | Inspección de los destinos de los enlaces de la landing. |
+
+### Detalle de hallazgos
+
+#### PROBLEMA H01: Vista previa en inglés con español seleccionado
+
+**Severidad:** 1 — Superficial.<br>
+**Principio:** Diseño inclusivo — proporcionar experiencias comparables.<br>
+**Ubicación:** Imagen principal de presentación del dashboard en la landing page.
+
+**Problema y evidencia:** Con ES seleccionado, la imagen de muestra conserva etiquetas como «My Active Leads», «Deals Won This Month» y «Personal Conversion Rate». E01 comenta que los términos en inglés pueden generar dudas (00:01:23–00:01:41) y señala la permanencia de textos en inglés tras seleccionar español (00:03:56–00:04:12). La reproducción de este hallazgo se limita a la vista previa de la landing; los textos visibles examinados en el registro sí cambiaron al alternar ES/EN.
+
+**Impacto y justificación:** La imagen ayuda a comprender el producto antes de registrarse. Mantener sus indicadores en otro idioma puede exigir una interpretación adicional a usuarios que esperan una presentación en español. Se asigna nivel 1 porque el caso comprobado afecta una imagen ilustrativa, existe contenido explicativo en español alrededor y no se documentó un impedimento para continuar.
+
+**Recomendación:** Proporcionar una imagen de demostración por idioma o una vista previa traducible. Verificar las etiquetas de los indicadores y sus explicaciones al alternar ES/EN.
+
+**Criterio de comprobación:** Con ES activo, los indicadores de la vista previa pueden comprenderse en español; con EN, se conserva su versión inglesa.
+
+**Evidencia visual:**
+
+![H01: vista previa en inglés con español seleccionado](Resources/Chapter5/heuristicas/H01-H05-landing.jpg)
+
+#### PROBLEMA H02: Contraste insuficiente en un texto secundario del login
+
+**Severidad:** 2 — Menor.<br>
+**Principio:** Diseño inclusivo — legibilidad y percepción de la información.<br>
+**Ubicación:** Texto «Accede con tu correo y contraseña.» en login.
+
+**Problema y evidencia:** La inspección de los estilos efectivos identificó texto `#8591A7` sobre fondo `#FFFFFF`, con tamaño de 14 px, peso 400 y sin transparencias ni imagen de fondo que modificasen esos colores. El contraste calculado mediante luminancia relativa sRGB fue **3,18:1**. El [criterio 1.4.3 de WCAG 2.2](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html) establece al menos **4,5:1 para texto normal**. La observación de E03 en 00:15:48–00:16:11 aporta una preocupación relacionada sobre textos secundarios grises; no se afirma que esa respuesta mida o identifique este mismo elemento del login.
+
+**Impacto y justificación:** La baja diferenciación entre texto y fondo dificulta percibir una instrucción complementaria, especialmente para personas con baja visión. El formulario sigue disponible y no se observó un bloqueo de autenticación causado por este texto.
+
+**Recomendación:** Oscurecer el texto y comprobar de nuevo su contraste sobre el fondo efectivo. Revisar otros textos secundarios de forma individual antes de extender la conclusión a otras pantallas.
+
+**Criterio de comprobación:** El elemento alcanza al menos 4,5:1 en sus estados aplicables y mantiene su legibilidad en las vistas examinadas.
+
+**Evidencia visual:**
+
+![H02: texto secundario del acceso](Resources/Chapter5/heuristicas/H02-H03-login.jpg)
+
+La medición identifica texto `#8591A7`, fondo `#FFFFFF`, tamaño 14 px y peso 400: contraste **3,18:1**.
+
+#### PROBLEMA H03: Retorno poco explícito a la landing desde el acceso
+
+**Severidad:** 2 — Menor.<br>
+**Heurística:** Usabilidad — control y libertad del usuario.<br>
+**Ubicación:** Pantallas de inicio de sesión y registro.
+
+**Problema y evidencia:** No se identificó un enlace explícito hacia el sitio de presentación del producto en esas pantallas. En el registro, el logotipo dirige a la raíz de la aplicación y termina en login, en lugar de regresar a la landing pública. E02 describe la dificultad de encontrar un retorno claro, más allá del logotipo, en 00:08:41–00:08:53.
+
+**Impacto y justificación:** Una persona que desea volver a revisar beneficios o planes necesita recurrir al historial del navegador o recuperar la dirección del sitio público. Existe una alternativa para continuar, pero requiere esfuerzo adicional.
+
+**Recomendación:** Incorporar un enlace visible «Volver a la página principal» que dirija a la landing. Definir etiquetas y destinos consistentes para el logotipo y los enlaces de retorno.
+
+**Criterio de comprobación:** Desde login y signup se puede regresar al sitio de presentación mediante un control identificable y con el destino anunciado.
+
+**Evidencia visual:**
+
+![H03: controles de navegación del registro](Resources/Chapter5/heuristicas/H03-registro.jpg)
+
+Al activar el logotipo se comprobó el retorno a `https://novaleads.onrender.com/login`, no a la landing.
+
+#### PROBLEMA H04: Invitación de ayuda sin un acceso funcional
+
+**Severidad:** 2 — Menor.<br>
+**Principios:** Arquitectura de información — facilidad para encontrar información; usabilidad — ayuda y documentación.<br>
+**Ubicación:** Bloque de planes y precios de la landing.
+
+**Problema y evidencia:** El texto «¿Necesitas ayuda? Habla con ventas» se presenta como una invitación a solicitar asistencia, pero es texto sin enlace ni botón asociado. La inspección no identificó un acceso a FAQ o un canal de soporte en la navegación pública revisada. E01 manifiesta dificultad para localizar soporte en 00:03:18–00:03:36. Su mención de una FAQ situada al pie no se reprodujo en la versión inspeccionada y no se considera una ubicación confirmada.
+
+**Impacto y justificación:** La invitación no ofrece una acción para abrir ayuda o contactar con ventas. Se asigna nivel 2 por la dificultad para identificar cómo solicitar asistencia desde ese bloque, mientras el resto de la navegación sigue disponible. La clasificación se refiere a este elemento; no se afirma que se haya observado un bloqueo de una tarea por falta de soporte.
+
+**Recomendación:** Convertir la invitación en un enlace funcional a un canal de contacto o ayuda y ofrecer una etiqueta reconocible en la navegación. Comprobar también el acceso mediante teclado.
+
+**Criterio de comprobación:** La invitación abre un canal real de asistencia, identificable antes de activar el control.
+
+**Evidencia visual:**
+
+![H04: invitación de ayuda en la sección de precios](Resources/Chapter5/heuristicas/H04-H05-precios.jpg)
+
+El texto inspeccionado es un elemento de texto sin enlace ni botón asociado.
+
+#### PROBLEMA H05: Las etiquetas de demo y contacto no anticipan el registro
+
+**Severidad:** 2 — Menor.<br>
+**Principios:** Usabilidad — correspondencia entre el sistema y el mundo real; arquitectura de información — claridad de las etiquetas.<br>
+**Ubicación:** «Agenda una demo» en la presentación inicial y «Contactar a Ventas» en el plan Enterprise.
+
+**Problema y evidencia:** Ambos enlaces tienen como destino `https://novaleads.onrender.com/signup`, la pantalla de creación de cuenta. Las etiquetas anuncian acciones de agendamiento o contacto sin explicar que el siguiente paso es un registro. Este hallazgo proviene de la inspección y no se atribuye a una frase de las entrevistas. La comprobación se limita al destino inmediato del enlace; no se completó un registro para evaluar pasos posteriores.
+
+**Impacto y justificación:** Se asigna nivel 2 por la falta de anticipación del paso de registro, que exige al usuario interpretar la relación entre la acción elegida y el formulario de destino. La persona puede continuar en el formulario o regresar. No se afirma que el flujo completo de demo o contacto esté inoperativo.
+
+**Recomendación:** Vincular cada acción con el flujo anunciado o cambiar la etiqueta para describir claramente el registro y, si corresponde, explicar su relación con una demo o contacto posterior.
+
+**Criterio de comprobación:** La pantalla de destino corresponde a la acción anunciada; cualquier requisito previo se explica antes de iniciar el flujo.
+
+**Evidencia visual:**
+
+![H05: enlace de demo en la landing](Resources/Chapter5/heuristicas/H01-H05-landing.jpg)
+
+![H05: enlace de contacto de ventas](Resources/Chapter5/heuristicas/H04-H05-precios.jpg)
+
+Ambos destinos inspeccionados apuntan a `https://novaleads.onrender.com/signup`, cuya pantalla de registro se ilustra en H03.
+
+### Observación del segmento de equipos de ventas
+
+**OM01 — Visibilidad de las oportunidades urgentes.** En E04, aproximadamente 00:21:33–00:21:47, Sebastián indica que pudo reconocer las oportunidades pendientes y propone destacar más aquellas que necesitan atención urgente. El comentario orienta una mejora relacionada con visibilidad del estado del sistema y reconocimiento de prioridades.
+
+E05 aporta criterios concretos para esa revisión: en 00:24:16–00:24:43, Giuseppe explica que también necesita conocer la situación de la oportunidad y la última conversación; en 00:25:41–00:26:07 menciona el tiempo de espera y los compromisos pendientes, como una cotización prometida. Esto refuerza la necesidad de comprobar cómo la interfaz ayuda a priorizar, pero no demuestra que esos datos o funciones estén ausentes.
+
+Se recomienda comprobar la vista real de oportunidades con casos que tengan diferentes fechas, estados y compromisos, y evaluar un indicador textual o visual de prioridad que no dependa únicamente del color. Las capturas muestreadas de E04 y E05 muestran el dashboard; no permiten demostrar el estado de las tarjetas del pipeline ni un fallo al priorizarlas. Por ello, **OM01 se registra como oportunidad de mejora declarada por los participantes, sin asignarle una severidad confirmada ni incorporarla al conteo de los cinco defectos inspeccionados**.
+
+E05 también expresa una valoración favorable de los campos, las etapas y el historial (00:23:50–00:25:39). Entre 00:26:10 y 00:26:47 plantea una utilidad potencial y su interés en probar el producto durante varios días. No se interpreta esta expectativa como una reducción medida del tiempo de trabajo ni como validación de retención o uso sostenido.
+
+### Observaciones de la sexta entrevista
+
+**OM02 — Información adicional en el registro de leads.** E06 propone disponer de un espacio para anotaciones que no encajen en los campos establecidos (00:29:01–00:29:44). La sugerencia se relaciona con la flexibilidad para registrar el contexto comercial y con la organización de la información. Se recomienda comprobar primero si ese campo ya existe en la versión utilizada, su visibilidad y su persistencia. La solicitud del participante no demuestra por sí sola que la funcionalidad esté ausente; por ello no se cuenta como un sexto defecto confirmado.
+
+**OM03 — Legibilidad de las etiquetas del menú lateral.** E06 comenta que las opciones del menú lateral se perciben desaturadas y propone diferenciarlas más del fondo (00:31:24–00:31:54). El principio relacionado es diseño inclusivo: legibilidad y percepción de la información. Se recomienda medir cada combinación efectiva de texto y fondo en los estados normal, seleccionado y de foco, y ajustar los estilos cuando corresponda. El color de un video comprimido no permite concluir una relación de contraste de la interfaz, de modo que esta observación no se equipara a la medición confirmada de H02 ni recibe una severidad comprobada.
+
+E06 valora favorablemente la facilidad de acceso (00:28:33–00:29:01), la comprensión del pipeline (00:29:45–00:30:09), la organización del historial (00:30:09–00:30:45) y la clasificación de oportunidades (00:30:45–00:31:15). Se registran como beneficios percibidos después de una demostración y no como resultados medidos de éxito de tareas, ahorro de tiempo o uso sostenido.
+
+### Observaciones contrastadas con la interfaz inspeccionada
+
+| Observación | Fuente y tiempo aproximado | Resultado de la contrastación |
+| :--- | :--- | :--- |
+| Confusión entre crear cuenta e iniciar sesión. | E01, 00:02:33–00:02:53. | La landing inspeccionada diferencia el botón violeta «Empieza gratis» del enlace «Iniciar sesión». Se conserva la experiencia reportada, sin afirmar que la dificultad se reprodujo ni que una corrección histórica quedó demostrada. |
+| Falta de visualización de contraseña. | E02, 00:09:16–00:09:46. | El control está presente en el registro inspeccionado y no se clasifica como función ausente. |
+| Reglas de contraseña no indicadas antes del envío. | E03, 00:16:42–00:17:21. | Se observó «Mínimo 8 caracteres» y longitud mínima de ocho caracteres. La persistencia de la ayuda y los mensajes tras enviar requieren una prueba específica. |
+| El botón principal lleva primero a secciones informativas. | E03, 00:16:12–00:16:42. | «Empieza gratis» apunta a signup en la versión inspeccionada. No se reprodujo ese recorrido; debe precisarse el control y la versión descritos por la participante. |
+| Falta de retorno rápido hacia arriba. | E03, 00:17:42–00:17:55. | Es distinta del retorno hacia la landing de H03. Existe un logo de cabecera con destino al inicio de la página; un control adicional al final puede evaluarse como mejora. |
+| Preferencias sobre colores, fondos, comparación de planes y explicaciones de iconos. | E01, 00:01:53–00:02:09; E02, 00:07:44–00:08:12, 00:10:15–00:10:28 y 00:10:58–00:11:10. | Se conservan como sugerencias. Para clasificarlas como defectos deben precisarse el elemento afectado, el efecto sobre una tarea y la evidencia. |
+| Acceso sencillo y campos de leads organizados. | E04, 00:20:01–00:20:32. | Valoración positiva declarada por Sebastián. Las capturas muestreadas muestran el dashboard; no acreditan el proceso completo de registro de un lead. |
+| Destacar las oportunidades que necesitan atención urgente. | E04, 00:21:33–00:21:47. | Se incorpora a OM01. Debe comprobarse la vista de oportunidades con casos reales antes de afirmar la ausencia de indicadores de urgencia. |
+| Menú comprensible y nombres de secciones que orientan la navegación. | E05, 00:23:21–00:23:49. | Valoración positiva declarada por Giuseppe; no se convierte en una medición de éxito de navegación autónoma. |
+| Claridad de las etapas y utilidad del historial para retomar conversaciones. | E05, 00:24:45–00:25:39.| Se conserva como beneficio percibido. Los cuadros muestreados de la sesión muestran el dashboard y no documentan paso a paso esos flujos. |
+| Priorizar según la última conversación, el tiempo de espera y los compromisos pendientes. | E05, 00:24:16–00:24:43 y 00:25:41–00:26:07. | Complementa OM01 con criterios concretos de prioridad. No demuestra que esos datos o funciones falten en la interfaz. |
+| Interés en probar la plataforma durante varios días. | E05, 00:26:10–00:26:47. | Expresa una utilidad esperada. No constituye una medición de ahorro de tiempo ni una comprobación del uso sostenido. |
+| Acceso intuitivo, etapas del pipeline comprensibles e historial organizado. | E06, 00:28:33–00:29:01, 00:29:45–00:30:09 y 00:30:09–00:30:45. | Valoración positiva declarada después de la demostración. La grabación no documenta una ejecución autónoma completa de esos flujos. |
+| Espacio para anotaciones adicionales en un lead. | E06, 00:29:01–00:29:44. | Se incorpora como OM02. Se debe comprobar la existencia y visibilidad del campo antes de afirmar que falta. |
+| Mejorar la legibilidad del menú lateral. | E06, 00:31:24–00:31:54. | Se incorpora como OM03. Requiere una medición específica; no se transfiere al menú la relación de contraste calculada para el login en H02. |
+| Utilidad de clasificar las oportunidades comerciales. | E06, 00:30:45–00:31:15. | Beneficio percibido. No demuestra por sí mismo la efectividad de la priorización ni contradice la mejora de urgencia propuesta en OM01. |
+
+### Síntesis de la evaluación
+
+La inspección identificó **cinco problemas comprobados: uno superficial y cuatro menores**, relacionados con el idioma de la vista previa, la legibilidad de una instrucción de acceso, el retorno hacia la landing y las acciones de ayuda y contacto. Esta clasificación corresponde a los elementos inspeccionados y no demuestra que los flujos autenticados estén libres de otros problemas.
+
+Las seis entrevistas reúnen tres registros asignados al segmento de dueños y tres al segmento de ventas. Giuseppe, emprendedor que realiza atención y seguimiento comercial, se incluye en el segundo segmento por esas funciones operativas. Esta clasificación describe el rol evaluado en la sesión.
+
+Las entrevistas de ventas aportan tres oportunidades de mejora: visibilidad de la urgencia comercial (OM01), información adicional en los leads (OM02) y legibilidad del menú lateral (OM03). Se mantienen separadas del conteo de defectos comprobados para evitar atribuir a la aplicación ausencias o incumplimientos que las grabaciones no demuestran.
+
+Las respuestas expresan beneficios percibidos en la organización de la información, la comprensión de las etapas y la centralización del seguimiento. Las sesiones guiadas y las demostraciones no acreditan que todos los participantes ejecutaron de forma autónoma cada flujo. Tampoco permiten afirmar un ahorro de tiempo medido o una mejora sostenida de las ventas.
+
+La sección incorpora capturas específicas de los cinco hallazgos. Las recomendaciones se comprobarán repitiendo las tareas afectadas, verificando los destinos de los controles y midiendo el contraste de los elementos correspondientes.
+
+
+---
+
 # Conclusiones
+
+## 5.4. Video About-the-Product
+
+En esta sección se presenta el video explicativo y demostrativo de **NovaLeads** (*About-the-Product*), en el cual se expone la propuesta de valor del producto, la arquitectura general de la solución y el funcionamiento integral de la plataforma (Landing Page, Frontend Web Application y Backend Web Services).
+
+* **Título del video:** NovaLeads - Video About-the-Product
+* **Plataforma:** Microsoft Stream (SharePoint UPC) / YouTube
+* **Enlace de visualización (Microsoft Stream):** [Ver Video About-the-Product en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202320328_upc_edu_pe/IQCJaPj1JNEoToIZdQMDglykAeuwLMK5tVDMfuZIhQH02T0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=HQOQMv)
+* **Enlace de visualización (YouTube):** [Ver Video About-the-Product en YouTube](https://youtu.be/Sn5wpiUlpns)
+
+<p align="center">
+  <a href="https://youtu.be/Sn5wpiUlpns">
+    <img src="https://img.youtube.com/vi/Sn5wpiUlpns/maxresdefault.jpg" width="800" alt="Vista previa del Video About-the-Product en YouTube - NovaLeads"/>
+  </a>
+</p>
+
+### Contenido de la demostración
+1. **Presentación de la solución y propuesta de valor:** Resumen del problema identificado en la gestión comercial y cómo NovaLeads centraliza leads, contactos y métricas.
+2. **Recorrido por la Landing Page:** Estructura informativa, planes de suscripción y accesos al registro.
+3. **Flujo de la Web Application y Servicios Backend:**
+   - Registro de usuario e inicio de sesión seguro (autenticación y roles).
+   - Gestión y prospección de leads en el embudo comercial (pipeline de ventas).
+   - Directorio de contactos y visualización de conversaciones.
+   - Dashboard comercial con métricas e indicadores de rendimiento en tiempo real.
+4. **Resumen técnico:** Tecnologías utilizadas (Vue.js, PrimeVue, ASP.NET Core REST API, MySQL) y despliegue continuo en la nube.
+
+## Video About-the-Team
+
+En esta sección se presenta el video **About-the-Team** del equipo **NovaScale**, en el que sus integrantes describen su participación en el desarrollo de **NovaLeads**. Se resume el proceso de trabajo, la distribución de responsabilidades y la colaboración durante las etapas de investigación, diseño e implementación de la Landing Page, el frontend y el backend. Asimismo, cada integrante comparte las dificultades encontradas, los aprendizajes adquiridos y las competencias desarrolladas, relacionando su experiencia con el Student Outcome 5: liderazgo compartido, comunicación, planificación de tareas y cumplimiento de objetivos comunes.
+
+* **Título del video:** NovaLeads - Video About-the-Team
+* **Plataforma:** Microsoft Stream (SharePoint UPC) / YouTube
+* **Enlace de visualización (Microsoft Stream):** [Ver Video About-the-Team en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419335_upc_edu_pe/IQAvHk-9MbpCQZPbj2cNKWr0AYzLT6pJNylbjAs4U6IgbrA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=mwjc9o)
+* **Enlace de visualización (YouTube):** [Ver Video About-the-Team en YouTube](https://youtu.be/i84HaHUTpFA)
+
+<p align="center">
+  <a href="https://youtu.be/i84HaHUTpFA">
+    <img src="https://img.youtube.com/vi/i84HaHUTpFA/hqdefault.jpg" width="800" alt="Video About-the-Team de NovaScale">
+  </a>
+</p>
+
+### Secuencia de intervenciones
+
+| Integrante | Inicio | Fin | Duración |
+|---|---|---|---|
+| Johan Karl Bottger Salazar | [00:00:00](https://youtu.be/i84HaHUTpFA?t=0) | 00:00:49 | 00:00:49 |
+| Dario Alberto Romero Vilela | [00:00:49](https://youtu.be/i84HaHUTpFA?t=49) | 00:01:56 | 00:01:07 |
+| Lui Mathias Gamero Miranda | [00:01:56](https://youtu.be/i84HaHUTpFA?t=116) | 00:03:25 | 00:01:29 |
+| Sergio Ruben Caldas Garcia | [00:03:25](https://youtu.be/i84HaHUTpFA?t=205) | 00:05:02 | 00:01:37 |
+| Renzo Paul Retuerto Zapata | [00:05:02](https://youtu.be/i84HaHUTpFA?t=302) | 00:06:14 | 00:01:12 |
 
 ## Conclusiones y recomendaciones
 
 ### Conclusiones
 
-* **Validación del Problema y Propuesta de Valor:** El análisis de nuestros segmentos objetivo (dueños de startups y equipos de ventas) confirmó que la fragmentación de información en herramientas manuales como hojas de cálculo y chats dispersos genera pérdidas económicas y falta de visibilidad financiera. Esto valida la necesidad de NovaLeads como una solución integral para centralizar la gestión de leads, conversaciones y ganancias en un único espacio.
-* **Implementación de la Arquitectura Frontend:** Durante esta etapa se consolidó el desarrollo de la primera versión funcional de la *Frontend Web Application* (`novascale-webapp`) utilizando **Vue.js** y **PrimeVue. La aplicación de principios de *Domain-Driven Design (DDD)* permitió estructurar de manera modular e independiente los contextos de Autenticación, Gestión de Conversaciones y Dashboards comerciales.
-* **Estandarización y Despliegue Continuo (CI/CD):** El trabajo colaborativo guiado por **GitFlow**, *Conventional Commits* y nuestras guías de estilo en inglés garantizó una integración de código limpia. Asimismo, la automatización mediante **GitHub Actions** permitió desplegar con éxito tanto la *Landing Page* en **GitHub Pages** como la aplicación web en **Amazon S3 y CloudFront**.
+1. **Validación del Problem Statement y propuesta de valor:** A partir de las entrevistas de validación realizadas con representantes de startups, pymes y equipos de ventas interactuando con NovaLeads, se confirma que la plataforma resuelve de manera efectiva la desorganización comercial derivada del uso de hojas de cálculo tradicionales. La centralización de leads, el pipeline visual por etapas y los indicadores clave en tiempo real permiten supervisar el estado del negocio con rapidez.
+2. **Contrastación de Assumptions e Hypothesis Statements (Lean UX):** Se validaron las hipótesis principales planteadas en el proceso Lean UX respecto a la facilidad de adopción del sistema. Los usuarios completaron los flujos principales —registro de cuenta, autenticación, creación de leads y actualización de etapas en el pipeline— sin requerir capacitación previa, confirmando que una interfaz limpia y consistente agiliza la operación diaria.
+3. **Implementación de Arquitectura y Despliegue Continuo:** Se consolidó el desarrollo modular bajo *Domain-Driven Design (DDD)* integrando el Landing Page, la *Frontend Web Application* (`novascale-webapp`) en **Vue.js** y **PrimeVue**, y los *Backend Web Services* (`novascale-platform`) en **ASP.NET Core (C#)**, respaldados por **GitFlow**, *Conventional Commits* y flujos automatizados de despliegue.
 
 ### Recomendaciones
 
-* **Mantenimiento de Estándares y Modularidad:** Es fundamental mantener el rigor en el uso de las convenciones de código (nomenclatura en inglés, metodología BEM y separación de capas DDD) para asegurar que la plataforma escale de forma ordenada y sea fácilmente mantenible por cualquier miembro del equipo.
-* **Enfoque en la Simplicidad Operativa (UX/UI):** Se recomienda priorizar siempre interfaces ágiles y de mínima fricción (como el embudo Kanban y registros rápidos), evitando formularios extensos que puedan generar rechazo o abandono por parte de la fuerza de ventas.
-* **Gestión Estricta del Control de Versiones:** Continuar aplicando revisiones constantes mediante *Pull Requests* en ramas independientes (*feature branches*) antes de fusionar en `develop` o `main`, previniendo conflictos de integración y asegurando la estabilidad continua de los entornos desplegados.
-
+1. **Mejoras de usabilidad, contraste e internacionalización (Corto plazo):** Implementar los ajustes identificados en la evaluación heurística (Sección 5.3.3), priorizando el incremento de contraste en textos secundarios, la traducción completa de etiquetas secundarias al español, la validación preventiva en tiempo real junto con el botón de visualización de contraseña en el registro, la diferenciación visual entre los botones de acceso y la adición de descripciones emergentes (*tooltips*) en iconos e indicadores.
+2. **Evolución funcional y rigor técnico (Mediano plazo):** Incorporar recordatorios automáticos para oportunidades pendientes en el pipeline sin seguimiento reciente, filtros avanzados por fecha en el listado de leads y exportación directa de reportes comerciales, manteniendo las convenciones de nomenclatura en inglés y la revisión por *Pull Requests*.
+3. **Integración omnicanal (Largo plazo):** Ampliar el módulo de *Conversaciones* mediante la integración directa con canales de mensajería empresarial (como WhatsApp Business API, Facebook, Instagram y correo electrónico) para centralizar automáticamente todas las interacciones con los clientes dentro de la plataforma.
 # Anexos
 
 A continuación, se detallan los enlaces de acceso a la plataforma de gestión ágil de tareas y a los repositorios oficiales de control de versiones en la organización de GitHub del equipo **NovaScale**:
@@ -1921,3 +2464,4 @@ A continuación, se detallan las referencias en formato **APA 7.ª edición** co
 * Typicode. (2026). *JSON Server* [Biblioteca de simulación de REST API]. GitHub. https://github.com/typicode/json-server
 * Vue.js. (s.f.). *Vue Style Guide*. https://vuejs.org/v2/style-guide/
 * Zoho Corporation Pvt. Ltd. (2026). *Zoho CRM* [Marca registrada y logotipo]. https://www.zoho.com/crm/
+
