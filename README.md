@@ -841,6 +841,31 @@ En esta sección se presenta el video explicativo y demostrativo de **NovaLeads*
    - Dashboard comercial con métricas e indicadores de rendimiento en tiempo real.
 4. **Resumen técnico:** Tecnologías utilizadas (Vue.js, PrimeVue, ASP.NET Core REST API, MySQL) y despliegue continuo en la nube.
 
+## Video About-the-Team
+
+En esta sección se presenta el video **About-the-Team** del equipo **NovaScale**, en el que sus integrantes describen su participación en el desarrollo de **NovaLeads**. Se resume el proceso de trabajo, la distribución de responsabilidades y la colaboración durante las etapas de investigación, diseño e implementación de la Landing Page, el frontend y el backend. Asimismo, cada integrante comparte las dificultades encontradas, los aprendizajes adquiridos y las competencias desarrolladas, relacionando su experiencia con el Student Outcome 5: liderazgo compartido, comunicación, planificación de tareas y cumplimiento de objetivos comunes.
+
+* **Título del video:** NovaLeads - Video About-the-Team
+* **Plataforma:** Microsoft Stream (SharePoint UPC) / YouTube
+* **Enlace de visualización (Microsoft Stream):** [Ver Video About-the-Team en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202419335_upc_edu_pe/IQAvHk-9MbpCQZPbj2cNKWr0AUE9OVjz2yLIqN0EJ3OnkFI?e=pE6Xru&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+* **Enlace de visualización (YouTube):** [Ver Video About-the-Team en YouTube](https://youtu.be/i84HaHUTpFA)
+
+<p align="center">
+  <a href="https://youtu.be/i84HaHUTpFA">
+    <img src="https://img.youtube.com/vi/i84HaHUTpFA/hqdefault.jpg" width="800" alt="Video About-the-Team de NovaScale">
+  </a>
+</p>
+
+### Secuencia de intervenciones
+
+| Integrante | Inicio | Fin | Duración |
+|---|---|---|---|
+| Johan Karl Bottger Salazar | [00:00:00](https://youtu.be/i84HaHUTpFA?t=0) | 00:00:49 | 00:00:49 |
+| Dario Alberto Romero Vilela | [00:00:49](https://youtu.be/i84HaHUTpFA?t=49) | 00:01:56 | 00:01:07 |
+| Lui Mathias Gamero Miranda | [00:01:56](https://youtu.be/i84HaHUTpFA?t=116) | 00:03:25 | 00:01:29 |
+| Sergio Ruben Caldas Garcia | [00:03:25](https://youtu.be/i84HaHUTpFA?t=205) | 00:05:02 | 00:01:37 |
+| Renzo Paul Retuerto Zapata | [00:05:02](https://youtu.be/i84HaHUTpFA?t=302) | 00:06:14 | 00:01:12 |
+
 ## Conclusiones y recomendaciones
 
 ### Conclusiones
